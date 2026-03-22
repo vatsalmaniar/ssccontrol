@@ -700,6 +700,23 @@ document.addEventListener('keydown',e=>{
   if(e.ctrlKey&&e.shiftKey&&['I','i','J','j'].includes(e.key)){e.preventDefault();return false;}
   if(e.ctrlKey&&['U','u'].includes(e.key)){e.preventDefault();return false;}
 });
+
+function downloadReport() {
+  var rows = document.querySelectorAll('#tableSection tr.selected, #resultCard');
+  var content = 'SSC CONTROL PVT LTD — MOTOR STARTER SELECTION\n';
+  content += 'Generated: ' + new Date().toLocaleString('en-IN') + '\n';
+  content += '================================================\n';
+  content += 'Tool: ABB Type 2 Co-ordination | 400/415V | 50kA\n\n';
+  var result = document.getElementById('resultText');
+  if(result) content += result.innerText + '\n';
+  content += '\nSSC Control Pvt Ltd | Authorised ABB Partner\n';
+  content += 'sales@ssccontrol.com | +91 93130 80866\n';
+  var a = document.createElement('a');
+  a.href = URL.createObjectURL(new Blob([content], {type:'text/plain'}));
+  a.download = 'SSC_Starter_Report_' + new Date().toISOString().slice(0,10) + '.txt';
+  a.click();
+}
+
 // Init
 rebuildSlider();
 </script>

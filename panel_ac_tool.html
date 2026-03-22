@@ -764,34 +764,30 @@ Thank you.`;
 
 function downloadReport() {
   if (!lastResult) return;
-  const r = lastResult;
-  const content = `SSC CONTROL PVT LTD — PANEL AC SELECTION REPORT
-Generated: ${new Date().toLocaleString('en-IN')}
-================================================
-Enclosure: ${r.material.split('·')[0].trim()}
-Type: ${r.mountMode === 'wall' ? 'Wall Mount' : 'Floor Standing'}
-Dimensions: ${r.W.toFixed(0)} x ${r.H.toFixed(0)} x ${r.D.toFixed(0)} mm
-Surface Area: ${r.wallArea.toFixed(3)} m²
-
-TEMPERATURE
-Inside: ${r.tIn}°C | Outside: ${r.tOut}°C | ΔT: ${r.dT.toFixed(1)}°C
-
-HEAT LOAD
-Surface Q: ${r.Qs.toFixed(0)} W
-Internal Q: ${r.Qi} W
-Altitude: ×${r.alt} | Safety: +${r.sf}%
-Total Required: ${r.Qtotal.toFixed(0)} W (${(r.Qtotal/1000).toFixed(2)} kW)
-
-RECOMMENDATION
-${r.rec.label} (${r.rec.wLabel})
-
-  blob.text().then(()=>{});
-  const a = document.createElement('a');
+  var r = lastResult;
+  var content = 'SSC CONTROL PVT LTD — PANEL AC SELECTION REPORT\n';
+  content += 'Generated: ' + new Date().toLocaleString('en-IN') + '\n';
+  content += '================================================\n';
+  content += 'Enclosure: ' + (r.material ? r.material.split('·')[0].trim() : '') + '\n';
+  content += 'Type: ' + (r.mountMode === 'wall' ? 'Wall Mount' : 'Floor Standing') + '\n';
+  content += 'Dimensions: ' + r.W.toFixed(0) + ' x ' + r.H.toFixed(0) + ' x ' + r.D.toFixed(0) + ' mm\n';
+  content += 'Surface Area: ' + r.wallArea.toFixed(3) + ' m2\n\n';
+  content += 'TEMPERATURE\n';
+  content += 'Inside: ' + r.tIn + 'C | Outside: ' + r.tOut + 'C | dT: ' + r.dT.toFixed(1) + 'C\n\n';
+  content += 'HEAT LOAD\n';
+  content += 'Surface Q: ' + r.Qs.toFixed(0) + ' W\n';
+  content += 'Internal Q: ' + r.Qi + ' W\n';
+  content += 'Altitude: x' + r.alt + ' | Safety: +' + r.sf + '%\n';
+  content += 'Total Required: ' + r.Qtotal.toFixed(0) + ' W (' + (r.Qtotal/1000).toFixed(2) + ' kW)\n\n';
+  content += 'RECOMMENDATION\n';
+  content += r.rec.label + ' (' + r.rec.wLabel + ')\n';
+  content += 'nVent Hoffman Panel Air Conditioning\n\n';
+  content += 'SSC Control Pvt Ltd | sales@ssccontrol.com | +91 93130 80866\n';
+  var a = document.createElement('a');
   a.href = URL.createObjectURL(new Blob([content], {type:'text/plain'}));
-  a.download = `SSC_Panel_AC_Report_${new Date().toISOString().slice(0,10)}.txt`;
+  a.download = 'SSC_Panel_AC_Report_' + new Date().toISOString().slice(0,10) + '.txt';
   a.click();
-}
-function toggleMobileNav(){
+}function toggleMobileNav(){
   const nav=document.getElementById('mobileNav');
   const btn=document.getElementById('hamburger');
   nav.classList.toggle('open');btn.classList.toggle('open');

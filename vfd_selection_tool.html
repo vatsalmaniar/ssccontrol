@@ -858,26 +858,25 @@ Thank you.`;
 function downloadReport() {
   if (!lastResult) return;
   const r = lastResult;
-  const content = `SSC CONTROL PVT LTD — VFD SELECTION REPORT
-Generated: ${new Date().toLocaleString('en-IN')}
-================================================
-Motor Power: ${r.currentKw} kW (${r.hp} HP)
-Duty Type: ${r.duty}
-Overload: ${r.ol}
-Ambient: ${r.amb}
-
-RECOMMENDED VFD
-Model: ${r.model}
-Rated Output: ${r.dKw} kW
-Rated Current: ${r.dA} A
-Headroom: ${r.headroom > 0 ? '+' : ''}${r.headroom.toFixed(2)} kW
-
-  const a = document.createElement('a');
+  var content = 'SSC CONTROL PVT LTD — VFD SELECTION REPORT\n';
+  content += 'Generated: ' + new Date().toLocaleString('en-IN') + '\n';
+  content += '================================================\n';
+  content += 'Motor Power: ' + r.currentKw + ' kW (' + r.hp + ' HP)\n';
+  content += 'Duty Type: ' + r.duty + '\n';
+  content += 'Overload: ' + r.ol + '\n';
+  content += 'Ambient: ' + r.amb + '\n\n';
+  content += 'RECOMMENDED VFD\n';
+  content += 'Model: ' + r.model + '\n';
+  content += 'Rated Output: ' + r.dKw + ' kW\n';
+  content += 'Rated Current: ' + r.dA + ' A\n';
+  content += 'Headroom: ' + (r.headroom > 0 ? '+' : '') + r.headroom.toFixed(2) + ' kW\n\n';
+  content += 'SSC Control Pvt Ltd | Authorised Mitsubishi Electric Partner\n';
+  content += 'sales@ssccontrol.com | +91 93130 80866\n';
+  var a = document.createElement('a');
   a.href = URL.createObjectURL(new Blob([content], {type:'text/plain'}));
-  a.download = `SSC_VFD_Report_${new Date().toISOString().slice(0,10)}.txt`;
+  a.download = 'SSC_VFD_Report_' + new Date().toISOString().slice(0,10) + '.txt';
   a.click();
-}
-function toggleMobileNav(){
+}function toggleMobileNav(){
   const nav=document.getElementById('mobileNav');
   const btn=document.getElementById('hamburger');
   nav.classList.toggle('open');btn.classList.toggle('open');
