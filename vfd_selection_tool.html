@@ -341,7 +341,7 @@ document.addEventListener('keydown',function(e){
     <a href="#">About us</a>
     <a href="contact.html">Contact us</a>
   </div>
-  <a href="mailto:sales@ssccontrol.com" class="nav-cta">Get in Touch</a>
+  <a href="/cdn-cgi/l/email-protection#7e0d1f121b0d3e0d0d1d1d11100a0c1112501d1113" class="nav-cta">Get in Touch</a>
 </nav>
 
 <div class="mobile-nav" id="mobileNav">
@@ -350,7 +350,7 @@ document.addEventListener('keydown',function(e){
   <a href="partners.html">Partners</a>
   <a href="#">About us</a>
   <a href="contact.html">Contact us</a>
-  <a href="mailto:sales@ssccontrol.com" class="nav-cta">Get in Touch</a>
+  <a href="/cdn-cgi/l/email-protection#f083919c9583b0838393939f9e84829f9cde939f9d" class="nav-cta">Get in Touch</a>
 </div>
 
 <div class="page-hero">
@@ -493,7 +493,7 @@ document.addEventListener('keydown',function(e){
         E-12, Siddhivinayak Tower,<br>
         S.G. Highway, Makarba,<br>
         Ahmedabad, Gujarat 380051<br>
-        <a href="mailto:sales@ssccontrol.com">sales@ssccontrol.com</a><br>
+        <a href="/cdn-cgi/l/email-protection#b6c5d7dad3c5f6c5c5d5d5d9d8c2c4d9da98d5d9db"><span class="__cf_email__" data-cfemail="582b39343d2b182b2b3b3b37362c2a3734763b3735">[email&#160;protected]</span></a><br>
         <a href="tel:+919313080866">+91 93130 80866</a>
       </div>
     </div>
@@ -566,7 +566,7 @@ document.addEventListener('keydown',function(e){
       <a href="http://instagram.com/ssc.control" class="fsoc" target="_blank">IG</a>
       
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
 <script>
 // ─── DATA ────────────────────────────────────────────────────────────────────
 // [model, SLD_kW, SLD_A, LD_kW, LD_A, ND_kW, ND_A]
@@ -655,8 +655,8 @@ function syncSlider(kw) {
     s.value = sliderIdx;
     const pct = (sliderIdx / (VFD.length - 1)) * 100;
     s.style.setProperty('--pct', pct + '%');
-    document.getElementById('sliderKwVal').textContent = VFD[sliderIdx][idx[0]];
-    document.getElementById('sliderHpVal').textContent = (VFD[sliderIdx][idx[0]] * 1.34102).toFixed(1);
+    document.getElementById('sliderKwVal').textContent = parseFloat(kw).toFixed(2);
+    document.getElementById('sliderHpVal').textContent = (kw * 1.34102).toFixed(1);
   }
 }
 
@@ -721,7 +721,7 @@ function runSelection() {
     <div class="result-cards">
       <div class="result-card">
         <div class="rc-label">Motor Power</div>
-        <div class="rc-value" style="color:var(--navy)">${currentKw} kW</div>
+        <div class="rc-value" style="color:var(--navy)">${parseFloat(currentKw).toFixed(2)} kW</div>
         <div class="rc-sub">${hp} HP</div>
       </div>
       <div class="result-card">
@@ -784,7 +784,7 @@ function runSelection() {
     </div>
 
     <div class="specs-bar">
-      <span class="spec-item"><strong>Input:</strong> ${currentKw} kW (${hp} HP) required</span>
+      <span class="spec-item"><strong>Input:</strong> ${parseFloat(currentKw).toFixed(2)} kW (${hp} HP) required</span>
       <span class="spec-item"><strong>Duty:</strong> ${dInfo.name}</span>
       <span class="spec-item"><strong>Overload:</strong> ${dInfo.ol}</span>
       <span class="spec-item"><strong>Ambient:</strong> ${dInfo.amb}</span>
@@ -888,8 +888,8 @@ document.addEventListener('click',function(e){
     nav.classList.remove('open');btn.classList.remove('open');
   }
 });
-document.addEventListener('contextmenu',e=>e.preventDefault());
-document.addEventListener('keydown',e=>{
+document.addEventListener('contextmenu',function(e){e.preventDefault();return false;});
+document.addEventListener('keydown',function(e){
   if(e.key==='F12'){e.preventDefault();return false;}
   if(e.ctrlKey&&e.shiftKey&&['I','i','J','j'].includes(e.key)){e.preventDefault();return false;}
   if(e.ctrlKey&&['U','u'].includes(e.key)){e.preventDefault();return false;}
