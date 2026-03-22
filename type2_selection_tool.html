@@ -241,87 +241,16 @@ footer{background:var(--navy);padding:60px 60px 30px;}
 </style>
 </head>
 <body>
-
 <script>
-(function(){
-  'use strict';
-
-  // 1. Disable right-click
-  document.addEventListener('contextmenu', function(e){ e.preventDefault(); return false; });
-
-  // 2. Block DevTools keyboard shortcuts
-  document.addEventListener('keydown', function(e){
-    // F12
-    if(e.key === 'F12' || e.keyCode === 123){ e.preventDefault(); e.stopPropagation(); return false; }
-    // Ctrl+Shift+I / Ctrl+Shift+J / Ctrl+Shift+C
-    if(e.ctrlKey && e.shiftKey && (e.key==='I'||e.key==='i'||e.key==='J'||e.key==='j'||e.key==='C'||e.key==='c')){ e.preventDefault(); return false; }
-    // Ctrl+U (view source)
-    if(e.ctrlKey && (e.key==='U'||e.key==='u')){ e.preventDefault(); return false; }
-    // Ctrl+S (save page)
-    if(e.ctrlKey && (e.key==='S'||e.key==='s')){ e.preventDefault(); return false; }
-    // Cmd variants (Mac)
-    if(e.metaKey && e.altKey && (e.key==='I'||e.key==='i'||e.key==='J'||e.key==='j')){ e.preventDefault(); return false; }
-    if(e.metaKey && e.altKey && (e.key==='U'||e.key==='u')){ e.preventDefault(); return false; }
-  }, true);
-
-  // 3. Disable text selection on tool logic areas
-  document.addEventListener('selectstart', function(e){
-    if(e.target.closest('.step-card,.results-section,.table-section,.tool-wrapper')){
-      e.preventDefault(); return false;
-    }
-  });
-
-  // 4. DevTools size detection
-  var _w = window.outerWidth - window.innerWidth;
-  var _h = window.outerHeight - window.innerHeight;
-  var _devOpen = false;
-  var _overlay = null;
-
-  function showProtection(){
-    if(_devOpen) return;
-    _devOpen = true;
-    _overlay = document.createElement('div');
-    _overlay.id = '_ssc_protect';
-    _overlay.style.cssText = 'position:fixed;inset:0;background:#0d1b2e;z-index:999999;display:flex;align-items:center;justify-content:center;flex-direction:column;gap:16px;';
-    _overlay.innerHTML = '<div style="font-family:Poppins,sans-serif;text-align:center;color:#fff;">'
-      + '<div style="font-size:48px;margin-bottom:16px;">🔒</div>'
-      + '<div style="font-size:22px;font-weight:700;margin-bottom:8px;">This content is protected.</div>'
-      + '<div style="font-size:14px;color:rgba(255,255,255,0.5);max-width:340px;">SSC Control Pvt Ltd. Unauthorised copying or reproduction of this tool is prohibited.</div>'
-      + '<div style="margin-top:20px;font-size:12px;color:rgba(255,255,255,0.3);">Close developer tools to continue.</div>'
-      + '</div>';
-    document.body.appendChild(_overlay);
-  }
-
-  function hideProtection(){
-    _devOpen = false;
-    if(_overlay){ _overlay.remove(); _overlay = null; }
-  }
-
-  setInterval(function(){
-    var wDiff = window.outerWidth  - window.innerWidth  > 160;
-    var hDiff = window.outerHeight - window.innerHeight > 160;
-    if(wDiff || hDiff){
-      showProtection();
-    } else {
-      hideProtection();
-    }
-  }, 500);
-
-  // 5. Debugger trap — slows down devtools console
-  setInterval(function(){
-    (function(){})['constructor']('debugger')();
-  }, 3000);
-
-  // 6. Disable drag
-  document.addEventListener('dragstart', function(e){ e.preventDefault(); });
-
-  // 7. Watermark console
-  console.log('%c🔒 SSC Control Pvt Ltd', 'font-size:20px;font-weight:bold;color:#1e5faa;');
-  console.log('%cThis tool is proprietary. Copying or reproducing this code is prohibited.', 'color:#e8a020;font-size:13px;');
-  console.clear && setTimeout(function(){ console.clear(); }, 100);
-
-})();
+document.addEventListener('contextmenu',function(e){e.preventDefault();return false;});
+document.addEventListener('keydown',function(e){
+  if(e.key==='F12'||e.keyCode===123){e.preventDefault();return false;}
+  if(e.ctrlKey&&e.shiftKey&&['I','i','J','j','C','c'].includes(e.key)){e.preventDefault();return false;}
+  if(e.ctrlKey&&['U','u'].includes(e.key)){e.preventDefault();return false;}
+});
 </script>
+
+
 
 
 <div class="topbar">
@@ -513,7 +442,122 @@ footer{background:var(--navy);padding:60px 60px 30px;}
       
 
 <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
-const DATA = JSON.parse(atob("ewogICJNTVMtRE9MLU5TIjogewogICAgc3BlY3M6IlNDUEQ6IE1NUyDCtyA0MDAvNDE1ViDCtyA1MGtBIMK3IERPTC1OUyDCtyBJRUMgVHlwZSAyIMK3IE9MUjogRW1iZWRkZWQiLAogICAgaGVhZGVyczpbImtXIiwiQSIsIk1NUyBUeXBlIiwiSW0gW0FdIiwiU2V0dGluZyBSYW5nZSBbQV0iLCJDb250YWN0b3IiXSwKICAgIHJvd3M6WwogICAgICBbMC4wNiwwLjIsIk1TMTMyLTAsMjUiLDIuNDQsIjAuMTbigJMwLjI1IiwiQTkiXSwKICAgICAgWzAuMDksMC4zLCJNUzEzMi0wLDQwIiwzLjksIjAuMjXigJMwLjQwIiwiQTkiXSwKICAgICAgWzAuMTIsMC40NCwiTVMxMzItMCw2MyIsNi4xNCwiMC40MOKAkzAuNjMiLCJBOSJdLAogICAgICBbMC4xOCwwLjYsIk1TMTMyLTAsNjMiLDYuMTQsIjAuNDDigJMwLjYzIiwiQTkiXSwKICAgICAgWzAuMjUsMC44NSwiTVMxMzItMSwwIiwxMS41LCIwLjYz4oCTMS4wMCIsIkE5Il0sCiAgICAgIFswLjM3LDEuMSwiTVMxMzItMSw2IiwxOC40LCIxLjAw4oCTMS42MCIsIkE5Il0sCiAgICAgIFswLjU1LDEuNSwiTVMxMzItMSw2IiwxOC40LCIxLjAw4oCTMS42MCIsIkE5Il0sCiAgICAgIFswLjc1LDEuOSwiTVMxMzItMiw1IiwyOC43NSwiMS42MOKAkzIuNTAiLCJBOSJdLAogICAgICBbMS4xLDIuNywiTVMxMzItNCwwIiw1MCwiMi41MOKAkzQuMDAiLCJBMTYiXSwKICAgICAgWzEuNSwzLjYsIk1TMTMyLTQsMCIsNTAsIjIuNTDigJM0LjAwIiwiQTE2Il0sCiAgICAgIFsyLjIsNC45LCJNUzEzMi02LDMiLDc4Ljc1LCI0LjAw4oCTNi4zMCIsIkEyNiJdLAogICAgICBbMyw2LjUsIk1TMTMyLTEwIiwxNTAsIjYuMzDigJMxMC4wMCIsIkEyNiJdLAogICAgICBbNCw4LjUsIk1TMTMyLTEwIiwxNTAsIjYuMzDigJMxMC4wMCIsIkEyNiJdLAogICAgICBbNS41LDExLjUsIk1TMTMyLTEyIiwxODAsIjguMDDigJMxMi4wMCIsIkEyNiJdLAogICAgICBbNy41LDE1LjUsIk1TMTMyLTE2IiwyNDAsIjEwLjAw4oCTMTYuMDAiLCJBMzAiXSwKICAgICAgWzExLDIyLCJNUzEzMi0yNSIsMzc1LCIyMC4wMOKAkzI1LjAwIiwiQTMwIl0sCiAgICAgIFsxNSwyOSwiTVMxMzItMzIiLDQ4MCwiMjUuMDDigJMzMi4wMCIsIkEzMCJdLAogICAgICBbMTguNSwzNSwiTVMxNjUtNDIiLDYzMCwiMzAuMDDigJM0Mi4wMCIsIkE2MyJdLAogICAgICBbMjIsNDEsIk1TMTY1LTU0Iiw4MTAsIjQwLjAw4oCTNTQuMDAiLCJBNjMiXSwKICAgICAgWzI1LDQ2LjYsIk1TMTY1LTU0Iiw4MTAsIjQwLjAw4oCTNTQuMDAiLCJBNzUiXSwKICAgICAgWzMwLDQ1LjUsIk1TMTY1LTY1Iiw5NzUsIjUyLjAw4oCTNjUuMDAiLCJBNzUiXQogICAgXSwKICAgIHJlc3VsdENvbHM6W3tsOiJTQ1BEIC8gTU1TIixrOjJ9LHtsOiJJbSBUcmlwIFtBXSIsazozfSx7bDoiU2V0dGluZyBSYW5nZSIsazo0fSx7bDoiQ29udGFjdG9yIixrOjV9XQogIH0sCiAgIk1NUy1TRC1OUyI6ewogICAgc3BlY3M6IlNDUEQ6IE1NUyDCtyA0MDAvNDE1ViDCtyA1MGtBIMK3IFNELU5TIMK3IElFQyBUeXBlIDIgwrcgT0xSOiBFbWJlZGRlZCIsCiAgICBoZWFkZXJzOlsia1ciLCJBIiwiTU1TIFR5cGUiLCJJbSBbQV0iLCJTZXR0aW5nIFJhbmdlIFtBXSIsIkxpbmUiLCJEZWx0YSIsIlN0YXIiXSwKICAgIHJvd3M6WwogICAgICBbMC4wNiwwLjIwLCJNUzEzMi0wLDI1IiwzLjEzLCIwLjE24oCTMC4yNSIsIkE5IiwiQTkiLCJBOSJdLAogICAgICBbMC4wOSwwLjMwLCJNUzEzMi0wLDQwIiw1LjAsIjAuMjXigJMwLjQwIiwiQTkiLCJBOSIsIkE5Il0sCiAgICAgIFswLjEyLDAuNDQsIk1TMTMyLTAsNjMiLDcuODgsIjAuNDDigJMwLjYzIiwiQTkiLCJBOSIsIkE5Il0sCiAgICAgIFswLjE4LDAuNjAsIk1TMTMyLTAsNjMiLDcuODgsIjAuNDDigJMwLjYzIiwiQTkiLCJBOSIsIkE5Il0sCiAgICAgIFswLjI1LDAuODUsIk1TMTMyLTEsMDAiLDEyLjUsIjAuNjPigJMxLjAwIiwiQTkiLCJBOSIsIkE5Il0sCiAgICAgIFswLjM3LDEuMTAsIk1TMTMyLTEsNjAiLDIwLjAsIjEuMDDigJMxLjYwIiwiQTkiLCJBOSIsIkE5Il0sCiAgICAgIFswLjU1LDEuNTAsIk1TMTMyLTEsNjAiLDIwLjAsIjEuMDDigJMxLjYwIiwiQTkiLCJBOSIsIkE5Il0sCiAgICAgIFswLjc1LDEuOTAsIk1TMTMyLTIsNTAiLDMxLjI1LCIxLjYw4oCTMi41MCIsIkE5IiwiQTkiLCJBOSJdLAogICAgICBbMS4xLDIuNzAsIk1TMTMyLTQsMDAiLDUwLCIyLjUw4oCTNC4wMCIsIkEyNiIsIkEyNiIsIkEyNiJdLAogICAgICBbMS41LDMuNjAsIk1TMTMyLTQsMDAiLDUwLCIyLjUw4oCTNC4wMCIsIkEyNiIsIkEyNiIsIkEyNiJdLAogICAgICBbMi4yLDQuOTAsIk1TMTMyLTYsMzAiLDc4Ljc1LCI0LjAw4oCTNi4zMCIsIkEyNiIsIkEyNiIsIkEyNiJdLAogICAgICBbMy4wLDYuNSwiTVMxMzItMTAiLDE1MCwiNi4zMOKAkzEwLjAwIiwiQTI2IiwiQTI2IiwiQTI2Il0sCiAgICAgIFs0LjAsOC41LCJNUzEzMi0xMCIsMTUwLCI2LjMw4oCTMTAuMDAiLCJBMjYiLCJBMjYiLCJBMjYiXSwKICAgICAgWzUuNSwxMS41LCJNUzEzMi0xNiIsMjQwLCIxMC4wMOKAkzE2LjAwIiwiQTI2IiwiQTI2IiwiQTI2Il0sCiAgICAgIFs3LjUsMTguNSwiTVMxMzItMjAiLDMwMCwiMTYuMDDigJMyMC4wMCIsIkEzMCIsIkEyNiIsIkEyNiJdLAogICAgICBbMTEuMCwyMi4wLCJNUzEzMi0yNSIsMzc1LCIyMC4wMOKAkzI1LjAwIiwiQTMwIiwiQTI2IiwiQTI2Il0sCiAgICAgIFsxNS4wLDI5LjAsIk1TMTMyLTMyIiw0ODAsIjI1LjAw4oCTMzIuMDAiLCJBMzAiLCJBMjYiLCJBMjYiXSwKICAgICAgWzE4LjUsMzUuMCwiTVMxNjUtNDIiLDYzMCwiMzAuMDDigJM0Mi4wMCIsIkE0MCIsIkE0MCIsIkE0MCJdLAogICAgICBbMjIuMCw0MS4wLCJNUzE2NS01NCIsODEwLCI0MC4wMOKAkzU0LjAwIiwiQTUwIiwiQTQwIiwiQTQwIl0sCiAgICAgIFsyNS4wLDQ2LjYsIk1TMTY1LTU0Iiw4MTAsIjQwLjAw4oCTNTQuMDAiLCJBNjMiLCJBNDAiLCJBNDAiXSwKICAgICAgWzMwLjAsNTUuMCwiTVMxNjUtNjUiLDk3NSwiNTIuMDDigJM2NS4wMCIsIkE2MyIsIkE0MCIsIkE0MCJdCiAgICBdLAogICAgcmVzdWx0Q29sczpbe2w6IlNDUEQgLyBNTVMiLGs6Mn0se2w6IkltIFRyaXAgW0FdIixrOjN9LHtsOiJTZXR0aW5nIFJhbmdlIixrOjR9LHtsOiJMaW5lIixrOjV9LHtsOiJEZWx0YSIsazo2fSx7bDoiU3RhciIsazo3fV0KICB9LAogICJNQ0NCLURPTC1OUyI6ewogICAgc3BlY3M6IlNDUEQ6IE1DQ0IgwrcgNDAwLzQxNVYgwrcgNTBrQSDCtyBET0wtTlMgwrcgSUVDIFR5cGUgMiDCtyBPTFI6IFRPTCIsCiAgICBoZWFkZXJzOlsia1ciLCJBIiwiTUNDQiBUeXBlIiwiSW0gW0FdIiwiQ29udGFjdG9yIiwiT0xSIFR5cGUiLCJTZXR0aW5nIFJhbmdlIFtBXSJdLAogICAgcm93czpbCiAgICAgIFswLjM3LDEuMSwiWFQyUzE2MCBNRiAyIiwyOCwiQTkiLCJUQTI1RFUxLjQiLCIx4oCTMS40Il0sCiAgICAgIFswLjU1LDEuNSwiWFQyUzE2MCBNRiAyIiwyOCwiQTkiLCJUQTI1RFUxLjgiLCIxLjPigJMxLjgiXSwKICAgICAgWzAuNzUsMS45LCJYVDJTMTYwIE1GIDIiLDI4LCJBOSIsIlRBMjVEVTIuNCIsIjEuN+KAkzIuNCJdLAogICAgICBbMS4xLDIuNywiWFQyUzE2MCBNRiA0Iiw1NiwiQTkiLCJUQTI1RFU0IiwiMi444oCTNCJdLAogICAgICBbMS41LDMuNiwiWFQyUzE2MCBNRiA0Iiw1NiwiQTE2IiwiVEEyNURVNSIsIjMuNeKAkzUiXSwKICAgICAgWzIuMiw0LjksIlhUMlMxNjAgTUYgOC41IiwxMjAsIkEyNiIsIlRBMjVEVTYuNSIsIjQuNeKAkzYuNSJdLAogICAgICBbMyw2LjUsIlhUMlMxNjAgTUYgOC41IiwxMjAsIkEyNiIsIlRBMjVEVTguNSIsIjbigJM4LjUiXSwKICAgICAgWzQsOC41LCJYVDJTMTYwIE1GIDEyLjUiLDE3NSwiQTMwIiwiVEEyNURVMTEiLCI3LjXigJMxMSJdLAogICAgICBbNS41LDExLjUsIlhUMlMxNjAgTUYgMTIuNSIsMTc1LCJBMzAiLCJUQTI1RFUxNCIsIjEw4oCTMTQiXSwKICAgICAgWzcuNSwxNS41LCJYVDJTMTYwIE1BIDIwIiwyMTAsIkEzMCIsIlRBMjVEVTE5IiwiMTPigJMxOSJdLAogICAgICBbMTEsMjIsIlhUMlMxNjAgTUEgMzIiLDI4OCwiQTMwIiwiVEE0MkRVMjUiLCIxOOKAkzI1Il0sCiAgICAgIFsxNSwyOSwiWFQyUzE2MCBNQSA1MiIsMzkyLCJBNTAiLCJUQTc1RFU0MiIsIjI54oCTNDIiXSwKICAgICAgWzE4LjUsMzUsIlhUMlMxNjAgTUEgNTIiLDQ2OSwiQTUwIiwiVEE3NURVNDIiLCIyOeKAkzQyIl0sCiAgICAgIFsyMiw0MSwiWFQyUzE2MCBNQSA1MiIsNTQ3LCJBNTAiLCJUQTc1RFU1MiIsIjM24oCTNTIiXSwKICAgICAgWzMwLDU1LCJYVDJTMTYwIE1BIDgwIiw4NDAsIkE2MyIsIlRBNzVEVTYzIiwiNDXigJM2MyJdLAogICAgICBbMzcsNjYsIlhUMlMxNjAgTUEgODAiLDk2MCwiQTc1IiwiVEE3NURVODAiLCI2MOKAkzgwIl0sCiAgICAgIFs0NSw4MCwiWFQyUzE2MCBNQSAxMDAiLDEyMDAsIkE5NSIsIlRBMTEwRFUxMTAiLCI4MOKAkzExMCJdLAogICAgICBbNTUsOTcsIlhUM1MyNTAgTUEgMTYwIiwxNDQwLCJBMTEwIiwiVEExMTBEVTExMCIsIjgw4oCTMTEwIl0sCiAgICAgIFs3NSwxMzIsIlhUM1MyNTAgTUEgMjAwIiwxODAwLCJBMTQ1IiwiVEEyMDBEVTE3NSIsIjEzMOKAkzE3NSJdLAogICAgICBbOTAsMTYwLCJYVDNTMjUwIE1BIDIwMCIsMjQwMCwiQTE4NSIsIlRBMjAwRFUyMDAiLCIxNTDigJMyMDAiXSwKICAgICAgWzExMCwxOTUsIlhUNVMgNDAwIEVraXAgTSBESVAgSW4zMjAiLDI3MjAsIkFGMjA1IiwiRUYyMDUtMjEwIiwiNjPigJMyMTAiXSwKICAgICAgWzEzMiwyMzAsIlhUNVMgNDAwIEVraXAgTSBESVAgSW4zMjAiLDMyMDAsIkFGMjY1IiwiRUYzNzAtMzgwIiwiMTE14oCTMzgwIl0sCiAgICAgIFsxNjAsMjgwLCJYVDVTIDQwMCBFa2lwIE0gRElQIEluNDAwIiw0MDAwLCJBRjMwNSIsIkVGMzcwLTM4MCIsIjExNeKAkzM4MCJdLAogICAgICBbMjAwLDM1MCwiWFQ1UyA2MzAgRWtpcCBNIERJUCBJbjYzMCIsNDcyNSwiQUYzNzAiLCJFRjM3MC0zODAiLCIxMTXigJMzODAiXSwKICAgICAgWzI1MCw0MzAsIlhUNVMgNjMwIEVraXAgTSBESVAgSW42MzAiLDU2NzAsIkFGNDYwIiwiRUY0NjAtNTAwIiwiMTUw4oCTNTAwIl0sCiAgICAgIFsyOTAsNTIwLCJYVDZTIDgwMCBFa2lwIE0gRElQIEluODAwIiw3MjAwLCJBRjU4MCIsIkVGNzUwLTgwMCIsIjI1MOKAkzgwMCJdLAogICAgICBbMzE1LDU0MCwiWFQ2UyA4MDAgRWtpcCBNIERJUCBJbjgwMCIsODAwMCwiQUY1ODAiLCJFRjc1MC04MDAiLCIyNTDigJM4MDAiXSwKICAgICAgWzQwMCw3MjAsIlhUNlMgODAwIEVraXAgTSBESVAgSW4xMDAwIiwxMDAwMCwiQUYxMzUwIiwiRUYxMjUwRFUtMTI1MCIsIjM3NeKAkzEyNTAiXQogICAgXSwKICAgIHJlc3VsdENvbHM6W3tsOiJNQ0NCIFR5cGUiLGs6Mn0se2w6IkltIFRyaXAgW0FdIixrOjN9LHtsOiJDb250YWN0b3IiLGs6NH0se2w6Ik9MUiBUeXBlIixrOjV9LHtsOiJPTFIgUmFuZ2UgW0FdIixrOjZ9XQogIH0sCiAgIk1DQ0ItU0QtTlMiOnsKICAgIHNwZWNzOiJTQ1BEOiBNQ0NCIMK3IDQwMC80MTVWIMK3IDUwa0EgwrcgU0QtTlMgwrcgSUVDIFR5cGUgMiDCtyBPTFI6IFRPTCIsCiAgICBoZWFkZXJzOlsia1ciLCJBIiwiTUNDQiBUeXBlIiwiSW0gW0FdIiwiTGluZSIsIkRlbHRhIiwiU3RhciIsIlRoZXJtYWwiLCJSYW5nZSBbQV0iXSwKICAgIHJvd3M6WwogICAgICBbMTguNSwzNSwiWFQyUzE2MCBNQTUyIiw0NjksIkE1MCIsIkE1MCIsIkEyNiIsIlRBNzVEVTI1IiwiMTjigJMyNSJdLAogICAgICBbMjIsNDEsIlhUMlMxNjAgTUE1MiIsNTQ3LCJBNTAiLCJBNTAiLCJBMjYiLCJUQTc1RFUzMiIsIjIy4oCTMzIiXSwKICAgICAgWzMwLDU1LCJYVDJTMTYwIE1BODAiLDcyMCwiQTYzIiwiQTYzIiwiQTMwIiwiVEE3NURVNDIiLCIyOeKAkzQyIl0sCiAgICAgIFszNyw2NiwiWFQyUzE2MCBNQTgwIiw4NDAsIkE3NSIsIkE3NSIsIkEzMCIsIlRBNzVEVTUyIiwiMzbigJM1MiJdLAogICAgICBbNDUsODAsIlhUMlMxNjAgTUExMDAiLDEwNTAsIkE3NSIsIkE3NSIsIkEzMCIsIlRBNzVEVTYzIiwiNDXigJM2MyJdLAogICAgICBbNTUsOTcsIlhUMlMxNjAgTUExMDAiLDEyMDAsIkE3NSIsIkE3NSIsIkE0MCIsIlRBNzVEVTYzIiwiNDXigJM2MyJdLAogICAgICBbNzUsMTMyLCJYVDNTMjUwIE1BMTYwIiwxNzAwLCJBOTUiLCJBOTUiLCJBNzUiLCJUQTExMERVOTAiLCI2NuKAkzkwIl0sCiAgICAgIFs5MCwxNjAsIlhUM1MyNTAgTUEyMDAiLDIwMDAsIkExMTAiLCJBMTEwIiwiQTk1IiwiVEExMTBEVTExMCIsIjgw4oCTMTEwIl0sCiAgICAgIFsxMTAsMTk1LCJYVDNTMjUwIE1BMjAwIiwyNDAwLCJBMTQ1IiwiQTE0NSIsIkE5NSIsIlRBMjAwRFUxMzUiLCIxMDDigJMxMzUiXSwKICAgICAgWzEzMiwyMzAsIlhUNVMgNDAwIEVLSVAgTSBESVAgSW40MDAiLDMyMDAsIkFGMTkwIiwiQUYxOTAiLCJBRjExNiIsIkVGMjA1LTIxMCIsIjYz4oCTMjEwIl0sCiAgICAgIFsxNjAsMjgwLCJYVDVTIDQwMCBFS0lQIE0gRElQIEluNDAwIiw0MDAwLCJBRjE5MCIsIkFGMTkwIiwiQUYxMTYiLCJFRjIwNS0yMTAiLCI2M+KAkzIxMCJdLAogICAgICBbMjAwLDM1MCwiWFQ1UyA2MzAgRUtJUCBNIERJUCBJbjYzMCIsNTA0MCwiQUYyNjUiLCJBRjI2NSIsIkFGMTkwIiwiRUYzNzAtMzgwIiwiMTE14oCTMzgwIl0sCiAgICAgIFsyNTAsNDMwLCJYVDVTIDYzMCBFS0lQIE0gRElQIEluNjMwIiw2MzAwLCJBRjI2NSIsIkFGMjY1IiwiQUYxOTAiLCJFRjM3MC0zODAiLCIxMTXigJMzODAiXSwKICAgICAgWzI5MCw1MjAsIlhUNlMgODAwIEVLSVAgTSBESVAgSW44MDAiLDcyMDAsIkFGNDYwIiwiQUY0NjAiLCJBRjQwMCIsIkVGNzUwLTgwMCIsIjI1MOKAkzgwMCJdLAogICAgICBbMzE1LDU0MCwiWFQ2UyA4MDAgRUtJUCBNIERJUCBJbjgwMCIsODAwMCwiQUY1ODAiLCJBRjU4MCIsIkFGNDAwIiwiRUY3NTAtODAwIiwiMjUw4oCTODAwIl0sCiAgICAgIFszNTUsNjEwLCJYVDZTIDgwMCBFS0lQIE0gRElQIEluODAwIiw4MDAwLCJBRjU4MCIsIkFGNTgwIiwiQUY0MDAiLCJFRjc1MC04MDAiLCIyNTDigJM4MDAiXQogICAgXSwKICAgIHJlc3VsdENvbHM6W3tsOiJNQ0NCIFR5cGUiLGs6Mn0se2w6IkltIFRyaXAgW0FdIixrOjN9LHtsOiJMaW5lIixrOjR9LHtsOiJEZWx0YSIsazo1fSx7bDoiU3RhciIsazo2fSx7bDoiVGhlcm1hbCIsazo3fSx7bDoiUmFuZ2UgW0FdIixrOjh9XQogIH0KfQ=="));
+const DATA = {
+  "MMS-DOL-NS": {
+    specs:"SCPD: MMS · 400/415V · 50kA · DOL-NS · IEC Type 2 · OLR: Embedded",
+    headers:["kW","A","MMS Type","Im [A]","Setting Range [A]","Contactor"],
+    rows:[
+      [0.06,0.2,"MS132-0,25",2.44,"0.16–0.25","A9"],
+      [0.09,0.3,"MS132-0,40",3.9,"0.25–0.40","A9"],
+      [0.12,0.44,"MS132-0,63",6.14,"0.40–0.63","A9"],
+      [0.18,0.6,"MS132-0,63",6.14,"0.40–0.63","A9"],
+      [0.25,0.85,"MS132-1,0",11.5,"0.63–1.00","A9"],
+      [0.37,1.1,"MS132-1,6",18.4,"1.00–1.60","A9"],
+      [0.55,1.5,"MS132-1,6",18.4,"1.00–1.60","A9"],
+      [0.75,1.9,"MS132-2,5",28.75,"1.60–2.50","A9"],
+      [1.1,2.7,"MS132-4,0",50,"2.50–4.00","A16"],
+      [1.5,3.6,"MS132-4,0",50,"2.50–4.00","A16"],
+      [2.2,4.9,"MS132-6,3",78.75,"4.00–6.30","A26"],
+      [3,6.5,"MS132-10",150,"6.30–10.00","A26"],
+      [4,8.5,"MS132-10",150,"6.30–10.00","A26"],
+      [5.5,11.5,"MS132-12",180,"8.00–12.00","A26"],
+      [7.5,15.5,"MS132-16",240,"10.00–16.00","A30"],
+      [11,22,"MS132-25",375,"20.00–25.00","A30"],
+      [15,29,"MS132-32",480,"25.00–32.00","A30"],
+      [18.5,35,"MS165-42",630,"30.00–42.00","A63"],
+      [22,41,"MS165-54",810,"40.00–54.00","A63"],
+      [25,46.6,"MS165-54",810,"40.00–54.00","A75"],
+      [30,45.5,"MS165-65",975,"52.00–65.00","A75"]
+    ],
+    resultCols:[{l:"SCPD / MMS",k:2},{l:"Im Trip [A]",k:3},{l:"Setting Range",k:4},{l:"Contactor",k:5}]
+  },
+  "MMS-SD-NS":{
+    specs:"SCPD: MMS · 400/415V · 50kA · SD-NS · IEC Type 2 · OLR: Embedded",
+    headers:["kW","A","MMS Type","Im [A]","Setting Range [A]","Line","Delta","Star"],
+    rows:[
+      [0.06,0.20,"MS132-0,25",3.13,"0.16–0.25","A9","A9","A9"],
+      [0.09,0.30,"MS132-0,40",5.0,"0.25–0.40","A9","A9","A9"],
+      [0.12,0.44,"MS132-0,63",7.88,"0.40–0.63","A9","A9","A9"],
+      [0.18,0.60,"MS132-0,63",7.88,"0.40–0.63","A9","A9","A9"],
+      [0.25,0.85,"MS132-1,00",12.5,"0.63–1.00","A9","A9","A9"],
+      [0.37,1.10,"MS132-1,60",20.0,"1.00–1.60","A9","A9","A9"],
+      [0.55,1.50,"MS132-1,60",20.0,"1.00–1.60","A9","A9","A9"],
+      [0.75,1.90,"MS132-2,50",31.25,"1.60–2.50","A9","A9","A9"],
+      [1.1,2.70,"MS132-4,00",50,"2.50–4.00","A26","A26","A26"],
+      [1.5,3.60,"MS132-4,00",50,"2.50–4.00","A26","A26","A26"],
+      [2.2,4.90,"MS132-6,30",78.75,"4.00–6.30","A26","A26","A26"],
+      [3.0,6.5,"MS132-10",150,"6.30–10.00","A26","A26","A26"],
+      [4.0,8.5,"MS132-10",150,"6.30–10.00","A26","A26","A26"],
+      [5.5,11.5,"MS132-16",240,"10.00–16.00","A26","A26","A26"],
+      [7.5,18.5,"MS132-20",300,"16.00–20.00","A30","A26","A26"],
+      [11.0,22.0,"MS132-25",375,"20.00–25.00","A30","A26","A26"],
+      [15.0,29.0,"MS132-32",480,"25.00–32.00","A30","A26","A26"],
+      [18.5,35.0,"MS165-42",630,"30.00–42.00","A40","A40","A40"],
+      [22.0,41.0,"MS165-54",810,"40.00–54.00","A50","A40","A40"],
+      [25.0,46.6,"MS165-54",810,"40.00–54.00","A63","A40","A40"],
+      [30.0,55.0,"MS165-65",975,"52.00–65.00","A63","A40","A40"]
+    ],
+    resultCols:[{l:"SCPD / MMS",k:2},{l:"Im Trip [A]",k:3},{l:"Setting Range",k:4},{l:"Line",k:5},{l:"Delta",k:6},{l:"Star",k:7}]
+  },
+  "MCCB-DOL-NS":{
+    specs:"SCPD: MCCB · 400/415V · 50kA · DOL-NS · IEC Type 2 · OLR: TOL",
+    headers:["kW","A","MCCB Type","Im [A]","Contactor","OLR Type","Setting Range [A]"],
+    rows:[
+      [0.37,1.1,"XT2S160 MF 2",28,"A9","TA25DU1.4","1–1.4"],
+      [0.55,1.5,"XT2S160 MF 2",28,"A9","TA25DU1.8","1.3–1.8"],
+      [0.75,1.9,"XT2S160 MF 2",28,"A9","TA25DU2.4","1.7–2.4"],
+      [1.1,2.7,"XT2S160 MF 4",56,"A9","TA25DU4","2.8–4"],
+      [1.5,3.6,"XT2S160 MF 4",56,"A16","TA25DU5","3.5–5"],
+      [2.2,4.9,"XT2S160 MF 8.5",120,"A26","TA25DU6.5","4.5–6.5"],
+      [3,6.5,"XT2S160 MF 8.5",120,"A26","TA25DU8.5","6–8.5"],
+      [4,8.5,"XT2S160 MF 12.5",175,"A30","TA25DU11","7.5–11"],
+      [5.5,11.5,"XT2S160 MF 12.5",175,"A30","TA25DU14","10–14"],
+      [7.5,15.5,"XT2S160 MA 20",210,"A30","TA25DU19","13–19"],
+      [11,22,"XT2S160 MA 32",288,"A30","TA42DU25","18–25"],
+      [15,29,"XT2S160 MA 52",392,"A50","TA75DU42","29–42"],
+      [18.5,35,"XT2S160 MA 52",469,"A50","TA75DU42","29–42"],
+      [22,41,"XT2S160 MA 52",547,"A50","TA75DU52","36–52"],
+      [30,55,"XT2S160 MA 80",840,"A63","TA75DU63","45–63"],
+      [37,66,"XT2S160 MA 80",960,"A75","TA75DU80","60–80"],
+      [45,80,"XT2S160 MA 100",1200,"A95","TA110DU110","80–110"],
+      [55,97,"XT3S250 MA 160",1440,"A110","TA110DU110","80–110"],
+      [75,132,"XT3S250 MA 200",1800,"A145","TA200DU175","130–175"],
+      [90,160,"XT3S250 MA 200",2400,"A185","TA200DU200","150–200"],
+      [110,195,"XT5S 400 Ekip M DIP In320",2720,"AF205","EF205-210","63–210"],
+      [132,230,"XT5S 400 Ekip M DIP In320",3200,"AF265","EF370-380","115–380"],
+      [160,280,"XT5S 400 Ekip M DIP In400",4000,"AF305","EF370-380","115–380"],
+      [200,350,"XT5S 630 Ekip M DIP In630",4725,"AF370","EF370-380","115–380"],
+      [250,430,"XT5S 630 Ekip M DIP In630",5670,"AF460","EF460-500","150–500"],
+      [290,520,"XT6S 800 Ekip M DIP In800",7200,"AF580","EF750-800","250–800"],
+      [315,540,"XT6S 800 Ekip M DIP In800",8000,"AF580","EF750-800","250–800"],
+      [400,720,"XT6S 800 Ekip M DIP In1000",10000,"AF1350","EF1250DU-1250","375–1250"]
+    ],
+    resultCols:[{l:"MCCB Type",k:2},{l:"Im Trip [A]",k:3},{l:"Contactor",k:4},{l:"OLR Type",k:5},{l:"OLR Range [A]",k:6}]
+  },
+  "MCCB-SD-NS":{
+    specs:"SCPD: MCCB · 400/415V · 50kA · SD-NS · IEC Type 2 · OLR: TOL",
+    headers:["kW","A","MCCB Type","Im [A]","Line","Delta","Star","Thermal","Range [A]"],
+    rows:[
+      [18.5,35,"XT2S160 MA52",469,"A50","A50","A26","TA75DU25","18–25"],
+      [22,41,"XT2S160 MA52",547,"A50","A50","A26","TA75DU32","22–32"],
+      [30,55,"XT2S160 MA80",720,"A63","A63","A30","TA75DU42","29–42"],
+      [37,66,"XT2S160 MA80",840,"A75","A75","A30","TA75DU52","36–52"],
+      [45,80,"XT2S160 MA100",1050,"A75","A75","A30","TA75DU63","45–63"],
+      [55,97,"XT2S160 MA100",1200,"A75","A75","A40","TA75DU63","45–63"],
+      [75,132,"XT3S250 MA160",1700,"A95","A95","A75","TA110DU90","66–90"],
+      [90,160,"XT3S250 MA200",2000,"A110","A110","A95","TA110DU110","80–110"],
+      [110,195,"XT3S250 MA200",2400,"A145","A145","A95","TA200DU135","100–135"],
+      [132,230,"XT5S 400 EKIP M DIP In400",3200,"AF190","AF190","AF116","EF205-210","63–210"],
+      [160,280,"XT5S 400 EKIP M DIP In400",4000,"AF190","AF190","AF116","EF205-210","63–210"],
+      [200,350,"XT5S 630 EKIP M DIP In630",5040,"AF265","AF265","AF190","EF370-380","115–380"],
+      [250,430,"XT5S 630 EKIP M DIP In630",6300,"AF265","AF265","AF190","EF370-380","115–380"],
+      [290,520,"XT6S 800 EKIP M DIP In800",7200,"AF460","AF460","AF400","EF750-800","250–800"],
+      [315,540,"XT6S 800 EKIP M DIP In800",8000,"AF580","AF580","AF400","EF750-800","250–800"],
+      [355,610,"XT6S 800 EKIP M DIP In800",8000,"AF580","AF580","AF400","EF750-800","250–800"]
+    ],
+    resultCols:[{l:"MCCB Type",k:2},{l:"Im Trip [A]",k:3},{l:"Line",k:4},{l:"Delta",k:5},{l:"Star",k:6},{l:"Thermal",k:7},{l:"Range [A]",k:8}]
+  }
+};
 
 const SCPD_DESC = {
   MMS:"MS132 / MS165 series. Embedded overload protection. Current range 0.16 A – 65 A.",
@@ -639,14 +683,5 @@ function toggleTable() {
 // Init
 rebuildSlider();
 </script>
-
-<script>
-function toggleMobileNav(){
-  const nav = document.getElementById('mobileNav');
-  const btn = document.getElementById('hamburger');
-  nav.classList.toggle('open');
-  btn.classList.toggle('open');
-}
-document.addEventListener('click', function(e){
-  const nav = document.getElementById('mobileNav');
-  const btn = document.g
+</body>
+</html>
