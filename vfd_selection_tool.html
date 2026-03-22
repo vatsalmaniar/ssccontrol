@@ -337,20 +337,20 @@ document.addEventListener('keydown',function(e){
   <div class="nav-links">
     <a href="/">Home</a>
     <a href="#">Solutions</a>
-    <a href="#">Partners</a>
+    <a href="partners.html">Partners</a>
     <a href="#">About us</a>
     <a href="contact.html">Contact us</a>
   </div>
-  <a href="/cdn-cgi/l/email-protection#0675676a6375467575656569687274696a2865696b" class="nav-cta">Get in Touch</a>
+  <a href="mailto:sales@ssccontrol.com" class="nav-cta">Get in Touch</a>
 </nav>
 
 <div class="mobile-nav" id="mobileNav">
   <a href="/">Home</a>
   <a href="#">Solutions</a>
-  <a href="#">Partners</a>
+  <a href="partners.html">Partners</a>
   <a href="#">About us</a>
   <a href="contact.html">Contact us</a>
-  <a href="/cdn-cgi/l/email-protection#bfccded3daccffccccdcdcd0d1cbcdd0d391dcd0d2" class="nav-cta">Get in Touch</a>
+  <a href="mailto:sales@ssccontrol.com" class="nav-cta">Get in Touch</a>
 </div>
 
 <div class="page-hero">
@@ -493,7 +493,7 @@ document.addEventListener('keydown',function(e){
         E-12, Siddhivinayak Tower,<br>
         S.G. Highway, Makarba,<br>
         Ahmedabad, Gujarat 380051<br>
-        <a href="/cdn-cgi/l/email-protection#55263439302615262636363a3b21273a397b363a38"><span class="__cf_email__" data-cfemail="9deefcf1f8eeddeeeefefef2f3e9eff2f1b3fef2f0">[email&#160;protected]</span></a><br>
+        <a href="mailto:sales@ssccontrol.com">sales@ssccontrol.com</a><br>
         <a href="tel:+919313080866">+91 93130 80866</a>
       </div>
     </div>
@@ -526,7 +526,7 @@ document.addEventListener('keydown',function(e){
       <ul>
         <li><a href="#">About Us</a></li>
         <li><a href="#">Careers</a></li>
-        <li><a href="#">Partners</a></li>
+        <li><a href="partners.html">Partners</a></li>
         <li><a href="contact.html">Contact Us</a></li>
         <li><a href="#">Privacy Policy</a></li>
       </ul>
@@ -566,7 +566,7 @@ document.addEventListener('keydown',function(e){
       <a href="http://instagram.com/ssc.control" class="fsoc" target="_blank">IG</a>
       
 
-<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
 <script>
 // ─── DATA ────────────────────────────────────────────────────────────────────
 // [model, SLD_kW, SLD_A, LD_kW, LD_A, ND_kW, ND_A]
@@ -872,5 +872,29 @@ Rated Output: ${r.dKw} kW
 Rated Current: ${r.dA} A
 Headroom: ${r.headroom > 0 ? '+' : ''}${r.headroom.toFixed(2)} kW
 
-SSC Control Pvt Ltd | Authorised Mitsubishi Electric Partner
-sales@ssccontrol.com | +
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(new Blob([content], {type:'text/plain'}));
+  a.download = `SSC_VFD_Report_${new Date().toISOString().slice(0,10)}.txt`;
+  a.click();
+}
+function toggleMobileNav(){
+  const nav=document.getElementById('mobileNav');
+  const btn=document.getElementById('hamburger');
+  nav.classList.toggle('open');btn.classList.toggle('open');
+}
+document.addEventListener('click',function(e){
+  const nav=document.getElementById('mobileNav');
+  const btn=document.getElementById('hamburger');
+  if(nav&&!nav.contains(e.target)&&btn&&!btn.contains(e.target)){
+    nav.classList.remove('open');btn.classList.remove('open');
+  }
+});
+document.addEventListener('contextmenu',e=>e.preventDefault());
+document.addEventListener('keydown',e=>{
+  if(e.key==='F12'){e.preventDefault();return false;}
+  if(e.ctrlKey&&e.shiftKey&&['I','i','J','j'].includes(e.key)){e.preventDefault();return false;}
+  if(e.ctrlKey&&['U','u'].includes(e.key)){e.preventDefault();return false;}
+});
+</script>
+</body>
+</html>
