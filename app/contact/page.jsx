@@ -2,7 +2,7 @@
 
 import { useState, useEffect, useRef } from 'react';
 import './contact.css';
-import { CONTACT, emailEnabled, turnstileEnabled } from '@/lib/contactConfig';
+import { CONTACT, turnstileEnabled } from '@/lib/contactConfig';
 
 const LOCATIONS = {
   ho: {
@@ -210,25 +210,6 @@ export default function ContactPage() {
 
   const setType = (inquiryType) => setForm((prev) => ({ ...prev, inquiryType }));
 
-  const buildLines = () => {
-    const lines = [
-      `Inquiry Type: ${isProduct ? 'Product Inquiry' : 'General Inquiry'}`,
-      `Name: ${form.fname} ${form.lname}`.trim(),
-      `Email: ${form.email}`,
-      `Phone: ${form.phone || '—'}`,
-    ];
-    if (isProduct) {
-      lines.push(
-        `Company: ${form.company || '—'}`,
-        `Product / Brand of Interest: ${form.product || '—'}`,
-        `Quantity: ${form.quantity || '—'}`,
-        `City / Location: ${form.city || '—'}`
-      );
-    }
-    lines.push('', form.message);
-    return lines.join('\n');
-  };
-
   const handleSubmit = async (e) => {
     e.preventDefault();
     setError('');
@@ -239,64 +220,45 @@ export default function ContactPage() {
       return;
     }
 
-    const subject = isProduct
-      ? `Product Inquiry${form.product ? `: ${form.product}` : ''} — ${form.fname} ${form.lname}`.trim()
-      : `General Inquiry — ${form.fname} ${form.lname}`.trim();
-
-    // Preferred path: Web3Forms (emails sales@ + server-side spam + Turnstile verify).
-    if (emailEnabled()) {
-      setSending(true);
-      try {
-        const token =
-          turnstileEnabled() && window.turnstile
-            ? window.turnstile.getResponse(turnstileRef.current)
-            : '';
-        if (turnstileEnabled() && !token) {
-          setSending(false);
-          setError('Please complete the verification challenge.');
-          return;
-        }
-        const payload = {
-          access_key: CONTACT.WEB3FORMS_ACCESS_KEY,
-          subject,
-          from_name: `${form.fname} ${form.lname}`.trim(),
-          to_email: CONTACT.TO_EMAIL,
-          inquiry_type: isProduct ? 'Product Inquiry' : 'General Inquiry',
-          name: `${form.fname} ${form.lname}`.trim(),
-          email: form.email,
-          phone: form.phone,
-          company: isProduct ? form.company : undefined,
-          product: isProduct ? form.product : undefined,
-          quantity: isProduct ? form.quantity : undefined,
-          city: isProduct ? form.city : undefined,
-          message: form.message,
-          botcheck: '', // Web3Forms built-in honeypot
-          'cf-turnstile-response': token,
-        };
-        const res = await fetch('https://api.web3forms.com/submit', {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
-          body: JSON.stringify(payload),
-        });
-        const data = await res.json();
-        setSending(false);
-        if (data.success) {
-          setSubmitted(true);
-        } else {
-          setError(data.message || 'Something went wrong. Please email sales@ssccontrol.com.');
-        }
-      } catch (err) {
-        setSending(false);
-        setError('Network error. Please try again or email sales@ssccontrol.com.');
-      }
+    const token =
+      turnstileEnabled() && typeof window !== 'undefined' && window.turnstile
+        ? window.turnstile.getResponse(turnstileRef.current)
+        : '';
+    if (turnstileEnabled() && !token) {
+      setError('Please complete the verification challenge.');
       return;
     }
 
-    // Fallback (no access key yet): open the visitor's email app.
-    window.location.href = `mailto:${CONTACT.TO_EMAIL}?subject=${encodeURIComponent(
-      subject
-    )}&body=${encodeURIComponent(buildLines())}`;
-    setSubmitted(true);
+    setSending(true);
+    try {
+      const res = await fetch('/api/contact', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          type: form.inquiryType,
+          name: `${form.fname} ${form.lname}`.trim(),
+          email: form.email,
+          phone: form.phone,
+          company: isProduct ? form.company : '',
+          product: isProduct ? form.product : '',
+          quantity: isProduct ? form.quantity : '',
+          city: isProduct ? form.city : '',
+          message: form.message,
+          captchaToken: token,
+          company_website: form.company_website, // honeypot
+        }),
+      });
+      const data = await res.json().catch(() => ({}));
+      setSending(false);
+      if (res.ok && data.success) {
+        setSubmitted(true);
+      } else {
+        setError(data.error || 'Something went wrong. Please email sales@ssccontrol.com.');
+      }
+    } catch {
+      setSending(false);
+      setError('Network error. Please try again or email sales@ssccontrol.com.');
+    }
   };
 
   const loc = LOCATIONS[activeLoc];

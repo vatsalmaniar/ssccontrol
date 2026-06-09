@@ -21,3 +21,4 @@ npm-debug.log*
 # large media / loose source assets (never commit)
 *.mp4
 /legacy/
+.vercel
