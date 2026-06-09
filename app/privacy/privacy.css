@@ -1,0 +1,135 @@
+/* =========================================================
+   Privacy Policy page — all rules scoped to .page-privacy
+   ========================================================= */
+
+/* ---- Hero ---- */
+.page-privacy .page-hero {
+  background-color: var(--navy);
+  color: #fff;
+  padding: 4rem 2rem 3rem;
+  text-align: center;
+}
+
+.page-privacy .hero-tag {
+  display: inline-block;
+  font-family: var(--font-sans);
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--blue);
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 2rem;
+  padding: 0.3rem 1rem;
+  margin-bottom: 1rem;
+}
+
+.page-privacy .page-hero h1 {
+  font-family: var(--font-sans);
+  font-size: clamp(1.8rem, 4vw, 2.6rem);
+  font-weight: 700;
+  color: #fff;
+  margin: 0 0 0.75rem;
+  line-height: 1.2;
+}
+
+.page-privacy .hero-updated {
+  font-family: var(--font-sans);
+  font-size: 0.875rem;
+  color: rgba(255, 255, 255, 0.55);
+  margin: 0;
+}
+
+/* ---- Content container ---- */
+.page-privacy .privacy-content {
+  max-width: 780px;
+  margin: 0 auto;
+  padding: 3rem 2rem 5rem;
+}
+
+/* ---- Sections ---- */
+.page-privacy section {
+  margin-bottom: 2.5rem;
+  padding-bottom: 2.5rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.page-privacy section:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+/* ---- Headings ---- */
+.page-privacy h2 {
+  font-family: var(--font-sans);
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--navy);
+  margin: 0 0 0.85rem;
+}
+
+.page-privacy h3 {
+  font-family: var(--font-sans);
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--navy);
+  margin: 1.5rem 0 0.5rem;
+}
+
+/* ---- Body text ---- */
+.page-privacy p {
+  font-family: var(--font-sans);
+  font-size: 0.95rem;
+  line-height: 1.75;
+  color: var(--text);
+  margin: 0 0 0.85rem;
+}
+
+.page-privacy p:last-child {
+  margin-bottom: 0;
+}
+
+/* ---- Lists ---- */
+.page-privacy ul {
+  margin: 0.5rem 0 1rem 1.25rem;
+  padding: 0;
+}
+
+.page-privacy li {
+  font-family: var(--font-sans);
+  font-size: 0.95rem;
+  line-height: 1.75;
+  color: var(--text);
+  margin-bottom: 0.35rem;
+}
+
+.page-privacy li strong {
+  color: var(--navy);
+}
+
+/* ---- Links ---- */
+.page-privacy a {
+  color: var(--blue);
+  text-decoration: none;
+}
+
+.page-privacy a:hover {
+  text-decoration: underline;
+}
+
+/* ---- Responsive ---- */
+@media (max-width: 600px) {
+  .page-privacy .page-hero {
+    padding: 3rem 1.25rem 2.25rem;
+  }
+
+  .page-privacy .privacy-content {
+    padding: 2rem 1.25rem 3.5rem;
+  }
+
+  .page-privacy h2 {
+    font-size: 1.1rem;
+  }
+}
