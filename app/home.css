@@ -245,3 +245,10 @@
 .page-home .reel-frame{position:relative;border-radius:16px;overflow:hidden;box-shadow:0 24px 64px rgba(0,0,0,0.45);border:1px solid rgba(255,255,255,0.1);aspect-ratio:16/9;background:#000;}
 .page-home .reel-video{width:100%;height:100%;display:block;object-fit:cover;border:0;}
 @media(max-width:768px){.page-home .reel-section{padding:56px 20px;}.page-home .reel-title{font-size:24px;}}
+
+/* Make each Business Solutions card fully clickable */
+.page-home .sol-img-card{text-decoration:none;}
+.page-home .sol-card-link{position:absolute;inset:0;z-index:6;}
+
+/* offset anchor jump (#solutions) below the sticky nav */
+.page-home #solutions{scroll-margin-top:96px;}

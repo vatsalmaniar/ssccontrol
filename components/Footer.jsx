@@ -3,8 +3,15 @@ import { COMPANY, FOOTER_COLUMNS, LEGAL_LINKS } from '@/data/site';
 import { InstagramIcon, LinkedinIcon } from '@/components/SocialIcons';
 
 function FooterLink({ href, children }) {
-  const external = href.startsWith('http') || href.startsWith('mailto') || href.startsWith('tel');
-  if (external || href === '#') return <a href={href}>{children}</a>;
+  const isHttp = href.startsWith('http');
+  const external = isHttp || href.startsWith('mailto') || href.startsWith('tel');
+  if (external || href === '#') {
+    return (
+      <a href={href} {...(isHttp ? { target: '_blank', rel: 'noopener noreferrer' } : {})}>
+        {children}
+      </a>
+    );
+  }
   return <Link href={href}>{children}</Link>;
 }
 

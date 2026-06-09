@@ -25,10 +25,12 @@ export const FOOTER_COLUMNS = [
   {
     title: 'Solutions',
     links: [
-      { label: 'Industrial Automation', href: '#' },
-      { label: 'Product Distribution', href: '#' },
-      { label: 'Industrial Safety', href: '#' },
-      { label: 'Robotics', href: '#' },
+      { label: 'Industrial Automation', href: ROUTES.industrialAutomation },
+      { label: 'Industrial Software', href: ROUTES.industrialSoftware },
+      { label: 'Industrial Safety', href: ROUTES.industrialSafety },
+      { label: 'Product Distribution', href: ROUTES.productDistribution },
+      { label: 'Panel Manufacturing', href: ROUTES.panelManufacturing },
+      { label: 'Robotics', href: ROUTES.robotics },
     ],
   },
   {

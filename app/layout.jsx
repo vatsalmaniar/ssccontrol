@@ -85,8 +85,8 @@ const jsonLd = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className={GeistSans.variable}>
-      <body>
+    <html lang="en" className={GeistSans.variable} suppressHydrationWarning>
+      <body suppressHydrationWarning>
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
         <Analytics />
         <EnquiryProvider>
