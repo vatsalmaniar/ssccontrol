@@ -2,7 +2,7 @@ const unison = {
   slug: 'unison',
   name: 'Unison',
   accent: '#1B4F9A',
-  heroTag: '★ Authorised Unison Partner',
+  heroTag: 'Authorised Unison Partner',
   title: 'Unison',
   titleEm: 'SSR and Power Control Products',
   heroSub: 'Solid state relays and thyristor power controllers for industrial heating and process control with no moving parts.',

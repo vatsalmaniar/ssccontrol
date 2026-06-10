@@ -10,8 +10,20 @@ export function generateMetadata({ params }) {
   const b = brands[params.brand];
   if (!b) return {};
   return {
-    title: `${b.name} — ${b.titleEm}`,
-    description: b.heroSub,
+    title: `${b.name} Authorised Channel Partner & Distributor`,
+    description: `SSC Control — authorised channel partner, distributor and dealer for ${b.name} (${b.titleEm}) in Ahmedabad, Baroda (Vadodara), Gujarat and across India. ${b.heroSub}`,
+    keywords: [
+      b.name,
+      `${b.name} distributor`,
+      `${b.name} authorised partner`,
+      `${b.name} dealer`,
+      `${b.name} channel partner`,
+      `${b.name} Ahmedabad`,
+      `${b.name} Baroda`,
+      `${b.name} Vadodara`,
+      `${b.name} Gujarat`,
+      `${b.name} India`,
+    ],
   };
 }
 

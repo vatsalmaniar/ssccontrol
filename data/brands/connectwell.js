@@ -2,7 +2,7 @@ const connectwell = {
   slug: 'connectwell',
   name: 'Connectwell',
   accent: '#C8252A',
-  heroTag: '★ Authorised Connectwell Partner',
+  heroTag: 'Authorised Connectwell Partner',
   title: 'Connectwell',
   titleEm: 'Terminals, Relays & SMPS',
   heroSub: `India's leading manufacturer of terminal blocks, relay modules, glass relays, relay cards, fan failure modules and SMPS — Made in India, trusted by panel builders worldwide.`,

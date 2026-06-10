@@ -2,7 +2,7 @@ import Link from 'next/link';
 import './about.css';
 
 export const metadata = {
-  title: 'About Us',
+  title: 'About Us — 60 Years of Engineering Excellence',
   description: '60 years of engineering excellence. SSC Control Pvt Ltd — India\'s trusted partner in electrical, automation and engineering solutions.',
 };
 

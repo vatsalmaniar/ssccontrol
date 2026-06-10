@@ -2,7 +2,7 @@ const axelon = {
   slug: 'axelon',
   name: 'Axelon',
   accent: '#1A3A6B',
-  heroTag: '★ Authorised Axelon Partner',
+  heroTag: 'Authorised Axelon Partner',
   title: 'Axelon',
   titleEm: 'Industrial Wires and Cables',
   heroSub: 'ISI certified industrial wires and cables for panel wiring, control circuits and power distribution.',

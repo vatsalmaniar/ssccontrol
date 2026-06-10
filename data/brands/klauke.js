@@ -2,7 +2,7 @@ const klauke = {
   slug: 'klauke',
   name: 'Klauke',
   accent: '#C4262E',
-  heroTag: '★ Authorised Klauke Partner',
+  heroTag: 'Authorised Klauke Partner',
   title: 'Klauke',
   titleEm: 'Lugs, Ferrules and Tools',
   heroSub: 'Professional cable connection technology from Germany - copper lugs, ferrules, heat shrink and crimping tools.',

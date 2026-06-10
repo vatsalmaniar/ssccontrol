@@ -2,7 +2,7 @@ const novotecnik = {
   slug: 'novotecnik',
   name: 'Novotechnik',
   accent: '#0066B3',
-  heroTag: '★ Authorised Novotechnik Partner',
+  heroTag: 'Authorised Novotechnik Partner',
   title: 'Novotechnik',
   titleEm: 'Precision Position Sensors',
   heroSub: 'High-precision linear and rotary position sensors, joystick controllers and draw-wire encoders from Germany.',

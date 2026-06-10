@@ -2,7 +2,7 @@ const hicool = {
   slug: 'hicool',
   name: 'Hicool',
   accent: '#005BAA',
-  heroTag: '★ Authorised Hicool Partner',
+  heroTag: 'Authorised Hicool Partner',
   title: 'Hicool',
   titleEm: 'Industrial Cooling Fans',
   heroSub: 'Made-in-India industrial cooling fans for electrical enclosures and panels. AC axial, compact, DC, EC, backward curved and Q motor technology.',

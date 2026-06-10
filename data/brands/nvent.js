@@ -2,7 +2,7 @@ const nvent = {
   slug: 'nvent',
   name: 'nVent Hoffman',
   accent: '#C4262E',
-  heroTag: '★ Authorised nVent Hoffman Partner',
+  heroTag: 'Authorised nVent Hoffman Partner',
   title: 'nVent Hoffman',
   titleEm: 'Enclosures & Panel Accessories',
   heroSub: 'Industrial enclosures, junction boxes, desk panels, hazardous area solutions and panel accessories from nVent Hoffman for electrical infrastructure worldwide.',

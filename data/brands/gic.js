@@ -2,7 +2,7 @@ const gic = {
   slug: 'gic',
   name: 'GIC India',
   accent: '#009444',
-  heroTag: '★ Authorised GIC India Partner',
+  heroTag: 'Authorised GIC India Partner',
   title: 'GIC India',
   titleEm: 'PLCs, HMIs & Automation Components',
   heroSub: 'Made-in-India PLCs, HMIs, timers, counters, temperature controllers, alarm annunciators, SMPS and control relays for industrial automation.',

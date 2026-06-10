@@ -10,7 +10,7 @@ const LOCATIONS = {
       'https://maps.google.com/maps?q=E12+Siddhivinayak+Tower+Sarkhej+Gandhinagar+Highway+Makarba+Ahmedabad+Gujarat+380051&t=&z=16&ie=UTF8&iwloc=&output=embed',
     mapTitle: 'SSC Control Head Office Ahmedabad',
     badgeStyle: {},
-    badgeText: '🏢 Head Office',
+    badgeText: 'Head Office',
     name: (
       <>
         SSC Control Pvt. Ltd.
@@ -60,7 +60,7 @@ const LOCATIONS = {
       'https://maps.google.com/maps?q=Ashwamegh+Warehouse+Sarkhej+Bavla+Highway+Sarkhej+Ahmedabad+Gujarat+382210&t=&z=16&ie=UTF8&iwloc=&output=embed',
     mapTitle: 'SSC Control Kaveri Fulfilment Centre',
     badgeStyle: { color: '#16a34a', background: 'rgba(34,197,94,0.1)' },
-    badgeText: '📦 Fulfilment Centre — Kaveri',
+    badgeText: 'Fulfilment Centre — Kaveri',
     name: (
       <>
         SSC Control Pvt. Ltd.
@@ -109,14 +109,14 @@ const LOCATIONS = {
   godawari: {
     mapSrc:
       'https://maps.google.com/maps?q=GIDC+Estate+Makarpura+Vadodara+Gujarat+390010&t=&z=16&ie=UTF8&iwloc=&output=embed',
-    mapTitle: 'SSC Control Godawari Fulfilment Centre Vadodara',
-    badgeStyle: { color: '#16a34a', background: 'rgba(34,197,94,0.1)' },
-    badgeText: '📦 Fulfilment Centre — Godawari',
+    mapTitle: 'SSC Control Baroda Branch & Godawari Fulfilment Centre, Vadodara',
+    badgeStyle: {},
+    badgeText: 'Baroda Branch & Godawari FC',
     name: (
       <>
         SSC Control Pvt. Ltd.
         <br />
-        Godawari FC, Vadodara
+        Baroda Branch &amp; Godawari FC, Vadodara
       </>
     ),
     address: (
@@ -139,7 +139,7 @@ const LOCATIONS = {
           </svg>
         ),
         label: 'Type',
-        value: 'Inventory & Fulfilment Centre',
+        value: 'Branch Office & Fulfilment Centre',
       },
       {
         icon: (
@@ -271,8 +271,8 @@ export default function ContactPage() {
         <h1>Get in Touch with SSC Control</h1>
         <p>
           Reach our sales, technical, and support teams across our Head Office in
-          Ahmedabad and fulfilment centres in Sarkhej and Vadodara. We typically
-          respond within 2 business hours.
+          Ahmedabad, our Baroda branch in Vadodara, and fulfilment centres in Sarkhej
+          and Vadodara. We typically respond within 2 business hours.
         </p>
       </div>
 
@@ -332,19 +332,19 @@ export default function ContactPage() {
             className={`loc-tab${activeLoc === 'ho' ? ' active' : ''}`}
             onClick={() => setActiveLoc('ho')}
           >
-            🏢 Head Office
+            Head Office
           </button>
           <button
             className={`loc-tab${activeLoc === 'kaveri' ? ' active' : ''}`}
             onClick={() => setActiveLoc('kaveri')}
           >
-            📦 Kaveri FC — Sarkhej
+            Kaveri FC — Sarkhej
           </button>
           <button
             className={`loc-tab${activeLoc === 'godawari' ? ' active' : ''}`}
             onClick={() => setActiveLoc('godawari')}
           >
-            📦 Godawari FC — Vadodara
+            Godawari FC — Vadodara
           </button>
         </div>
 
@@ -427,7 +427,12 @@ export default function ContactPage() {
 
             {submitted ? (
               <div className="form-success">
-                <div className="form-success-icon">✅</div>
+                <div className="form-success-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />
+                    <polyline points="22 4 12 14.01 9 11.01" />
+                  </svg>
+                </div>
                 <h3>{isProduct ? 'Inquiry Received!' : 'Message Sent!'}</h3>
                 <p>
                   Thank you for reaching out. Our team will get back to you at your
@@ -583,25 +588,25 @@ export default function ContactPage() {
               </div>
               <div className="info-list">
                 <div className="info-list-item">
-                  <span className="info-list-label">📞 Sales</span>
+                  <span className="info-list-label">Sales</span>
                   <span className="info-list-value">
                     <a href="tel:+919313080866">+91 93130 80866</a>
                   </span>
                 </div>
                 <div className="info-list-item">
-                  <span className="info-list-label">✉️ Sales Email</span>
+                  <span className="info-list-label">Sales Email</span>
                   <span className="info-list-value">
                     <a href="mailto:sales@ssccontrol.com">sales@ssccontrol.com</a>
                   </span>
                 </div>
                 <div className="info-list-item">
-                  <span className="info-list-label">💼 Careers</span>
+                  <span className="info-list-label">Careers</span>
                   <span className="info-list-value">
                     <a href="mailto:people@ssccontrol.com">people@ssccontrol.com</a>
                   </span>
                 </div>
                 <div className="info-list-item">
-                  <span className="info-list-label">🌐 Website</span>
+                  <span className="info-list-label">Website</span>
                   <span className="info-list-value">
                     <a href="https://ssccontrol.com">ssccontrol.com</a>
                   </span>

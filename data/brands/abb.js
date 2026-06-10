@@ -2,7 +2,7 @@ const abb = {
   slug: 'abb',
   name: 'ABB',
   accent: '#FF000F',
-  heroTag: '★ Authorised ABB Partner',
+  heroTag: 'Authorised ABB Partner',
   title: 'ABB',
   titleEm: 'Switchgear & Protection',
   heroSub: 'Genuine ABB switchgear and protection products — contactors, MCCBs, ACBs, MCBs, ATS, energy meters and signalling devices for industrial panel building and OEM applications.',

@@ -2,7 +2,7 @@ const hummel = {
   slug: 'hummel',
   name: 'Hummel',
   accent: '#E8300D',
-  heroTag: '★ Authorised Hummel Partner',
+  heroTag: 'Authorised Hummel Partner',
   title: 'Hummel',
   titleEm: 'Cable Glands and Connectors',
   heroSub: 'High-quality cable glands, industrial connectors and conduit systems from Germany for electrical enclosures.',

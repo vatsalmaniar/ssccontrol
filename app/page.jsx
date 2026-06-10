@@ -3,8 +3,9 @@ import Link from 'next/link';
 import { CLIENTS, TESTIMONIALS, REEL, toEmbedSrc } from '@/data/home';
 
 export const metadata = {
-  title: 'Home | SSC Control Pvt Ltd',
-  description: 'SSC Control Pvt Ltd — 60 years of industrial automation, electrical distribution, safety solutions and panel manufacturing since 1966.',
+  title: { absolute: 'Industrial Automation & Electrical Solutions | SSC Control' },
+  description:
+    'SSC Control Pvt Ltd — 60 years in industrial automation, electrical distribution, machine safety, industrial software and panel manufacturing. Authorised partner for Mitsubishi Electric, ABB, Schmersal and more, serving OEMs, panel builders and industry from Ahmedabad and Baroda (Vadodara), across India.',
 };
 
 export default function HomePage() {
@@ -22,7 +23,7 @@ export default function HomePage() {
           <p>At SSC Control Pvt Ltd, we specialize in providing cutting-edge industrial automation, safety solutions, and AI-driven technologies to enhance productivity, efficiency, and safety for businesses.</p>
           <div className="hero-btns">
             <a href="#solutions" className="btn-primary">Explore Solutions</a>
-            <a href="#about" className="btn-outline">Learn More</a>
+            <Link href="/about" className="btn-outline">Learn More</Link>
           </div>
         </div>
       </div>

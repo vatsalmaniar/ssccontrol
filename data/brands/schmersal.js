@@ -2,7 +2,7 @@ const schmersal = {
   slug: 'schmersal',
   name: 'Schmersal',
   accent: '#133579',
-  heroTag: '★ Authorised Schmersal Partner',
+  heroTag: 'Authorised Schmersal Partner',
   title: 'Schmersal',
   titleEm: 'Machine Safety Solutions',
   heroSub: 'Complete machine safety from Germany — safety switches, interlocks, light curtains, safety PLCs, area scanners, enabling devices and elevator safety products. SIL3 / PLe.',
