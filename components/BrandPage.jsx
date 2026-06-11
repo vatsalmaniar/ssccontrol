@@ -119,7 +119,7 @@ export default function BrandPage({ brand }) {
           <div className="ssub">
             Honoured by {brand.name} for our sales performance, growth and partnership.
           </div>
-          <AwardGrid items={AWARDS[brand.slug]} />
+          <AwardGrid items={AWARDS[brand.slug]} brandSlug={brand.slug} />
         </div>
       )}
 

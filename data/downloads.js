@@ -35,11 +35,24 @@ export const DOWNLOADS = [
     type: 'PDF',
   },
   {
-    title: 'Connectwell — Price List',
+    title: 'Connectwell — Terminal Blocks Price List',
     brand: 'Connectwell',
     brandSlug: 'connectwell',
     category: 'Price Lists',
-    comingSoon: true, // set file/effective/size and remove this when the PDF is shared
+    file: '/downloads/connectwell-terminal-pricelist-apr-2026.pdf',
+    effective: 'Effective 10 April 2026',
+    size: '0.8 MB',
+    type: 'PDF',
+  },
+  {
+    title: 'Connectwell — Electronics Price List',
+    brand: 'Connectwell',
+    brandSlug: 'connectwell',
+    category: 'Price Lists',
+    file: '/downloads/connectwell-electronics-pricelist-2026.pdf',
+    effective: 'Effective 10 April 2026',
+    size: '6 MB',
+    type: 'PDF',
   },
 ];
 

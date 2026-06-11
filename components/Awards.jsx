@@ -1,3 +1,5 @@
+import { brands } from '@/data/brands';
+
 const TROPHY = (
   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
     <path d="M8 21h8M12 17v4M7 4h10v5a5 5 0 0 1-10 0V4z" />
@@ -6,26 +8,26 @@ const TROPHY = (
 );
 
 // Presentational only — safe in both server and client components.
-export function AwardGrid({ items, showBrand = false }) {
+// `brandSlug` provides the logo when items don't carry their own slug (brand pages).
+export function AwardGrid({ items, brandSlug }) {
   return (
     <div className="award-grid">
-      {items.map((a, i) => (
-        <div className="award-card" key={`${a.title}-${a.year}-${i}`}>
-          <div className="award-ic">{TROPHY}</div>
-          <div>
-            <div className="award-title">{a.title}</div>
-            <div className="award-meta">
-              {showBrand && a.brand ? (
-                <>
-                  <b>{a.brand}</b> &middot; {a.year}
-                </>
-              ) : (
-                a.year
-              )}
+      {items.map((a, i) => {
+        const slug = a.slug || brandSlug;
+        const logo = slug && brands[slug]?.logo;
+        return (
+          <div className="award-card" key={`${a.title}-${a.year}-${i}`}>
+            <div className="award-ic">{TROPHY}</div>
+            <div className="award-info">
+              <div className="award-title">{a.title}</div>
+              <div className="award-meta">
+                {logo && <img className="award-logo" src={logo} alt={a.brand || ''} />}
+                <span className="award-year">{a.year}</span>
+              </div>
             </div>
           </div>
-        </div>
-      ))}
+        );
+      })}
     </div>
   );
 }
