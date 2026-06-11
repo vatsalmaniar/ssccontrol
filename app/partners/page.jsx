@@ -172,7 +172,7 @@ const CARDS = [
     },
     {
       brand: 'sai-system',
-      bc: '#374151',
+      bc: '#005098',
       cat: 'Automation',
       pcat: `Enclosures & Support Arms`,
       pname: `Sai System`,
