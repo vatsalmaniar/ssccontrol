@@ -177,7 +177,7 @@ const CARDS = [
       pcat: `Enclosures & Support Arms`,
       pname: `Sai System`,
       pdesc: `Aluminium die-cast swing arm systems and HMI enclosure boxes for mounting operator panels, HMIs and control stations on machines.`,
-      logo: (<span className="ptext">Sai System</span>),
+      logo: (<img src="/logos/sai-system.png" alt="Sai System" className="pimg" style={{maxHeight: "40px", maxWidth: "150px", width: "auto", height: "auto"}} />),
       link: (<a href="#" className="plink">Know More →</a>),
     },
 ];
