@@ -346,3 +346,7 @@
     gap: 12px;
   }
 }
+
+/* Text wordmark logo (e.g. Sai System) */
+.page-partners .ptext{font-family:var(--font-sans);font-size:20px;font-weight:800;color:#374151;white-space:nowrap;transition:color .35s;}
+.page-partners .pcard:hover .ptext{color:#fff;}

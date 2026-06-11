@@ -7,7 +7,7 @@ const hummel = {
   titleEm: 'Cable Glands and Connectors',
   heroSub: 'High-quality cable glands, industrial connectors and conduit systems from Germany for electrical enclosures.',
   badges: ['Metal Glands', 'Plastic Glands', 'EMC Glands', 'M12 Connectors', 'Conduit Fittings', 'Strain Relief'],
-  logo: null,
+  logo: '/logos/hummel.png',
   logoText: 'hummel',
   logoMaxH: 36,
   stats: [

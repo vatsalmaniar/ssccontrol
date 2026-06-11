@@ -199,7 +199,7 @@ export default function HomePage() {
           </Link>
           <Link href="/partners/unison" className="partner-card brand-unison">
             <div className="pc-logo">
-              <img src="/logos/unison.png" alt="Unison" className="partner-svg-img" style={{height: '28px', width: 'auto', maxWidth: '160px'}} />
+              <img src="/logos/unison.png" alt="Unison" className="partner-svg-img" style={{maxHeight: '26px', maxWidth: '150px', width: 'auto', height: 'auto'}} />
             </div>
             <div className="pc-body">
               <div className="pc-name">Unison</div>

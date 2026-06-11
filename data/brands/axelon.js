@@ -7,7 +7,7 @@ const axelon = {
   titleEm: 'Industrial Wires and Cables',
   heroSub: 'ISI certified industrial wires and cables for panel wiring, control circuits and power distribution.',
   badges: ['FR Cables', 'Control Cables', 'Multi-Core', 'Flexible Cables', 'XLPE Cables', 'Instrumentation'],
-  logo: null,
+  logo: '/logos/axelon.png',
   logoText: 'AXELON',
   logoMaxH: 36,
   stats: [
