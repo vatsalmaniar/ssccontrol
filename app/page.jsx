@@ -89,6 +89,7 @@ export default function HomePage() {
             </div>
           </div>
           <div className="sol-img-card"><Link href="/solutions/industrial-software" className="sol-card-link" aria-label="Industrial Software"></Link>
+            <img className="sol-bg" src="/solution-industrial-software.webp" alt="Industrial software solutions" />
             <div className="sol-overlay"></div>
             <div className="sol-card-body">
               <h3>Industrial Software</h3>
@@ -100,6 +101,7 @@ export default function HomePage() {
             </div>
           </div>
           <div className="sol-img-card"><Link href="/solutions/robotics" className="sol-card-link" aria-label="Robotics"></Link>
+            <img className="sol-bg" src="/solution-robotics.jpg" alt="Robotics solutions" />
             <div className="sol-overlay"></div>
             <div className="sol-card-body">
               <h3>Robotics</h3>
