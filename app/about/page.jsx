@@ -1,5 +1,7 @@
 import Link from 'next/link';
 import './about.css';
+import { ALL_AWARDS } from '@/data/awards';
+import { AwardGrid } from '@/components/Awards';
 
 export const metadata = {
   title: 'About Us — 60 Years of Engineering Excellence',
@@ -474,6 +476,19 @@ export default function AboutPage() {
               <div className="lead-role">Chief Revenue Officer</div>
             </div>
           </div>
+        </div>
+      </div>
+
+      {/* AWARDS */}
+      <div className="section" style={{ background: 'var(--light)' }}>
+        <div className="section-inner">
+          <div className="sec-label">Awards &amp; Recognition</div>
+          <h2 className="sec-title">Recognised by the brands we represent</h2>
+          <p className="sec-body" style={{ marginBottom: '38px' }}>
+            Our principals have repeatedly recognised SSC Control for sales performance, growth and
+            partnership — a reflection of the trust we&apos;ve built over six decades.
+          </p>
+          <AwardGrid items={ALL_AWARDS} showBrand />
         </div>
       </div>
 

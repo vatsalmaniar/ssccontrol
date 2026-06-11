@@ -1,6 +1,8 @@
 import './home.css';
 import Link from 'next/link';
 import { CLIENTS, TESTIMONIALS, REEL, toEmbedSrc } from '@/data/home';
+import { ALL_AWARDS } from '@/data/awards';
+import { AwardGrid } from '@/components/Awards';
 
 export const metadata = {
   title: { absolute: 'Industrial Automation & Electrical Solutions | SSC Control' },
@@ -294,6 +296,17 @@ export default function HomePage() {
               </figure>
             ))}
           </div>
+        </div>
+      </div>
+
+      {/* AWARDS */}
+      <div className="awards-home">
+        <div className="awards-home-inner">
+          <div className="awards-home-head">
+            <div className="testi-label">Awards &amp; Recognition</div>
+            <h2 className="testi-title">Recognised by the brands we represent</h2>
+          </div>
+          <AwardGrid items={ALL_AWARDS} showBrand />
         </div>
       </div>
 

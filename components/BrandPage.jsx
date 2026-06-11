@@ -4,6 +4,8 @@ import Link from 'next/link';
 import './brand.css';
 import { ROUTES } from '@/lib/routes';
 import { useEnquiry } from '@/components/EnquiryModal';
+import { AWARDS } from '@/data/awards';
+import { AwardGrid } from '@/components/Awards';
 
 const MAIL_ICON = (
   <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round">
@@ -109,6 +111,17 @@ export default function BrandPage({ brand }) {
           })}
         </div>
       </div>
+
+      {AWARDS[brand.slug] && (
+        <div className="cats-wrap" style={{ paddingTop: 0 }}>
+          <div className="slabel">Awards &amp; Recognition</div>
+          <div className="stitle">Recognised by {brand.name}</div>
+          <div className="ssub">
+            Honoured by {brand.name} for our sales performance, growth and partnership.
+          </div>
+          <AwardGrid items={AWARDS[brand.slug]} />
+        </div>
+      )}
 
       <div className="cta">
         <div className="cta-inner">
