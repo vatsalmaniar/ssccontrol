@@ -39,6 +39,7 @@ export const FOOTER_COLUMNS = [
       { label: 'About Us', href: ROUTES.about },
       { label: 'Partners', href: ROUTES.partners },
       { label: 'Contact Us', href: ROUTES.contact },
+      { label: 'Downloads', href: ROUTES.downloads },
       { label: 'Careers', href: '/careers' },
     ],
   },
