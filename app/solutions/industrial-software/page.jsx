@@ -202,7 +202,7 @@ export default function IndustrialSoftwarePage() {
           <div className="sol-split">
             <div className="sol-split-copy">
               <div className="sec-label">Technology Platform</div>
-              <img src="/logos/mitsubishi.svg" alt="Mitsubishi Electric" className="sol-partner-logo" />
+              <Link href={ROUTES.brand('mitsubishi')} className="sol-partner-link"><img src="/logos/mitsubishi.svg" alt="Mitsubishi Electric, SSC Control industrial software partner" className="sol-partner-logo" /></Link>
               <h2 className="sec-title">Built on Mitsubishi e-F@ctory &amp; ICONICS</h2>
               <p className="sec-body">
                 e-F@ctory integrates factory automation with IT across edge, data and visualisation

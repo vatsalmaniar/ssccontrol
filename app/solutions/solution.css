@@ -159,3 +159,8 @@
 .page-solution .sol-section .flow-lines{z-index:0;}
 .page-solution .sol-cta-inner > *:not(.flow-lines){position:relative;z-index:1;}
 .page-solution .sol-cta-inner .flow-lines{z-index:0;}
+
+/* Partner logos link to their brand page */
+.page-solution .sol-partner-link { display: inline-block; transition: opacity .2s, transform .2s; }
+.page-solution .sol-partner-link:hover { opacity: .82; transform: translateY(-1px); }
+.page-solution .duo-logo .sol-partner-link img { display: block; }

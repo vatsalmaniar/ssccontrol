@@ -138,7 +138,7 @@ export default function Navbar() {
       <div className="nav-shell" onMouseLeave={() => setMega(null)}>
         <nav>
           <Link href={ROUTES.home} onMouseEnter={() => setMega(null)}>
-            <img src="/ssc-60th-logo-color.png" className="logo-img" alt={COMPANY.name} />
+            <img src="/ssc-60th-logo-color.png" className="logo-img" alt={`${COMPANY.name} logo`} />
           </Link>
 
           <div className="nav-links">

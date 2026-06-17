@@ -21,7 +21,7 @@ export default function Footer() {
     <footer>
       <div className="footer-grid">
         <div className="footer-brand">
-          <img src="/ssc-60th-logo-white.png" className="footer-logo-img" alt={COMPANY.name} />
+          <img src="/ssc-60th-logo-white.png" className="footer-logo-img" alt={`${COMPANY.name} logo`} />
           <p>{COMPANY.blurb}</p>
           <div className="footer-contact">
             {COMPANY.address.map((line) => (

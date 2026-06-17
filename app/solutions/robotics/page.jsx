@@ -170,7 +170,7 @@ export default function RoboticsPage() {
           <div className="duo-grid">
             <div className="duo-card">
               <div className="duo-logo">
-                <img src="/logos/mitsubishi.svg" alt="Mitsubishi Electric" />
+                <Link href={ROUTES.brand('mitsubishi')} className="sol-partner-link"><img src="/logos/mitsubishi.svg" alt="Mitsubishi Electric MELFA robots, SSC Control" /></Link>
               </div>
               <h3>Mitsubishi MELFA Robots</h3>
               <p className="duo-sub">
@@ -188,7 +188,7 @@ export default function RoboticsPage() {
             </div>
             <div className="duo-card">
               <div className="duo-logo">
-                <img src="/logos/sensopart.svg" alt="Sensopart" />
+                <img src="/logos/sensopart.svg" alt="SensoPart vision sensors, SSC Control" />
               </div>
               <h3>Sensopart Machine Vision</h3>
               <p className="duo-sub">

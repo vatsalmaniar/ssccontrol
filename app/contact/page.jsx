@@ -279,7 +279,6 @@ export default function ContactPage() {
 
       {/* QUICK CONTACT STRIP */}
       <div className="quick-strip">
-        <FlowLines className="ink" opacity={0.9} />
         <div className="quick-inner">
           <div className="quick-item">
             <div className="quick-icon">
@@ -325,6 +324,7 @@ export default function ContactPage() {
 
       {/* MAIN CONTENT */}
       <div className="contact-wrapper">
+        <FlowLines className="ink" opacity={0.9} />
         {/* LOCATIONS */}
         <div className="section-label">Our Locations</div>
         <div className="section-title">Find Us Across Gujarat</div>

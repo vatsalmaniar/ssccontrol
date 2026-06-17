@@ -161,7 +161,7 @@ export default function IndustrialSafetyPage() {
           <div className="sol-split">
             <div className="sol-split-copy">
               <div className="sec-label">Technology Partner</div>
-              <img src="/logos/schmersal.svg" alt="Schmersal" className="sol-partner-logo" />
+              <Link href={ROUTES.brand('schmersal')} className="sol-partner-link"><img src="/logos/schmersal.svg" alt="Schmersal, SSC Control machine safety partner" className="sol-partner-logo" /></Link>
               <h2 className="sec-title">Powered by Schmersal</h2>
               <p className="sec-body">
                 As an authorised Schmersal partner, we build on a global leader in machine safety, 

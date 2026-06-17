@@ -52,7 +52,7 @@ export default function BrandPage({ brand }) {
               {brand.logo ? (
                 <img
                   src={brand.logo}
-                  alt={brand.name}
+                  alt={`${brand.name} logo`}
                   style={{ maxHeight: brand.logoMaxH || 36, width: 'auto', maxWidth: 200, display: 'block' }}
                 />
               ) : (
@@ -90,7 +90,7 @@ export default function BrandPage({ brand }) {
                   <div className="cat-photo">
                     <img
                       src={c.image}
-                      alt={c.name}
+                      alt={`${brand.name} ${c.name}`}
                       loading="lazy"
                       onError={(e) => {
                         e.currentTarget.parentElement.style.display = 'none';
@@ -152,7 +152,7 @@ export default function BrandPage({ brand }) {
                   {pr.logo ? (
                     <img
                       src={pr.logo}
-                      alt={pr.name}
+                      alt={`${pr.name} logo`}
                       loading="lazy"
                       onError={(e) => {
                         e.currentTarget.style.display = 'none';

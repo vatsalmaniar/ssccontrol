@@ -36,28 +36,28 @@ export default function LeadershipPage() {
           <div className="sec-title">Driving SSC Forward</div>
           <div className="lead-grid">
             <div className="lead-card">
-              <div className="lead-photo"><img src="/leadership/mehul.jpg" alt="Mehul Maniar" loading="lazy" style={{ objectPosition: '50% 20%' }} /></div>
+              <div className="lead-photo"><img src="/leadership/mehul.jpg" alt="Mehul Maniar, Managing Director at SSC Control" loading="lazy" style={{ objectPosition: '50% 20%' }} /></div>
               <div className="lead-info">
                 <div className="lead-name">Mehul Maniar</div>
                 <div className="lead-role">Managing Director</div>
               </div>
             </div>
             <div className="lead-card">
-              <div className="lead-photo"><img src="/leadership/mayank.jpg" alt="Mayank Maniar" loading="lazy" style={{ objectPosition: '52% 20%' }} /></div>
+              <div className="lead-photo"><img src="/leadership/mayank.jpg" alt="Mayank Maniar, Director Finance at SSC Control" loading="lazy" style={{ objectPosition: '52% 20%' }} /></div>
               <div className="lead-info">
                 <div className="lead-name">Mayank Maniar</div>
                 <div className="lead-role">Director, Finance</div>
               </div>
             </div>
             <div className="lead-card">
-              <div className="lead-photo"><img src="/leadership/vatsal.jpg" alt="Vatsal Maniar" loading="lazy" style={{ objectPosition: '50% 15%' }} /></div>
+              <div className="lead-photo"><img src="/leadership/vatsal.jpg" alt="Vatsal Maniar, Chief Growth Officer at SSC Control" loading="lazy" style={{ objectPosition: '50% 15%' }} /></div>
               <div className="lead-info">
                 <div className="lead-name">Vatsal Maniar</div>
                 <div className="lead-role">Chief Growth Officer</div>
               </div>
             </div>
             <div className="lead-card">
-              <div className="lead-photo"><img src="/leadership/jital.jpg" alt="Jital Maniar" loading="lazy" style={{ objectPosition: '50% 22%' }} /></div>
+              <div className="lead-photo"><img src="/leadership/jital.jpg" alt="Jital Maniar, Chief Revenue Officer at SSC Control" loading="lazy" style={{ objectPosition: '50% 22%' }} /></div>
               <div className="lead-info">
                 <div className="lead-name">Jital Maniar</div>
                 <div className="lead-role">Chief Revenue Officer</div>

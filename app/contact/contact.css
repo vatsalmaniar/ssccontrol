@@ -612,6 +612,10 @@
 .page-contact .form-submit:disabled{opacity:0.6;cursor:not-allowed;}
 
 /* FlowLines background layering */
-.page-contact .quick-strip{position:relative;overflow:hidden;}
-.page-contact .quick-strip > *:not(.flow-lines){position:relative;z-index:1;}
-.page-contact .quick-strip .flow-lines{z-index:0;}
+.page-contact .contact-wrapper{position:relative;overflow:hidden;}
+.page-contact .contact-wrapper > *:not(.flow-lines){position:relative;z-index:1;}
+.page-contact .contact-wrapper .flow-lines{z-index:0;}
+
+/* full-bleed flow across the centered (max-width) contact-wrapper so it runs edge-to-edge */
+.page-contact .contact-wrapper { overflow: visible; }
+.page-contact .contact-wrapper .flow-lines { left: calc(-50vw + 50%); right: auto; width: 100vw; }

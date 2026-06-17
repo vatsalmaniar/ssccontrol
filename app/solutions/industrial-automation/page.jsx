@@ -160,7 +160,7 @@ export default function IndustrialAutomationPage() {
           <div className="sol-split">
             <div className="sol-split-copy">
               <div className="sec-label">Technology Partner</div>
-              <img src="/logos/mitsubishi.svg" alt="Mitsubishi Electric" className="sol-partner-logo" />
+              <Link href={ROUTES.brand('mitsubishi')} className="sol-partner-link"><img src="/logos/mitsubishi.svg" alt="Mitsubishi Electric, SSC Control industrial automation partner" className="sol-partner-logo" /></Link>
               <h2 className="sec-title">Powered by Mitsubishi Electric</h2>
               <p className="sec-body">
                 As an authorised Mitsubishi Electric partner, we build on one of the world&apos;s most
