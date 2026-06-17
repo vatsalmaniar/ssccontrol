@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import '../solution.css';
+import FlowLines from '@/components/FlowLines';
 import { ROUTES } from '@/lib/routes';
 
 export const metadata = {
@@ -130,6 +131,7 @@ export default function IndustrialSoftwarePage() {
 
       {/* APPROACH */}
       <section className="sol-section">
+        <FlowLines className="ink" opacity={0.9} />
         <div className="sol-narrow">
           <div className="sec-label">Our Approach</div>
           <h2 className="sec-title">From machine data to decisions</h2>
@@ -161,6 +163,7 @@ export default function IndustrialSoftwarePage() {
 
       {/* AUTOMATION PYRAMID */}
       <section className="sol-section">
+        <FlowLines className="ink" opacity={0.9} />
         <div className="sol-wrap">
           <div className="sec-label center">The Big Picture</div>
           <h2 className="sec-title center">Where it fits: the ISA-95 automation pyramid</h2>
@@ -241,6 +244,7 @@ export default function IndustrialSoftwarePage() {
 
       {/* WHY SSC */}
       <section className="sol-section alt">
+        <FlowLines className="ink" opacity={0.9} />
         <div className="sol-narrow">
           <div className="sec-label">Why SSC Control</div>
           <h2 className="sec-title">Software partners who can also build</h2>

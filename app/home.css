@@ -258,3 +258,27 @@
 .page-home .awards-home-inner{max-width:1280px;margin:0 auto;}
 .page-home .awards-home-head{text-align:center;margin-bottom:44px;}
 @media(max-width:768px){.page-home .awards-home{padding:56px 20px;}}
+
+/* Flow-lines layering in dark sections */
+.page-home .stats-section{position:relative;overflow:hidden;}
+.page-home .stats-tagline,.page-home .stats-inner{position:relative;z-index:2;}
+.page-home .stats-section .flow-lines,.page-home .cta-inner .flow-lines{position:absolute;inset:0;z-index:0;}
+
+/* Ink flow-lines behind content on white sections */
+.page-home .solutions-section,.page-home .partners-section,.page-home .testi-section{position:relative;overflow:hidden;}
+.page-home .solutions-section > *:not(.flow-lines),
+.page-home .partners-section > *:not(.flow-lines),
+.page-home .testi-section > *:not(.flow-lines){position:relative;z-index:1;}
+.page-home .solutions-section .flow-lines,
+.page-home .partners-section .flow-lines,
+.page-home .testi-section .flow-lines{z-index:0;}
+
+/* Flow behind the 60-years reel (dark section) */
+.page-home .reel-section{position:relative;overflow:hidden;}
+.page-home .reel-section .flow-lines{z-index:0;}
+.page-home .reel-section > *:not(.flow-lines){position:relative;z-index:1;}
+
+/* Ink flow behind awards section (white) */
+.page-home .awards-home{position:relative;overflow:hidden;}
+.page-home .awards-home > *:not(.flow-lines){position:relative;z-index:1;}
+.page-home .awards-home .flow-lines{z-index:0;}

@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import './about.css';
+import FlowLines from '@/components/FlowLines';
 import { ALL_AWARDS } from '@/data/awards';
 import { AwardGrid } from '@/components/Awards';
 
@@ -35,6 +36,7 @@ export default function AboutPage() {
 
       {/* WHO WE ARE */}
       <div className="section">
+        <FlowLines className="ink" opacity={0.9} />
         <div className="section-inner">
           <div className="sec-label">Who We Are</div>
           <div className="sec-title">India's Trusted Engineering Partner</div>
@@ -73,6 +75,7 @@ export default function AboutPage() {
 
       {/* CORE VALUES */}
       <div className="section" style={{ background: 'var(--white)' }}>
+        <FlowLines className="ink" opacity={0.9} />
         <div className="section-inner">
           <div className="sec-label">What We Stand For</div>
           <div className="sec-title">Our Core Values</div>
@@ -179,6 +182,7 @@ export default function AboutPage() {
 
       {/* TIMELINE */}
       <div className="timeline-section">
+        <FlowLines className="ink" opacity={0.9} />
         <div className="timeline-inner">
           <div className="sec-label">Our Journey</div>
           <div className="sec-title">60 Years in the Making</div>
@@ -451,6 +455,7 @@ export default function AboutPage() {
 
       {/* LEADERSHIP */}
       <div className="lead-section">
+        <FlowLines className="ink" opacity={0.9} />
         <div className="lead-inner">
           <div className="sec-label">Leadership Team</div>
           <div className="sec-title">Driving SSC Forward</div>
@@ -494,6 +499,7 @@ export default function AboutPage() {
 
       {/* COMMITMENT */}
       <div className="commit-section">
+        <FlowLines opacity={0.5} />
         <div className="commit-inner">
           <div>
             <div className="commit-label">Our Commitment</div>
@@ -543,9 +549,13 @@ export default function AboutPage() {
 
       {/* CTA */}
       <div className="cta-section">
-        <h2>Let's Build Something Great Together</h2>
-        <p>Partner with SSC Control for your next automation, electrical, or safety project.</p>
-        <Link href="/contact" className="btn-primary">Get in Touch</Link>
+        <div className="cta-inner">
+          <h2>Let's Build Something Great Together</h2>
+          <p>Partner with SSC Control for your next automation, electrical, or safety project.</p>
+          <div className="cta-btns">
+            <Link href="/contact" className="btn-white">Get in Touch</Link>
+          </div>
+        </div>
       </div>
 
     </main>

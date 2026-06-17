@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import '../solution.css';
+import FlowLines from '@/components/FlowLines';
 import { ROUTES } from '@/lib/routes';
 
 export const metadata = {
@@ -122,6 +123,7 @@ export default function IndustrialSafetyPage() {
 
       {/* APPROACH */}
       <section className="sol-section">
+        <FlowLines className="ink" opacity={0.9} />
         <div className="sol-narrow">
           <div className="sec-label">Our Approach</div>
           <h2 className="sec-title">Safety engineered in, not bolted on</h2>
@@ -154,6 +156,7 @@ export default function IndustrialSafetyPage() {
 
       {/* SCHMERSAL RANGE */}
       <section className="sol-section">
+        <FlowLines className="ink" opacity={0.9} />
         <div className="sol-wrap">
           <div className="sol-split">
             <div className="sol-split-copy">
@@ -200,6 +203,7 @@ export default function IndustrialSafetyPage() {
 
       {/* WHY SSC */}
       <section className="sol-section">
+        <FlowLines className="ink" opacity={0.9} />
         <div className="sol-narrow">
           <div className="sec-label">Why SSC Control</div>
           <h2 className="sec-title">A safety partner that owns the outcome</h2>

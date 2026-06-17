@@ -2,6 +2,7 @@
 
 import { useState, useEffect, useRef } from 'react';
 import './contact.css';
+import FlowLines from '@/components/FlowLines';
 import { CONTACT, turnstileEnabled } from '@/lib/contactConfig';
 
 const LOCATIONS = {
@@ -278,6 +279,7 @@ export default function ContactPage() {
 
       {/* QUICK CONTACT STRIP */}
       <div className="quick-strip">
+        <FlowLines className="ink" opacity={0.9} />
         <div className="quick-inner">
           <div className="quick-item">
             <div className="quick-icon">

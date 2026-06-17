@@ -4,6 +4,7 @@ import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import { EnquiryProvider } from '@/components/EnquiryModal';
 import Analytics from '@/components/Analytics';
+import ScrollReveal from '@/components/ScrollReveal';
 import WhatsAppButton from '@/components/WhatsAppButton';
 import CookieConsent from '@/components/CookieConsent';
 import { COMPANY } from '@/data/site';
@@ -89,6 +90,7 @@ export default function RootLayout({ children }) {
       <body suppressHydrationWarning>
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
         <Analytics />
+        <ScrollReveal />
         <EnquiryProvider>
           <Navbar />
           {children}

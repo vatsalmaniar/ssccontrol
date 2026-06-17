@@ -435,3 +435,11 @@
     font-size: 80px;
   }
 }
+
+/* FLOW LINES LAYERING */
+.page-careers .careers-why{position:relative;overflow:hidden;}
+.page-careers .careers-why > *:not(.flow-lines){position:relative;z-index:1;}
+.page-careers .careers-why .flow-lines{z-index:0;}
+.page-careers .careers-openings{position:relative;overflow:hidden;}
+.page-careers .careers-openings > *:not(.flow-lines){position:relative;z-index:1;}
+.page-careers .careers-openings .flow-lines{z-index:0;}

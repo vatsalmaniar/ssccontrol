@@ -40,3 +40,8 @@
 .page-downloads .dl-card-soon:hover{border-color:var(--border);box-shadow:none;transform:none;}
 .page-downloads .dl-btn-soon{background:var(--light);color:var(--gray);border:1px solid var(--border);font-weight:600;}
 .page-downloads .dl-card-soon .dl-ic{background:var(--light);color:var(--gray);}
+
+/* FlowLines background — animated current flow on light content section */
+.page-downloads .dl-section{position:relative;overflow:hidden;}
+.page-downloads .dl-section > *:not(.flow-lines){position:relative;z-index:1;}
+.page-downloads .dl-section .flow-lines{z-index:0;}

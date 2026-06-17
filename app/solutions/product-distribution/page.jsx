@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import '../solution.css';
+import FlowLines from '@/components/FlowLines';
 import { ROUTES } from '@/lib/routes';
 import { brands } from '@/data/brands';
 
@@ -114,6 +115,7 @@ export default function ProductDistributionPage() {
 
       {/* APPROACH */}
       <section className="sol-section">
+        <FlowLines className="ink" opacity={0.9} />
         <div className="sol-narrow">
           <div className="sec-label">Our Approach</div>
           <h2 className="sec-title">Solution providers, not box-sellers</h2>
@@ -153,6 +155,7 @@ export default function ProductDistributionPage() {
 
       {/* FOCUSED PARTNERS */}
       <section className="sol-section">
+        <FlowLines className="ink" opacity={0.9} />
         <div className="sol-wrap">
           <div className="sec-label center">Focused Partners</div>
           <h2 className="sec-title center">A curated line-up, mastered — not a catalogue</h2>
@@ -208,6 +211,7 @@ export default function ProductDistributionPage() {
 
       {/* WHY SSC */}
       <section className="sol-section alt">
+        <FlowLines className="ink" opacity={0.9} />
         <div className="sol-narrow">
           <div className="sec-label">Why SSC Control</div>
           <h2 className="sec-title">More than a supplier</h2>

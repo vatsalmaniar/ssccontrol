@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import '../solution.css';
+import FlowLines from '@/components/FlowLines';
 import { ROUTES } from '@/lib/routes';
 
 export const metadata = {
@@ -130,6 +131,7 @@ export default function RoboticsPage() {
 
       {/* APPROACH */}
       <section className="sol-section">
+        <FlowLines className="ink" opacity={0.9} />
         <div className="sol-narrow">
           <div className="sec-label">Our Approach</div>
           <h2 className="sec-title">Robots that see, integrated and programmed</h2>
@@ -161,6 +163,7 @@ export default function RoboticsPage() {
 
       {/* TECHNOLOGY PARTNERS (dual) */}
       <section className="sol-section">
+        <FlowLines className="ink" opacity={0.9} />
         <div className="sol-wrap">
           <div className="sec-label center">Technology Partners</div>
           <h2 className="sec-title center">Robots + vision, integrated</h2>
@@ -241,6 +244,7 @@ export default function RoboticsPage() {
 
       {/* WHY SSC */}
       <section className="sol-section alt">
+        <FlowLines className="ink" opacity={0.9} />
         <div className="sol-narrow">
           <div className="sec-label">Why SSC Control</div>
           <h2 className="sec-title">A robotics partner that owns the cell</h2>

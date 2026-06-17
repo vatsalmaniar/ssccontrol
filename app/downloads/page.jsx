@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import './downloads.css';
+import FlowLines from '@/components/FlowLines';
 import { ROUTES } from '@/lib/routes';
 import { DOWNLOADS, DOWNLOAD_CATEGORIES } from '@/data/downloads';
 import { brands } from '@/data/brands';
@@ -46,6 +47,7 @@ export default function DownloadsPage() {
       </div>
 
       <section className="dl-section">
+        <FlowLines className="ink" opacity={0.9} />
         <div className="dl-wrap">
           {DOWNLOAD_CATEGORIES.map((cat) => (
             <div className="dl-cat" key={cat}>

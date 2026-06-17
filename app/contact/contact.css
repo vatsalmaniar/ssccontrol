@@ -610,3 +610,8 @@
 .page-contact .inq-btn.active:hover{color:#fff;}
 .page-contact .form-error{background:rgba(220,38,38,0.08);border:1px solid rgba(220,38,38,0.25);color:#b91c1c;font-size:13px;padding:10px 14px;border-radius:8px;margin-bottom:14px;}
 .page-contact .form-submit:disabled{opacity:0.6;cursor:not-allowed;}
+
+/* FlowLines background layering */
+.page-contact .quick-strip{position:relative;overflow:hidden;}
+.page-contact .quick-strip > *:not(.flow-lines){position:relative;z-index:1;}
+.page-contact .quick-strip .flow-lines{z-index:0;}

@@ -2,6 +2,7 @@
 
 import Link from 'next/link';
 import './brand.css';
+import FlowLines from '@/components/FlowLines';
 import { ROUTES } from '@/lib/routes';
 import { useEnquiry } from '@/components/EnquiryModal';
 import { AWARDS } from '@/data/awards';
@@ -37,6 +38,7 @@ export default function BrandPage({ brand }) {
               <em>{brand.titleEm}</em>
             </h1>
             <div className="hero-sub">{brand.heroSub}</div>
+            {brand.partnerNote && <div className="hero-note">{brand.partnerNote}</div>}
             <div className="hero-badges">
               {brand.badges.map((b) => (
                 <span className="hero-badge" key={b}>
@@ -58,7 +60,7 @@ export default function BrandPage({ brand }) {
                   {brand.logoText || brand.name}
                 </span>
               )}
-              <div className="partner-txt">Authorised Partner</div>
+              <div className="partner-txt">{brand.since ? `Partner Since ${brand.since}` : 'Authorised Partner'}</div>
               <div className="hstats">
                 {brand.stats.map((s) => (
                   <div className="hstat" key={s.label}>
@@ -75,6 +77,7 @@ export default function BrandPage({ brand }) {
       </div>
 
       <div className="cats-wrap">
+        <FlowLines className="ink" opacity={0.9} />
         <div className="slabel">{brand.catsLabel}</div>
         <div className="stitle">{brand.catsTitle}</div>
         <div className="ssub">{brand.catsSub}</div>
@@ -83,12 +86,26 @@ export default function BrandPage({ brand }) {
             const color = c.color || accent;
             return (
               <div className="cat-card" key={c.name}>
+                {c.image && (
+                  <div className="cat-photo">
+                    <img
+                      src={c.image}
+                      alt={c.name}
+                      loading="lazy"
+                      onError={(e) => {
+                        e.currentTarget.parentElement.style.display = 'none';
+                      }}
+                    />
+                  </div>
+                )}
                 <div className="cat-top">
-                  <div
-                    className="cat-icon"
-                    style={{ background: `color-mix(in srgb, ${color} 13%, transparent)`, color }}
-                    dangerouslySetInnerHTML={{ __html: c.icon }}
-                  />
+                  {!c.image && (
+                    <div
+                      className="cat-icon"
+                      style={{ background: `color-mix(in srgb, ${color} 13%, transparent)`, color }}
+                      dangerouslySetInnerHTML={{ __html: c.icon }}
+                    />
+                  )}
                   <div className="cat-label" style={{ color }}>
                     {c.label}
                   </div>
@@ -123,7 +140,38 @@ export default function BrandPage({ brand }) {
         </div>
       )}
 
+      {brand.protocols && (
+        <div className="cats-wrap" style={{ paddingTop: 0 }}>
+          <div className="slabel">{brand.protocolsLabel || 'Connectivity'}</div>
+          <div className="stitle">{brand.protocolsTitle}</div>
+          {brand.protocolsSub && <div className="ssub">{brand.protocolsSub}</div>}
+          <div className="proto-grid">
+            {brand.protocols.map((pr) => (
+              <div className="proto-card" key={pr.name}>
+                <div className="proto-logo">
+                  {pr.logo ? (
+                    <img
+                      src={pr.logo}
+                      alt={pr.name}
+                      loading="lazy"
+                      onError={(e) => {
+                        e.currentTarget.style.display = 'none';
+                      }}
+                    />
+                  ) : (
+                    <span className="proto-logo-text">{pr.name}</span>
+                  )}
+                </div>
+                <div className="proto-name">{pr.name}</div>
+                <div className="proto-desc">{pr.desc}</div>
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
+
       <div className="cta">
+        <FlowLines className="ink" opacity={0.9} />
         <div className="cta-inner">
           <h2>{brand.ctaTitle}</h2>
           <p>{brand.ctaText}</p>

@@ -3,6 +3,7 @@
 import { useState } from 'react';
 import Link from 'next/link';
 import './partners.css';
+import FlowLines from '@/components/FlowLines';
 
 const FILTERS = [
   { key: 'all', label: 'All Partners' },
@@ -216,6 +217,7 @@ export default function PartnersPage() {
       </div>
 
       <div className="pwrap">
+        <FlowLines className="ink" opacity={0.9} />
         <div className="slabel">Our Partners</div>
         <div className="stitle">Authorised Channel Partners</div>
         <div className="ssub">Every brand below comes with full manufacturer warranty, technical support, and genuine certification.</div>
@@ -243,12 +245,14 @@ export default function PartnersPage() {
         </div>
       </div>
 
-      <div className="cta">
-        <h2>Need a specific product or brand?</h2>
-        <p>Get in touch for pricing, availability, and technical guidance from our team.</p>
-        <div className="cta-btns">
-          <Link href="/contact" className="btn-w">Contact Sales Team</Link>
-          <a href="mailto:sales@ssccontrol.com" className="btn-ow">Email Us</a>
+      <div className="cta-section">
+        <div className="cta-inner">
+          <h2>Need a specific product or brand?</h2>
+          <p>Get in touch for pricing, availability, and technical guidance from our team.</p>
+          <div className="cta-btns">
+            <Link href="/contact" className="btn-white">Contact Sales Team</Link>
+            <a href="mailto:sales@ssccontrol.com" className="btn-ow">Email Us</a>
+          </div>
         </div>
       </div>
 

@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import './careers.css';
+import FlowLines from '@/components/FlowLines';
 
 export const metadata = {
   title: 'Careers',
@@ -44,6 +45,7 @@ export default function CareersPage() {
 
       {/* WHY JOIN US */}
       <div className="careers-section careers-why">
+        <FlowLines className="ink" opacity={0.9} />
         <div className="careers-inner">
           <div className="sec-label">Why Join Us</div>
           <div className="sec-title">What Makes SSC Different</div>
@@ -164,6 +166,7 @@ export default function CareersPage() {
 
       {/* CURRENT OPENINGS */}
       <div className="careers-section careers-openings">
+        <FlowLines className="ink" opacity={0.9} />
         <div className="careers-inner">
           <div className="sec-label">Current Openings</div>
           <div className="sec-title">Join the Team</div>

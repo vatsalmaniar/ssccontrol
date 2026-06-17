@@ -141,3 +141,32 @@ main[class*="page-"] .hero-tag::before{
 .award-logo{height:16px;width:auto;max-width:84px;object-fit:contain;filter:grayscale(1);opacity:0.5;transition:filter .25s,opacity .25s;}
 .award-card:hover .award-logo{filter:grayscale(0);opacity:1;}
 .award-year{font-weight:600;letter-spacing:.02em;}
+
+/* ===== Flow-lines background (subtle "current" motion) ===== */
+.flow-lines{position:absolute;inset:0;width:100%;height:100%;pointer-events:none;z-index:1;overflow:hidden;}
+/* white elements — for dark sections */
+.flow-line{fill:none;stroke:rgba(255,255,255,0.06);stroke-width:1;vector-effect:non-scaling-stroke;}
+.flow-charge{
+  fill:none;stroke:rgba(255,255,255,0.38);stroke-width:1.5;stroke-linecap:round;
+  stroke-dasharray:110 2000;
+  animation-name:flow-move;animation-timing-function:cubic-bezier(.45,0,.55,1);animation-iteration-count:infinite;
+  vector-effect:non-scaling-stroke;
+}
+/* ink variant — for light/white sections (neutral grey, not blue) */
+.flow-lines.ink .flow-line{stroke:rgba(20,102,196,0.11);stroke-width:1.1;}
+.flow-lines.ink .flow-charge{stroke:rgba(20,102,196,0.4);stroke-width:2;}
+@keyframes flow-move{from{stroke-dashoffset:2110;}to{stroke-dashoffset:0;}}
+@media(prefers-reduced-motion:reduce){.flow-charge{animation:none;opacity:0;}}
+
+/* ===== Scroll reveal (fade up) ===== */
+.reveal{opacity:0;transform:translateY(44px);transition:opacity .8s cubic-bezier(.16,1,.3,1),transform .9s cubic-bezier(.16,1,.3,1);will-change:opacity,transform;}
+.reveal.revealed{opacity:1;transform:none;}
+/* cascade for cards within a grid */
+.reveal:nth-child(2){transition-delay:.08s}
+.reveal:nth-child(3){transition-delay:.16s}
+.reveal:nth-child(4){transition-delay:.24s}
+.reveal:nth-child(5){transition-delay:.32s}
+.reveal:nth-child(6){transition-delay:.40s}
+.reveal:nth-child(7){transition-delay:.48s}
+.reveal:nth-child(8){transition-delay:.56s}
+@media(prefers-reduced-motion:reduce){.reveal{opacity:1 !important;transform:none !important;}}

@@ -3,6 +3,7 @@ import Link from 'next/link';
 import { CLIENTS, TESTIMONIALS, REEL, toEmbedSrc } from '@/data/home';
 import { ALL_AWARDS } from '@/data/awards';
 import { AwardGrid } from '@/components/Awards';
+import FlowLines from '@/components/FlowLines';
 
 export const metadata = {
   title: { absolute: 'Industrial Automation & Electrical Solutions | SSC Control' },
@@ -32,6 +33,7 @@ export default function HomePage() {
 
       {/* SOLUTIONS */}
       <div className="solutions-section" id="solutions">
+        <FlowLines className="ink" opacity={0.9} />
         <div className="two-col-header">
           <div>
             <div className="tcl-label">Businesses</div>
@@ -223,6 +225,7 @@ export default function HomePage() {
       {/* 60 YEARS REEL */}
       {REEL.url && (
         <div className="reel-section">
+          <FlowLines opacity={0.5} />
           <div className="reel-inner">
             <div className="reel-label">Since 1966</div>
             <h2 className="reel-title">Celebrating 60 Years of Excellence</h2>
@@ -261,6 +264,7 @@ export default function HomePage() {
 
       {/* STATS */}
       <div className="stats-section">
+        <FlowLines opacity={0.6} />
         <div className="stats-tagline">
           <div className="stats-tagline-title">Quality, Performance, Reliability</div>
           <div className="stats-tagline-desc">Delivering best-in-class products and solutions with precision engineering, superior functionality, and long-term dependability to empower industries with seamless automation and electrical innovations.</div>
@@ -303,6 +307,7 @@ export default function HomePage() {
 
       {/* AWARDS */}
       <div className="awards-home">
+        <FlowLines className="ink" opacity={0.9} />
         <div className="awards-home-inner">
           <div className="awards-home-head">
             <div className="testi-label">Awards &amp; Recognition</div>
