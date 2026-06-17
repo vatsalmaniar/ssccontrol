@@ -3,7 +3,7 @@
 // `logo` overrides the brand logo on the card; falls back to data/brands by brandSlug.
 export const DOWNLOADS = [
   {
-    title: 'Mitsubishi Electric — LVS Price List',
+    title: 'Mitsubishi Electric, LVS Price List',
     brand: 'Mitsubishi Electric',
     brandSlug: 'mitsubishi',
     logo: '/logos/mitsubishi.svg',
@@ -14,7 +14,7 @@ export const DOWNLOADS = [
     type: 'PDF',
   },
   {
-    title: 'GIC Direct Domestic — Price List (FY 2026)',
+    title: 'GIC Direct Domestic, Price List (FY 2026)',
     brand: 'GIC',
     brandSlug: 'gic',
     logo: '/logos/gic.webp',
@@ -25,7 +25,7 @@ export const DOWNLOADS = [
     type: 'PDF',
   },
   {
-    title: 'ABB Electrification India — Price List',
+    title: 'ABB Electrification India, Price List',
     brand: 'ABB',
     brandSlug: 'abb',
     category: 'Price Lists',
@@ -35,7 +35,7 @@ export const DOWNLOADS = [
     type: 'PDF',
   },
   {
-    title: 'Connectwell — Terminal Blocks Price List',
+    title: 'Connectwell, Terminal Blocks Price List',
     brand: 'Connectwell',
     brandSlug: 'connectwell',
     category: 'Price Lists',
@@ -45,7 +45,7 @@ export const DOWNLOADS = [
     type: 'PDF',
   },
   {
-    title: 'Connectwell — Electronics Price List',
+    title: 'Connectwell, Electronics Price List',
     brand: 'Connectwell',
     brandSlug: 'connectwell',
     category: 'Price Lists',

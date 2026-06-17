@@ -3,7 +3,7 @@
 // While it's empty, the "Celebrating 60 Years" video section is hidden.
 export const REEL = {
   url: 'https://youtu.be/neCmj0t3YkU',
-  title: 'SSC Control — Celebrating 60 Years',
+  title: 'SSC Control, Celebrating 60 Years',
 };
 
 export function toEmbedSrc(url) {
@@ -34,7 +34,7 @@ export const CLIENTS = [
 export const TESTIMONIALS = [
   {
     quote:
-      'We have worked with SSC for more than 20 years, and they have consistently come back to us with unique, innovative solutions — never just a product, but the right answer for the problem.',
+      'We have worked with SSC for more than 20 years, and they have consistently come back to us with unique, innovative solutions, never just a product, but the right answer for the problem.',
     author: 'Divy Shah',
     role: 'COO',
     company: 'Cess Controls',
@@ -42,7 +42,7 @@ export const TESTIMONIALS = [
   },
   {
     quote:
-      'During a power outage at our hospital, the SSC team responded immediately and delivered the required product within the timeline — helping us minimise downtime when it mattered most.',
+      'During a power outage at our hospital, the SSC team responded immediately and delivered the required product within the timeline, helping us minimise downtime when it mattered most.',
     author: 'Vishesh Bhuptani',
     role: 'Managing Director',
     company: 'Matis Hospital',

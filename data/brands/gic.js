@@ -15,7 +15,7 @@ const gic = {
     { num: 'ISI', label: 'Certified' },
   ],
   catsLabel: 'Product Range',
-  catsTitle: 'GIC India — Product Categories',
+  catsTitle: 'GIC India, Product Categories',
   catsSub: 'All products are genuine GIC India with manufacturer warranty. SSC Control provides pre-sales consultation, competitive pricing, and technical support.',
   categories: [
     {

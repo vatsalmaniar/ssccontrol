@@ -4,7 +4,7 @@ const hicool = {
   accent: '#005BAA',
   heroTag: 'No.1 Channel Partner',
   since: 2005,
-  partnerNote: 'SSC Control is the No.1 channel partner for Hicool — delivering industrial cooling fans and air-moving products with leading sales performance and dependable after-sales service.',
+  partnerNote: 'SSC Control is the No.1 channel partner for Hicool, delivering industrial cooling fans and air-moving products with leading sales performance and dependable after-sales service.',
   title: 'Hicool',
   titleEm: 'Industrial Cooling Fans',
   heroSub: 'Made-in-India industrial cooling fans for electrical enclosures and panels. AC axial, compact, DC, EC, backward curved and Q motor technology.',
@@ -17,7 +17,7 @@ const hicool = {
     { num: 'ISI', label: 'Certified' },
   ],
   catsLabel: 'Product Range',
-  catsTitle: 'Hicool — Product Categories',
+  catsTitle: 'Hicool, Product Categories',
   catsSub: 'All products are genuine Hicool with manufacturer warranty. SSC Control provides pre-sales consultation, competitive pricing, and technical support.',
   categories: [
     {
@@ -80,7 +80,7 @@ const hicool = {
       label: 'EC Compact Energy Efficient',
       name: 'EC Compact Fans',
       image: 'https://www.hicoolfans.com/images/pic-compact-fans-dc.png',
-      desc: 'Electronically commutated compact fans with integrated speed control for tight spaces — up to 50% energy savings versus standard AC compact fans.',
+      desc: 'Electronically commutated compact fans with integrated speed control for tight spaces, up to 50% energy savings versus standard AC compact fans.',
       tags: ['EC Motor', '0-10V Control', 'Energy Saving', '40mm to 120mm'],
     },
     {

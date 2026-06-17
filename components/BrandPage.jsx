@@ -176,7 +176,7 @@ export default function BrandPage({ brand }) {
           <h2>{brand.ctaTitle}</h2>
           <p>{brand.ctaText}</p>
           <div className="cta-btns">
-            <button className="btn-w" onClick={() => open(`${brand.name} — General Enquiry`)}>
+            <button className="btn-w" onClick={() => open(`${brand.name}, General Enquiry`)}>
               Contact Sales Team
             </button>
           </div>

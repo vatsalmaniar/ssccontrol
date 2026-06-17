@@ -6,9 +6,9 @@ import { DOWNLOADS, DOWNLOAD_CATEGORIES } from '@/data/downloads';
 import { brands } from '@/data/brands';
 
 export const metadata = {
-  title: 'Downloads — Price Lists & Catalogues',
+  title: 'Downloads, Price Lists & Catalogues',
   description:
-    'Download the latest price lists, product catalogues and datasheets from SSC Control — ABB, Mitsubishi Electric, Schmersal and more.',
+    'Download the latest price lists, product catalogues and datasheets from SSC Control, ABB, Mitsubishi Electric, Schmersal and more.',
 };
 
 const PdfIcon = () => (

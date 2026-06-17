@@ -1,7 +1,7 @@
-// Animated "current flow" background — flowing contour lines (like the email
+// Animated "current flow" background, flowing contour lines (like the email
 // signature) with charge pulses travelling along them. Presentational, no hooks.
 // Pass `gradient` (array of [offset, color]) + a unique `gradId` to make the
-// travelling charge change colour down the section — used to bridge the dark
+// travelling charge change colour down the section, used to bridge the dark
 // hero into the white solutions section as one continuous, colour-shifting stream.
 function wavePath(y, amp, phase) {
   const w = 1440;

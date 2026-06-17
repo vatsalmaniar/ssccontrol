@@ -16,7 +16,7 @@ const axelon = {
     { num: 'RoHS', label: 'Compliant' },
   ],
   catsLabel: 'Product Range',
-  catsTitle: 'Axelon — Product Categories',
+  catsTitle: 'Axelon, Product Categories',
   catsSub: 'All products are genuine Axelon with manufacturer warranty. SSC Control provides pre-sales consultation, competitive pricing, and technical support.',
   categories: [
     {

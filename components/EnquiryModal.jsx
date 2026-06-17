@@ -19,7 +19,7 @@ export function EnquiryProvider({ children }) {
     e.preventDefault();
     const f = e.currentTarget;
     const lines = [
-      `Product / Category: ${state.product || '—'}`,
+      `Product / Category: ${state.product || ', '}`,
       `Name: ${f.name.value}`,
       `Company: ${f.company.value}`,
       `Email: ${f.email.value}`,

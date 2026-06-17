@@ -129,7 +129,7 @@ export default function VfdPage() {
       syncSlider(kw, d);
       setResult(runSelection(kw, d));
     } else {
-      // no kw yet — just update duty visual
+      // no kw yet, just update duty visual
       setResult(null);
     }
   }
@@ -173,7 +173,7 @@ Thank you.`;
   function downloadReport() {
     const r = lastResultRef.current;
     if (!r) return;
-    let content = 'SSC CONTROL PVT LTD — VFD SELECTION REPORT\n';
+    let content = 'SSC CONTROL PVT LTD, VFD SELECTION REPORT\n';
     content += 'Generated: ' + new Date().toLocaleString('en-IN') + '\n';
     content += '================================================\n';
     content += 'Motor Power: ' + r.currentKw + ' kW (' + r.hp + ' HP)\n';
@@ -336,7 +336,7 @@ Thank you.`;
 
   const badgeText = result
     ? result.outOfRange
-      ? `Out of range — max ${result.maxKw} kW`
+      ? `Out of range, max ${result.maxKw} kW`
       : `${result.model} · ${result.dKw} kW · ${result.dA} A`
     : 'Enter motor power to begin';
 

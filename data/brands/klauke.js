@@ -15,7 +15,7 @@ const klauke = {
     { num: 'DIN 46228', label: 'Standard' },
   ],
   catsLabel: 'Product Range',
-  catsTitle: 'Klauke — Product Categories',
+  catsTitle: 'Klauke, Product Categories',
   catsSub: 'All products are genuine Klauke with manufacturer warranty. SSC Control provides pre-sales consultation, competitive pricing, and technical support.',
   categories: [
     {

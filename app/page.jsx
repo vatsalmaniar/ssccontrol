@@ -4,11 +4,12 @@ import { CLIENTS, TESTIMONIALS, REEL, toEmbedSrc } from '@/data/home';
 import { ALL_AWARDS } from '@/data/awards';
 import { AwardGrid } from '@/components/Awards';
 import FlowLines from '@/components/FlowLines';
+import HeroSlideshow from '@/components/HeroSlideshow';
 
 export const metadata = {
   title: { absolute: 'Industrial Automation & Electrical Solutions | SSC Control' },
   description:
-    'SSC Control Pvt Ltd — 60 years in industrial automation, electrical distribution, machine safety, industrial software and panel manufacturing. Authorised partner for Mitsubishi Electric, ABB, Schmersal and more, serving OEMs, panel builders and industry from Ahmedabad and Baroda (Vadodara), across India.',
+    'SSC Control Pvt Ltd, 60 years in industrial automation, electrical distribution, machine safety, industrial software and panel manufacturing. Authorised partner for Mitsubishi Electric, ABB, Schmersal and more, serving OEMs, panel builders and industry from Ahmedabad and Baroda (Vadodara), across India.',
 };
 
 export default function HomePage() {
@@ -17,7 +18,7 @@ export default function HomePage() {
 
       {/* HERO */}
       <div className="hero">
-        <div className="hero-img"></div>
+        <HeroSlideshow />
         <div className="hero-bg"></div>
         <div className="hero-content">
           <div className="hero-tag">60 Years of Excellence</div>
@@ -39,7 +40,7 @@ export default function HomePage() {
             <div className="tcl-label">Businesses</div>
             <h2 className="tcl-h2">Our Business Solutions</h2>
           </div>
-          <div className="tcr">We deliver expertise and innovation to optimise your operations with tailored solutions &mdash; combining conventional and advanced technology to help you achieve your utmost potential.</div>
+          <div className="tcr">We deliver expertise and innovation to optimise your operations with tailored solutions, combining conventional and advanced technology to help you achieve your utmost potential.</div>
         </div>
         <div className="sol-grid">
           <div className="sol-img-card"><Link href="/solutions/industrial-automation" className="sol-card-link" aria-label="Industrial Automation"></Link>
@@ -59,7 +60,7 @@ export default function HomePage() {
             <div className="sol-overlay"></div>
             <div className="sol-card-body">
               <h3>Product Distribution</h3>
-              <p>SSC understands what the industry needs. As a trusted partner, we work with leading MNCs including ABB, Mitsubishi, Connectwell, Hicool, and more &mdash; committed to top-quality products and reliable service for OEMs, Panel Builders, and End Users.</p>
+              <p>SSC understands what the industry needs. As a trusted partner, we work with leading MNCs including ABB, Mitsubishi, Connectwell, Hicool, and more, committed to top-quality products and reliable service for OEMs, Panel Builders, and End Users.</p>
               <div className="sol-card-row">
                 <span className="sol-read">Read More</span>
                 <div className="sol-arrow"><svg viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,0.9)" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg></div>
@@ -95,7 +96,7 @@ export default function HomePage() {
             <div className="sol-overlay"></div>
             <div className="sol-card-body">
               <h3>Industrial Software</h3>
-              <p>SSC AI Labs specialises in SCADA, MES, and IIoT platforms from Mitsubishi and ICONICS &mdash; enhancing real-time monitoring, process optimisation, and data-driven decision-making for smart manufacturing.</p>
+              <p>SSC AI Labs specialises in SCADA, MES, and IIoT platforms from Mitsubishi and ICONICS, enhancing real-time monitoring, process optimisation, and data-driven decision-making for smart manufacturing.</p>
               <div className="sol-card-row">
                 <span className="sol-read">Read More</span>
                 <div className="sol-arrow"><svg viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,0.9)" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg></div>
@@ -133,7 +134,7 @@ export default function HomePage() {
             </div>
             <div className="pc-body">
               <div className="pc-name">Mitsubishi Electric</div>
-              <div className="pc-desc">PLCs, HMIs, servo motors, VFDs, and robotics &mdash; complete factory automation solutions across India.</div>
+              <div className="pc-desc">PLCs, HMIs, servo motors, VFDs, and robotics, complete factory automation solutions across India.</div>
               <span className="pc-link">Know More &rarr;</span>
             </div>
           </Link>
@@ -231,7 +232,7 @@ export default function HomePage() {
             <h2 className="reel-title">Celebrating 60 Years of Excellence</h2>
             <p className="reel-text">
               From our beginnings in 1966 to becoming one of India&apos;s most trusted names in
-              industrial automation and electrical distribution — a look back at six decades of
+              industrial automation and electrical distribution, a look back at six decades of
               powering progress.
             </p>
             <div className="reel-frame">

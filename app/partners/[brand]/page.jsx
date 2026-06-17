@@ -10,7 +10,7 @@ export function generateMetadata({ params }) {
   const b = brands[params.brand];
   if (!b) return {};
   const title = `${b.name} Authorised Channel Partner & Distributor`;
-  const description = `SSC Control — authorised channel partner, distributor and dealer for ${b.name} (${b.titleEm}) in Ahmedabad, Baroda (Vadodara), Gujarat and across India. ${b.heroSub}`;
+  const description = `SSC Control, authorised channel partner, distributor and dealer for ${b.name} (${b.titleEm}) in Ahmedabad, Baroda (Vadodara), Gujarat and across India. ${b.heroSub}`;
   const url = `/partners/${params.brand}`;
   return {
     title,

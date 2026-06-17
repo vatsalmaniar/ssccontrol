@@ -282,3 +282,10 @@
 .page-home .awards-home{position:relative;overflow:hidden;}
 .page-home .awards-home > *:not(.flow-lines){position:relative;z-index:1;}
 .page-home .awards-home .flow-lines{z-index:0;}
+
+/* Hero rotating slideshow (business-solution images, right panel) */
+.page-home .hero-slideshow{position:absolute;right:0;top:0;bottom:0;width:55%;z-index:0;overflow:hidden;}
+.page-home .hero-slide{position:absolute;inset:0;background-size:cover;background-position:center;opacity:0;transition:opacity 1.2s ease-in-out;will-change:opacity;}
+.page-home .hero-slide.active{opacity:1;}
+.page-home .hero-slide-mask{position:absolute;inset:0;background:linear-gradient(to right,var(--navy) 0%,transparent 38%);pointer-events:none;}
+@media(max-width:768px){.page-home .hero-slideshow{opacity:0.25;width:100%;}}

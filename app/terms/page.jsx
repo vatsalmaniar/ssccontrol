@@ -99,16 +99,16 @@ export default function TermsPage() {
         <section>
           <h2>4. Intellectual Property</h2>
           <p>
-            Unless otherwise indicated, all content on the Site — including but not limited to
-            text, graphics, logos, icons, images, page layouts, and software — is the property
+            Unless otherwise indicated, all content on the Site, including but not limited to
+            text, graphics, logos, icons, images, page layouts, and software, is the property
             of SSC Control Pvt Ltd and is protected by applicable Indian and international
             intellectual property laws. You may not reproduce, distribute, modify, or create
             derivative works of any Site content without our prior written permission.
           </p>
           <p>
             All third-party brand names, product names, logos, and trademarks referenced on this
-            Site — including but not limited to ABB, Mitsubishi Electric, Schmersal, Lovato
-            Electric, and Axelon — are the property of their respective owners. Their appearance
+            Site, including but not limited to ABB, Mitsubishi Electric, Schmersal, Lovato
+            Electric, and Axelon, are the property of their respective owners. Their appearance
             on this Site does not imply any endorsement by or affiliation with SSC Control beyond
             the fact that SSC Control is an authorised channel partner and/or distributor of
             those brands in the regions in which it operates.
@@ -138,8 +138,8 @@ export default function TermsPage() {
           <p>
             To the fullest extent permitted by applicable law, SSC Control Pvt Ltd, its directors,
             officers, employees, agents, and suppliers shall not be liable for any indirect,
-            incidental, special, consequential, or punitive damages — including loss of profits,
-            data, goodwill, or other intangible losses — arising out of or in connection with:
+            incidental, special, consequential, or punitive damages, including loss of profits,
+            data, goodwill, or other intangible losses, arising out of or in connection with:
           </p>
           <ul>
             <li>Your access to or use of (or inability to use) the Site;</li>

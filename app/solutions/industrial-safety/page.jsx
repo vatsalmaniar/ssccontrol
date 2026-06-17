@@ -6,13 +6,13 @@ import { ROUTES } from '@/lib/routes';
 export const metadata = {
   title: 'Industrial Safety Solutions',
   description:
-    'Engineering-led machine safety by SSC Control — risk assessment, safety concept & design, product selection, safety circuit architecture, safety-controller programming and validation, powered by Schmersal.',
+    'Engineering-led machine safety by SSC Control, risk assessment, safety concept & design, product selection, safety circuit architecture, safety-controller programming and validation, powered by Schmersal.',
 };
 
 const CAPABILITIES = [
   {
     title: 'Risk Assessment',
-    desc: 'We assess machine hazards and determine the required Performance Level (PLr) to ISO 13849-1 / IEC 62061 — the foundation of a compliant, right-sized safety system.',
+    desc: 'We assess machine hazards and determine the required Performance Level (PLr) to ISO 13849-1 / IEC 62061, the foundation of a compliant, right-sized safety system.',
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
         <path d="M10.3 3.2 1.8 18a2 2 0 0 0 1.7 3h17a2 2 0 0 0 1.7-3L13.7 3.2a2 2 0 0 0-3.4 0z" /><path d="M12 9v4M12 17h.01" />
@@ -21,7 +21,7 @@ const CAPABILITIES = [
   },
   {
     title: 'Safety Concept & Design',
-    desc: 'We define the safety functions, guarding concept and access strategy for your machine or line — balancing protection, productivity and operator workflow.',
+    desc: 'We define the safety functions, guarding concept and access strategy for your machine or line, balancing protection, productivity and operator workflow.',
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
         <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" /><path d="M9 12l2 2 4-4" />
@@ -30,7 +30,7 @@ const CAPABILITIES = [
   },
   {
     title: 'Product Selection',
-    desc: 'We select the right interlocks, light curtains, safety relays and controllers from the Schmersal range to achieve your target Performance Level — nothing over- or under-specified.',
+    desc: 'We select the right interlocks, light curtains, safety relays and controllers from the Schmersal range to achieve your target Performance Level, nothing over- or under-specified.',
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
         <path d="M9 11l3 3L22 4" /><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11" />
@@ -39,7 +39,7 @@ const CAPABILITIES = [
   },
   {
     title: 'Safety Architecture',
-    desc: 'We design the safety control architecture — category, redundancy, diagnostics and wiring — so the implemented circuit actually meets the required PL.',
+    desc: 'We design the safety control architecture, category, redundancy, diagnostics and wiring, so the implemented circuit actually meets the required PL.',
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
         <rect x="9" y="2" width="6" height="6" rx="1" /><rect x="2" y="16" width="6" height="6" rx="1" /><rect x="16" y="16" width="6" height="6" rx="1" />
@@ -49,7 +49,7 @@ const CAPABILITIES = [
   },
   {
     title: 'Programming',
-    desc: 'We configure and program safety controllers and safety PLCs (Schmersal PROTECT PSC) — logic that is structured, documented and built to your safety functions.',
+    desc: 'We configure and program safety controllers and safety PLCs (Schmersal PROTECT PSC), logic that is structured, documented and built to your safety functions.',
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
         <polyline points="16 18 22 12 16 6" /><polyline points="8 6 2 12 8 18" />
@@ -58,7 +58,7 @@ const CAPABILITIES = [
   },
   {
     title: 'Validation & Commissioning',
-    desc: 'We verify and validate that each safety function achieves its required PL, commission on-site, and hand over full documentation — plus operator and maintenance training.',
+    desc: 'We verify and validate that each safety function achieves its required PL, commission on-site, and hand over full documentation, plus operator and maintenance training.',
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
         <path d="M14.7 6.3a4 4 0 0 0-5.4 5.4L3 18l3 3 6.3-6.3a4 4 0 0 0 5.4-5.4l-2.3 2.3-2.7-.7-.7-2.7z" />
@@ -87,7 +87,7 @@ const PROCESS = [
 
 const STRENGTHS = [
   '60 years of trust in industrial safety & electrical engineering',
-  'Authorised Schmersal partner — genuine products with warranty',
+  'Authorised Schmersal partner, genuine products with warranty',
   'In-house safety engineering: risk assessment to validation',
   'Designed to ISO 13849-1 / IEC 62061 machine-safety standards',
   'Single source: safety products, panel integration, programming & validation',
@@ -111,7 +111,7 @@ export default function IndustrialSafetyPage() {
           <h1>Industrial Safety</h1>
           <p className="sol-hero-sub">
             From risk assessment to validation, SSC Control delivers complete machine-safety
-            solutions — powered by Schmersal and backed by 60 years of engineering depth and
+            solutions, powered by Schmersal and backed by 60 years of engineering depth and
             compliance know-how.
           </p>
           <div className="sol-hero-badges">
@@ -130,7 +130,7 @@ export default function IndustrialSafetyPage() {
           <p className="sec-body">
             A safe machine is more than a light curtain at the end. SSC Control pairs genuine
             Schmersal safety products with an in-house engineering team that starts at the risk
-            assessment — defining the right safety functions, selecting devices that meet the
+            assessment, defining the right safety functions, selecting devices that meet the
             required Performance Level, designing the safety circuit, programming the safety
             controller, and validating that it all actually performs to standard.
           </p>
@@ -164,8 +164,8 @@ export default function IndustrialSafetyPage() {
               <img src="/logos/schmersal.svg" alt="Schmersal" className="sol-partner-logo" />
               <h2 className="sec-title">Powered by Schmersal</h2>
               <p className="sec-body">
-                As an authorised Schmersal partner, we build on a global leader in machine safety —
-                from coded interlocks and light curtains to safety controllers — with genuine
+                As an authorised Schmersal partner, we build on a global leader in machine safety, 
+                from coded interlocks and light curtains to safety controllers, with genuine
                 products, full warranty and local engineering support.
               </p>
               <Link href={ROUTES.brand('schmersal')} className="sol-link">
@@ -225,7 +225,7 @@ export default function IndustrialSafetyPage() {
         <div className="sol-cta-inner">
           <h2>Need to make a machine safe & compliant?</h2>
           <p>
-            Tell us about your machine — our engineers will assess the risk, select the right
+            Tell us about your machine, our engineers will assess the risk, select the right
             Schmersal devices, design the safety circuit, and validate it to standard.
           </p>
           <div className="sol-cta-btns">

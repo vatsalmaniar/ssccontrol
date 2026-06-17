@@ -7,7 +7,7 @@ const TROPHY = (
   </svg>
 );
 
-// Presentational only — safe in both server and client components.
+// Presentational only, safe in both server and client components.
 // `brandSlug` provides the logo when items don't carry their own slug (brand pages).
 export function AwardGrid({ items, brandSlug }) {
   return (

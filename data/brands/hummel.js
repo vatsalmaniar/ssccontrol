@@ -16,7 +16,7 @@ const hummel = {
     { num: 'ATEX', label: 'Available' },
   ],
   catsLabel: 'Product Range',
-  catsTitle: 'Hummel — Product Categories',
+  catsTitle: 'Hummel, Product Categories',
   catsSub: 'All products are genuine Hummel with manufacturer warranty. SSC Control provides pre-sales consultation, competitive pricing, and technical support.',
   categories: [
     {

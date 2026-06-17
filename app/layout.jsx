@@ -14,11 +14,11 @@ const SITE_URL = 'https://ssccontrol.com';
 export const metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default: 'SSC Control Pvt Ltd — Industrial Automation & Electrical Solutions',
+    default: 'SSC Control Pvt Ltd, Industrial Automation & Electrical Solutions',
     template: '%s | SSC Control',
   },
   description:
-    "SSC Control Pvt Ltd — 60 years of trust in industrial automation, electrical distribution, safety, and cooling. Authorised channel partner for the world's best brands.",
+    "SSC Control Pvt Ltd, 60 years of trust in industrial automation, electrical distribution, safety, and cooling. Authorised channel partner for the world's best brands.",
   keywords: [
     'industrial automation',
     'electrical distribution',
@@ -38,14 +38,14 @@ export const metadata = {
     locale: 'en_IN',
     url: SITE_URL,
     siteName: COMPANY.name,
-    title: 'SSC Control Pvt Ltd — Industrial Automation & Electrical Solutions',
+    title: 'SSC Control Pvt Ltd, Industrial Automation & Electrical Solutions',
     description:
       '60 years of trust in industrial automation, electrical distribution, safety, and cooling. Authorised channel partner for the world\'s best brands.',
     images: [{ url: '/og-image.png', width: 1200, height: 630, alt: COMPANY.name }],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'SSC Control Pvt Ltd — Industrial Automation & Electrical Solutions',
+    title: 'SSC Control Pvt Ltd, Industrial Automation & Electrical Solutions',
     description:
       '60 years of trust in industrial automation, electrical distribution, safety, and cooling.',
     images: ['/og-image.png'],

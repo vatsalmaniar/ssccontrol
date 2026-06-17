@@ -3,7 +3,7 @@
 import { useState } from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { NAV_LINKS, ROUTES, SOLUTION_LINKS, BRAND_LINKS } from '@/lib/routes';
+import { NAV_LINKS, ROUTES, SOLUTION_LINKS, BRAND_LINKS, ABOUT_LINKS, TOOL_LINKS } from '@/lib/routes';
 import { COMPANY } from '@/data/site';
 import { InstagramIcon, LinkedinIcon } from '@/components/SocialIcons';
 
@@ -44,9 +44,55 @@ function MegaPanel({ which, onNavigate }) {
         </div>
         <Link href={ROUTES.contact} className="mega-feature" onClick={onNavigate}>
           <div className="mega-feature-label">60 Years of Engineering</div>
-          <h4>From automation to safety — one trusted partner.</h4>
+          <h4>From automation to safety, one trusted partner.</h4>
           <p>Conventional and advanced solutions, tailored to your operations.</p>
           <span className="mega-feature-cta">Talk to our team &rarr;</span>
+        </Link>
+      </div>
+    );
+  }
+  if (which === 'tools') {
+    return (
+      <div className="mega-inner">
+        <div className="mega-cols">
+          <div className="mega-head">Engineering Tools</div>
+          <div className="mega-grid mega-grid-2">
+            {TOOL_LINKS.map((t) => (
+              <Link key={t.label} href={t.href} className="mega-item" onClick={onNavigate}>
+                <span className="mega-item-label">{t.label}</span>
+                <span className="mega-item-desc">{t.desc}</span>
+              </Link>
+            ))}
+          </div>
+        </div>
+        <Link href={ROUTES.contact} className="mega-feature" onClick={onNavigate}>
+          <div className="mega-feature-label">Free Selection Tools</div>
+          <h4>Spec the right product, faster.</h4>
+          <p>Quick selectors for starters, panel cooling and drives.</p>
+          <span className="mega-feature-cta">Need help? Talk to us &rarr;</span>
+        </Link>
+      </div>
+    );
+  }
+  if (which === 'about') {
+    return (
+      <div className="mega-inner">
+        <div className="mega-cols">
+          <div className="mega-head">About SSC</div>
+          <div className="mega-grid mega-grid-2">
+            {ABOUT_LINKS.map((a) => (
+              <Link key={a.label} href={a.href} className="mega-item" onClick={onNavigate}>
+                <span className="mega-item-label">{a.label}</span>
+                <span className="mega-item-desc">{a.desc}</span>
+              </Link>
+            ))}
+          </div>
+        </div>
+        <Link href="/about/heritage" className="mega-feature" onClick={onNavigate}>
+          <div className="mega-feature-label">Since 1966</div>
+          <h4>60 years of trust.</h4>
+          <p>From a 1966 founding to a future-ready engineering company.</p>
+          <span className="mega-feature-cta">Explore our heritage &rarr;</span>
         </Link>
       </div>
     );

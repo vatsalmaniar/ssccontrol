@@ -6,7 +6,7 @@ import { ROUTES } from '@/lib/routes';
 export const metadata = {
   title: 'Robotics Solutions',
   description:
-    'Vision-guided robotic automation by SSC Control — application study, robot selection, vision integration, cell design, programming and commissioning, powered by Mitsubishi MELFA robots and Sensopart machine vision.',
+    'Vision-guided robotic automation by SSC Control, application study, robot selection, vision integration, cell design, programming and commissioning, powered by Mitsubishi MELFA robots and Sensopart machine vision.',
 };
 
 const CHK = (
@@ -18,7 +18,7 @@ const CHK = (
 const CAPABILITIES = [
   {
     title: 'Application Study',
-    desc: 'We assess the task — pick & place, machine tending, palletising, assembly — with cycle-time and ROI analysis to confirm robotics is the right fit before you invest.',
+    desc: 'We assess the task, pick & place, machine tending, palletising, assembly, with cycle-time and ROI analysis to confirm robotics is the right fit before you invest.',
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
         <circle cx="11" cy="11" r="7" /><path d="m21 21-4.3-4.3" />
@@ -27,7 +27,7 @@ const CAPABILITIES = [
   },
   {
     title: 'Robot Selection',
-    desc: 'We specify the right MELFA robot — RV vertical articulated, RH SCARA, or ASSISTA collaborative — matched to your reach, payload and cycle-time requirements.',
+    desc: 'We specify the right MELFA robot, RV vertical articulated, RH SCARA, or ASSISTA collaborative, matched to your reach, payload and cycle-time requirements.',
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
         <rect x="9" y="2" width="6" height="6" rx="1" /><path d="M12 8v5l-5 4M12 13l5 4" /><circle cx="7" cy="19" r="2" /><circle cx="17" cy="19" r="2" />
@@ -36,7 +36,7 @@ const CAPABILITIES = [
   },
   {
     title: 'Vision Integration',
-    desc: 'We add Sensopart VISOR machine vision for part location, orientation and quality inspection — enabling reliable vision-guided robotics, even on randomly placed parts.',
+    desc: 'We add Sensopart VISOR machine vision for part location, orientation and quality inspection, enabling reliable vision-guided robotics, even on randomly placed parts.',
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
         <path d="M1 12s4-7 11-7 11 7 11 7-4 7-11 7-11-7-11-7z" /><circle cx="12" cy="12" r="3" />
@@ -45,7 +45,7 @@ const CAPABILITIES = [
   },
   {
     title: 'Cell Design',
-    desc: 'We design the robot cell — layout, end-of-arm tooling and grippers, safety guarding, and integration with PLCs, conveyors and the wider line.',
+    desc: 'We design the robot cell, layout, end-of-arm tooling and grippers, safety guarding, and integration with PLCs, conveyors and the wider line.',
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
         <rect x="3" y="3" width="18" height="18" rx="2" /><path d="M3 9h18M9 21V9" />
@@ -63,7 +63,7 @@ const CAPABILITIES = [
   },
   {
     title: 'Installation & Commissioning',
-    desc: 'We integrate, install and commission the cell on-site, prove the cycle, and train your team — with long-term programming and spares support.',
+    desc: 'We integrate, install and commission the cell on-site, prove the cycle, and train your team, with long-term programming and spares support.',
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
         <path d="M14.7 6.3a4 4 0 0 0-5.4 5.4L3 18l3 3 6.3-6.3a4 4 0 0 0 5.4-5.4l-2.3 2.3-2.7-.7-.7-2.7z" />
@@ -95,7 +95,7 @@ const PROCESS = [
 
 const STRENGTHS = [
   '60 years of automation engineering applied to robotic cells',
-  'Authorised Mitsubishi MELFA robot partner — genuine products & warranty',
+  'Authorised Mitsubishi MELFA robot partner, genuine products & warranty',
   'Sensopart machine-vision integration for vision-guided robotics',
   'In-house robot programming, simulation and vision calibration',
   'Single source: robot, vision, panel, safety and integration',
@@ -120,7 +120,7 @@ export default function RoboticsPage() {
           <p className="sol-hero-sub">
             Vision-guided robotic automation, engineered end to end. SSC Control studies the
             application, selects the robot, integrates the vision, and programs and commissions the
-            cell — powered by Mitsubishi MELFA robots and Sensopart machine vision.
+            cell, powered by Mitsubishi MELFA robots and Sensopart machine vision.
           </p>
           <div className="sol-hero-badges">
             <span className="sol-badge">Mitsubishi MELFA Robots</span>
@@ -136,7 +136,7 @@ export default function RoboticsPage() {
           <div className="sec-label">Our Approach</div>
           <h2 className="sec-title">Robots that see, integrated and programmed</h2>
           <p className="sec-body">
-            A robot arm on its own isn&apos;t a solution. SSC Control engineers the whole cell — the
+            A robot arm on its own isn&apos;t a solution. SSC Control engineers the whole cell, the
             right MELFA robot for the reach and payload, Sensopart vision so it can locate and inspect
             parts, the tooling and safety around it, and the programming that makes it repeatable.
             From a single pick-and-place station to a fully integrated line.
@@ -177,9 +177,9 @@ export default function RoboticsPage() {
                 Fast, precise industrial robots for assembly, handling and machine tending.
               </p>
               <ul className="duo-list">
-                <li>{CHK}<span>RV Series — vertical articulated 6-axis robots</span></li>
-                <li>{CHK}<span>RH Series — SCARA (horizontal) high-speed robots</span></li>
-                <li>{CHK}<span>ASSISTA — collaborative robot (cobot)</span></li>
+                <li>{CHK}<span>RV Series, vertical articulated 6-axis robots</span></li>
+                <li>{CHK}<span>RH Series, SCARA (horizontal) high-speed robots</span></li>
+                <li>{CHK}<span>ASSISTA, collaborative robot (cobot)</span></li>
                 <li>{CHK}<span>CR800 controllers &amp; RT ToolBox3 software</span></li>
               </ul>
               <Link href={ROUTES.brand('mitsubishi')} className="sol-link">
@@ -195,9 +195,9 @@ export default function RoboticsPage() {
                 Compact, powerful vision sensors for guidance, identification and inspection.
               </p>
               <ul className="duo-list">
-                <li>{CHK}<span>VISOR Robotic — robot guidance &amp; part location</span></li>
-                <li>{CHK}<span>VISOR Object — presence, completeness &amp; quality</span></li>
-                <li>{CHK}<span>VISOR Code Reader — 1D / 2D code reading</span></li>
+                <li>{CHK}<span>VISOR Robotic, robot guidance &amp; part location</span></li>
+                <li>{CHK}<span>VISOR Object, presence, completeness &amp; quality</span></li>
+                <li>{CHK}<span>VISOR Code Reader, 1D / 2D code reading</span></li>
                 <li>{CHK}<span>Easy calibration to the robot coordinate system</span></li>
               </ul>
             </div>
@@ -264,7 +264,7 @@ export default function RoboticsPage() {
         <div className="sol-cta-inner">
           <h2>Thinking of automating with robots?</h2>
           <p>
-            Tell us about the task — our engineers will study the application, select the right MELFA
+            Tell us about the task, our engineers will study the application, select the right MELFA
             robot and Sensopart vision, and build the cell end to end.
           </p>
           <div className="sol-cta-btns">

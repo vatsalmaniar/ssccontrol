@@ -97,25 +97,25 @@ export default function PrivacyPage() {
           </p>
           <ul>
             <li>
-              <strong>Web3Forms</strong> — our contact form submissions are delivered to our
+              <strong>Web3Forms</strong>, our contact form submissions are delivered to our
               inbox via Web3Forms (web3forms.com). Submitted data is transmitted to their servers
               for routing and then forwarded to us. Please refer to the Web3Forms Privacy Policy
               for details of their data handling.
             </li>
             <li>
-              <strong>Cloudflare Turnstile</strong> — we use Cloudflare&rsquo;s Turnstile widget
+              <strong>Cloudflare Turnstile</strong>, we use Cloudflare&rsquo;s Turnstile widget
               to protect our contact form against automated bots. Cloudflare may collect
               challenge-interaction signals (e.g., browser characteristics, IP address) to
               perform this verification. Please refer to Cloudflare&rsquo;s Privacy Policy for
               details.
             </li>
             <li>
-              <strong>Google Maps</strong> — our Site embeds Google Maps to display our office
+              <strong>Google Maps</strong>, our Site embeds Google Maps to display our office
               location. Google may collect data about your interaction with the map in accordance
               with Google&rsquo;s Privacy Policy.
             </li>
             <li>
-              <strong>Analytics</strong> — we may use privacy-respecting analytics tools to
+              <strong>Analytics</strong>, we may use privacy-respecting analytics tools to
               understand aggregate Site traffic. Where used, such tools process data in
               accordance with their own privacy policies.
             </li>
@@ -163,8 +163,8 @@ export default function PrivacyPage() {
             required by law or ongoing commercial engagement.
           </p>
           <p>
-            We implement reasonable technical and organisational safeguards — including HTTPS
-            encryption in transit and access controls on our systems — to protect your personal
+            We implement reasonable technical and organisational safeguards, including HTTPS
+            encryption in transit and access controls on our systems, to protect your personal
             information against unauthorised access, disclosure, or loss. However, no method of
             transmission over the internet is completely secure, and we cannot guarantee absolute
             security.

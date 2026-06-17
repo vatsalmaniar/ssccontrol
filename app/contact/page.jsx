@@ -61,7 +61,7 @@ const LOCATIONS = {
       'https://maps.google.com/maps?q=Ashwamegh+Warehouse+Sarkhej+Bavla+Highway+Sarkhej+Ahmedabad+Gujarat+382210&t=&z=16&ie=UTF8&iwloc=&output=embed',
     mapTitle: 'SSC Control Kaveri Fulfilment Centre',
     badgeStyle: { color: '#16a34a', background: 'rgba(34,197,94,0.1)' },
-    badgeText: 'Fulfilment Centre — Kaveri',
+    badgeText: 'Fulfilment Centre, Kaveri',
     name: (
       <>
         SSC Control Pvt. Ltd.
@@ -170,7 +170,7 @@ const EMPTY_FORM = {
   quantity: '',
   city: '',
   message: '',
-  company_website: '', // honeypot — must stay empty for real users
+  company_website: '', // honeypot, must stay empty for real users
 };
 
 export default function ContactPage() {
@@ -340,13 +340,13 @@ export default function ContactPage() {
             className={`loc-tab${activeLoc === 'kaveri' ? ' active' : ''}`}
             onClick={() => setActiveLoc('kaveri')}
           >
-            Kaveri FC — Sarkhej
+            Kaveri FC, Sarkhej
           </button>
           <button
             className={`loc-tab${activeLoc === 'godawari' ? ' active' : ''}`}
             onClick={() => setActiveLoc('godawari')}
           >
-            Godawari FC — Vadodara
+            Godawari FC, Vadodara
           </button>
         </div>
 
@@ -536,7 +536,7 @@ export default function ContactPage() {
                   />
                 </div>
 
-                {/* Honeypot — hidden from real users; bots that fill it are dropped */}
+                {/* Honeypot, hidden from real users; bots that fill it are dropped */}
                 <input
                   type="text"
                   name="company_website"

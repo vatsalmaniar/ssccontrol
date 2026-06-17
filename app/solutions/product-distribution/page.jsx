@@ -7,7 +7,7 @@ import { brands } from '@/data/brands';
 export const metadata = {
   title: 'Product Distribution Solutions',
   description:
-    'SSC Control is a solutions-focused distributor for OEMs, panel builders and end users — Mitsubishi & ABB low-voltage switchgear, nVent Hoffman, Schmersal, Connectwell, Hicool, GIC and Unison, backed by application support and 60 years of domain expertise.',
+    'SSC Control is a solutions-focused distributor for OEMs, panel builders and end users, Mitsubishi & ABB low-voltage switchgear, nVent Hoffman, Schmersal, Connectwell, Hicool, GIC and Unison, backed by application support and 60 years of domain expertise.',
 };
 
 const CHECK = (
@@ -20,13 +20,13 @@ const SEGMENTS = [
   {
     tag: 'For OEMs',
     title: 'OEMs & Machine Builders',
-    desc: 'A single, dependable source for your standardised bill of materials — so production never waits on parts.',
+    desc: 'A single, dependable source for your standardised bill of materials, so production never waits on parts.',
     points: ['Ready-to-build BOMs & kitting', 'Consistent supply with lead-time commitment', 'Component sizing & selection support', 'One window for switchgear, controls & wiring'],
   },
   {
     tag: 'For Panel Builders',
     title: 'Panel Builders',
-    desc: 'Everything that goes inside the panel — switchgear, enclosures, cooling, terminals and wiring — from one stocked partner.',
+    desc: 'Everything that goes inside the panel, switchgear, enclosures, cooling, terminals and wiring, from one stocked partner.',
     points: ['Complete switchgear, enclosures & cooling', 'Terminals, connectors & wiring in one place', 'Fast fulfilment to keep builds on schedule', 'Guidance on selection & compliance'],
   },
   {
@@ -80,7 +80,7 @@ const PROCESS = [
 const STRENGTHS = [
   'Authorised partner for 8+ leading brands across switchgear, controls, safety, cooling & wiring',
   'Genuine products with full manufacturer warranty',
-  'Application & sizing support — not just order-taking',
+  'Application & sizing support, not just order-taking',
   'Local stock for faster fulfilment and shorter lead times',
   'Single source across the entire panel & control bill of materials',
   '60 years serving OEMs, panel builders and industry across Gujarat & beyond',
@@ -102,9 +102,9 @@ export default function ProductDistributionPage() {
           <div className="hero-tag">Solutions</div>
           <h1>Product Distribution</h1>
           <p className="sol-hero-sub">
-            We don&apos;t just sell boxes. SSC Control is a solutions-focused distributor — helping
+            We don&apos;t just sell boxes. SSC Control is a solutions-focused distributor, helping
             OEMs, panel builders and plants choose the right product, from the right brand, for the
-            actual application — backed by stock, sizing support and 60 years of domain expertise.
+            actual application, backed by stock, sizing support and 60 years of domain expertise.
           </p>
           <div className="sol-hero-badges">
             <span className="sol-badge">8+ Authorised Brands</span>
@@ -122,7 +122,7 @@ export default function ProductDistributionPage() {
           <p className="sec-body">
             Anyone can quote a part number. We help you specify the right one. Our team understands
             switchgear, controls, safety and cooling deeply enough to recommend what actually fits
-            your application, optimise your bill of materials, and keep it supplied reliably — so you
+            your application, optimise your bill of materials, and keep it supplied reliably, so you
             get a working solution, not just a delivery.
           </p>
         </div>
@@ -158,7 +158,7 @@ export default function ProductDistributionPage() {
         <FlowLines className="ink" opacity={0.9} />
         <div className="sol-wrap">
           <div className="sec-label center">Focused Partners</div>
-          <h2 className="sec-title center">A curated line-up, mastered — not a catalogue</h2>
+          <h2 className="sec-title center">A curated line-up, mastered, not a catalogue</h2>
           <div className="partner-logos">
             {PARTNERS.map(({ slug, focus }) => {
               const b = brands[slug];
@@ -231,7 +231,7 @@ export default function ProductDistributionPage() {
         <div className="sol-cta-inner">
           <h2>Need the right components for your build?</h2>
           <p>
-            Send us your requirement or bill of materials — our team will help you select, source and
+            Send us your requirement or bill of materials, our team will help you select, source and
             supply the right products for your application.
           </p>
           <div className="sol-cta-btns">

@@ -6,13 +6,13 @@ import { ROUTES } from '@/lib/routes';
 export const metadata = {
   title: 'Industrial Automation Solutions',
   description:
-    'Engineering-led industrial automation by SSC Control — product selection, application development, control architecture, PLC programming and HMI design, powered by Mitsubishi Electric.',
+    'Engineering-led industrial automation by SSC Control, product selection, application development, control architecture, PLC programming and HMI design, powered by Mitsubishi Electric.',
 };
 
 const CAPABILITIES = [
   {
     title: 'Product Selection',
-    desc: 'We size and select the right PLC, drive, servo and HMI for your load, cycle time and budget — across the full Mitsubishi MELSEC, MELSERVO and FR inverter range — so nothing is over- or under-specified.',
+    desc: 'We size and select the right PLC, drive, servo and HMI for your load, cycle time and budget, across the full Mitsubishi MELSEC, MELSERVO and FR inverter range, so nothing is over- or under-specified.',
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
         <path d="M9 11l3 3L22 4" /><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11" />
@@ -21,7 +21,7 @@ const CAPABILITIES = [
   },
   {
     title: 'Application Development',
-    desc: 'We translate your process requirements into a working automation concept — sequence design, I/O planning and proof-of-concept — tailored to your specific machine or production line.',
+    desc: 'We translate your process requirements into a working automation concept, sequence design, I/O planning and proof-of-concept, tailored to your specific machine or production line.',
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
         <path d="M12 2l3 6 6 .9-4.5 4.4 1 6.7L12 17l-5.5 3 1-6.7L3 8.9 9 8z" />
@@ -30,7 +30,7 @@ const CAPABILITIES = [
   },
   {
     title: 'Architecture',
-    desc: 'We design the control and network architecture — PLC, remote I/O, drives and HMI tied together over CC-Link IE / Ethernet — for performance, scalability and easy maintenance.',
+    desc: 'We design the control and network architecture, PLC, remote I/O, drives and HMI tied together over CC-Link IE / Ethernet, for performance, scalability and easy maintenance.',
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
         <rect x="9" y="2" width="6" height="6" rx="1" /><rect x="2" y="16" width="6" height="6" rx="1" /><rect x="16" y="16" width="6" height="6" rx="1" />
@@ -40,7 +40,7 @@ const CAPABILITIES = [
   },
   {
     title: 'Programming',
-    desc: 'Our engineers develop and test PLC logic in GX Works3 — structured, documented and built to your sequence — for MELSEC iQ-R, iQ-F and FX5 controllers.',
+    desc: 'Our engineers develop and test PLC logic in GX Works3, structured, documented and built to your sequence, for MELSEC iQ-R, iQ-F and FX5 controllers.',
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
         <polyline points="16 18 22 12 16 6" /><polyline points="8 6 2 12 8 18" />
@@ -49,7 +49,7 @@ const CAPABILITIES = [
   },
   {
     title: 'HMI Screens',
-    desc: 'We design intuitive operator screens in GT Designer for Mitsubishi GOT panels — clear visualisation, alarms, recipes and dashboards your operators actually find usable.',
+    desc: 'We design intuitive operator screens in GT Designer for Mitsubishi GOT panels, clear visualisation, alarms, recipes and dashboards your operators actually find usable.',
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
         <rect x="2" y="3" width="20" height="14" rx="2" /><path d="M8 21h8M12 17v4" /><path d="M6 7h6M6 11h4" />
@@ -58,7 +58,7 @@ const CAPABILITIES = [
   },
   {
     title: 'Commissioning & Support',
-    desc: 'On-site commissioning, panel integration, operator training and long-term spares and service — so the system runs reliably long after handover.',
+    desc: 'On-site commissioning, panel integration, operator training and long-term spares and service, so the system runs reliably long after handover.',
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
         <path d="M14.7 6.3a4 4 0 0 0-5.4 5.4L3 18l3 3 6.3-6.3a4 4 0 0 0 5.4-5.4l-2.3 2.3-2.7-.7-.7-2.7z" />
@@ -87,7 +87,7 @@ const PROCESS = [
 
 const STRENGTHS = [
   '60 years of engineering trust in electrical & automation',
-  'Authorised Mitsubishi Electric partner — genuine products with warranty',
+  'Authorised Mitsubishi Electric partner, genuine products with warranty',
   'In-house automation engineering team (selection to programming)',
   'Single source: products, panel manufacturing, programming & commissioning',
   'On-site commissioning, operator training and long-term spares support',
@@ -110,7 +110,7 @@ export default function IndustrialAutomationPage() {
           <h1>Industrial Automation</h1>
           <p className="sol-hero-sub">
             From product selection to programming and HMI, SSC Control delivers complete industrial
-            automation solutions — powered by Mitsubishi Electric and backed by 60 years of
+            automation solutions, powered by Mitsubishi Electric and backed by 60 years of
             engineering depth.
           </p>
           <div className="sol-hero-badges">
@@ -129,7 +129,7 @@ export default function IndustrialAutomationPage() {
           <p className="sec-body">
             Most distributors stop at the box. We don&apos;t. SSC Control pairs genuine Mitsubishi
             Electric automation products with an in-house engineering team that takes your
-            application from concept to commissioning — selecting the right hardware, designing the
+            application from concept to commissioning, selecting the right hardware, designing the
             control architecture, writing the PLC logic, and building the operator screens your team
             runs every day.
           </p>
@@ -164,7 +164,7 @@ export default function IndustrialAutomationPage() {
               <h2 className="sec-title">Powered by Mitsubishi Electric</h2>
               <p className="sec-body">
                 As an authorised Mitsubishi Electric partner, we build on one of the world&apos;s most
-                trusted automation platforms — from compact machine control to plant-wide systems —
+                trusted automation platforms, from compact machine control to plant-wide systems, 
                 with genuine products, full warranty and local support.
               </p>
               <Link href={ROUTES.brand('mitsubishi')} className="sol-link">
@@ -224,7 +224,7 @@ export default function IndustrialAutomationPage() {
         <div className="sol-cta-inner">
           <h2>Planning an automation project?</h2>
           <p>
-            Tell us about your machine or line — our engineers will help you select the right
+            Tell us about your machine or line, our engineers will help you select the right
             Mitsubishi hardware, design the architecture, and build it end to end.
           </p>
           <div className="sol-cta-btns">

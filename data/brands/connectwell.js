@@ -5,7 +5,7 @@ const connectwell = {
   heroTag: 'Authorised Connectwell Partner',
   title: 'Connectwell',
   titleEm: 'Terminals, Relays & SMPS',
-  heroSub: `India's leading manufacturer of terminal blocks, relay modules, glass relays, relay cards, fan failure modules and SMPS — Made in India, trusted by panel builders worldwide.`,
+  heroSub: `India's leading manufacturer of terminal blocks, relay modules, glass relays, relay cards, fan failure modules and SMPS, Made in India, trusted by panel builders worldwide.`,
   badges: [
     'Spring Terminals',
     'Screw Terminals',
@@ -23,7 +23,7 @@ const connectwell = {
     { num: 'IEC 60947', label: 'Certified' },
   ],
   catsLabel: 'Product Range',
-  catsTitle: 'Connectwell — Product Categories',
+  catsTitle: 'Connectwell, Product Categories',
   catsSub: 'All products are genuine Connectwell with manufacturer warranty. SSC Control provides pre-sales consultation, competitive pricing, and technical support.',
   categories: [
     {

@@ -7,7 +7,7 @@ import './panel-ac.css';
 const MATERIAL_DESC = {
   '5.5':  'Painted Steel: standard industrial panel. Good balance of cost and thermal performance.',
   '3.7':  'Stainless Steel: lower conductivity, better for outdoor / washdown environments.',
-  '12.0': 'Aluminium: high conductivity — requires larger AC unit for same conditions.',
+  '12.0': 'Aluminium: high conductivity, requires larger AC unit for same conditions.',
   '3.5':  'Fibreglass / Polycarbonate: low conductivity, good insulation properties.',
 };
 
@@ -69,7 +69,7 @@ const IconPhone = () => (
   </svg>
 );
 
-/* ─── Compute results (pure function — mirrors calc() exactly) ─── */
+/* ─── Compute results (pure function, mirrors calc() exactly) ─── */
 function computeResults({ material, mountMode, dimW, dimH, dimD, tempInside, tempOutside, heatLoad, altitude, safetyFactor }) {
   const k   = parseFloat(material);
   const W   = parseFloat(dimW) / 1000;
@@ -89,7 +89,7 @@ function computeResults({ material, mountMode, dimW, dimH, dimD, tempInside, tem
   const totalArea = 2 * (W * H + D * H + W * D);
   const wallArea  = mountMode === 'wall' ? totalArea - (W * D) : totalArea;
 
-  // Heat calc — ΔT must be positive (cooling required when outside > inside)
+  // Heat calc, ΔT must be positive (cooling required when outside > inside)
   const effectiveDT = Math.max(0, dT);
   const Qs = k * wallArea * effectiveDT;
   const Qtotal = (Qs + Qi) * alt * (1 + sf / 100);
@@ -139,7 +139,7 @@ function downloadReport(res, material, mountMode) {
   if (!res) return;
   const r = res;
   const matLabel = MATERIAL_OPTIONS.find(o => o.value === material)?.label || material;
-  let content = 'SSC CONTROL PVT LTD — PANEL AC SELECTION REPORT\n';
+  let content = 'SSC CONTROL PVT LTD, PANEL AC SELECTION REPORT\n';
   content += 'Generated: ' + new Date().toLocaleString('en-IN') + '\n';
   content += '================================================\n';
   content += 'Enclosure: ' + (matLabel ? matLabel.split('·')[0].trim() : '') + '\n';
@@ -188,7 +188,7 @@ export default function PanelACPage() {
     setMountMode(prev => prev === 'floor' ? 'wall' : 'floor');
   }, []);
 
-  /* Derived results — computed inline (equivalent to calc()) */
+  /* Derived results, computed inline (equivalent to calc()) */
   const res = computeResults({
     material, mountMode, dimW, dimH, dimD,
     tempInside, tempOutside, heatLoad, altitude, safetyFactor,
@@ -201,7 +201,7 @@ export default function PanelACPage() {
   /* For email: build href */
   const emailBody = buildEmailBody(res, material, mountMode);
   const emailSubject = res
-    ? `Panel AC Enquiry — ${res.Qtotal.toFixed(0)}W Required`
+    ? `Panel AC Enquiry, ${res.Qtotal.toFixed(0)}W Required`
     : 'Panel AC Enquiry';
   const mailtoHref = `mailto:sales@ssccontrol.com?subject=${encodeURIComponent(emailSubject)}&body=${encodeURIComponent(emailBody)}`;
 
@@ -212,8 +212,8 @@ export default function PanelACPage() {
 
   /* Wall area display */
   const areaDisplay = res
-    ? `Surface area: ${res.wallArea.toFixed(3)} m² (${mountMode === 'wall' ? '5 faces — back excluded' : '6 faces — all exposed'})`
-    : 'Surface area: — m²';
+    ? `Surface area: ${res.wallArea.toFixed(3)} m² (${mountMode === 'wall' ? '5 faces, back excluded' : '6 faces, all exposed'})`
+    : 'Surface area:, m²';
 
   /* valClass for total required */
   const valClass = res
@@ -228,7 +228,7 @@ export default function PanelACPage() {
         <h1>Panel AC Selection Tool</h1>
         <p>
           Calculate the exact heat load inside your electrical enclosure and get the right nVent Hoffman
-          air conditioning unit — based on material, dimensions, internal equipment heat, altitude, and
+          air conditioning unit, based on material, dimensions, internal equipment heat, altitude, and
           temperature requirements.
         </p>
       </div>
@@ -279,8 +279,8 @@ export default function PanelACPage() {
             </div>
             <div style={{ fontSize: '11px', color: 'var(--gray)', background: 'var(--light)', padding: '8px 10px', borderRadius: '6px' }}>
               {mountMode === 'floor'
-                ? 'Floor Standing: all six surfaces exposed to ambient air — maximum heat transfer area.'
-                : 'Wall Mount: back face against wall — 5 faces contribute to heat transfer.'}
+                ? 'Floor Standing: all six surfaces exposed to ambient air, maximum heat transfer area.'
+                : 'Wall Mount: back face against wall, 5 faces contribute to heat transfer.'}
             </div>
           </div>
 
@@ -376,7 +376,7 @@ export default function PanelACPage() {
             <div className="dt-badge">
               <div className="dt-badge-label">&Delta;T &nbsp;(Outside &minus; Inside)</div>
               <div className="dt-badge-val" style={{ color: dTColor }}>
-                {isNaN(dT) ? '— °C' : `${dT.toFixed(1)} °C`}
+                {isNaN(dT) ? ', °C' : `${dT.toFixed(1)} °C`}
               </div>
             </div>
           </div>

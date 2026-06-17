@@ -56,20 +56,20 @@ export async function POST(req) {
 
   const isProduct = d.type === 'product';
   const subject = isProduct
-    ? `Product Inquiry${d.product ? `: ${d.product}` : ''} — ${d.name}`
-    : `General Inquiry — ${d.name}`;
+    ? `Product Inquiry${d.product ? `: ${d.product}` : ''}, ${d.name}`
+    : `General Inquiry, ${d.name}`;
 
   const rows = [
     ['Inquiry Type', isProduct ? 'Product Inquiry' : 'General Inquiry'],
     ['Name', d.name],
     ['Email', d.email],
-    ['Phone', d.phone || '—'],
+    ['Phone', d.phone || ', '],
     ...(isProduct
       ? [
-          ['Company', d.company || '—'],
-          ['Product / Brand', d.product || '—'],
-          ['Quantity', d.quantity || '—'],
-          ['City / Location', d.city || '—'],
+          ['Company', d.company || ', '],
+          ['Product / Brand', d.product || ', '],
+          ['Quantity', d.quantity || ', '],
+          ['City / Location', d.city || ', '],
         ]
       : []),
     ['Message', d.message],

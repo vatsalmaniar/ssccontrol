@@ -15,7 +15,7 @@ const novotecnik = {
     { num: '±0.1%', label: 'Linearity' },
   ],
   catsLabel: 'Product Range',
-  catsTitle: 'Novotechnik — Product Categories',
+  catsTitle: 'Novotechnik, Product Categories',
   catsSub: 'All products are genuine Novotechnik with manufacturer warranty. SSC Control provides pre-sales consultation, competitive pricing, and technical support.',
   categories: [
     {

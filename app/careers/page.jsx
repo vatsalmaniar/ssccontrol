@@ -4,7 +4,7 @@ import FlowLines from '@/components/FlowLines';
 
 export const metadata = {
   title: 'Careers',
-  description: 'Build your career with SSC Control — 60 years of industrial automation and electrical distribution excellence.',
+  description: 'Build your career with SSC Control, 60 years of industrial automation and electrical distribution excellence.',
 };
 
 export default function CareersPage() {
@@ -61,7 +61,7 @@ export default function CareersPage() {
               <div className="why-title">60 Years of Stability</div>
               <div className="why-desc">
                 SSC Control was established in 1966. Three generations of the founding family have built
-                an organisation rooted in trust, long-term relationships, and consistent growth — so you
+                an organisation rooted in trust, long-term relationships, and consistent growth, so you
                 join a company with real staying power.
               </div>
             </div>
@@ -109,7 +109,7 @@ export default function CareersPage() {
               <div className="why-title">Ownership Culture</div>
               <div className="why-desc">
                 We run a flat, transparent organisation where your ideas matter and your contributions are
-                visible. We hire people who take initiative, communicate openly, and care about outcomes —
+                visible. We hire people who take initiative, communicate openly, and care about outcomes, 
                 not just activity.
               </div>
             </div>
@@ -126,7 +126,7 @@ export default function CareersPage() {
             <div className="sec-title">An Engineering Culture Built on People</div>
             <div className="life-body">
               <p>
-                At SSC Control, work is not just about completing transactions — it is about solving real
+                At SSC Control, work is not just about completing transactions, it is about solving real
                 industrial problems. Our teams work closely with machine builders, OEMs, panel builders,
                 and plant engineers across Gujarat and beyond, delivering solutions that range from
                 individual components to complete automation systems.
@@ -138,7 +138,7 @@ export default function CareersPage() {
               </p>
               <p>
                 From our Ahmedabad headquarters to our Vadodara and Surat offices, SSC is a close-knit
-                team with the reach and partnerships of a much larger organisation — giving you the best
+                team with the reach and partnerships of a much larger organisation, giving you the best
                 of both worlds.
               </p>
             </div>
@@ -183,7 +183,7 @@ export default function CareersPage() {
             <p className="openings-desc">
               We don't always have open roles listed publicly, but we are continuously building our
               team across sales, technical, and operations functions. If you are passionate about
-              industrial automation, electrical distribution, or machine safety — we want to hear from you.
+              industrial automation, electrical distribution, or machine safety, we want to hear from you.
             </p>
             <p className="openings-areas">
               Areas of interest: <strong>Technical Sales</strong>, <strong>Application Engineering</strong>,
@@ -199,7 +199,7 @@ export default function CareersPage() {
             <div className="openings-note">
               Email us at{' '}
               <a href="mailto:people@ssccontrol.com" className="openings-email">people@ssccontrol.com</a>
-              {' '}— we read every application.
+              {' '}, we read every application.
             </div>
           </div>
         </div>

@@ -299,7 +299,7 @@ export default function MotorStarterPage() {
             <div className="slider-wrap">
               <div className={'slider-display' + (kwIndex >= 0 ? ' active' : '')}>
                 <span className="slider-val-badge">
-                  {selectedRow ? selectedRow[0] : '—'}
+                  {selectedRow ? selectedRow[0] : ', '}
                 </span>
                 <span className="slider-unit-lbl">kW</span>
               </div>

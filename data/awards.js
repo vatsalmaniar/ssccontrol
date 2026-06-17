@@ -2,11 +2,11 @@
 // Keyed by brand slug → reused on brand pages, the About page, and the home strip.
 export const AWARDS = {
   mitsubishi: [
-    { title: 'Special Recognition — Multifold Growth', year: '2024' },
-    { title: 'All-India Highest Sales — Control Gear', year: '2024' },
-    { title: 'All-India Highest Sales — LVS', year: '2023' },
-    { title: 'All-India Highest Sales — LVS', year: '2022' },
-    { title: 'Highest Sales — LVS', year: '2021' },
+    { title: 'Special Recognition, Multifold Growth', year: '2024' },
+    { title: 'All-India Highest Sales, Control Gear', year: '2024' },
+    { title: 'All-India Highest Sales, LVS', year: '2023' },
+    { title: 'All-India Highest Sales, LVS', year: '2022' },
+    { title: 'Highest Sales, LVS', year: '2021' },
   ],
   schmersal: [
     { title: 'Consistency Champion', year: '2025' },

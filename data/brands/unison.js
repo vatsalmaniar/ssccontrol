@@ -15,7 +15,7 @@ const unison = {
     { num: 'IEC', label: 'Rated' },
   ],
   catsLabel: 'Product Range',
-  catsTitle: 'Unison — Product Categories',
+  catsTitle: 'Unison, Product Categories',
   catsSub: 'All products are genuine Unison with manufacturer warranty. SSC Control provides pre-sales consultation, competitive pricing, and technical support.',
   categories: [
     {
