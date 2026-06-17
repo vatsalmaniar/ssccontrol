@@ -20,7 +20,7 @@ const klauke = {
   categories: [
     {
       icon: `<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14M4.93 4.93a10 10 0 0 0 0 14.14"/></svg>`,
-      color: '#C4262E',
+      color: '#104090',
       label: 'Compression and Mechanical Lugs',
       name: 'Copper Cable Lugs',
       image: 'https://www.buerklin.com/en/images/e6c/07F2060/500x500/uninsulated-tube-cable-lug-10-mm-6-4-mm-m6-metal-2r6.webp',
@@ -29,7 +29,7 @@ const klauke = {
     },
     {
       icon: `<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14M4.93 4.93a10 10 0 0 0 0 14.14"/></svg>`,
-      color: '#AA2026',
+      color: '#0C337A',
       label: 'Wire End Ferrules',
       name: 'Bootlace Ferrules',
       image: 'https://www.buerklin.com/en/images/715/4716/500x500/insulated-wire-end-ferrule-1-0-mm-16-mm-10-mm-long-din-46228-4-red-47110.webp',
@@ -38,7 +38,7 @@ const klauke = {
     },
     {
       icon: `<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14M4.93 4.93a10 10 0 0 0 0 14.14"/></svg>`,
-      color: '#C4262E',
+      color: '#104090',
       label: 'Insulated Terminals',
       name: 'Heat Shrink Terminals',
       image: 'https://www.buerklin.com/en/images/993/8899612344350/500x500/insulated-ring-cable-lug-4-0-6-0-mm-awg-12-to-10-6-5-mm-m6-yellow-6506.webp',
@@ -47,7 +47,7 @@ const klauke = {
     },
     {
       icon: `<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14M4.93 4.93a10 10 0 0 0 0 14.14"/></svg>`,
-      color: '#AA2026',
+      color: '#0C337A',
       label: 'Hydraulic and Battery Tools',
       name: 'Crimping Tools',
       image: 'https://www.powerandcables.com/wp-content/uploads/2017/04/Klauke-EKM6022-Battery-Powered-Cable-Crimping-Tool.webp',
@@ -56,7 +56,7 @@ const klauke = {
     },
     {
       icon: `<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14M4.93 4.93a10 10 0 0 0 0 14.14"/></svg>`,
-      color: '#C4262E',
+      color: '#104090',
       label: 'Cable Cutters and Strippers',
       name: 'Cable Cutting Tools',
       image: 'https://www.powerandcables.com/wp-content/uploads/2017/03/ESG105.png',
@@ -65,7 +65,7 @@ const klauke = {
     },
     {
       icon: `<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14M4.93 4.93a10 10 0 0 0 0 14.14"/></svg>`,
-      color: '#AA2026',
+      color: '#0C337A',
       label: 'Crimping Dies',
       name: 'Die Sets and Accessories',
       image: 'https://www.buerklin.com/en/images/f95/8984143790110/500x500/crimping-die-for-wire-end-ferrules-0-14-10-mm-ae501.webp',

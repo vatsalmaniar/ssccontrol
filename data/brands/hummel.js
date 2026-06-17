@@ -21,7 +21,7 @@ const hummel = {
   categories: [
     {
       icon: `<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14M4.93 4.93a10 10 0 0 0 0 14.14"/></svg>`,
-      color: '#E8300D',
+      color: '#0098E0',
       label: 'Brass and Stainless Steel',
       name: 'Metal Cable Glands',
       image: 'https://www.hummel.com/fileadmin/_processed_/0/7/csm_l_hsk-m_e02a48b5728e043844b457fef324e247_d04fd7227c.png',
@@ -30,7 +30,7 @@ const hummel = {
     },
     {
       icon: `<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14M4.93 4.93a10 10 0 0 0 0 14.14"/></svg>`,
-      color: '#CC2B0C',
+      color: '#007CC0',
       label: 'Nylon PA6 Glands',
       name: 'Plastic Cable Glands',
       image: 'https://www.hummel.com/fileadmin/_processed_/e/2/csm_l_hsk-k_a9a670610c8ead1008e9ed10b874a956_fbea5bcea8.png',
@@ -39,7 +39,7 @@ const hummel = {
     },
     {
       icon: `<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14M4.93 4.93a10 10 0 0 0 0 14.14"/></svg>`,
-      color: '#E8300D',
+      color: '#0098E0',
       label: 'Screened EMC Glands',
       name: 'EMC Cable Glands',
       image: 'https://www.hummel.com/fileadmin/_processed_/d/2/csm_l_hsk-mz-emc_f90565ce0a559cf79b66ab451af4be79_53978a1f50.png',
@@ -48,7 +48,7 @@ const hummel = {
     },
     {
       icon: `<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14M4.93 4.93a10 10 0 0 0 0 14.14"/></svg>`,
-      color: '#CC2B0C',
+      color: '#007CC0',
       label: 'M12 / M8 / HAN Connectors',
       name: 'Industrial Connectors',
       image: 'https://www.hummel.com/fileadmin/_processed_/9/0/csm_FM-Navi-M12-Power-rgb-0619_557ea1bfa2.png',
@@ -57,7 +57,7 @@ const hummel = {
     },
     {
       icon: `<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14M4.93 4.93a10 10 0 0 0 0 14.14"/></svg>`,
-      color: '#E8300D',
+      color: '#0098E0',
       label: 'Flexible Conduit Systems',
       name: 'Conduit Fittings',
       image: 'https://www.sealconusa.com/wp-content/uploads/2024/02/mfm2014-br.jpg',
@@ -66,7 +66,7 @@ const hummel = {
     },
     {
       icon: `<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14M4.93 4.93a10 10 0 0 0 0 14.14"/></svg>`,
-      color: '#CC2B0C',
+      color: '#007CC0',
       label: 'Cable Strain Relief',
       name: 'Strain Relief and Accessories',
       image: 'https://www.hummel.com/fileadmin/_processed_/3/6/csm_l_reducer-r-h_b3e13271c40dcb42b8f6a02f7456d470_24c13844f2.png',
