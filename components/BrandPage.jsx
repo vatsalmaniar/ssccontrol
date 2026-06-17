@@ -112,17 +112,26 @@ export default function BrandPage({ brand }) {
                 </div>
                 <div className="cat-name">{c.name}</div>
                 <div className="cat-desc">{c.desc}</div>
-                <div className="cat-tags">
-                  {c.tags.map((t) => (
-                    <span className="cat-tag" key={t}>
-                      {t}
-                    </span>
-                  ))}
+                <div className="cat-foot">
+                  <div className="cat-tags">
+                    {c.tags.map((t) => (
+                      <span className="cat-tag" key={t}>
+                        {t}
+                      </span>
+                    ))}
+                  </div>
+                  {c.slug ? (
+                    <Link href={`/partners/${brand.slug}/${c.slug}`} className="cat-know" style={{ color }}>
+                      Know More
+                      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.6" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7" /></svg>
+                    </Link>
+                  ) : (
+                    <button className="cat-btn" style={{ background: color }} onClick={() => open(c.name)}>
+                      {MAIL_ICON}
+                      Enquire Now
+                    </button>
+                  )}
                 </div>
-                <button className="cat-btn" style={{ background: color }} onClick={() => open(c.name)}>
-                  {MAIL_ICON}
-                  Enquire Now
-                </button>
               </div>
             );
           })}
