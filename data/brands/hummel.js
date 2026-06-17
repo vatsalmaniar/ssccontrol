@@ -1,7 +1,7 @@
 const hummel = {
   slug: 'hummel',
   name: 'Hummel',
-  accent: '#E8300D',
+  accent: '#0098E0',
   heroTag: 'Authorised Hummel Partner',
   title: 'Hummel',
   titleEm: 'Cable Glands and Connectors',

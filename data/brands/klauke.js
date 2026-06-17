@@ -1,7 +1,7 @@
 const klauke = {
   slug: 'klauke',
   name: 'Klauke',
-  accent: '#C4262E',
+  accent: '#104090',
   heroTag: 'Authorised Klauke Partner',
   title: 'Klauke',
   titleEm: 'Lugs, Ferrules and Tools',
