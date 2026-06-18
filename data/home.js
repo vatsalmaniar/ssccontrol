@@ -9,7 +9,9 @@ export const REEL = {
 export function toEmbedSrc(url) {
   if (!url) return '';
   let m = url.match(/(?:youtube\.com\/watch\?v=|youtu\.be\/|youtube\.com\/embed\/|youtube\.com\/shorts\/)([\w-]{11})/);
-  if (m) return `https://www.youtube.com/embed/${m[1]}`;
+  // Privacy-enhanced domain: YouTube sets no tracking cookies until the user
+  // actually plays, which clears the third-party-cookie DevTools/Best-Practices warning.
+  if (m) return `https://www.youtube-nocookie.com/embed/${m[1]}`;
   m = url.match(/vimeo\.com\/(?:video\/)?(\d+)/);
   if (m) return `https://player.vimeo.com/video/${m[1]}`;
   return url; // assume it's already an embeddable URL
