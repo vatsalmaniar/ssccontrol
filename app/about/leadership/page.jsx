@@ -4,6 +4,7 @@ import FlowLines from '@/components/FlowLines';
 
 export const metadata = {
   title: 'Leadership Team',
+  alternates: { canonical: '/about/leadership' },
   description:
     'Meet the leadership team driving SSC Control forward, three generations of the Maniar family building India\'s trusted engineering partner.',
 };

@@ -6,6 +6,7 @@ import { brands } from '@/data/brands';
 
 export const metadata = {
   title: 'Product Distribution Solutions',
+  alternates: { canonical: '/solutions/product-distribution' },
   description:
     'SSC Control is a solutions-focused distributor for OEMs, panel builders and end users, Mitsubishi & ABB low-voltage switchgear, nVent Hoffman, Schmersal, Connectwell, Hicool, GIC and Unison, backed by application support and 60 years of domain expertise.',
 };

@@ -5,6 +5,7 @@ import { AwardGrid } from '@/components/Awards';
 
 export const metadata = {
   title: 'Awards & Recognitions',
+  alternates: { canonical: '/about/awards' },
   description:
     'SSC Control has been repeatedly recognised by Mitsubishi Electric, Schmersal, nVent Hoffman, Hicool and other principals for sales performance, growth and partnership.',
 };

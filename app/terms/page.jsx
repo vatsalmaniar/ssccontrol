@@ -2,6 +2,7 @@ import './terms.css';
 
 export const metadata = {
   title: 'Terms of Use',
+  alternates: { canonical: '/terms' },
   description: 'The terms governing use of the SSC Control Pvt Ltd website.',
 };
 

@@ -5,6 +5,7 @@ import Timeline from '@/components/Timeline';
 
 export const metadata = {
   title: 'Our Heritage, 60 Years Since 1966',
+  alternates: { canonical: '/about/heritage' },
   description:
     'The SSC Control story, from a 1966 founding in Ludhiana to a future-ready engineering company. Six decades of milestones and the Maniar family legacy.',
 };

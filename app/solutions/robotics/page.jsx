@@ -5,6 +5,7 @@ import { ROUTES } from '@/lib/routes';
 
 export const metadata = {
   title: 'Robotics Solutions',
+  alternates: { canonical: '/solutions/robotics' },
   description:
     'Vision-guided robotic automation by SSC Control, application study, robot selection, vision integration, cell design, programming and commissioning, powered by Mitsubishi MELFA robots and Sensopart machine vision.',
 };

@@ -4,6 +4,7 @@ import FlowLines from '@/components/FlowLines';
 
 export const metadata = {
   title: 'About Us, Company Overview',
+  alternates: { canonical: '/about' },
   description:
     "SSC Control Pvt Ltd, 60 years of engineering excellence. India's trusted partner in electrical, automation and engineering solutions.",
 };

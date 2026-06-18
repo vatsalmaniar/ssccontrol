@@ -32,9 +32,48 @@ export function generateMetadata({ params }) {
   };
 }
 
+const BASE = 'https://ssccontrol.com';
+
 export default function Page({ params }) {
   const product = PRODUCT_PAGES[`${params.brand}/${params.product}`];
   const brand = brands[params.brand];
   if (!product || !brand) notFound();
-  return <ProductDetail product={product} brand={brand} />;
+
+  const url = `${BASE}/partners/${params.brand}/${params.product}/`;
+  const seriesNames = product.series.map((s) => s.name).join(', ');
+
+  const breadcrumbLd = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: `${BASE}/` },
+      { '@type': 'ListItem', position: 2, name: 'Partners', item: `${BASE}/partners/` },
+      { '@type': 'ListItem', position: 3, name: brand.name, item: `${BASE}/partners/${params.brand}/` },
+      { '@type': 'ListItem', position: 4, name: product.category, item: url },
+    ],
+  };
+
+  const productLd = {
+    '@context': 'https://schema.org',
+    '@type': 'Product',
+    name: `${brand.name} ${product.category}`,
+    category: product.category,
+    description: `${brand.name} ${product.category}: ${seriesNames}. Available from SSC Control, authorised channel partner and distributor in Ahmedabad, Vadodara, Gujarat and across India.`,
+    brand: { '@type': 'Brand', name: brand.name },
+    url,
+    offers: {
+      '@type': 'AggregateOffer',
+      availability: 'https://schema.org/InStock',
+      priceCurrency: 'INR',
+      seller: { '@type': 'Organization', name: 'SSC Control Pvt Ltd' },
+    },
+  };
+
+  return (
+    <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(productLd) }} />
+      <ProductDetail product={product} brand={brand} />
+    </>
+  );
 }

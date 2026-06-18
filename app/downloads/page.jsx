@@ -7,6 +7,7 @@ import { brands } from '@/data/brands';
 
 export const metadata = {
   title: 'Downloads, Price Lists & Catalogues',
+  alternates: { canonical: '/downloads' },
   description:
     'Download the latest price lists, product catalogues and datasheets from SSC Control, ABB, Mitsubishi Electric, Schmersal and more.',
 };

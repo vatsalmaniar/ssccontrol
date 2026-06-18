@@ -2,6 +2,7 @@ import './privacy.css';
 
 export const metadata = {
   title: 'Privacy Policy',
+  alternates: { canonical: '/privacy' },
   description: 'How SSC Control Pvt Ltd collects, uses, and protects your information.',
 };
 

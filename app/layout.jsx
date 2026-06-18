@@ -84,11 +84,47 @@ const jsonLd = {
   sameAs: [COMPANY.social.instagram, COMPANY.social.linkedin],
 };
 
+const localBusinessLd = {
+  '@context': 'https://schema.org',
+  '@type': 'LocalBusiness',
+  '@id': `${SITE_URL}/#localbusiness`,
+  name: COMPANY.name,
+  image: `${SITE_URL}/og-image.png`,
+  url: SITE_URL,
+  telephone: COMPANY.phone,
+  email: COMPANY.email,
+  priceRange: '₹₹',
+  address: {
+    '@type': 'PostalAddress',
+    streetAddress: 'E-12, Siddhivinayak Tower, S.G. Highway, Makarba',
+    addressLocality: 'Ahmedabad',
+    addressRegion: 'Gujarat',
+    postalCode: '380051',
+    addressCountry: 'IN',
+  },
+  geo: {
+    '@type': 'GeoCoordinates',
+    latitude: 23.0152,
+    longitude: 72.5095,
+  },
+  areaServed: ['Ahmedabad', 'Vadodara', 'Gujarat', 'India'],
+  openingHoursSpecification: [
+    {
+      '@type': 'OpeningHoursSpecification',
+      dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'],
+      opens: '09:30',
+      closes: '18:30',
+    },
+  ],
+  sameAs: [COMPANY.social.instagram, COMPANY.social.linkedin],
+};
+
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className={GeistSans.variable} suppressHydrationWarning>
       <body suppressHydrationWarning>
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessLd) }} />
         <Analytics />
         <ScrollReveal />
         <EnquiryProvider>

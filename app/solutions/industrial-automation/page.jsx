@@ -5,6 +5,7 @@ import { ROUTES } from '@/lib/routes';
 
 export const metadata = {
   title: 'Industrial Automation Solutions',
+  alternates: { canonical: '/solutions/industrial-automation' },
   description:
     'Engineering-led industrial automation by SSC Control, product selection, application development, control architecture, PLC programming and HMI design, powered by Mitsubishi Electric.',
 };

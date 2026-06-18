@@ -4,6 +4,7 @@ import FlowLines from '@/components/FlowLines';
 
 export const metadata = {
   title: 'Careers',
+  alternates: { canonical: '/careers' },
   description: 'Build your career with SSC Control, 60 years of industrial automation and electrical distribution excellence.',
 };
 

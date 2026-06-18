@@ -5,6 +5,7 @@ import { ROUTES } from '@/lib/routes';
 
 export const metadata = {
   title: 'Industrial Software Solutions',
+  alternates: { canonical: '/solutions/industrial-software' },
   description:
     'Digital-factory software by SSC Control, SCADA, MES, data logging and energy management built on Mitsubishi e-F@ctory and ICONICS, plus custom factory software developed in-house at SSC.',
 };

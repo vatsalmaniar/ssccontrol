@@ -5,6 +5,7 @@ import { ROUTES } from '@/lib/routes';
 
 export const metadata = {
   title: 'Industrial Safety Solutions',
+  alternates: { canonical: '/solutions/industrial-safety' },
   description:
     'Engineering-led machine safety by SSC Control, risk assessment, safety concept & design, product selection, safety circuit architecture, safety-controller programming and validation, powered by Schmersal.',
 };
