@@ -213,12 +213,17 @@ export default function BrandPage({ brand }) {
       <div className="cats-wrap" style={{ paddingTop: 0 }}>
         <div className="slabel">FAQ</div>
         <div className="stitle">{brand.name}, Frequently Asked Questions</div>
-        <div style={{ maxWidth: 820, marginTop: 12 }}>
-          {faqs.map((f) => (
-            <div key={f.q} style={{ borderTop: '1px solid rgba(10,31,68,0.1)', padding: '22px 0' }}>
-              <h3 style={{ fontSize: 18, fontWeight: 700, color: 'var(--navy)', margin: '0 0 8px' }}>{f.q}</h3>
-              <p style={{ fontSize: 15, color: 'var(--gray)', lineHeight: 1.7, margin: 0 }}>{f.a}</p>
-            </div>
+        <div className="faq-list">
+          {faqs.map((f, i) => (
+            <details className="faq-item" key={f.q} open={i === 0}>
+              <summary className="faq-q">
+                <span>{f.q}</span>
+                <svg className="faq-chev" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                  <path d="M6 9l6 6 6-6" />
+                </svg>
+              </summary>
+              <p className="faq-a">{f.a}</p>
+            </details>
           ))}
         </div>
       </div>
