@@ -9,7 +9,7 @@ import WhatsAppButton from '@/components/WhatsAppButton';
 import CookieConsent from '@/components/CookieConsent';
 import { COMPANY } from '@/data/site';
 
-const SITE_URL = 'https://ssccontrol.com';
+const SITE_URL = 'https://www.ssccontrol.com';
 
 export const metadata = {
   metadataBase: new URL(SITE_URL),

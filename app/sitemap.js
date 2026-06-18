@@ -3,7 +3,7 @@ import { PRODUCT_PAGES } from '@/data/products';
 
 export const dynamic = 'force-static';
 
-const BASE = 'https://ssccontrol.com';
+const BASE = 'https://www.ssccontrol.com';
 
 // All hand-authored (non-dynamic) routes. Dynamic brand and product routes are
 // derived from data below so new partners/products appear automatically.

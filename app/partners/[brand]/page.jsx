@@ -34,7 +34,7 @@ export function generateMetadata({ params }) {
   };
 }
 
-const BASE = 'https://ssccontrol.com';
+const BASE = 'https://www.ssccontrol.com';
 
 export default function Page({ params }) {
   const b = brands[params.brand];

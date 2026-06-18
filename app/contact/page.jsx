@@ -610,7 +610,7 @@ export default function ContactPage() {
                 <div className="info-list-item">
                   <span className="info-list-label">Website</span>
                   <span className="info-list-value">
-                    <a href="https://ssccontrol.com">ssccontrol.com</a>
+                    <a href="https://www.ssccontrol.com">ssccontrol.com</a>
                   </span>
                 </div>
               </div>
