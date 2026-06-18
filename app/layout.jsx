@@ -51,6 +51,11 @@ export const metadata = {
     images: ['/og-image.png'],
   },
   robots: { index: true, follow: true },
+  manifest: '/manifest.webmanifest',
+};
+
+export const viewport = {
+  themeColor: '#00489c',
 };
 
 const jsonLd = {

@@ -1,6 +1,7 @@
 import { notFound } from 'next/navigation';
 import BrandPage from '@/components/BrandPage';
 import { brands, brandSlugs } from '@/data/brands';
+import { buildBrandFaq } from '@/lib/brandFaq';
 
 export function generateStaticParams() {
   return brandSlugs.map((brand) => ({ brand }));
@@ -47,9 +48,19 @@ export default function Page({ params }) {
       { '@type': 'ListItem', position: 3, name: b.name, item: `${BASE}/partners/${params.brand}/` },
     ],
   };
+  const faqLd = {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: buildBrandFaq(b).map((f) => ({
+      '@type': 'Question',
+      name: f.q,
+      acceptedAnswer: { '@type': 'Answer', text: f.a },
+    })),
+  };
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqLd) }} />
       <BrandPage brand={b} />
     </>
   );

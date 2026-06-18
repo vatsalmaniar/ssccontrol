@@ -7,6 +7,7 @@ import { ROUTES } from '@/lib/routes';
 import { useEnquiry } from '@/components/EnquiryModal';
 import { AWARDS } from '@/data/awards';
 import { AwardGrid } from '@/components/Awards';
+import { buildBrandFaq } from '@/lib/brandFaq';
 
 const UL_MARK = (
   <svg viewBox="0 0 120 64" fill="none" aria-hidden="true" className="cert-ul-svg">
@@ -27,6 +28,7 @@ const MAIL_ICON = (
 export default function BrandPage({ brand }) {
   const { open } = useEnquiry();
   const accent = brand.accent;
+  const faqs = buildBrandFaq(brand);
 
   return (
     <main className="page-brand" style={{ '--brand': accent }}>
@@ -207,6 +209,19 @@ export default function BrandPage({ brand }) {
           </div>
         </div>
       )}
+
+      <div className="cats-wrap" style={{ paddingTop: 0 }}>
+        <div className="slabel">FAQ</div>
+        <div className="stitle">{brand.name}, Frequently Asked Questions</div>
+        <div style={{ maxWidth: 820, marginTop: 12 }}>
+          {faqs.map((f) => (
+            <div key={f.q} style={{ borderTop: '1px solid rgba(10,31,68,0.1)', padding: '22px 0' }}>
+              <h3 style={{ fontSize: 18, fontWeight: 700, color: 'var(--navy)', margin: '0 0 8px' }}>{f.q}</h3>
+              <p style={{ fontSize: 15, color: 'var(--gray)', lineHeight: 1.7, margin: 0 }}>{f.a}</p>
+            </div>
+          ))}
+        </div>
+      </div>
 
       <div className="cta">
         <FlowLines className="ink" opacity={0.9} />

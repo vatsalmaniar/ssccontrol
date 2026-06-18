@@ -30,7 +30,7 @@ export default function HomePage() {
           <p>At SSC Control Pvt Ltd, we specialize in providing cutting-edge industrial automation, safety solutions, and AI-driven technologies to enhance productivity, efficiency, and safety for businesses.</p>
           <div className="hero-btns">
             <a href="#solutions" className="btn-primary">Explore Solutions</a>
-            <Link href="/about" className="btn-outline">Learn More</Link>
+            <Link href="/about" className="btn-outline" aria-label="Learn more about SSC Control">Learn More</Link>
           </div>
         </div>
       </div>
