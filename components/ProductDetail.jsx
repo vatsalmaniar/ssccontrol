@@ -34,11 +34,13 @@ export default function ProductDetail({ product, brand }) {
               <Link href={ROUTES.brand(brand.slug)} className="pd-btn-ghost">All {brand.name} Products</Link>
             </div>
           </div>
-          <div className="pd-hero-right">
-            <div className="pd-hero-photo">
-              <img src={product.heroImage} alt={`${brand.name} ${product.category}`} />
+          {product.heroImage && (
+            <div className="pd-hero-right">
+              <div className="pd-hero-photo">
+                <img src={product.heroImage} alt={`${brand.name} ${product.category}`} />
+              </div>
             </div>
-          </div>
+          )}
         </div>
       </div>
 
@@ -51,9 +53,11 @@ export default function ProductDetail({ product, brand }) {
           <div className="pd-series-grid">
             {product.series.map((s) => (
               <div className="pd-series-card" key={s.name}>
-                <div className="pd-series-photo">
-                  <img src={s.image} alt={`${brand.name} ${s.name}`} />
-                </div>
+                {s.image && (
+                  <div className="pd-series-photo">
+                    <img src={s.image} alt={`${brand.name} ${s.name}`} />
+                  </div>
+                )}
                 <div className="pd-series-body">
                   <div className="pd-series-tag">{s.tag}</div>
                   <h3>{s.name}</h3>

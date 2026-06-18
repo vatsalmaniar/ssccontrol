@@ -2359,6 +2359,2417 @@ export const PRODUCT_PAGES = {
     "ctaTitle": "Need an EC external rotor motor?",
     "ctaText": "Our team can select the right EC motor frame and power for your fan."
   },
+  "nvent/ms-wall-mount": {
+    "brandSlug": "nvent",
+    "slug": "ms-wall-mount",
+    "category": "Mild Steel Wall Mount Enclosures",
+    "label": "MS Wall Mount",
+    "title": "Mild Steel",
+    "titleEm": "Wall Mount Enclosures",
+    "tagline": "Single and double door steel enclosures up to IP66.",
+    "intro": "nVent Hoffman is a global leader in enclosures and protection for electrical infrastructure. SSC Control, nVent Hoffman's No.1 channel partner since 2006, supplies the full range with genuine products, warranty and complete project support across Gujarat and India.",
+    "heroImage": "https://rspsupply.com/images/product/medium/Hoffman-MAS1006040R5.jpg",
+    "seriesLabel": "Wall Mount Lineup",
+    "seriesTitle": "Mild Steel Wall Mount Series",
+    "series": [
+      {
+        "name": "MAS Single Door",
+        "tag": "Mild steel, IP66",
+        "desc": "Mild steel single door wall-mounted enclosure across a wide size range with high IP66 protection.",
+        "features": [
+          "Material: Mild steel, body 1.2 to 1.5 mm",
+          "Finish: RAL 7035 structured powder coat",
+          "Rating: IP66 / Type 4, 12 / IK10",
+          "Door: single, concealed hinges, 130 degree opening",
+          "Sizes: 300x250x155 up to 1000x600x400 mm"
+        ],
+        "image": "https://rspsupply.com/images/product/medium/Hoffman-MAS1006040R5.jpg"
+      },
+      {
+        "name": "MAD Double Door",
+        "tag": "Mild steel, IP55",
+        "desc": "Mild steel double door wall-mounted enclosure for confined spaces, splitting the load over two narrower doors.",
+        "features": [
+          "Material: Mild steel, body 1.5 mm, door 2 mm",
+          "Finish: RAL 7035 structured powder coat",
+          "Rating: IP55 / Type 12 / IK10",
+          "Door: double",
+          "Sizes: 800x1000x210 up to 1200x1200x400 mm"
+        ],
+        "image": "https://rspsupply.com/images/product/medium/Hoffman-MAD1201240R5.jpg"
+      }
+    ],
+    "highlights": [
+      {
+        "title": "Genuine nVent Hoffman",
+        "text": "Authentic nVent Hoffman products with full manufacturer warranty."
+      },
+      {
+        "title": "No.1 Channel Partner",
+        "text": "SSC Control has been nVent Hoffman's No.1 channel partner since 2006."
+      },
+      {
+        "title": "Stock & Project Support",
+        "text": "Ready availability and project support from our Ahmedabad and Baroda bases across Gujarat."
+      },
+      {
+        "title": "Enclosure Sizing",
+        "text": "Selection, sizing and accessory support from our engineering team."
+      }
+    ],
+    "ctaTitle": "Looking for a nVent Hoffman enclosure?",
+    "ctaText": "Our team can size the enclosure, material and protection rating for your panel build."
+  },
+  "nvent/ms-floor-standing": {
+    "brandSlug": "nvent",
+    "slug": "ms-floor-standing",
+    "category": "Mild Steel Floor Standing Enclosures",
+    "label": "MS Floor Standing",
+    "title": "Mild Steel",
+    "titleEm": "Floor Standing Enclosures",
+    "tagline": "Modular combinable floor-standing steel enclosures.",
+    "intro": "nVent Hoffman is a global leader in enclosures and protection for electrical infrastructure. SSC Control, nVent Hoffman's No.1 channel partner since 2006, supplies the full range with genuine products, warranty and complete project support across Gujarat and India.",
+    "heroImage": "https://rspsupply.com/images/product/medium/Hoffman-MCS20086R5.jpg",
+    "seriesLabel": "Floor Standing Lineup",
+    "seriesTitle": "Mild Steel Floor Standing Series",
+    "series": [
+      {
+        "name": "MCS Single Door",
+        "tag": "Mild steel, IP55",
+        "desc": "Modular single door combinable floor-standing steel enclosure for combined or stand-alone installation.",
+        "features": [
+          "Material: 1.5 mm steel frame and panels, 2 mm door",
+          "Finish: RAL 7035",
+          "Rating: IP55 / Type 12",
+          "Type: single door, combinable and bayable",
+          "Sizes: 1800 to 2200 mm H, 600 to 1000 mm W, 400 to 800 mm D"
+        ],
+        "image": "https://rspsupply.com/images/product/medium/Hoffman-MCS20086R5.jpg"
+      },
+      {
+        "name": "MCD Double Door",
+        "tag": "Mild steel, IP55",
+        "desc": "Modular double door combinable floor-standing steel enclosure for full-width front access in tight spaces.",
+        "features": [
+          "Material: 1.5 mm steel frame and panels, 2 mm doors",
+          "Finish: RAL 7035",
+          "Rating: IP55 / Type 12",
+          "Type: double door, combinable and bayable",
+          "Sizes: 1800 to 2200 mm H, 1000 to 1200 mm W"
+        ],
+        "image": "https://rspsupply.com/images/product/medium/Hoffman-MCD18105R5.jpg"
+      },
+      {
+        "name": "NCS Single Door",
+        "tag": "Mild steel, IP55",
+        "desc": "Modular single door combinable floor-standing steel enclosure supplied ready for bayed installation.",
+        "features": [
+          "Material: steel frame 1.5 mm, door 2 mm, galvanised mounting plate 2.5 mm",
+          "Finish: RAL 7035",
+          "Rating: IP55 / Type 12",
+          "Type: single door, modular and combinable",
+          "Sizes: 1800 to 2000 mm H, 400 to 1200 mm W, 400 to 800 mm D"
+        ],
+        "image": "https://rspsupply.com/images/product/medium/Hoffman-MCS20086R5.jpg"
+      },
+      {
+        "name": "NCD Double Door",
+        "tag": "Mild steel, IP55",
+        "desc": "Modular double door combinable floor-standing steel enclosure for reduced front swing clearance.",
+        "features": [
+          "Material: steel frame 1.5 mm, doors 2 mm, galvanised mounting plate 2.5 mm",
+          "Finish: RAL 7035",
+          "Rating: IP55 / Type 12",
+          "Type: double door, modular and combinable",
+          "Sizes: 1800 to 2000 mm H, 1000 to 1200 mm W, 400 to 800 mm D"
+        ],
+        "image": "https://rspsupply.com/images/product/medium/Hoffman-MCD18105R5.jpg"
+      },
+      {
+        "name": "NCS HT Single Door",
+        "tag": "Mild steel, IP55",
+        "desc": "Current generation NCS HT single door combinable floor-standing enclosure with four-hinge reversible door.",
+        "features": [
+          "Material: steel frame 1.5 mm, door 2 mm, galvanised mounting plate 2.5 mm",
+          "Finish: RAL 7035",
+          "Rating: IP55 / Type 12",
+          "Type: single door, four hinges, modular and combinable",
+          "Sizes: 1800 to 2000 mm H, 400 to 1200 mm W, 400 to 800 mm D"
+        ],
+        "image": "https://rspsupply.com/images/product/medium/Hoffman-MCS20086R5.jpg"
+      },
+      {
+        "name": "NCD HT Double Door",
+        "tag": "Mild steel, IP55",
+        "desc": "Current generation NCD HT double door combinable floor-standing enclosure for confined spaces.",
+        "features": [
+          "Material: steel frame 1.5 mm, doors 2 mm, galvanised mounting plate 2.5 mm",
+          "Finish: RAL 7035",
+          "Rating: IP55 / Type 12",
+          "Type: double door, three hinges, modular and combinable",
+          "Sizes: 1800 to 2000 mm H, 1000 to 1200 mm W, 400 to 800 mm D"
+        ],
+        "image": "https://rspsupply.com/images/product/medium/Hoffman-MCD18105R5.jpg"
+      }
+    ],
+    "highlights": [
+      {
+        "title": "Genuine nVent Hoffman",
+        "text": "Authentic nVent Hoffman products with full manufacturer warranty."
+      },
+      {
+        "title": "No.1 Channel Partner",
+        "text": "SSC Control has been nVent Hoffman's No.1 channel partner since 2006."
+      },
+      {
+        "title": "Stock & Project Support",
+        "text": "Ready availability and project support from our Ahmedabad and Baroda bases across Gujarat."
+      },
+      {
+        "title": "Enclosure Sizing",
+        "text": "Selection, sizing and accessory support from our engineering team."
+      }
+    ],
+    "ctaTitle": "Looking for a nVent Hoffman enclosure?",
+    "ctaText": "Our team can size the enclosure, material and protection rating for your panel build."
+  },
+  "nvent/ss-wall-mount": {
+    "brandSlug": "nvent",
+    "slug": "ss-wall-mount",
+    "category": "Stainless Steel Wall Mount",
+    "label": "SS Wall Mount",
+    "title": "Stainless Steel",
+    "titleEm": "Wall Mount Enclosures",
+    "tagline": "304 and 316L stainless wall enclosures for harsh environments.",
+    "intro": "nVent Hoffman is a global leader in enclosures and protection for electrical infrastructure. SSC Control, nVent Hoffman's No.1 channel partner since 2006, supplies the full range with genuine products, warranty and complete project support across Gujarat and India.",
+    "heroImage": "https://rspsupply.com/images/product/medium/Hoffman-ASR0404021.jpg",
+    "seriesLabel": "Wall Mount Lineup",
+    "seriesTitle": "Stainless Steel Wall Mount Series",
+    "series": [
+      {
+        "name": "ASR Single Door",
+        "tag": "304 / 316L SS, IP66",
+        "desc": "Single door stainless steel wall-mounted enclosure with brushed finish for washdown and corrosive environments.",
+        "features": [
+          "Grade: AISI 304L or 316L stainless steel",
+          "Rating: IP66 / Type 4X / IK10",
+          "Door: single, 130 degree opening, concealed SS hinges",
+          "Mount: wall",
+          "Sizes: 300x300 up to 1200x1000 mm, depth 150 to 300 mm"
+        ],
+        "image": "https://rspsupply.com/images/product/medium/Hoffman-ASR0606030.jpg"
+      },
+      {
+        "name": "ADR Double Door",
+        "tag": "304 / 316L SS, IP55",
+        "desc": "Double door stainless steel wall-mounted enclosure for large installations with limited front access.",
+        "features": [
+          "Grade: AISI 304L or 316L stainless steel",
+          "Rating: IP55 / Type 12 / IK10",
+          "Door: double, three-point espagnolette locking, concealed SS hinges",
+          "Mount: wall",
+          "Sizes: 1000x800 up to 1200x1200 mm, depth 300 to 400 mm"
+        ],
+        "image": "https://rspsupply.com/images/product/medium/Hoffman-ADR1001030.jpg"
+      }
+    ],
+    "highlights": [
+      {
+        "title": "Genuine nVent Hoffman",
+        "text": "Authentic nVent Hoffman products with full manufacturer warranty."
+      },
+      {
+        "title": "No.1 Channel Partner",
+        "text": "SSC Control has been nVent Hoffman's No.1 channel partner since 2006."
+      },
+      {
+        "title": "Stock & Project Support",
+        "text": "Ready availability and project support from our Ahmedabad and Baroda bases across Gujarat."
+      },
+      {
+        "title": "Enclosure Sizing",
+        "text": "Selection, sizing and accessory support from our engineering team."
+      }
+    ],
+    "ctaTitle": "Looking for a nVent Hoffman enclosure?",
+    "ctaText": "Our team can size the enclosure, material and protection rating for your panel build."
+  },
+  "nvent/ss-floor-standing": {
+    "brandSlug": "nvent",
+    "slug": "ss-floor-standing",
+    "category": "Stainless Steel Floor Standing",
+    "label": "SS Floor Standing",
+    "title": "Stainless Steel",
+    "titleEm": "Floor Standing Enclosures",
+    "tagline": "Compact and modular stainless floor-standing enclosures.",
+    "intro": "nVent Hoffman is a global leader in enclosures and protection for electrical infrastructure. SSC Control, nVent Hoffman's No.1 channel partner since 2006, supplies the full range with genuine products, warranty and complete project support across Gujarat and India.",
+    "heroImage": "https://rspsupply.com/images/product/medium/Hoffman-A62H4812SSLP3PT.jpg",
+    "seriesLabel": "Floor Standing Lineup",
+    "seriesTitle": "Stainless Steel Floor Standing Series",
+    "series": [
+      {
+        "name": "EKSS Single Door",
+        "tag": "304 / 316L SS, IP66",
+        "desc": "Compact one-piece single door stainless steel floor-standing enclosure with internal mounting plate.",
+        "features": [
+          "Grade: AISI 304L or 316L stainless steel",
+          "Rating: IP66 / Type 4X / IK10",
+          "Door: single, concealed SS hinges, multi-point locking",
+          "Mount: floor, compact one-piece",
+          "Sizes: 1400x600 up to 2000x800 mm, depth 300 to 500 mm"
+        ],
+        "image": "https://rspsupply.com/images/product/medium/Hoffman-EKSS18084.jpg"
+      },
+      {
+        "name": "EKDS Double Door",
+        "tag": "304 / 316L SS, IP55",
+        "desc": "Compact double door stainless steel floor-standing enclosure for confined spaces.",
+        "features": [
+          "Grade: AISI 304L or 316L stainless steel",
+          "Rating: IP55 / Type 12 / IK10",
+          "Door: double, three-point espagnolette locking",
+          "Mount: floor, compact one-piece",
+          "Sizes: 1400x1000 up to 2000x1200 mm, depth 400 to 500 mm"
+        ],
+        "image": "https://rspsupply.com/images/product/medium/Hoffman-EKDS16124.jpg"
+      },
+      {
+        "name": "MCSS Single Door",
+        "tag": "304 / 316L SS, IP55",
+        "desc": "Modular combinable single door stainless steel floor-standing enclosure, bayable for multi-bay lineups.",
+        "features": [
+          "Grade: AISI 304L or 316L stainless steel",
+          "Rating: IP55 / Type 12 / IK10",
+          "Door: single, modular and bayable frame",
+          "Mount: floor, combinable",
+          "Sizes: 1800x600 up to 2200x800 mm, depth 400 to 800 mm"
+        ],
+        "image": "https://rspsupply.com/images/product/medium/Hoffman-A62H4812SSLP3PT.jpg"
+      },
+      {
+        "name": "MCDS Double Door",
+        "tag": "304 / 316L SS, IP55",
+        "desc": "Modular combinable double door stainless steel floor-standing enclosure for multi-bay lineups.",
+        "features": [
+          "Grade: AISI 304L or 316L stainless steel",
+          "Rating: IP55 / Type 12 / IK10",
+          "Door: double, modular and bayable frame",
+          "Mount: floor, combinable",
+          "Sizes: 1800x1000 up to 2200x1200 mm, depth 400 to 800 mm"
+        ],
+        "image": "https://rspsupply.com/images/product/medium/Hoffman-A62H4812SSLP3PT.jpg"
+      }
+    ],
+    "highlights": [
+      {
+        "title": "Genuine nVent Hoffman",
+        "text": "Authentic nVent Hoffman products with full manufacturer warranty."
+      },
+      {
+        "title": "No.1 Channel Partner",
+        "text": "SSC Control has been nVent Hoffman's No.1 channel partner since 2006."
+      },
+      {
+        "title": "Stock & Project Support",
+        "text": "Ready availability and project support from our Ahmedabad and Baroda bases across Gujarat."
+      },
+      {
+        "title": "Enclosure Sizing",
+        "text": "Selection, sizing and accessory support from our engineering team."
+      }
+    ],
+    "ctaTitle": "Looking for a nVent Hoffman enclosure?",
+    "ctaText": "Our team can size the enclosure, material and protection rating for your panel build."
+  },
+  "nvent/junction-boxes": {
+    "brandSlug": "nvent",
+    "slug": "junction-boxes",
+    "category": "Junction Boxes",
+    "label": "Field Junction Boxes",
+    "title": "Terminal &",
+    "titleEm": "Junction Boxes",
+    "tagline": "Steel and stainless terminal boxes up to IP66.",
+    "intro": "nVent Hoffman is a global leader in enclosures and protection for electrical infrastructure. SSC Control, nVent Hoffman's No.1 channel partner since 2006, supplies the full range with genuine products, warranty and complete project support across Gujarat and India.",
+    "heroImage": "https://rspsupply.com/images/product/medium/Hoffman-Q402013PCICC.jpg",
+    "seriesLabel": "Junction Box Lineup",
+    "seriesTitle": "Terminal Box Series",
+    "series": [
+      {
+        "name": "STB Steel Terminal Box",
+        "tag": "Mild steel, IP66",
+        "desc": "Folded and seam-welded mild steel terminal and junction box rated IP66 with a one-piece polyurethane gasket.",
+        "features": [
+          "Material: 1.2 mm mild steel, light gray powder coat",
+          "Rating: IP66 / Type 4, 12 / IK08, cUL Listed",
+          "Mounting: wall, plain sides for glands and knockouts",
+          "Sizes: 150x150x80 up to 400x400x120 mm and above"
+        ],
+        "image": "https://rspsupply.com/images/product/medium/Hoffman-STB204012.jpg"
+      },
+      {
+        "name": "SSTB Stainless Terminal Box",
+        "tag": "Stainless, IP66 / 4X",
+        "desc": "Folded and seam-welded stainless steel terminal and junction box for corrosion-prone indoor and outdoor use.",
+        "features": [
+          "Material: AISI 304L (1 mm body, 1.5 mm cover), 316L on request",
+          "Rating: IP66 / Type 4X, 12 / IK08",
+          "Mounting: wall, brushed finish, M8 earth studs",
+          "Sizes: 150x150x80 up to 400x400x120 mm and above"
+        ],
+        "image": "https://rspsupply.com/images/product/medium/Hoffman-SSTB202008.jpg"
+      }
+    ],
+    "highlights": [
+      {
+        "title": "Genuine nVent Hoffman",
+        "text": "Authentic nVent Hoffman products with full manufacturer warranty."
+      },
+      {
+        "title": "No.1 Channel Partner",
+        "text": "SSC Control has been nVent Hoffman's No.1 channel partner since 2006."
+      },
+      {
+        "title": "Stock & Project Support",
+        "text": "Ready availability and project support from our Ahmedabad and Baroda bases across Gujarat."
+      },
+      {
+        "title": "Enclosure Sizing",
+        "text": "Selection, sizing and accessory support from our engineering team."
+      }
+    ],
+    "ctaTitle": "Looking for a nVent Hoffman enclosure?",
+    "ctaText": "Our team can size the enclosure, material and protection rating for your panel build."
+  },
+  "nvent/desk-panels": {
+    "brandSlug": "nvent",
+    "slug": "desk-panels",
+    "category": "Desk Panels & Control Consoles",
+    "label": "Operator Desk Panels",
+    "title": "Operator",
+    "titleEm": "Desks & Consoles",
+    "tagline": "One-piece and combinable operator consoles for HMI.",
+    "intro": "nVent Hoffman is a global leader in enclosures and protection for electrical infrastructure. SSC Control, nVent Hoffman's No.1 channel partner since 2006, supplies the full range with genuine products, warranty and complete project support across Gujarat and India.",
+    "heroImage": "https://rspsupply.com/images/product/medium/Hoffman-PGLD12135DC.jpg",
+    "seriesLabel": "Console Lineup",
+    "seriesTitle": "Desk & Console Series",
+    "series": [
+      {
+        "name": "MPG",
+        "tag": "One-piece desk console",
+        "desc": "Off-the-shelf one-piece operator desk console in mild steel with a hinged desk panel for ergonomic HMI access.",
+        "features": [
+          "Type: one-piece desk console",
+          "Material: 1.5 mm mild steel body, 2.5 mm galvanised mounting plate",
+          "Finish: RAL 7035",
+          "Rating: IP66 single door, IP55 double door",
+          "Sizes: 985 mm high, 400 mm deep, widths 800 to 1600 mm"
+        ],
+        "image": "https://rspsupply.com/images/product/medium/Hoffman-MPG12R5.jpg"
+      },
+      {
+        "name": "MPC",
+        "tag": "Combinable console system",
+        "desc": "Combinable modular console system with interchangeable top, desk and base sections that bay together.",
+        "features": [
+          "Type: combinable modular console, bayable",
+          "Material: 1.5 mm mild steel body and door",
+          "Finish: RAL 7035",
+          "Rating: IP66 single door, IP55 double door, IK10",
+          "Sections: top, desk and base with integrated plinth"
+        ],
+        "image": "https://rspsupply.com/images/product/medium/Hoffman-MPC081R5.jpg"
+      }
+    ],
+    "highlights": [
+      {
+        "title": "Genuine nVent Hoffman",
+        "text": "Authentic nVent Hoffman products with full manufacturer warranty."
+      },
+      {
+        "title": "No.1 Channel Partner",
+        "text": "SSC Control has been nVent Hoffman's No.1 channel partner since 2006."
+      },
+      {
+        "title": "Stock & Project Support",
+        "text": "Ready availability and project support from our Ahmedabad and Baroda bases across Gujarat."
+      },
+      {
+        "title": "Enclosure Sizing",
+        "text": "Selection, sizing and accessory support from our engineering team."
+      }
+    ],
+    "ctaTitle": "Need an operator console?",
+    "ctaText": "Our team can configure the desk, console and HMI layout for your workstation."
+  },
+  "nvent/hazardous-area": {
+    "brandSlug": "nvent",
+    "slug": "hazardous-area",
+    "category": "Hazardous Area Enclosures, ZoneX",
+    "label": "Ex Zone Enclosures",
+    "title": "ZonEx",
+    "titleEm": "Hazardous Area Enclosures",
+    "tagline": "ATEX and IECEx enclosures for Zone 1, 2, 21 and 22.",
+    "intro": "nVent Hoffman is a global leader in enclosures and protection for electrical infrastructure. SSC Control, nVent Hoffman's No.1 channel partner since 2006, supplies the full range with genuine products, warranty and complete project support across Gujarat and India.",
+    "heroImage": "https://rspsupply.com/images/product/medium/Hoffman-ATEX262616SS61.jpg",
+    "seriesLabel": "ZonEx Lineup",
+    "seriesTitle": "Hazardous Area Series",
+    "series": [
+      {
+        "name": "ZonEx EXE Stainless",
+        "tag": "316 SS, ATEX Zone 1/2",
+        "desc": "Type 316 stainless steel ZonEx wall-mount enclosure with single gland plate for hazardous-area terminations.",
+        "features": [
+          "Material: Type 316 stainless steel",
+          "Certification: ATEX / IECEx",
+          "Zones: 1 / 2",
+          "Protection: Ex e increased safety",
+          "Rating: IP66 / Type 4X"
+        ],
+        "image": "https://rspsupply.com/images/product/medium/Hoffman-EXE20208SS61.jpg"
+      },
+      {
+        "name": "ZonEx ATEX Stainless",
+        "tag": "316 SS, ATEX Zone 1/2",
+        "desc": "Type 316 stainless steel ZonEx enclosure with one or three gland plates and lift-off hinged covers.",
+        "features": [
+          "Material: Type 316 stainless steel",
+          "Certification: ATEX / IECEx",
+          "Zones: 1 / 2",
+          "Protection: Ex e increased safety",
+          "Rating: IP66 / Type 4, 4X, 12"
+        ],
+        "image": "https://rspsupply.com/images/product/medium/Hoffman-ATEX262616SS61.jpg"
+      },
+      {
+        "name": "ZonEx GRP Non-Metallic",
+        "tag": "GRP, ATEX Zone 1/2",
+        "desc": "Compression-moulded fibreglass-reinforced polyester terminal enclosure resisting corrosive contaminants.",
+        "features": [
+          "Material: GRP, fibreglass-reinforced polyester",
+          "Certification: ATEX / IECEx",
+          "Zones: 1 / 2",
+          "Protection: Ex e increased safety",
+          "Rating: IP66"
+        ],
+        "image": "https://rspsupply.com/images/product/medium/Hoffman-EXE12212090.jpg"
+      },
+      {
+        "name": "ZonEx SA Aluminium",
+        "tag": "Aluminium, Zone 1/2/21/22",
+        "desc": "Low-copper aluminium alloy ZonEx enclosure with epoxy coating, rated for both gas and dust zones.",
+        "features": [
+          "Material: low-copper aluminium alloy, epoxy coated",
+          "Certification: ATEX / IECEx",
+          "Zones: 1 / 2 / 21 / 22",
+          "Protection: Ex e increased safety",
+          "Rating: IP66"
+        ],
+        "image": "https://rspsupply.com/images/product/medium/Hoffman-SA202012.jpg"
+      }
+    ],
+    "highlights": [
+      {
+        "title": "Genuine nVent Hoffman",
+        "text": "Authentic nVent Hoffman products with full manufacturer warranty."
+      },
+      {
+        "title": "No.1 Channel Partner",
+        "text": "SSC Control has been nVent Hoffman's No.1 channel partner since 2006."
+      },
+      {
+        "title": "Stock & Project Support",
+        "text": "Ready availability and project support from our Ahmedabad and Baroda bases across Gujarat."
+      },
+      {
+        "title": "Enclosure Sizing",
+        "text": "Selection, sizing and accessory support from our engineering team."
+      }
+    ],
+    "ctaTitle": "Need a hazardous-area enclosure?",
+    "ctaText": "Our team can match material, certification and zone rating to your Ex application."
+  },
+  "nvent/industrial-pc": {
+    "brandSlug": "nvent",
+    "slug": "industrial-pc",
+    "category": "Industrial Computer Enclosures",
+    "label": "MS Industrial PC Enclosures",
+    "title": "Industrial",
+    "titleEm": "Computer Enclosures",
+    "tagline": "Mild steel enclosures for industrial PCs and HMI.",
+    "intro": "nVent Hoffman is a global leader in enclosures and protection for electrical infrastructure. SSC Control, nVent Hoffman's No.1 channel partner since 2006, supplies the full range with genuine products, warranty and complete project support across Gujarat and India.",
+    "heroImage": "https://rspsupply.com/images/product/medium/Hoffman-PPC1666.jpg",
+    "seriesLabel": "Computer Enclosure Lineup",
+    "seriesTitle": "Industrial PC Series",
+    "series": [
+      {
+        "name": "MCM Computer Workstation",
+        "tag": "Mild steel, IP44",
+        "desc": "Mild steel floor-standing industrial computer enclosure with integrated accessories and a glazed monitor viewing door.",
+        "features": [
+          "Type: industrial computer / workstation enclosure",
+          "Material: mild steel, RAL 7035 structured powder coat",
+          "Rating: IP44, safety-glass viewing door",
+          "Features: PC, keyboard and monitor provisions, glazed top door for 14 to 21 inch monitors",
+          "Mount: floor-standing single bay"
+        ],
+        "image": "https://rspsupply.com/images/product/medium/Hoffman-PPC1666.jpg"
+      }
+    ],
+    "highlights": [
+      {
+        "title": "Genuine nVent Hoffman",
+        "text": "Authentic nVent Hoffman products with full manufacturer warranty."
+      },
+      {
+        "title": "No.1 Channel Partner",
+        "text": "SSC Control has been nVent Hoffman's No.1 channel partner since 2006."
+      },
+      {
+        "title": "Stock & Project Support",
+        "text": "Ready availability and project support from our Ahmedabad and Baroda bases across Gujarat."
+      },
+      {
+        "title": "Enclosure Sizing",
+        "text": "Selection, sizing and accessory support from our engineering team."
+      }
+    ],
+    "ctaTitle": "Need an industrial PC enclosure?",
+    "ctaText": "Our team can specify the computer enclosure, monitor window and cooling for your setup."
+  },
+  "nvent/panel-accessories": {
+    "brandSlug": "nvent",
+    "slug": "panel-accessories",
+    "category": "Panel Accessories",
+    "label": "Panel Accessories",
+    "title": "Panel",
+    "titleEm": "Accessories & Hardware",
+    "tagline": "Climate, lighting, locks, hinges and panel hardware.",
+    "intro": "nVent Hoffman is a global leader in enclosures and protection for electrical infrastructure. SSC Control, nVent Hoffman's No.1 channel partner since 2006, supplies the full range with genuine products, warranty and complete project support across Gujarat and India.",
+    "heroImage": "https://www.nvent.com/sites/default/files/styles/convert_only/public/acquia_dam_thumbnails/e997af57-bc4e-42bb-852d-4d6eb6f880c0/d724d76c-6d93-45e6-b2f1-d17fb0b821b3.png.webp?itok=fugJcTsS",
+    "seriesLabel": "Accessory Range",
+    "seriesTitle": "Panel Accessories & Hardware",
+    "series": [
+      {"name": "Enclosure Handles", "tag": "Door handles", "desc": "Door handles and locking swing handles for enclosure doors, including padlockable and comfort grip designs.", "features": ["Swing and lever handles", "Locking and padlockable options", "Comfort grip designs"], "image": "https://www.nvent.com/sites/default/files/styles/convert_only/public/acquia_dam_thumbnails/e997af57-bc4e-42bb-852d-4d6eb6f880c0/d724d76c-6d93-45e6-b2f1-d17fb0b821b3.png.webp?itok=fugJcTsS"},
+      {"name": "Enclosure Lighting", "tag": "LED lights", "desc": "LED enclosure lights that illuminate panels, with switch and motion sensor options and tool free mounting.", "features": ["LED interior lights", "Switch or motion sensor", "Tool free mounting"], "image": "https://www.nvent.com/sites/default/files/styles/convert_only/public/acquia_dam_thumbnails/22b391f2-13d0-498a-9820-b8371989a30b/a648cb17-da08-45ba-9393-eba89d6a5aec.png.webp?itok=M5OUkpRA"},
+      {"name": "Enclosure Climate Control Accessories", "tag": "Thermal management", "desc": "Climate control accessories including filter fans, heaters, thermostats and heat exchangers for enclosure cooling and heating.", "features": ["Filter fans and heaters", "Thermostats and hygrostats", "Heat exchangers and filters"], "image": "https://www.nvent.com/sites/default/files/styles/convert_only/public/acquia_dam_thumbnails/47e8bf2a-0d58-427a-a66f-971029ccca2d/fd104b95-cb0b-425f-b6c5-bca20213491d.png.webp?itok=LozHBAkX"},
+      {"name": "Filter Fans", "tag": "Forced ventilation", "desc": "Filter fans and exhaust filters that push filtered air through the enclosure to remove internal heat.", "features": ["Forced air ventilation", "Exhaust filters and filter mats", "IP54 and IP55 options"], "image": "https://www.nvent.com/sites/default/files/styles/convert_only/public/acquia_dam_thumbnails/6b07d97a-ca69-4978-b634-c86f5fffd4ac/82339ce7-2d7f-44f3-a0de-0ffe4f435781.png.webp?itok=qlhnqMzu"},
+      {"name": "Thermostats & Hygrostats", "tag": "Climate control", "desc": "Thermostats and hygrostats such as the ETF300 that switch heaters and fans to manage enclosure temperature and humidity.", "features": ["Electronic thermostat and hygrostat", "Switches fans, heaters or alarms", "DIN rail mounting"], "image": ""},
+      {"name": "Enclosure Mounting", "tag": "Mounting kits", "desc": "Mounting accessories for wall, pole and floor installation of enclosures, including brackets, feet and stands.", "features": ["Wall and pole mounting", "Brackets and feet", "Floor stands"], "image": "https://www.nvent.com/sites/default/files/styles/convert_only/public/acquia_dam_thumbnails/4a2709aa-e6a7-4d6d-9796-b994ef7b2c8b/536eace5-246d-47b9-a82b-de4e671d4f14.png.webp?itok=Ky7AMb5W"},
+      {"name": "Enclosure Plates", "tag": "Mounting plates", "desc": "Mounting and gland plates for component mounting and cable entry, in steel and stainless steel.", "features": ["Mounting and gland plates", "Pre punched options", "Steel and stainless"], "image": "https://www.nvent.com/sites/default/files/styles/convert_only/public/acquia_dam_thumbnails/fa6b2583-1025-4ac8-bb37-a5482c22a7b0/c27f832d-ca07-42b4-9c95-20588a19df26.png.webp?itok=zFZGJuNA"},
+      {"name": "Cover Plates", "tag": "Sealing plates", "desc": "Blank and gland cover plates that seal unused openings and finish the enclosure.", "features": ["Blank and gland covers", "Seal unused openings", "Steel and stainless options"], "image": "https://www.nvent.com/sites/default/files/styles/convert_only/public/acquia_dam_thumbnails/6df9ed1f-89ad-461b-aa70-a193473b372d/2584956f-81d7-45b0-93d4-b27d00248a08.png.webp?itok=Vhmy5GkJ"},
+      {"name": "Enclosure Electrical Hardware", "tag": "Earthing & fixings", "desc": "Electrical hardware for earthing, bonding and internal wiring fixings inside the enclosure.", "features": ["Earthing and bonding parts", "Electrical fixings", "Internal wiring hardware"], "image": "https://www.nvent.com/sites/default/files/styles/convert_only/public/acquia_dam_thumbnails/88c69e2a-82bf-4c3b-976b-59ebc6364195/cbaa806b-7e23-4734-9957-c06f03a86308.png.webp?itok=1WEYFatz"},
+      {"name": "Enclosure Fixing Hardware", "tag": "Fasteners", "desc": "Fixing hardware including screws, nuts, fasteners and assembly components for enclosures.", "features": ["Screws, nuts and fasteners", "Mounting hardware", "Assembly components"], "image": "https://www.nvent.com/sites/default/files/styles/convert_only/public/acquia_dam_thumbnails/95ccef9c-ad55-425a-afc5-9491541d3613/99feec22-2258-44d8-9e1a-93063596cdea.png.webp?itok=bvLBGLuJ"},
+      {"name": "Grid Straps", "tag": "Component fixing", "desc": "Grid straps for fixing cables and components and for flexible internal routing.", "features": ["Component grid straps", "Cable and part fixing", "Flexible routing"], "image": "https://www.nvent.com/sites/default/files/styles/convert_only/public/acquia_dam_thumbnails/ba00735e-e277-4eea-8cec-7631de2a2f5c/31366cd1-6a53-4ada-aa72-58c3dadedc49.png.webp?itok=lQ5q6-tr"},
+      {"name": "Inserts", "tag": "Inserts", "desc": "Threaded, snap and cable inserts with sealing options for enclosure walls and plates.", "features": ["Threaded and snap inserts", "Cable and gland inserts", "Sealing options"], "image": "https://www.nvent.com/sites/default/files/styles/convert_only/public/acquia_dam_thumbnails/76441a04-4e82-4fb3-b3e9-b89a3f106e74/141752b3-1713-444b-b15e-633d0ee2c8fd.png.webp?itok=4bkzUw2M"},
+      {"name": "Enclosure Accessories", "tag": "General parts", "desc": "General enclosure accessories and internal fittings across a wide range of options.", "features": ["General enclosure parts", "Internal fittings", "Wide range of options"], "image": "https://www.nvent.com/sites/default/files/styles/convert_only/public/acquia_dam_thumbnails/2d5129ef-08ff-4612-9df0-52450ff84f31/b18c050d-2fbd-4666-859c-46a691a18a80.png.webp?itok=zxEOPVlR"},
+      {"name": "Enclosure Drawers", "tag": "Storage", "desc": "Pull out drawers for documents and tools that mount inside the enclosure.", "features": ["Pull out storage drawers", "For documents and tools", "Mounts inside enclosures"], "image": "https://www.nvent.com/sites/default/files/styles/convert_only/public/acquia_dam_thumbnails/4fea90f0-b511-48af-b716-dade10dde879/5f2fff46-866e-414f-a4ae-2dd40c3198d9.png.webp?itok=NnwXYBTY"},
+      {"name": "Enclosure Lifting Devices", "tag": "Lifting", "desc": "Eyebolts and lifting brackets for safe handling and installation of enclosures.", "features": ["Eyebolts and lifting brackets", "Safe enclosure handling", "High load rated"], "image": "https://www.nvent.com/sites/default/files/styles/convert_only/public/acquia_dam_thumbnails/5b171790-6837-457d-a683-3abc31ebe91b/e91e4164-2d3d-4c3b-b7d4-369ee574a486.png.webp?itok=UqJPaTp-"},
+      {"name": "Caster Kits", "tag": "Mobility", "desc": "Caster kits that add swivel and fixed wheels for moving enclosures, with load rated wheels.", "features": ["Swivel and fixed casters", "Mobility for enclosures", "Load rated wheels"], "image": "https://www.nvent.com/sites/default/files/styles/convert_only/public/acquia_dam_thumbnails/ee960387-d698-44bf-bf08-54bcf7da996f/05a84684-a6ff-4c94-9ee3-b3edd886a4ce.png.webp?itok=wzE5Zij2"},
+      {"name": "Plinth Bases", "tag": "Plinth bases", "desc": "Plinth bases that raise floor standing enclosures and provide cable entry access at the base.", "features": ["Enclosure plinth bases", "Raise floor standing units", "Cable entry access"], "image": "https://www.nvent.com/sites/default/files/styles/convert_only/public/acquia_dam_thumbnails/359adb32-ebd4-496b-8e03-4573d05a949a/d3cba266-3374-489b-9c50-c5414549a197.png.webp?itok=CZHUvcpD"},
+      {"name": "Enclosure Paint", "tag": "Touch up paint", "desc": "Touch up paint in RAL matched finishes for corrosion protection and repair of enclosures.", "features": ["Touch up paint", "RAL matched finishes", "Corrosion protection"], "image": "https://www.nvent.com/sites/default/files/styles/convert_only/public/acquia_dam_thumbnails/32efdc18-7154-4085-b27c-94fc91be5fa7/7410fd05-2fc0-4df2-9cb3-00efac70cb09.png.webp?itok=RHEoRS-X"}
+    ],
+    "highlights": [
+      {
+        "title": "Genuine nVent Hoffman",
+        "text": "Authentic nVent Hoffman products with full manufacturer warranty."
+      },
+      {
+        "title": "No.1 Channel Partner",
+        "text": "SSC Control has been nVent Hoffman's No.1 channel partner since 2006."
+      },
+      {
+        "title": "Stock & Project Support",
+        "text": "Ready availability and project support from our Ahmedabad and Baroda bases across Gujarat."
+      },
+      {
+        "title": "Enclosure Sizing",
+        "text": "Selection, sizing and accessory support from our engineering team."
+      }
+    ],
+    "ctaTitle": "Need panel accessories?",
+    "ctaText": "Our team can specify climate control, lighting, locks, hinges and hardware to match your enclosure build."
+  },
+  "unison/single-phase-ssr": {
+    "brandSlug": "unison",
+    "slug": "single-phase-ssr",
+    "category": "Single Phase Solid State Relays",
+    "label": "1-Phase SSR",
+    "title": "Single Phase",
+    "titleEm": "Solid State Relays",
+    "tagline": "Zero cross SSRs from 25A to 200A for single phase loads.",
+    "intro": "Unison is an Indian manufacturer of solid state relays and thyristor power controllers for industrial heating and process control, with no moving parts. SSC Control is an authorised Unison partner, supplying the full range with genuine products, warranty and technical support across Gujarat and India.",
+    "heroImage": "",
+    "seriesLabel": "SSR Lineup",
+    "seriesTitle": "Single Phase SSR Models",
+    "series": [
+      {
+        "name": "Model 101",
+        "tag": "25A, 45mm",
+        "desc": "45mm single phase zero cross solid state relay rated 25A for panel or DIN rail mounting.",
+        "features": [
+          "Load: 25 A",
+          "Output: 24 to 480 V AC",
+          "Input: 4 to 32 V DC",
+          "Switching: zero cross",
+          "Width: 45 mm",
+          "Mount: panel / DIN rail"
+        ],
+        "image": ""
+      },
+      {
+        "name": "Model 102",
+        "tag": "40A, 45mm",
+        "desc": "45mm single phase zero cross solid state relay rated up to 40A.",
+        "features": [
+          "Load: 40 A",
+          "Output: 24 to 480 V AC",
+          "Input: 4 to 32 V DC",
+          "Switching: zero cross",
+          "Width: 45 mm",
+          "Mount: panel / DIN rail"
+        ],
+        "image": ""
+      },
+      {
+        "name": "Model 803",
+        "tag": "Up to 200A, 22.5mm",
+        "desc": "Slim 22.5mm DIN rail single phase zero cross solid state relay available up to 200A.",
+        "features": [
+          "Load: 25 to 200 A",
+          "Output: 24 to 580 V AC",
+          "Input: 4 to 32 V DC",
+          "Switching: zero cross",
+          "Width: 22.5 mm",
+          "Isolation: 8 kV input to output"
+        ],
+        "image": ""
+      }
+    ],
+    "highlights": [
+      {
+        "title": "Genuine Unison",
+        "text": "Authentic Unison products with full manufacturer warranty."
+      },
+      {
+        "title": "Authorised Unison Partner",
+        "text": "SSC Control is an authorised channel partner for Unison."
+      },
+      {
+        "title": "Stock & Fast Delivery",
+        "text": "Ready availability from our Ahmedabad and Baroda bases across Gujarat."
+      },
+      {
+        "title": "Application Sizing",
+        "text": "SSR and thyristor sizing support from our engineering team."
+      }
+    ],
+    "ctaTitle": "Need a single phase SSR?",
+    "ctaText": "Our team can size the relay current, voltage and control for your heating load."
+  },
+  "unison/three-phase-ssr": {
+    "brandSlug": "unison",
+    "slug": "three-phase-ssr",
+    "category": "Three Phase Solid State Relays",
+    "label": "3-Phase SSR",
+    "title": "Three Phase",
+    "titleEm": "Solid State Relays",
+    "tagline": "Three phase SSR modules and solid state starters.",
+    "intro": "Unison is an Indian manufacturer of solid state relays and thyristor power controllers for industrial heating and process control, with no moving parts. SSC Control is an authorised Unison partner, supplying the full range with genuine products, warranty and technical support across Gujarat and India.",
+    "heroImage": "",
+    "seriesLabel": "SSR Lineup",
+    "seriesTitle": "Three Phase SSR Models",
+    "series": [
+      {
+        "name": "Model 901",
+        "tag": "200A, 45mm",
+        "desc": "Three phase 45mm zero cross solid state relay, up to 200A per phase for industrial AC switching.",
+        "features": [
+          "Load: up to 200 A per phase",
+          "Output: 24 to 600 V AC",
+          "Input: 4 to 32 V DC, AC control option",
+          "Switching: zero cross, random variant",
+          "Width: 45 mm",
+          "Mount: panel with heat sink"
+        ],
+        "image": ""
+      },
+      {
+        "name": "Model 905",
+        "tag": "Current detection, DOL",
+        "desc": "Three phase zero cross SSR with built in current detection, acting as a solid state DOL starter with overload and single phasing protection.",
+        "features": [
+          "Built in voltage and current detection",
+          "Overload protection set by potentiometer",
+          "Single phasing, unbalance and short circuit protection",
+          "Fault feedback via LED and relay NO / NC",
+          "Output: 24 to 480 V AC",
+          "Switching: zero cross"
+        ],
+        "image": ""
+      }
+    ],
+    "highlights": [
+      {
+        "title": "Genuine Unison",
+        "text": "Authentic Unison products with full manufacturer warranty."
+      },
+      {
+        "title": "Authorised Unison Partner",
+        "text": "SSC Control is an authorised channel partner for Unison."
+      },
+      {
+        "title": "Stock & Fast Delivery",
+        "text": "Ready availability from our Ahmedabad and Baroda bases across Gujarat."
+      },
+      {
+        "title": "Application Sizing",
+        "text": "SSR and thyristor sizing support from our engineering team."
+      }
+    ],
+    "ctaTitle": "Need a three phase SSR?",
+    "ctaText": "Our team can size the relay and protection for your three phase load or motor."
+  },
+  "unison/thyristor-controllers": {
+    "brandSlug": "unison",
+    "slug": "thyristor-controllers",
+    "category": "Thyristor Power Controllers",
+    "label": "SCR Power Controllers",
+    "title": "Thyristor",
+    "titleEm": "Power Controllers",
+    "tagline": "Phase angle SCR controllers and temperature controllers.",
+    "intro": "Unison is an Indian manufacturer of solid state relays and thyristor power controllers for industrial heating and process control, with no moving parts. SSC Control is an authorised Unison partner, supplying the full range with genuine products, warranty and technical support across Gujarat and India.",
+    "heroImage": "",
+    "seriesLabel": "Controller Lineup",
+    "seriesTitle": "Power & Temperature Controllers",
+    "series": [
+      {
+        "name": "Model 901 Thyristor Controller",
+        "tag": "SCR Power Controller",
+        "desc": "Microcontroller based single phase thyristor power controller with 4 to 20mA or 0 to 10V input and phase angle firing, from 25A to 200A.",
+        "features": [
+          "Firing: phase angle control",
+          "Load: 25 / 40 / 50 / 90 / 150 / 200 A",
+          "Output: 90 to 480 V AC auto detect",
+          "Input: 4 to 20 mA or 0 to 10 V DC",
+          "Isolation: 6 kV input to output",
+          "45mm body, DIN rail / panel with heat sink"
+        ],
+        "image": ""
+      },
+      {
+        "name": "Model 901 Temperature Controller",
+        "tag": "Modbus SSR Controller",
+        "desc": "Zero cross SSR with inbuilt PID temperature controller and RS485 Modbus communication, networking directly to HMI or PLC.",
+        "features": [
+          "Inbuilt PID control, heat or heat and cool",
+          "Input: J / K thermocouple, RTD optional, with CJC",
+          "Communication: RS485 Modbus RTU",
+          "Output: 24 to 600 V AC at 90 A, zero cross",
+          "External CT for current and load failure indication",
+          "45mm body, DIN rail / panel"
+        ],
+        "image": ""
+      }
+    ],
+    "highlights": [
+      {
+        "title": "Genuine Unison",
+        "text": "Authentic Unison products with full manufacturer warranty."
+      },
+      {
+        "title": "Authorised Unison Partner",
+        "text": "SSC Control is an authorised channel partner for Unison."
+      },
+      {
+        "title": "Stock & Fast Delivery",
+        "text": "Ready availability from our Ahmedabad and Baroda bases across Gujarat."
+      },
+      {
+        "title": "Application Sizing",
+        "text": "SSR and thyristor sizing support from our engineering team."
+      }
+    ],
+    "ctaTitle": "Need a power controller?",
+    "ctaText": "Our team can match the thyristor or temperature controller to your process."
+  },
+  "unison/din-rail-ssr": {
+    "brandSlug": "unison",
+    "slug": "din-rail-ssr",
+    "category": "DIN Rail SSR Modules",
+    "label": "DIN Rail SSR",
+    "title": "DIN Rail",
+    "titleEm": "SSR Modules",
+    "tagline": "DIN rail DC to DC SSR cards with short circuit protection.",
+    "intro": "Unison is an Indian manufacturer of solid state relays and thyristor power controllers for industrial heating and process control, with no moving parts. SSC Control is an authorised Unison partner, supplying the full range with genuine products, warranty and technical support across Gujarat and India.",
+    "heroImage": "",
+    "seriesLabel": "Module Lineup",
+    "seriesTitle": "DIN Rail SSR Modules",
+    "series": [
+      {
+        "name": "Model 909 DC to DC SSR Card",
+        "tag": "Short Circuit Protect",
+        "desc": "DIN rail MOSFET DC to DC solid state relay card with built in short circuit protection that switches DC loads while detecting open load, overcurrent and fault conditions.",
+        "features": [
+          "Input: 3 to 32 V DC with green control LED",
+          "Output: 5 to 55 V DC at 2 A per channel",
+          "Red fault LED plus remote PLC indication",
+          "Short circuit protection with back EMF diode",
+          "Available in 2, 4 and 8 channel versions",
+          "DIN rail mountable plug in card"
+        ],
+        "image": ""
+      }
+    ],
+    "highlights": [
+      {
+        "title": "Genuine Unison",
+        "text": "Authentic Unison products with full manufacturer warranty."
+      },
+      {
+        "title": "Authorised Unison Partner",
+        "text": "SSC Control is an authorised channel partner for Unison."
+      },
+      {
+        "title": "Stock & Fast Delivery",
+        "text": "Ready availability from our Ahmedabad and Baroda bases across Gujarat."
+      },
+      {
+        "title": "Application Sizing",
+        "text": "SSR and thyristor sizing support from our engineering team."
+      }
+    ],
+    "ctaTitle": "Need a DIN rail SSR card?",
+    "ctaText": "Our team can specify the channel count and ratings for your PLC outputs."
+  },
+  "unison/heatsinks": {
+    "brandSlug": "unison",
+    "slug": "heatsinks",
+    "category": "Heatsinks and Accessories",
+    "label": "Thermal Accessories",
+    "title": "Heatsinks",
+    "titleEm": "and Accessories",
+    "tagline": "Aluminium heatsinks and thermal accessories for SSRs.",
+    "intro": "Unison is an Indian manufacturer of solid state relays and thyristor power controllers for industrial heating and process control, with no moving parts. SSC Control is an authorised Unison partner, supplying the full range with genuine products, warranty and technical support across Gujarat and India.",
+    "heroImage": "",
+    "seriesLabel": "Heatsink Lineup",
+    "seriesTitle": "Heatsinks & Accessories",
+    "series": [
+      {
+        "name": "Heat Sink G-68",
+        "tag": "44mm, DIN rail",
+        "desc": "Aluminium SSR heatsink with DIN rail mounting for standard single phase solid state relays.",
+        "features": [
+          "Extruded aluminium, natural convection",
+          "Size: 44 mm W x 68 mm L x 32 mm H",
+          "35 mm DIN rail mounting, fan less",
+          "Larger fan cooled options for higher current SSRs"
+        ],
+        "image": ""
+      },
+      {
+        "name": "Heat Sink V-87",
+        "tag": "24mm, DIN rail",
+        "desc": "Slim aluminium SSR heatsink with DIN rail mounting for narrow single phase relays.",
+        "features": [
+          "Extruded aluminium construction",
+          "Size: 24 mm W x 87 mm L x 30 mm H",
+          "35 mm DIN rail mounting, no fan",
+          "Matches slim Unison SSR modules"
+        ],
+        "image": ""
+      }
+    ],
+    "highlights": [
+      {
+        "title": "Genuine Unison",
+        "text": "Authentic Unison products with full manufacturer warranty."
+      },
+      {
+        "title": "Authorised Unison Partner",
+        "text": "SSC Control is an authorised channel partner for Unison."
+      },
+      {
+        "title": "Stock & Fast Delivery",
+        "text": "Ready availability from our Ahmedabad and Baroda bases across Gujarat."
+      },
+      {
+        "title": "Application Sizing",
+        "text": "SSR and thyristor sizing support from our engineering team."
+      }
+    ],
+    "ctaTitle": "Need an SSR heatsink?",
+    "ctaText": "Our team can match the heatsink size and cooling to your SSR current."
+  },
+  "unison/interface-cards": {
+    "brandSlug": "unison",
+    "slug": "interface-cards",
+    "category": "Interface Cards",
+    "label": "Interface & Starter Cards",
+    "title": "Interface",
+    "titleEm": "& Starter Cards",
+    "tagline": "Forward reverse, DOL and plug in relay replacement cards.",
+    "intro": "Unison is an Indian manufacturer of solid state relays and thyristor power controllers for industrial heating and process control, with no moving parts. SSC Control is an authorised Unison partner, supplying the full range with genuine products, warranty and technical support across Gujarat and India.",
+    "heroImage": "",
+    "seriesLabel": "Card Lineup",
+    "seriesTitle": "Interface & Starter Cards",
+    "series": [
+      {
+        "name": "Forward Reverse Card",
+        "tag": "Motor reversing",
+        "desc": "Three phase forward reverse solid state motor starter that switches motor direction with electrical interlock and built in overload and short circuit protection.",
+        "features": [
+          "Function: 3 phase forward reverse semiconductor starter, two interlocked SSR pairs",
+          "Load: up to 5 A, up to 3 HP",
+          "Input: DC control, zero cross switching",
+          "Output: 24 to 480 V AC, 47 to 63 Hz",
+          "Protection: direction interlock, overload, single phasing, short circuit, fault LED with relay contacts",
+          "Mount: panel mounting"
+        ],
+        "image": ""
+      },
+      {
+        "name": "DOL Starter Card",
+        "tag": "Direct on line",
+        "desc": "Single direction direct on line solid state motor starter giving one direction motor control with adjustable overload protection.",
+        "features": [
+          "Function: direct on line semiconductor starter, one direction",
+          "Load: up to 5 A, up to 3 HP",
+          "Input: DC control, zero cross 3 phase SSR",
+          "Output: 24 to 480 V AC, 47 to 63 Hz",
+          "Protection: overload set by potentiometer, single phasing, short circuit, auto or manual reset, fault LED with NO and NC contacts",
+          "Mount: panel mounting"
+        ],
+        "image": ""
+      },
+      {
+        "name": "DC to AC Interface Card",
+        "tag": "Relay card",
+        "desc": "Plug in DC to AC SSR interface relay card that replaces mechanical relays with zero cross solid state switching across 2 to 8 channels.",
+        "features": [
+          "Function: DC to AC interface relay card, 2, 4, 6 or 8 channel, zero cross",
+          "Load: 5 A per channel",
+          "Input: 4 to 32 V DC, polarity free, green input LED",
+          "Output: 24 to 480 V AC, 47 to 63 Hz",
+          "Protection: 3 A replaceable fuse per channel with red fail LED",
+          "Mount: plug in terminal card"
+        ],
+        "image": ""
+      },
+      {
+        "name": "DC to DC Interface Card",
+        "tag": "MOSFET relay card",
+        "desc": "Plug in DC to DC MOSFET interface relay card for fast solid state DC switching across 2 to 8 channels.",
+        "features": [
+          "Function: DC to DC interface relay card, MOSFET output, 2, 4, 6 or 8 channel, back EMF diode",
+          "Load: 5 A per channel",
+          "Input: 4 to 32 V DC, green input LED",
+          "Output: 5 to 100 V DC, turn on 2.5 ms, turn off 40 us",
+          "Protection: 3 A replaceable fuse per channel with red fail LED",
+          "Mount: plug in terminal card"
+        ],
+        "image": ""
+      }
+    ],
+    "highlights": [
+      {
+        "title": "Genuine Unison",
+        "text": "Authentic Unison products with full manufacturer warranty."
+      },
+      {
+        "title": "Authorised Unison Partner",
+        "text": "SSC Control is an authorised channel partner for Unison."
+      },
+      {
+        "title": "Stock & Fast Delivery",
+        "text": "Ready availability from our Ahmedabad and Baroda bases across Gujarat."
+      },
+      {
+        "title": "Application Sizing",
+        "text": "SSR and starter card sizing support from our engineering team."
+      }
+    ],
+    "ctaTitle": "Need an interface or starter card?",
+    "ctaText": "Our team can match the forward reverse, DOL or relay replacement card to your control scheme."
+  },
+  "connectwell/terminal-blocks": {
+    "brandSlug": "connectwell",
+    "slug": "terminal-blocks",
+    "category": "Terminal Blocks",
+    "label": "Screw, Spring & Push-in",
+    "title": "Terminal",
+    "titleEm": "Blocks",
+    "tagline": "Feed through, multi level, ground, fuse, disconnect and high current blocks.",
+    "intro": "Connectwell is one of India's leading manufacturers of terminal blocks, relays, interface modules, installation accessories and power supplies for control panels. SSC Control is an authorised Connectwell partner, supplying the full range with genuine products, warranty and technical support across Gujarat and India.",
+    "heroImage": "https://cw-strapi-prod.s3.ap-south-1.amazonaws.com/CTS_25_UN_1e9543aad2.png",
+    "seriesLabel": "Terminal Block Range",
+    "seriesTitle": "Terminal Block Types",
+    "series": [
+      {
+        "name": "Feed-through",
+        "tag": "CTS / CX / CP",
+        "desc": "Feed through terminal blocks in screw clamp (CTS, CY), spring clamp (CX) and push in (CP) styles, 0.2 to 240 sq mm.",
+        "features": [
+          "0.2 to 240 sq mm",
+          "Screw / Spring / Push-in",
+          "DIN Rail"
+        ],
+        "image": "https://cw-strapi-prod.s3.ap-south-1.amazonaws.com/CTS_25_UN_1e9543aad2.png"
+      },
+      {
+        "name": "Multi-connection",
+        "tag": "CTC / CMC / CP",
+        "desc": "Three and four wire feed through blocks that distribute one potential to several conductors.",
+        "features": [
+          "3 / 4 Conductor",
+          "One Potential",
+          "Screw / Push-in"
+        ],
+        "image": "https://cw-strapi-prod.s3.ap-south-1.amazonaws.com/CMC_2_2_6459cd4f7c.png"
+      },
+      {
+        "name": "Multi-level",
+        "tag": "CDL / CYDL / CPDL",
+        "desc": "Double and triple level blocks for high density wiring up to 1000V.",
+        "features": [
+          "2 / 3 Level",
+          "High Density",
+          "Up to 1000V"
+        ],
+        "image": "https://cw-strapi-prod.s3.ap-south-1.amazonaws.com/CYDL_2_5_3381ff2904.png"
+      },
+      {
+        "name": "Ground",
+        "tag": "CGT / CYG / CTSG",
+        "desc": "Yellow green earth blocks with direct DIN rail grounding foot, 0.2 to 10 sq mm.",
+        "features": [
+          "Earth / Ground",
+          "Rail Contact",
+          "Yellow Green"
+        ],
+        "image": "https://cw-strapi-prod.s3.ap-south-1.amazonaws.com/CGT_4_U_c7e9589184.png"
+      },
+      {
+        "name": "Fuse",
+        "tag": "CF / CYF / CAFL",
+        "desc": "Fuse carrier blocks for 5x20 and 5x25 mm cartridge fuses, with optional blown fuse LED.",
+        "features": [
+          "Fuse Carrier",
+          "5x20 / 5x25 mm",
+          "Blown Fuse LED"
+        ],
+        "image": "https://cw-strapi-prod.s3.ap-south-1.amazonaws.com/cf4u_2cbeff2a13.png"
+      },
+      {
+        "name": "Disconnect & Test",
+        "tag": "CBDT / CYDLK",
+        "desc": "Knife disconnect and test blocks for isolating and testing circuits without removing wires.",
+        "features": [
+          "Knife Disconnect",
+          "Test Sockets",
+          "Isolation"
+        ],
+        "image": "https://cw-strapi-prod.s3.ap-south-1.amazonaws.com/CBDT_4_UNSBU_bb25c1fdf0.png"
+      },
+      {
+        "name": "Distribution",
+        "tag": "CMDB / CPDB",
+        "desc": "Power distribution blocks splitting one incoming feed into many outgoing ways.",
+        "features": [
+          "Power Distribution",
+          "1 In, Many Out",
+          "Modular / Push-in"
+        ],
+        "image": "https://cw-strapi-prod.s3.ap-south-1.amazonaws.com/CDB_6_2_8e9b66eb9a.png"
+      },
+      {
+        "name": "Sensor & Actuator",
+        "tag": "CPPT / CP",
+        "desc": "Slim push in sensor and actuator blocks for two, three and four wire sensor cabling.",
+        "features": [
+          "Sensor Wiring",
+          "2 / 3 / 4 Wire",
+          "Push-in"
+        ],
+        "image": "https://cw-strapi-prod.s3.ap-south-1.amazonaws.com/CPPT_2_5_4_95ce43a466.png"
+      },
+      {
+        "name": "Marshalling",
+        "tag": "CP4L / CP8L",
+        "desc": "Multi level push in marshalling blocks connecting many wires per block for signal marshalling.",
+        "features": [
+          "Marshalling",
+          "Multi Level",
+          "High Density"
+        ],
+        "image": "https://cw-strapi-prod.s3.ap-south-1.amazonaws.com/cp8l32_dadb6d1649.png"
+      },
+      {
+        "name": "High Current",
+        "tag": "CBB",
+        "desc": "Stud and bolt busbar blocks for ring and fork lug connection up to 185 sq mm, 1000V.",
+        "features": [
+          "Stud / Bolt",
+          "Up to 185 sq mm",
+          "Lug Connection"
+        ],
+        "image": "https://cw-strapi-prod.s3.ap-south-1.amazonaws.com/CBB_120_da2f777d9f.png"
+      },
+      {
+        "name": "Miniature",
+        "tag": "CMT / CGMT",
+        "desc": "Micro terminal blocks for DIN 15 rail in junction boxes and tight spaces.",
+        "features": [
+          "Miniature",
+          "DIN 15 Rail",
+          "Junction Box"
+        ],
+        "image": "https://cw-strapi-prod.s3.ap-south-1.amazonaws.com/CMT_4_c46b8db575.png"
+      },
+      {
+        "name": "Panel Mount",
+        "tag": "CMB / CM4S",
+        "desc": "Surface and panel mount blocks that screw directly to the panel, in screw or spring clamp.",
+        "features": [
+          "Panel Mount",
+          "Screw / Spring",
+          "Stackable"
+        ],
+        "image": "https://cw-strapi-prod.s3.ap-south-1.amazonaws.com/CMB_4_58b72a97f1.png"
+      },
+      {
+        "name": "Thermocouple",
+        "tag": "CTT",
+        "desc": "Thermocouple blocks with matched alloy elements per DIN 43713 for J, K and T types.",
+        "features": [
+          "Thermocouple",
+          "Matched Alloy",
+          "J / K / T Type"
+        ],
+        "image": "https://cw-strapi-prod.s3.ap-south-1.amazonaws.com/CTT_2_5_U_fafd4c1d8b.png"
+      },
+      {
+        "name": "Electronic / Component Carriers",
+        "tag": "CDL ELD / CYDL ED",
+        "desc": "Double level blocks with built in LED or diode components for supply on indication.",
+        "features": [
+          "Built-in LED / Diode",
+          "Supply Indication",
+          "Double Level"
+        ],
+        "image": "https://cw-strapi-prod.s3.ap-south-1.amazonaws.com/CYDL_4_E_D2_0a35b63169.png"
+      }
+    ],
+    "highlights": [
+      {
+        "title": "Genuine Connectwell",
+        "text": "Authentic Connectwell products with full manufacturer warranty."
+      },
+      {
+        "title": "Authorised Partner",
+        "text": "SSC Control is an authorised Connectwell channel partner."
+      },
+      {
+        "title": "Stock & Fast Delivery",
+        "text": "Ready availability from our Ahmedabad and Baroda bases across Gujarat."
+      },
+      {
+        "title": "Panel Build Support",
+        "text": "Terminal and panel selection support from our engineering team."
+      }
+    ],
+    "ctaTitle": "Need a terminal block?",
+    "ctaText": "Our team can size the terminal type, wire range and accessories for your panel."
+  },
+  "connectwell/interfacing-solutions": {
+    "brandSlug": "connectwell",
+    "slug": "interfacing-solutions",
+    "category": "Interfacing Solutions",
+    "label": "Relays & Interface",
+    "title": "Interfacing",
+    "titleEm": "Solutions",
+    "tagline": "Modular and slim relays, relay interface boards and connector modules.",
+    "intro": "Connectwell is one of India's leading manufacturers of terminal blocks, relays, interface modules, installation accessories and power supplies for control panels. SSC Control is an authorised Connectwell partner, supplying the full range with genuine products, warranty and technical support across Gujarat and India.",
+    "heroImage": "https://cw-strapi-prod.s3.ap-south-1.amazonaws.com/CIMRE_2_SS_8_0fd0bcf805.png",
+    "seriesLabel": "Interfacing Range",
+    "seriesTitle": "Interfacing Solutions",
+    "series": [
+      {
+        "name": "Modular Relays",
+        "tag": "IMMR / IMRE / IMERS",
+        "desc": "DIN rail electromechanical and solid state modular relay modules, 1 to 16 channels.",
+        "features": [
+          "EMR / SSR",
+          "1 to 16 Channel",
+          "DIN Rail"
+        ],
+        "image": "https://cw-strapi-prod.s3.ap-south-1.amazonaws.com/IMRE_1_F_1_ce550c7c2a.png"
+      },
+      {
+        "name": "Slim Relays",
+        "tag": "CSR / CSER / IMSR",
+        "desc": "6 mm slim relays with push in or screw connection, 1CO and 2CO.",
+        "features": [
+          "6 mm Slim",
+          "1CO / 2CO",
+          "Push-in / Screw"
+        ],
+        "image": "https://cw-strapi-prod.s3.ap-south-1.amazonaws.com/slimrelay1_6e1f39d5ed.png"
+      },
+      {"name": "Glass Relays", "tag": "CRLA / CRMA", "desc": "Glass encapsulated PCB relays with transparent housing for visual coil status, in single and double pole versions.", "features": ["Glass encapsulated, transparent body", "Type: SPDT / DPDT", "Mount: PCB or socket", "Coil: 6 to 230V"], "image": "https://cw-strapi-prod.s3.ap-south-1.amazonaws.com/CRLA_2_S230_A_51d340b2fa.png"},
+      {
+        "name": "Relay Interface Boards",
+        "tag": "CIMRE / IMRE / IMERF",
+        "desc": "Relay interface boards with PLC ready wiring and optional fuse protection.",
+        "features": [
+          "PLC Interface",
+          "Multi Channel",
+          "Optional Fuse"
+        ],
+        "image": "https://cw-strapi-prod.s3.ap-south-1.amazonaws.com/CIMRE_2_SS_8_0fd0bcf805.png"
+      },
+      {
+        "name": "Connector to Connector Modules",
+        "tag": "IDC / FRC",
+        "desc": "IDC and FRC ribbon cable connector modules linking PLC connectors to field wiring.",
+        "features": [
+          "IDC / FRC",
+          "Ribbon Cable",
+          "PLC Link"
+        ],
+        "image": "https://cw-strapi-prod.s3.ap-south-1.amazonaws.com/IMIDC_db9c5cce14.png"
+      },
+      {
+        "name": "Passive & Protection Modules",
+        "tag": "RC / IMCC",
+        "desc": "Passive and protection modules such as RC snubbers and component carriers for surge and signal conditioning.",
+        "features": [
+          "RC Snubber",
+          "Protection",
+          "Signal Conditioning"
+        ],
+        "image": "https://cw-strapi-prod.s3.ap-south-1.amazonaws.com/rcmodules_16x9_25a241cfcd.png"
+      },
+      {
+        "name": "Custom Interface Modules",
+        "tag": "Built to Order",
+        "desc": "Built to order interface modules configured to the customer wiring and control requirement.",
+        "features": [
+          "Built to Order",
+          "Custom Wiring",
+          "OEM"
+        ],
+        "image": ""
+      }
+    ],
+    "highlights": [
+      {
+        "title": "Genuine Connectwell",
+        "text": "Authentic Connectwell products with full manufacturer warranty."
+      },
+      {
+        "title": "Authorised Partner",
+        "text": "SSC Control is an authorised Connectwell channel partner."
+      },
+      {
+        "title": "Stock & Fast Delivery",
+        "text": "Ready availability from our Ahmedabad and Baroda bases across Gujarat."
+      },
+      {
+        "title": "Panel Build Support",
+        "text": "Terminal and panel selection support from our engineering team."
+      }
+    ],
+    "ctaTitle": "Need a relay or interface module?",
+    "ctaText": "Our team can match the relay, interface board or connector module to your control scheme."
+  },
+  "connectwell/installation-products": {
+    "brandSlug": "connectwell",
+    "slug": "installation-products",
+    "category": "Installation Products",
+    "label": "Rails, Clamps & Tools",
+    "title": "Installation",
+    "titleEm": "Products",
+    "tagline": "DIN rails, end clamps, markers, covers, sockets and assembly tools.",
+    "intro": "Connectwell is one of India's leading manufacturers of terminal blocks, relays, interface modules, installation accessories and power supplies for control panels. SSC Control is an authorised Connectwell partner, supplying the full range with genuine products, warranty and technical support across Gujarat and India.",
+    "heroImage": "https://cw-strapi-prod.s3.ap-south-1.amazonaws.com/MC_12_3934afeda7.png",
+    "seriesLabel": "Installation Range",
+    "seriesTitle": "Installation Products",
+    "series": [
+      {
+        "name": "DIN Rails & Supports",
+        "tag": "CSP / CPS",
+        "desc": "DIN 15, 32 and 35 rails with support and holding plates.",
+        "features": [
+          "DIN 15 / 32 / 35",
+          "Rails",
+          "Supports"
+        ],
+        "image": "https://cw-strapi-prod.s3.ap-south-1.amazonaws.com/DIN_35_slotted_39db44b1ac.png"
+      },
+      {
+        "name": "End Clamps",
+        "tag": "CA",
+        "desc": "Screw and snap on end clamps that lock terminal assemblies on the rail.",
+        "features": [
+          "End Clamp",
+          "Screw / Snap-on",
+          "DIN Rail"
+        ],
+        "image": "https://cw-strapi-prod.s3.ap-south-1.amazonaws.com/CA_502_3bc90e8914.png"
+      },
+      {
+        "name": "Lightetch Laser Marking System",
+        "tag": "Lightetch",
+        "desc": "Lightetch laser marking system that prints terminal and cable markers with no consumables.",
+        "features": [
+          "Laser Marking",
+          "Zero Consumable",
+          "Markers"
+        ],
+        "image": "https://cw-strapi-prod.s3.ap-south-1.amazonaws.com/lightetch_printing_e2b51171c1.jpg"
+      },
+      {
+        "name": "Group Carriers & Markers",
+        "tag": "Markers",
+        "desc": "Group marker carriers and marker tags for labelling terminal groups on the rail.",
+        "features": [
+          "Group Marker",
+          "Carriers",
+          "Labelling"
+        ],
+        "image": "https://cw-strapi-prod.s3.ap-south-1.amazonaws.com/MC_12_3934afeda7.png"
+      },
+      {
+        "name": "Professional Tools",
+        "tag": "Tools",
+        "desc": "Screwdrivers, marking and wiring tools for terminal block assembly and maintenance.",
+        "features": [
+          "Screwdrivers",
+          "Marking Tools",
+          "Wiring"
+        ],
+        "image": "https://cw-strapi-prod.s3.ap-south-1.amazonaws.com/sca_assembly_5feedaf047.png"
+      },
+      {
+        "name": "Protective Covers & Supports",
+        "tag": "CTSPC / CDTPC",
+        "desc": "End covers, partition plates and protective covers for terminal assemblies.",
+        "features": [
+          "End Covers",
+          "Partitions",
+          "Protection"
+        ],
+        "image": "https://cw-strapi-prod.s3.ap-south-1.amazonaws.com/CTSPC_760mm_2369fd96c2.png"
+      },
+      {
+        "name": "DIN Rail Sockets",
+        "tag": "CDS Series",
+        "desc": "Connectwell CDS series DIN rail mounted utility power outlets for control panels, in India, Schuko and UK socket versions with built in switch.",
+        "features": [
+        "Series: CDS, CDSIN India, CDSSH Schuko, CDSUK UK",
+        "Built in switch for on or off disconnection",
+        "UK version 13A at 220 to 240V, Schuko earth first contact",
+        "LED indication and fuse terminal options"
+      ],
+        "image": "https://cw-strapi-prod.s3.ap-south-1.amazonaws.com/Din_Socket_1_1c1f7c1fff.png"
+      }
+    ],
+    "highlights": [
+      {
+        "title": "Genuine Connectwell",
+        "text": "Authentic Connectwell products with full manufacturer warranty."
+      },
+      {
+        "title": "Authorised Partner",
+        "text": "SSC Control is an authorised Connectwell channel partner."
+      },
+      {
+        "title": "Stock & Fast Delivery",
+        "text": "Ready availability from our Ahmedabad and Baroda bases across Gujarat."
+      },
+      {
+        "title": "Panel Build Support",
+        "text": "Terminal and panel selection support from our engineering team."
+      }
+    ],
+    "ctaTitle": "Need installation accessories?",
+    "ctaText": "Our team can specify rails, clamps, markers and tools for your assembly."
+  },
+  "connectwell/power-control": {
+    "brandSlug": "connectwell",
+    "slug": "power-control",
+    "category": "Power & Control Solutions",
+    "label": "SMPS & Fan Control",
+    "title": "Power &",
+    "titleEm": "Control Solutions",
+    "tagline": "DIN rail SMPS power supplies and fan monitoring and control devices.",
+    "intro": "Connectwell is one of India's leading manufacturers of terminal blocks, relays, interface modules, installation accessories and power supplies for control panels. SSC Control is an authorised Connectwell partner, supplying the full range with genuine products, warranty and technical support across Gujarat and India.",
+    "heroImage": "https://cw-strapi-prod.s3.ap-south-1.amazonaws.com/css240_274840e307.png",
+    "seriesLabel": "Power & Control Range",
+    "seriesTitle": "Power & Control Solutions",
+    "series": [
+      {
+        "name": "Switch Mode Power Supply (SMPS)",
+        "tag": "CPSS / CSS / PSS",
+        "desc": "DIN rail SMPS and redundancy modules, 24V DC output, 2.5 to 40A.",
+        "features": [
+          "24V DC",
+          "2.5 to 40A",
+          "Redundancy"
+        ],
+        "image": "https://cw-strapi-prod.s3.ap-south-1.amazonaws.com/css240_274840e307.png"
+      },
+      {
+        "name": "Fan Monitoring & Control Devices",
+        "tag": "CFMCD / CFTDPR4",
+        "desc": "Microprocessor fan monitoring and control devices with temperature and airflow sensing and alarm.",
+        "features": [
+          "Fan Monitor",
+          "Temp / Airflow",
+          "Alarm Output"
+        ],
+        "image": "https://cw-strapi-prod.s3.ap-south-1.amazonaws.com/cfdtpr4_f652730ae0.png"
+      }
+    ],
+    "highlights": [
+      {
+        "title": "Genuine Connectwell",
+        "text": "Authentic Connectwell products with full manufacturer warranty."
+      },
+      {
+        "title": "Authorised Partner",
+        "text": "SSC Control is an authorised Connectwell channel partner."
+      },
+      {
+        "title": "Stock & Fast Delivery",
+        "text": "Ready availability from our Ahmedabad and Baroda bases across Gujarat."
+      },
+      {
+        "title": "Panel Build Support",
+        "text": "Terminal and panel selection support from our engineering team."
+      }
+    ],
+    "ctaTitle": "Need power or fan control?",
+    "ctaText": "Our team can size the SMPS and fan monitoring devices for your panel."
+  },
+  "abb/contactors": {
+    "brandSlug": "abb",
+    "slug": "contactors",
+    "category": "Contactors, A, AX & AF Series",
+    "label": "Motor Contactors",
+    "title": "ABB",
+    "titleEm": "Contactors",
+    "tagline": "AF electronic and AX classic contactors, 9A to 2650A.",
+    "intro": "ABB is a global leader in electrification and automation, supplying contactors, circuit breakers, switches, metering and control products for industrial and building installations. SSC Control is an authorised ABB partner, supplying the full range with genuine products, warranty and technical support across Gujarat and India.",
+    "heroImage": "https://cdn.productimages.abb.com/1SBC101011V0000_master.png",
+    "seriesLabel": "Contactor Lineup",
+    "seriesTitle": "ABB Contactor Series",
+    "series": [
+      {
+        "name": "AF09 to AF96 Series",
+        "tag": "9 to 96A, electronic coil",
+        "desc": "Block contactors with an electronic coil interface that accepts a wide control voltage range, with built in surge suppression for direct motor control.",
+        "features": [
+          "Rating: 9 to 96 A AC-3, up to 45 kW at 400V",
+          "Poles: 3 / 4",
+          "Coil: electronic wide band, 24 to 250V AC or DC",
+          "Use: motor starting and power switching"
+        ],
+        "image": "https://cdn.productimages.abb.com/1SBC101011V0000_master.png"
+      },
+      {
+        "name": "AF116 to AF370 Series",
+        "tag": "116 to 370A, electronic coil",
+        "desc": "Large frame AF contactors with pre mounted auxiliary contacts and double clamp terminals for high power motor and distribution duty.",
+        "features": [
+          "Rating: 116 to 370 A AC-3, up to 200 kW at 400V",
+          "Poles: 3",
+          "Coil: electronic wide band, low holding consumption",
+          "Use: high power motor control and switching"
+        ],
+        "image": "https://cdn.productimages.abb.com/9PAA00000125069_master.jpg"
+      },
+      {
+        "name": "AX Series",
+        "tag": "9 to 370A, AC coil",
+        "desc": "Classic AC operated block contactors with conventional coils, a cost effective choice for standard three phase motor and power line control.",
+        "features": [
+          "Rating: 9 to 370 A AC-3, 4 to 200 kW",
+          "Poles: 3",
+          "Coil: AC operated, single voltage 24 to 400V AC",
+          "Use: three phase motor and power circuits up to 690V"
+        ],
+        "image": "https://cdn.productimages.abb.com/1SBC101031V0014_master.jpg"
+      },
+      {
+        "name": "B6 / B7 Mini Contactors",
+        "tag": "9 to 12A, compact",
+        "desc": "Miniature 3 pole contactors with low coil consumption and one built in auxiliary contact for compact panels.",
+        "features": [
+          "Rating: B6 9A, B7 12A AC-3, 4 to 5.5 kW",
+          "Poles: 3",
+          "Coil: AC or DC operated, 12 to 240V",
+          "Use: small motor and resistive load switching"
+        ],
+        "image": "https://cdn.productimages.abb.com/2CDC211014S0011_master.jpg"
+      },
+      {"name": "A Series", "tag": "9 to 300A, AC coil", "desc": "Classic AC operated block contactors for switching three phase motors and power circuits across a wide rating span.", "features": ["Rating: 9 to 300 A AC-3, 4 to 160 kW at 400V", "Poles: 3", "Coil: AC operated", "Use: motor control, DOL and star delta starters up to 690V"], "image": "https://cdn.productimages.abb.com/1SBC101492F0014_master.jpg"},
+      {"name": "AFS Safety Contactors", "tag": "9 to 96A, mirror contacts", "desc": "AF contactors with mirror and mechanically linked auxiliary contacts dedicated to machine safety applications.", "features": ["Rating: 9 to 96 A AC-3, 4 to 45 kW at 400V", "Poles: 3", "Coil: electronic, 24 to 250V AC or DC", "Feature: mirror and mechanically linked contacts for safety", "Use: machine safety circuits and monitoring"], "image": "https://cdn.productimages.abb.com/9PAA00000154092_master.jpg"},
+      {"name": "UA / UA-RA Capacitor Contactors", "tag": "Capacitor duty", "desc": "Three pole contactors for switching capacitor banks, with UA-RA versions adding a damping resistor block to limit inrush current.", "features": ["Rating: capacitor banks 12.5 to 60 kVAr at 400V, UA16 to UA110", "Poles: 3", "Type: capacitor switching with damping resistors", "Use: power factor correction panels and capacitor bank switching"], "image": "https://cdn.productimages.abb.com/1SBC587794F0301_master.jpg"}
+    ],
+    "highlights": [
+      {
+        "title": "Genuine ABB",
+        "text": "Authentic ABB products with full manufacturer warranty."
+      },
+      {
+        "title": "Authorised Partner",
+        "text": "SSC Control is an authorised ABB channel partner."
+      },
+      {
+        "title": "Stock & Fast Delivery",
+        "text": "Ready availability from our Ahmedabad and Baroda bases across Gujarat."
+      },
+      {
+        "title": "Selection Support",
+        "text": "Switchgear and control selection support from our engineering team."
+      }
+    ],
+    "ctaTitle": "Need a contactor?",
+    "ctaText": "Our team can size the contactor rating and coil for your motor or load."
+  },
+  "abb/manual-motor-starters": {
+    "brandSlug": "abb",
+    "slug": "manual-motor-starters",
+    "category": "Manual Motor Starters",
+    "label": "MS132 / MS165 MMS",
+    "title": "Manual Motor",
+    "titleEm": "Starters",
+    "tagline": "MS and MO manual motor starters and protectors, up to 100A.",
+    "intro": "ABB is a global leader in electrification and automation, supplying contactors, circuit breakers, switches, metering and control products for industrial and building installations. SSC Control is an authorised ABB partner, supplying the full range with genuine products, warranty and technical support across Gujarat and India.",
+    "heroImage": "https://cdn.productimages.abb.com/9PAA00000366765_master.png",
+    "seriesLabel": "MMS Lineup",
+    "seriesTitle": "Manual Motor Starter Series",
+    "series": [
+      {
+        "name": "MS116",
+        "tag": "0.1 to 32A",
+        "desc": "Compact and economic manual motor starter for motor protection up to 32A.",
+        "features": [
+          "Setting: 0.1 to 32 A",
+          "Breaking: 50 kA at 400V",
+          "Poles: 3",
+          "Terminal: screw",
+          "Use: motor protection with built in disconnect"
+        ],
+        "image": "https://cdn.productimages.abb.com/2CDC241004V0017_master.jpg"
+      },
+      {
+        "name": "MS132",
+        "tag": "0.1 to 32A",
+        "desc": "Powerful manual motor starter offering very high breaking capacity in a 45mm width.",
+        "features": [
+          "Setting: 0.1 to 32 A",
+          "Breaking: 100 kA at 400V",
+          "Poles: 3",
+          "Terminal: screw",
+          "Use: motor protection and fuseless short circuit protection"
+        ],
+        "image": "https://cdn.productimages.abb.com/9PAA00000045483_master.png"
+      },
+      {
+        "name": "MS165",
+        "tag": "10 to 80A",
+        "desc": "Compact and powerful manual motor starter for currents up to 80A.",
+        "features": [
+          "Setting: 10 to 80 A",
+          "Breaking: 50 kA at 400V",
+          "Poles: 3",
+          "Terminal: screw",
+          "Use: motor protection up to 45 kW with disconnect"
+        ],
+        "image": "https://cdn.productimages.abb.com/1SFC132208F0002_master.jpg"
+      },
+      {
+        "name": "MO165",
+        "tag": "0.16 to 80A",
+        "desc": "Magnetic only manual motor starter providing short circuit protection and switching.",
+        "features": [
+          "Frame: 0.16 to 80 A magnetic",
+          "Breaking: up to 100 kA at 400V",
+          "Poles: 3",
+          "Terminal: screw",
+          "Use: short circuit protection and disconnect for feeders"
+        ],
+        "image": "https://cdn.productimages.abb.com/1SBC101184F0014_master.jpg"
+      },
+      {
+        "name": "MS496",
+        "tag": "28 to 100A",
+        "desc": "High power manual motor starter with trip class 20 for heavy duty motors.",
+        "features": [
+          "Setting: 28 to 100 A",
+          "Breaking: 50 kA Ics at 400V",
+          "Poles: 3",
+          "Terminal: screw",
+          "Use: motor protection for large motors up to 45 kW"
+        ],
+        "image": "https://cdn.productimages.abb.com/9PAA00000366765_master.png"
+      }
+    ],
+    "highlights": [
+      {
+        "title": "Genuine ABB",
+        "text": "Authentic ABB products with full manufacturer warranty."
+      },
+      {
+        "title": "Authorised Partner",
+        "text": "SSC Control is an authorised ABB channel partner."
+      },
+      {
+        "title": "Stock & Fast Delivery",
+        "text": "Ready availability from our Ahmedabad and Baroda bases across Gujarat."
+      },
+      {
+        "title": "Selection Support",
+        "text": "Switchgear and control selection support from our engineering team."
+      }
+    ],
+    "ctaTitle": "Need a manual motor starter?",
+    "ctaText": "Our team can size the MMS rating and trip class for your motor."
+  },
+  "abb/mccb": {
+    "brandSlug": "abb",
+    "slug": "mccb",
+    "category": "MCCBs, Tmax XT Series",
+    "label": "Moulded Case Circuit Breakers",
+    "title": "ABB",
+    "titleEm": "MCCBs",
+    "tagline": "Tmax XT moulded case breakers, 160A to 630A.",
+    "intro": "ABB is a global leader in electrification and automation, supplying contactors, circuit breakers, switches, metering and control products for industrial and building installations. SSC Control is an authorised ABB partner, supplying the full range with genuine products, warranty and technical support across Gujarat and India.",
+    "heroImage": "https://cdn.productimages.abb.com/9IBA255010_master.png",
+    "seriesLabel": "MCCB Lineup",
+    "seriesTitle": "Tmax XT MCCB Series",
+    "series": [
+      {
+        "name": "Tmax XT1",
+        "tag": "Up to 160A",
+        "desc": "Compact entry level moulded case breaker for residential and light commercial distribution.",
+        "features": [
+          "Frame: 160 A",
+          "Breaking: 18 to 70 kA at 415V",
+          "Poles: 3 / 4",
+          "Trip: thermomagnetic",
+          "Use: feeder and cable protection in small panels"
+        ],
+        "image": "https://cdn.productimages.abb.com/9IBA255044_master.png"
+      },
+      {
+        "name": "Tmax XT2",
+        "tag": "Up to 160A",
+        "desc": "High performance 160A frame supporting thermomagnetic and Ekip electronic releases.",
+        "features": [
+          "Frame: 160 A",
+          "Breaking: 36 to 120 kA at 415V",
+          "Poles: 3 / 4",
+          "Trip: thermomagnetic or Ekip electronic",
+          "Use: motor and feeder protection with metering"
+        ],
+        "image": "https://cdn.productimages.abb.com/9IBA255010_master.png"
+      },
+      {
+        "name": "Tmax XT3",
+        "tag": "Up to 250A",
+        "desc": "250A frame breaker for distribution boards needing higher continuous current.",
+        "features": [
+          "Frame: 250 A",
+          "Breaking: 25 to 50 kA at 415V",
+          "Poles: 3 / 4",
+          "Trip: thermomagnetic",
+          "Use: sub distribution and feeder protection"
+        ],
+        "image": "https://cdn.productimages.abb.com/9IBA255289_master.png"
+      },
+      {
+        "name": "Tmax XT4",
+        "tag": "Up to 250A",
+        "desc": "Premium 250A frame with full Ekip Touch electronic protection and precision metering.",
+        "features": [
+          "Frame: 250 A",
+          "Breaking: 36 to 200 kA at 415V",
+          "Poles: 3 / 4",
+          "Trip: thermomagnetic or Ekip electronic",
+          "Use: critical feeders, generators and motor circuits"
+        ],
+        "image": "https://cdn.productimages.abb.com/9IBA191998_master.jpg"
+      },
+      {
+        "name": "Tmax XT5",
+        "tag": "Up to 630A",
+        "desc": "Larger frame breaker covering 400 to 630A mains and feeder duties with Ekip releases.",
+        "features": [
+          "Frame: 400 to 630 A",
+          "Breaking: 36 to 200 kA at 415V",
+          "Poles: 3 / 4",
+          "Trip: thermomagnetic or Ekip electronic",
+          "Use: main incomers and large feeder protection"
+        ],
+        "image": "https://cdn.productimages.abb.com/9IBA261444_master.png"
+      },
+      {"name": "DSP", "tag": "160 to 630A", "desc": "ABB SACE Formula DSP thermomagnetic moulded case range on P1, P2 and P3 frames for distribution and motor protection.", "features": ["Frame: 160 to 630 A", "Breaking: 18 / 25 / 36 / 50 kA", "Poles: 3 / 4", "Trip: thermomagnetic, fixed or adjustable", "Use: industrial and commercial power distribution"], "image": "https://cdn.productimages.abb.com/9PAA00000049087_master.png"},
+      {"name": "DSA", "tag": "125 to 630A", "desc": "ABB SACE Formula DSA spanning A1, A2 and A3 frames with thermomagnetic or electronic releases for feeders and distribution boards.", "features": ["Frame: 125 to 630 A", "Breaking: 4.5 to 50 kA", "Poles: 3 / 4", "Trip: thermomagnetic or electronic", "Use: distribution boards, feeders and panel protection"], "image": "https://cdn.productimages.abb.com/9PAA00000229049_master.jpg"}
+    ],
+    "highlights": [
+      {
+        "title": "Genuine ABB",
+        "text": "Authentic ABB products with full manufacturer warranty."
+      },
+      {
+        "title": "Authorised Partner",
+        "text": "SSC Control is an authorised ABB channel partner."
+      },
+      {
+        "title": "Stock & Fast Delivery",
+        "text": "Ready availability from our Ahmedabad and Baroda bases across Gujarat."
+      },
+      {
+        "title": "Selection Support",
+        "text": "Switchgear and control selection support from our engineering team."
+      }
+    ],
+    "ctaTitle": "Need an MCCB?",
+    "ctaText": "Our team can size the frame, breaking capacity and trip unit for your installation."
+  },
+  "abb/acb": {
+    "brandSlug": "abb",
+    "slug": "acb",
+    "category": "ACBs, Emax 2 Series",
+    "label": "Air Circuit Breakers",
+    "title": "ABB",
+    "titleEm": "Air Circuit Breakers",
+    "tagline": "SACE Emax 2 air circuit breakers, 630A to 6300A.",
+    "intro": "ABB is a global leader in electrification and automation, supplying contactors, circuit breakers, switches, metering and control products for industrial and building installations. SSC Control is an authorised ABB partner, supplying the full range with genuine products, warranty and technical support across Gujarat and India.",
+    "heroImage": "https://cdn.productimages.abb.com/9PAA00000042922_master.jpg",
+    "seriesLabel": "ACB Lineup",
+    "seriesTitle": "Emax 2 ACB Series",
+    "series": [
+      {
+        "name": "Emax 2 E1.2",
+        "tag": "Up to 1600A",
+        "desc": "The most compact frame in the SACE Emax 2 air circuit breaker range for low voltage power distribution.",
+        "features": [
+          "Rating: 630 to 1600 A",
+          "Breaking: up to 66 kA",
+          "Poles: 3 / 4",
+          "Type: fixed / withdrawable",
+          "Trip: Ekip Dip / Touch / Hi-Touch"
+        ],
+        "image": "https://cdn.productimages.abb.com/9PAA00000042854_master.jpg"
+      },
+      {
+        "name": "Emax 2 E2.2",
+        "tag": "Up to 2500A",
+        "desc": "Versatile mid range air circuit breaker delivering high breaking capacity in a space saving frame.",
+        "features": [
+          "Rating: 250 to 2500 A",
+          "Breaking: up to 100 kA",
+          "Poles: 3 / 4",
+          "Type: fixed / withdrawable",
+          "Trip: Ekip Dip / Touch / Hi-Touch"
+        ],
+        "image": "https://cdn.productimages.abb.com/9PAA00000042932_master.jpg"
+      },
+      {
+        "name": "Emax 2 E4.2",
+        "tag": "Up to 4000A",
+        "desc": "High performance frame engineered for demanding installations needing strong short circuit withstand.",
+        "features": [
+          "Rating: 1600 to 4000 A",
+          "Breaking: up to 100 kA",
+          "Poles: 3 / 4",
+          "Type: fixed / withdrawable",
+          "Trip: Ekip Dip / Touch / Hi-Touch"
+        ],
+        "image": "https://cdn.productimages.abb.com/9PAA00000043360_master.jpg"
+      },
+      {
+        "name": "Emax 2 E6.2",
+        "tag": "Up to 6300A",
+        "desc": "Top of the range air circuit breaker for the highest current and power management applications.",
+        "features": [
+          "Rating: 4000 to 6300 A",
+          "Breaking: up to 100 kA",
+          "Poles: 3 / 4",
+          "Type: fixed / withdrawable",
+          "Trip: Ekip Dip / Touch / Hi-Touch"
+        ],
+        "image": "https://cdn.productimages.abb.com/9PAA00000042922_master.jpg"
+      },
+      {"name": "Formula A1 / A2 / A3", "tag": "Up to 630A", "desc": "ABB SACE Formula compact moulded case air break range with A1, A2 and A3 frames for low voltage circuit protection.", "features": ["Frame: A1 125 A, A2 250 A, A3 630 A", "Breaking: 36 to 50 kA at 415V", "Poles: 3 / 4", "Trip: thermomagnetic or electronic", "Use: compact distribution and general circuit protection"], "image": "https://cdn.productimages.abb.com/9PAA00000045321_master.jpg"}
+    ],
+    "highlights": [
+      {
+        "title": "Genuine ABB",
+        "text": "Authentic ABB products with full manufacturer warranty."
+      },
+      {
+        "title": "Authorised Partner",
+        "text": "SSC Control is an authorised ABB channel partner."
+      },
+      {
+        "title": "Stock & Fast Delivery",
+        "text": "Ready availability from our Ahmedabad and Baroda bases across Gujarat."
+      },
+      {
+        "title": "Selection Support",
+        "text": "Switchgear and control selection support from our engineering team."
+      }
+    ],
+    "ctaTitle": "Need an ACB?",
+    "ctaText": "Our team can size the Emax 2 frame and Ekip trip unit for your switchboard."
+  },
+  "abb/mcb": {
+    "brandSlug": "abb",
+    "slug": "mcb",
+    "category": "MCBs, System pro M compact",
+    "label": "Miniature Circuit Breakers",
+    "title": "ABB",
+    "titleEm": "MCBs & RCDs",
+    "tagline": "System pro M compact MCBs, RCCBs and RCBOs.",
+    "intro": "ABB is a global leader in electrification and automation, supplying contactors, circuit breakers, switches, metering and control products for industrial and building installations. SSC Control is an authorised ABB partner, supplying the full range with genuine products, warranty and technical support across Gujarat and India.",
+    "heroImage": "https://cdn.productimages.abb.com/9PAA00000002966_master.png",
+    "seriesLabel": "MCB Lineup",
+    "seriesTitle": "System pro M compact Series",
+    "series": [
+      {
+        "name": "S200 MCB",
+        "tag": "0.5 to 63A, B/C/D",
+        "desc": "General purpose miniature circuit breaker for overload and short circuit protection in distribution boards.",
+        "features": [
+          "Rating: 0.5 to 63 A",
+          "Poles: 1 / 2 / 3 / 4",
+          "Breaking: 6 to 25 kA",
+          "Curve: B / C / D",
+          "Use: final circuit and feeder protection"
+        ],
+        "image": "https://cdn.productimages.abb.com/9PAA00000002927_master.png"
+      },
+      {
+        "name": "S800 High Performance MCB",
+        "tag": "10 to 125A",
+        "desc": "High performance current limiting MCB for heavy duty industrial and renewable systems.",
+        "features": [
+          "Rating: 10 to 125 A",
+          "Poles: 1 / 2 / 3 / 4",
+          "Breaking: up to 50 kA",
+          "Curve: B / C / D / K",
+          "Use: industrial heavy duty and back up protection"
+        ],
+        "image": "https://cdn.productimages.abb.com/9PAA00000078044_master.png"
+      },
+      {
+        "name": "F200 RCCB",
+        "tag": "25 to 125A, 30mA",
+        "desc": "Residual current circuit breaker that protects against earth fault currents and indirect contact.",
+        "features": [
+          "Rating: 25 to 125 A",
+          "Poles: 2 / 4",
+          "Sensitivity: 30 / 100 / 300 mA",
+          "Breaking: 10 kA",
+          "Use: earth fault and shock protection"
+        ],
+        "image": "https://cdn.productimages.abb.com/9PAA00000398083_master.png"
+      },
+      {
+        "name": "DS201 RCBO",
+        "tag": "6 to 40A, B/C",
+        "desc": "Single module device combining overload, short circuit and earth fault protection for single phase circuits.",
+        "features": [
+          "Rating: 6 to 40 A",
+          "Poles: 1P + N",
+          "Breaking: 6 to 10 kA",
+          "Curve: B / C",
+          "Use: combined overcurrent and residual current protection"
+        ],
+        "image": "https://cdn.productimages.abb.com/9PAA00000036233_master.png"
+      }
+    ],
+    "highlights": [
+      {
+        "title": "Genuine ABB",
+        "text": "Authentic ABB products with full manufacturer warranty."
+      },
+      {
+        "title": "Authorised Partner",
+        "text": "SSC Control is an authorised ABB channel partner."
+      },
+      {
+        "title": "Stock & Fast Delivery",
+        "text": "Ready availability from our Ahmedabad and Baroda bases across Gujarat."
+      },
+      {
+        "title": "Selection Support",
+        "text": "Switchgear and control selection support from our engineering team."
+      }
+    ],
+    "ctaTitle": "Need an MCB or RCD?",
+    "ctaText": "Our team can specify the MCB, RCCB or RCBO rating and curve for your board."
+  },
+  "abb/ats-switches": {
+    "brandSlug": "abb",
+    "slug": "ats-switches",
+    "category": "ATS & OT Switches",
+    "label": "Automatic Transfer & OT Switches",
+    "title": "Switches &",
+    "titleEm": "Transfer",
+    "tagline": "OT switch disconnectors and automatic transfer switches.",
+    "intro": "ABB is a global leader in electrification and automation, supplying contactors, circuit breakers, switches, metering and control products for industrial and building installations. SSC Control is an authorised ABB partner, supplying the full range with genuine products, warranty and technical support across Gujarat and India.",
+    "heroImage": "https://cdn.productimages.abb.com/9IBA246891_master.png",
+    "seriesLabel": "Switch Lineup",
+    "seriesTitle": "Switches & Transfer Equipment",
+    "series": [
+      {
+        "name": "OT Switch Disconnectors",
+        "tag": "16 to 3150A",
+        "desc": "Manual front operated switch disconnectors for safe load break isolation in distribution boards and panels.",
+        "features": [
+          "Rating: 16 to 3150 A",
+          "Poles: 3 / 4",
+          "Type: switch disconnector",
+          "Use: distribution boards, panels and machine isolation"
+        ],
+        "image": "https://cdn.productimages.abb.com/9IBA040694_master.jpg"
+      },
+      {
+        "name": "OS Fusible Switch Disconnectors",
+        "tag": "16 to 1250A",
+        "desc": "Switch fuse units combining a load break disconnector with fuse links for switching plus short circuit protection.",
+        "features": [
+          "Rating: 16 to 1250 A",
+          "Poles: 1 / 2 / 3 / 4",
+          "Type: fusible switch disconnector",
+          "Use: combined isolation and fuse protection"
+        ],
+        "image": "https://cdn.productimages.abb.com/9IBA039702_master.jpg"
+      },
+      {
+        "name": "OTM Transfer Switch Equipment",
+        "tag": "32 to 3200A",
+        "desc": "Motorized changeover and transfer switch equipment that switches loads between a main supply and a backup generator.",
+        "features": [
+          "Rating: 32 to 3200 A",
+          "Poles: 2 / 3 / 4",
+          "Type: automatic transfer switch",
+          "Use: source changeover between mains and standby generator"
+        ],
+        "image": "https://cdn.productimages.abb.com/1SCC301292V0015_master.jpg"
+      },
+      {
+        "name": "TruONE ATS",
+        "tag": "30 to 1600A",
+        "desc": "All in one automatic transfer switch integrating switch and controller in a single device for fast reliable source transfer.",
+        "features": [
+          "Rating: 30 to 1600 A",
+          "Poles: 2 / 3 / 4",
+          "Type: automatic transfer switch",
+          "Use: critical power backup for data centres, hospitals and industry"
+        ],
+        "image": "https://cdn.productimages.abb.com/9IBA246891_master.png"
+      }
+    ],
+    "highlights": [
+      {
+        "title": "Genuine ABB",
+        "text": "Authentic ABB products with full manufacturer warranty."
+      },
+      {
+        "title": "Authorised Partner",
+        "text": "SSC Control is an authorised ABB channel partner."
+      },
+      {
+        "title": "Stock & Fast Delivery",
+        "text": "Ready availability from our Ahmedabad and Baroda bases across Gujarat."
+      },
+      {
+        "title": "Selection Support",
+        "text": "Switchgear and control selection support from our engineering team."
+      }
+    ],
+    "ctaTitle": "Need a switch or ATS?",
+    "ctaText": "Our team can size the switch disconnector or transfer switch for your supply."
+  },
+  "abb/energy-meters": {
+    "brandSlug": "abb",
+    "slug": "energy-meters",
+    "category": "Energy Meters",
+    "label": "M2M & EQmatic Energy Meters",
+    "title": "ABB",
+    "titleEm": "Energy Meters",
+    "tagline": "Network analysers and DIN rail energy meters with Modbus.",
+    "intro": "ABB is a global leader in electrification and automation, supplying contactors, circuit breakers, switches, metering and control products for industrial and building installations. SSC Control is an authorised ABB partner, supplying the full range with genuine products, warranty and technical support across Gujarat and India.",
+    "heroImage": "https://cdn.productimages.abb.com/9PAA00000040852_master.png",
+    "seriesLabel": "Meter Lineup",
+    "seriesTitle": "ABB Energy Meters",
+    "series": [
+      {
+        "name": "M4M Network Analyser",
+        "tag": "Power quality",
+        "desc": "Fully connected network analyser for accurate energy monitoring and complete power quality analysis.",
+        "features": [
+          "Phase: 3 phase",
+          "Measures: kWh, power, power factor, THD",
+          "Comms: Modbus RS485, Modbus TCP, BACnet",
+          "Mount: DIN rail or panel",
+          "Use: energy efficiency and power quality monitoring"
+        ],
+        "image": "https://cdn.productimages.abb.com/9PAA00000050184_master.jpg"
+      },
+      {
+        "name": "M2M Network Analyser",
+        "tag": "Switchboard metering",
+        "desc": "Panel mounted network analyser with LCD display for bidirectional energy metering and remote monitoring.",
+        "features": [
+          "Phase: 1 and 3 phase",
+          "Measures: kWh bidirectional, A, V, frequency, THD",
+          "Comms: Modbus RS485, Ethernet, digital and relay outputs",
+          "Mount: panel 96 x 96 mm",
+          "Use: remote switchboard and generation monitoring"
+        ],
+        "image": "https://cdn.productimages.abb.com/9PAA00000040852_master.png"
+      },
+      {
+        "name": "EQmatic Energy Analyzer QA/S",
+        "tag": "Web data logger",
+        "desc": "Compact web based energy analyser that logs, stores and visualises consumption data from connected meters.",
+        "features": [
+          "Inputs: electricity, gas, water, heat meters",
+          "Storage: up to 3 years of logged data",
+          "Comms: M-Bus master or Modbus RTU plus Ethernet web interface",
+          "Mount: DIN rail",
+          "Use: visualisation and cost analysis of up to 64 meters"
+        ],
+        "image": "https://cdn.productimages.abb.com/9PAA00000040839_master.png"
+      },
+      {
+        "name": "B23 / B24 Energy Meter",
+        "tag": "MID billing",
+        "desc": "Compact three phase DIN rail energy meter with backlit display for billing grade consumption metering.",
+        "features": [
+          "Phase: 3 phase",
+          "Measures: kWh import and export, multi tariff",
+          "Comms: Modbus RS485, M-Bus, pulse output",
+          "Mount: DIN rail, MID approved",
+          "Use: sub metering, B23 direct 65 A, B24 via CT"
+        ],
+        "image": "https://cdn.productimages.abb.com/9PAA00000095912_master.jpg"
+      },
+      {
+        "name": "A43 / A44 Energy Meter",
+        "tag": "Advanced metering",
+        "desc": "Three phase DIN rail meter with instrumentation, alarms and event logging for demanding installations.",
+        "features": [
+          "Phase: 3 phase, 3 or 4 wire",
+          "Measures: kWh import and export, multi tariff, min max, THD",
+          "Comms: Modbus RS485, M-Bus, pulse I/O",
+          "Mount: DIN rail, class 0.5S options",
+          "Use: advanced sub metering, A43 direct 80 A, A44 via CT"
+        ],
+        "image": "https://cdn.productimages.abb.com/9PAA00000276803_master.jpg"
+      }
+    ],
+    "highlights": [
+      {
+        "title": "Genuine ABB",
+        "text": "Authentic ABB products with full manufacturer warranty."
+      },
+      {
+        "title": "Authorised Partner",
+        "text": "SSC Control is an authorised ABB channel partner."
+      },
+      {
+        "title": "Stock & Fast Delivery",
+        "text": "Ready availability from our Ahmedabad and Baroda bases across Gujarat."
+      },
+      {
+        "title": "Selection Support",
+        "text": "Switchgear and control selection support from our engineering team."
+      }
+    ],
+    "ctaTitle": "Need an energy meter?",
+    "ctaText": "Our team can match the meter, accuracy class and communication to your monitoring need."
+  },
+  "abb/soft-starters": {
+    "brandSlug": "abb",
+    "slug": "soft-starters",
+    "category": "Soft Starters",
+    "label": "PSR / PSE / PSTX Series",
+    "title": "ABB",
+    "titleEm": "Soft Starters",
+    "tagline": "PSR, PSE and PSTX softstarters, 3A to 1250A.",
+    "intro": "ABB is a global leader in electrification and automation, supplying contactors, circuit breakers, switches, metering and control products for industrial and building installations. SSC Control is an authorised ABB partner, supplying the full range with genuine products, warranty and technical support across Gujarat and India.",
+    "heroImage": "https://cdn.productimages.abb.com/9PAA00000054672_master.jpg",
+    "seriesLabel": "Soft Starter Lineup",
+    "seriesTitle": "ABB Softstarter Series",
+    "series": [
+      {
+        "name": "PSR Compact",
+        "tag": "3 to 105A",
+        "desc": "Compact softstarter for soft start and soft stop of small to medium motors where space saving matters.",
+        "features": [
+          "Current: 3 to 105 A",
+          "Power: 1.5 to 55 kW at 400V",
+          "Bypass: built in",
+          "Control: 24V DC or 100 to 250V AC",
+          "Use: pumps, fans, conveyors and small machinery"
+        ],
+        "image": "https://cdn.productimages.abb.com/9PAA00000054646_master.jpg"
+      },
+      {
+        "name": "PSE Efficient",
+        "tag": "18 to 370A",
+        "desc": "General purpose softstarter with built in electronic motor overload protection and torque control.",
+        "features": [
+          "Current: 18 to 370 A",
+          "Power: 7.5 to 200 kW at 400V",
+          "Bypass: built in",
+          "Control: 100 to 250V AC",
+          "Use: pumps, fans, compressors and general industry"
+        ],
+        "image": "https://cdn.productimages.abb.com/9PAA00000076490_master.jpg"
+      },
+      {
+        "name": "PSTX Advanced",
+        "tag": "30 to 1250A",
+        "desc": "Advanced softstarter with built in bypass and full torque control to protect demanding motor loads.",
+        "features": [
+          "Current: 30 to 1250 A",
+          "Power: 15 to 710 kW at 400V",
+          "Bypass: built in",
+          "Control: 100 to 250V AC",
+          "Use: heavy pumps, fans, crushers and high power processes"
+        ],
+        "image": "https://cdn.productimages.abb.com/9PAA00000076831_master.jpg"
+      }
+    ],
+    "highlights": [
+      {
+        "title": "Genuine ABB",
+        "text": "Authentic ABB products with full manufacturer warranty."
+      },
+      {
+        "title": "Authorised Partner",
+        "text": "SSC Control is an authorised ABB channel partner."
+      },
+      {
+        "title": "Stock & Fast Delivery",
+        "text": "Ready availability from our Ahmedabad and Baroda bases across Gujarat."
+      },
+      {
+        "title": "Selection Support",
+        "text": "Switchgear and control selection support from our engineering team."
+      }
+    ],
+    "ctaTitle": "Need a soft starter?",
+    "ctaText": "Our team can size the softstarter current and bypass for your motor."
+  },
+  "abb/push-buttons": {
+    "brandSlug": "abb",
+    "slug": "push-buttons",
+    "category": "Push Buttons & Signalling",
+    "label": "Compact & Modular 22mm",
+    "title": "Push Buttons",
+    "titleEm": "& Signalling",
+    "tagline": "22mm pushbuttons, pilot lights, selectors and emergency stops.",
+    "intro": "ABB is a global leader in electrification and automation, supplying contactors, circuit breakers, switches, metering and control products for industrial and building installations. SSC Control is an authorised ABB partner, supplying the full range with genuine products, warranty and technical support across Gujarat and India.",
+    "heroImage": "https://cdn.productimages.abb.com/9PAA00000014507_master.jpg",
+    "seriesLabel": "Pilot Device Lineup",
+    "seriesTitle": "22mm Pilot Devices",
+    "series": [
+      {
+        "name": "Compact Pilot Devices",
+        "tag": "22mm modular",
+        "desc": "All in one pushbuttons and pilot lights with the operator and contact block combined for fast panel mounting.",
+        "features": [
+          "Type: pushbutton, momentary or maintained",
+          "Size: 22 mm",
+          "Illumination: LED",
+          "Contacts: 1 NO / 1 NC integrated",
+          "Use: machine control panels"
+        ],
+        "image": "https://cdn.productimages.abb.com/9PAA00000241726_master.jpg"
+      },
+      {
+        "name": "CE4 Compact Emergency Stop",
+        "tag": "22mm mount",
+        "desc": "Mushroom emergency stop with twist to release latching action for safe machine shutdown.",
+        "features": [
+          "Type: emergency stop",
+          "Size: 22 mm, 40 mm mushroom",
+          "Contacts: 1 NC positive opening",
+          "Use: safety stop circuits on machinery"
+        ],
+        "image": "https://cdn.productimages.abb.com/9PAA00000287826_master.jpg"
+      },
+      {
+        "name": "CL2 Compact Pilot Lights",
+        "tag": "22mm modular",
+        "desc": "Integrated LED indicator lamps in a single piece housing for clear panel status signalling.",
+        "features": [
+          "Type: pilot light",
+          "Size: 22 mm",
+          "Illumination: built in LED",
+          "Use: status and signalling on control panels"
+        ],
+        "image": "https://cdn.productimages.abb.com/9PAA00000242378_master.jpg"
+      },
+      {
+        "name": "Modular Pilot Devices",
+        "tag": "22mm modular",
+        "desc": "Flexible operator range where heads, fixing collars and contact blocks are ordered separately.",
+        "features": [
+          "Type: pushbutton, flush or extended",
+          "Size: 22 mm",
+          "Illumination: optional LED versions",
+          "Contacts: snap on 1 NO or 1 NC, stackable",
+          "Use: custom built control and signalling stations"
+        ],
+        "image": "https://cdn.productimages.abb.com/9PAA00000090392_master.jpg"
+      },
+      {
+        "name": "Compact Selector Switches",
+        "tag": "22mm modular",
+        "desc": "Two and three position selector switches with short or long handle for mode and function selection.",
+        "features": [
+          "Type: selector",
+          "Size: 22 mm",
+          "Illumination: illuminated and non illuminated",
+          "Contacts: maintained positions",
+          "Use: manual mode selection on operator panels"
+        ],
+        "image": "https://cdn.productimages.abb.com/9PAA00000242092_master.jpg"
+      }
+    ],
+    "highlights": [
+      {
+        "title": "Genuine ABB",
+        "text": "Authentic ABB products with full manufacturer warranty."
+      },
+      {
+        "title": "Authorised Partner",
+        "text": "SSC Control is an authorised ABB channel partner."
+      },
+      {
+        "title": "Stock & Fast Delivery",
+        "text": "Ready availability from our Ahmedabad and Baroda bases across Gujarat."
+      },
+      {
+        "title": "Selection Support",
+        "text": "Switchgear and control selection support from our engineering team."
+      }
+    ],
+    "ctaTitle": "Need pilot devices?",
+    "ctaText": "Our team can specify pushbuttons, pilot lights and emergency stops for your panel."
+  },
+  "abb/overload-relays": {
+    "brandSlug": "abb",
+    "slug": "overload-relays",
+    "category": "Overload Relays",
+    "label": "Thermal & Electronic OLR",
+    "title": "Overload",
+    "titleEm": "Relays",
+    "tagline": "TF thermal and EF electronic overload relays.",
+    "intro": "ABB is a global leader in electrification and automation, supplying contactors, circuit breakers, switches, metering and control products for industrial and building installations. SSC Control is an authorised ABB partner, supplying the full range with genuine products, warranty and technical support across Gujarat and India.",
+    "heroImage": "https://cdn.productimages.abb.com/9PAA00000366714_master.jpg",
+    "seriesLabel": "OLR Lineup",
+    "seriesTitle": "ABB Overload Relays",
+    "series": [
+      {
+        "name": "TF42 Thermal Overload Relay",
+        "tag": "0.1 to 38A",
+        "desc": "Compact bimetallic overload relay for AF09 to AF38 contactors, protecting motors against overload and phase failure.",
+        "features": [
+          "Setting: 0.1 to 38 A",
+          "Poles: 3",
+          "Type: thermal bimetal",
+          "Reset: manual or auto selectable",
+          "Use: motor overload and phase loss protection"
+        ],
+        "image": "https://cdn.productimages.abb.com/9PAA00000366714_master.jpg"
+      },
+      {
+        "name": "TF65 Thermal Overload Relay",
+        "tag": "13 to 67A",
+        "desc": "Bimetallic overload relay for AF40 to AF65 contactors with trip class 10A and temperature compensation.",
+        "features": [
+          "Setting: 13 to 67 A",
+          "Poles: 3",
+          "Type: thermal bimetal",
+          "Reset: manual or auto selectable",
+          "Use: motor protection on AF40 to AF65 contactors"
+        ],
+        "image": "https://cdn.productimages.abb.com/9PAA00000366716_master.png"
+      },
+      {
+        "name": "TF96 Thermal Overload Relay",
+        "tag": "28 to 96A",
+        "desc": "Bimetallic overload relay for AF80 to AF96 contactors offering reliable overload and phase failure protection.",
+        "features": [
+          "Setting: 28 to 96 A",
+          "Poles: 3",
+          "Type: thermal bimetal",
+          "Reset: manual or auto selectable",
+          "Use: motor protection on AF80 to AF96 contactors"
+        ],
+        "image": "https://cdn.productimages.abb.com/9PAA00000366717_master.png"
+      },
+      {
+        "name": "TF140DU Thermal Overload Relay",
+        "tag": "100 to 135A",
+        "desc": "Electromechanical overload relay for AF116 to AF146 contactors with fast trip class 10A protection.",
+        "features": [
+          "Setting: 100 to 135 A",
+          "Poles: 3",
+          "Type: thermal bimetal",
+          "Reset: manual or auto selectable",
+          "Use: motor protection on AF116 to AF146 contactors"
+        ],
+        "image": "https://cdn.productimages.abb.com/9PAA00000366762_master.jpg"
+      },
+      {
+        "name": "EF19 / EF45 Electronic Overload Relay",
+        "tag": "0.1 to 45A",
+        "desc": "Self supplied electronic overload relay with wide setting range and selectable trip class for AF09 to AF38 contactors.",
+        "features": [
+          "Setting: 0.1 to 45 A",
+          "Poles: 3",
+          "Type: electronic",
+          "Reset: manual, auto or remote",
+          "Use: accurate motor protection, trip class 10E to 30E"
+        ],
+        "image": "https://cdn.productimages.abb.com/9PAA00000074260_master.jpg"
+      }
+    ],
+    "highlights": [
+      {
+        "title": "Genuine ABB",
+        "text": "Authentic ABB products with full manufacturer warranty."
+      },
+      {
+        "title": "Authorised Partner",
+        "text": "SSC Control is an authorised ABB channel partner."
+      },
+      {
+        "title": "Stock & Fast Delivery",
+        "text": "Ready availability from our Ahmedabad and Baroda bases across Gujarat."
+      },
+      {
+        "title": "Selection Support",
+        "text": "Switchgear and control selection support from our engineering team."
+      }
+    ],
+    "ctaTitle": "Need an overload relay?",
+    "ctaText": "Our team can match the TF or EF overload relay to your contactor and motor rating."
+  },
 };
 
 export const PRODUCT_KEYS = Object.keys(PRODUCT_PAGES);

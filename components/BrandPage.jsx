@@ -90,8 +90,8 @@ export default function BrandPage({ brand }) {
         <div className="slabel">{brand.catsLabel}</div>
         <div className="stitle">{brand.catsTitle}</div>
         <div className="ssub">{brand.catsSub}</div>
-        <div className="cats-grid">
-          {brand.categories.map((c) => {
+        {(() => {
+          const renderCard = (c) => {
             const color = c.color || accent;
             return (
               <div className="cat-card" key={c.name}>
@@ -143,8 +143,9 @@ export default function BrandPage({ brand }) {
                 </div>
               </div>
             );
-          })}
-        </div>
+          };
+          return <div className="cats-grid">{brand.categories.map(renderCard)}</div>;
+        })()}
       </div>
 
       {brand.certifications && (
@@ -156,7 +157,7 @@ export default function BrandPage({ brand }) {
             {brand.certifications.map((c) => (
               <div className="cert-item" key={c.name}>
                 <div className="cert-logo">
-                  {c.ul ? UL_MARK : <img src={c.img} alt={`${c.name} certification`} loading="lazy" />}
+                  {c.ul ? UL_MARK : c.img ? <img src={c.img} alt={`${c.name} certification`} loading="lazy" /> : <span className="cert-textmark">{c.mark}</span>}
                 </div>
                 <div className="cert-name">{c.name}</div>
                 {c.desc && <div className="cert-desc">{c.desc}</div>}

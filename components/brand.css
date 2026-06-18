@@ -93,16 +93,15 @@
 @media(max-width:560px){.page-brand .proto-grid{grid-template-columns:1fr;}}
 
 /* Certifications & compliance strip */
-.page-brand .cert-strip{display:grid;grid-template-columns:repeat(4,1fr);gap:0;margin-top:8px;background:var(--white);border:1px solid var(--border);border-radius:14px;overflow:hidden;}
-.page-brand .cert-item{display:flex;flex-direction:column;align-items:center;text-align:center;padding:30px 22px 26px;border-left:1px solid var(--border);}
-.page-brand .cert-item:first-child{border-left:none;}
-.page-brand .cert-logo{height:62px;display:flex;align-items:center;justify-content:center;margin-bottom:16px;}
-.page-brand .cert-logo img{max-height:58px;max-width:140px;object-fit:contain;display:block;}
-.page-brand .cert-ul-svg{height:54px;width:auto;color:#111;}
-.page-brand .cert-name{font-size:14px;font-weight:800;color:var(--navy);margin-bottom:5px;letter-spacing:-0.01em;}
-.page-brand .cert-desc{font-size:12px;color:var(--gray);line-height:1.5;max-width:180px;}
-@media(max-width:760px){.page-brand .cert-strip{grid-template-columns:1fr 1fr;}.page-brand .cert-item:nth-child(2){border-left:none;}.page-brand .cert-item:nth-child(n+3){border-top:1px solid var(--border);}}
-@media(max-width:420px){.page-brand .cert-strip{grid-template-columns:1fr;}.page-brand .cert-item{border-left:none;border-top:1px solid var(--border);}.page-brand .cert-item:first-child{border-top:none;}}
+.page-brand .cert-strip{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:1px;margin-top:8px;background:var(--border);border:1px solid var(--border);border-radius:14px;overflow:hidden;}
+.page-brand .cert-item{display:flex;flex-direction:column;align-items:center;text-align:center;padding:26px 18px 22px;background:var(--white);}
+.page-brand .cert-logo{height:56px;display:flex;align-items:center;justify-content:center;margin-bottom:14px;}
+.page-brand .cert-logo img{max-height:52px;max-width:130px;object-fit:contain;display:block;}
+.page-brand .cert-ul-svg{height:50px;width:auto;color:#111;}
+.page-brand .cert-textmark{font-size:25px;font-weight:900;color:var(--navy);letter-spacing:-0.02em;line-height:1;}
+.page-brand .cert-name{font-size:13.5px;font-weight:800;color:var(--navy);margin-bottom:4px;letter-spacing:-0.01em;}
+.page-brand .cert-desc{font-size:11.5px;color:var(--gray);line-height:1.45;max-width:170px;}
+@media(max-width:480px){.page-brand .cert-strip{grid-template-columns:1fr 1fr;}}
 
 /* "View full lineup" link on product cards that have a detail page */
 .page-brand .cat-detail-link { display: inline-block; align-self: flex-start; font-size: 13px; font-weight: 700; text-decoration: none; margin: 2px 0 12px; }
