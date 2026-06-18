@@ -955,6 +955,1410 @@ export const PRODUCT_PAGES = {
     "ctaTitle": "Need energy monitoring?",
     "ctaText": "Our engineers can specify the right EcoMonitor units and metering for your facility."
   },
+  "hicool/compact-fans": {
+    "brandSlug": "hicool",
+    "slug": "compact-fans",
+    "category": "Compact Axial Fans",
+    "label": "Compact AC Axial Fans",
+    "title": "Compact AC",
+    "titleEm": "Axial Fans",
+    "tagline": "Tight-space cooling for panels, electronics and instrumentation.",
+    "intro": "Hicool's compact AC axial fans deliver reliable airflow in the smallest enclosures across the 8A, 9A, 12A, 17A and 22A frames, with plastic or metal blades and ball or sleeve bearings, certified to UL, CE, RoHS, CSA and IEC. As Hicool's No.1 channel partner since 2005, SSC Control supplies the full range with genuine products, ready stock and airflow sizing support.",
+    "heroImage": "https://www.hicoolfans.com/images/pic-compact-fans-ac.png",
+    "seriesLabel": "Compact Lineup",
+    "seriesTitle": "Compact Fans by Series",
+    "series": [
+      {
+        "name": "8A Series",
+        "tag": "80 x 80 x 25 mm",
+        "desc": "80mm AC axial fan for the tightest instrumentation and electronics enclosures.",
+        "features": [
+          "Voltage: 115 / 230V AC",
+          "Frequency: 50 / 60 Hz",
+          "Airflow: 21-25 CFM",
+          "Speed: 2300-2800 RPM",
+          "Power: 12-14 W",
+          "Noise: 29-34 dBA",
+          "Ball / Sleeve bearing"
+        ],
+        "image": "https://www.hicoolfans.com/products/images/pic-compact-fans-12a-ac.png"
+      },
+      {
+        "name": "9A Series",
+        "tag": "92 x 92 x 25 mm",
+        "desc": "92mm AC axial fan balancing airflow and footprint for control cabinets.",
+        "features": [
+          "Voltage: 115 / 230V AC",
+          "Frequency: 50 / 60 Hz",
+          "Airflow: 36-42 CFM",
+          "Speed: 2300-2800 RPM",
+          "Power: 12-14 W",
+          "Noise: 36-38 dBA",
+          "Ball / Sleeve bearing"
+        ],
+        "image": "https://www.hicoolfans.com/products/images/pic-compact-fans-12a-ac.png"
+      },
+      {
+        "name": "12A Series",
+        "tag": "120 x 120 x 38 mm",
+        "desc": "120mm AC axial fan for control panels and electronics enclosures.",
+        "features": [
+          "Voltage: 24 / 115 / 230 / 415V AC",
+          "Frequency: 50 / 60 Hz",
+          "Airflow: 95-102 CFM (up to 243)",
+          "Speed: 2600-2800 RPM",
+          "Power: 17-20 W",
+          "Noise: 43-46 dBA",
+          "Ball / Sleeve bearing"
+        ],
+        "image": "https://www.hicoolfans.com/products/images/pic-compact-fans-12a-ac.png"
+      },
+      {
+        "name": "17A Series",
+        "tag": "172 x 172 x 150 mm",
+        "desc": "172mm AC axial fan delivering high airflow for densely packed cabinets.",
+        "features": [
+          "Voltage: 115 / 230 / 415V AC",
+          "Frequency: 50 / 60 Hz",
+          "Airflow: 190-235 CFM",
+          "Speed: 2600-2750 RPM",
+          "Power: 37-41 W",
+          "Noise: 52-55 dBA",
+          "Ball / Sleeve bearing"
+        ],
+        "image": "https://www.hicoolfans.com/images/pic-compact-fans-ac.png"
+      },
+      {
+        "name": "22A Series",
+        "tag": "220 x 220 x 60 mm",
+        "desc": "220mm AC axial fan, maximum airflow in the compact range for larger enclosures.",
+        "features": [
+          "Voltage: 115 / 230 / 415V AC",
+          "Frequency: 50 Hz",
+          "Airflow: 360 CFM",
+          "Speed: 2300 RPM",
+          "Power: 50 W",
+          "Noise: 56 dBA",
+          "Ball / Sleeve bearing"
+        ],
+        "image": "https://www.hicoolfans.com/products/images/pic-22a-series.png"
+      }
+    ],
+    "highlights": [
+      {
+        "title": "Genuine Hicool",
+        "text": "Authentic Hicool fans with full manufacturer warranty."
+      },
+      {
+        "title": "No.1 Hicool Partner",
+        "text": "SSC Control has been Hicool's No.1 channel partner since 2005."
+      },
+      {
+        "title": "Stock & Fast Delivery",
+        "text": "Ready availability from our Ahmedabad and Baroda warehouses across Gujarat."
+      },
+      {
+        "title": "Airflow Sizing",
+        "text": "Thermal and airflow sizing support from our engineering team."
+      }
+    ],
+    "ctaTitle": "Need the right compact fan?",
+    "ctaText": "Our team can help you size the fan frame, airflow and voltage for your enclosure."
+  },
+  "hicool/all-metal-fans": {
+    "brandSlug": "hicool",
+    "slug": "all-metal-fans",
+    "category": "All Metal Compact Fans",
+    "label": "All Metal Fans",
+    "title": "All Metal",
+    "titleEm": "Compact Fans",
+    "tagline": "Rugged all-metal fans for heat and harsh environments.",
+    "intro": "Hicool's all-metal compact AC axial fans use a full metal body and metal blades for high-temperature, corrosion-resistant cooling across the 17A, 225A and 280A frames, with ball bearings and 115 / 230 / 415V AC options. SSC Control, Hicool's No.1 channel partner since 2005, supplies the full all-metal range with genuine products and support.",
+    "heroImage": "https://www.hicoolfans.com/images/pic-compact-fans-all-metal.png",
+    "seriesLabel": "All Metal Lineup",
+    "seriesTitle": "All Metal Fans by Series",
+    "series": [
+      {
+        "name": "17A Series",
+        "tag": "172 x 150 x 55 mm",
+        "desc": "172mm all-metal axial fan for high-temperature and demanding environments.",
+        "features": [
+          "Voltage: 115 / 230 / 415V AC",
+          "Frequency: 50 / 60 Hz",
+          "Airflow: 195-230 CFM",
+          "Speed: 2800-3250 RPM",
+          "Power: 42 W",
+          "Noise: 49-53 dBA",
+          "Ball bearing, metal blade"
+        ],
+        "image": "https://www.hicoolfans.com/images/pic-compact-fans-all-metal.png"
+      },
+      {
+        "name": "225A Series",
+        "tag": "225 x 225 x 80 mm",
+        "desc": "225mm all-metal axial fan for larger enclosures in demanding conditions.",
+        "features": [
+          "Voltage: 115 / 230 / 415V AC",
+          "Frequency: 50 / 60 Hz",
+          "Airflow: 530-600 CFM",
+          "Speed: 2500-2800 RPM",
+          "Power: 80-85 W",
+          "Noise: 59-61 dBA",
+          "Ball bearing, metal blade"
+        ],
+        "image": "https://www.hicoolfans.com/images/pic-compact-fans-all-metal.png"
+      },
+      {
+        "name": "280A Series",
+        "tag": "280 x 280 x 80 mm",
+        "desc": "280mm all-metal axial fan, the largest frame for maximum rugged airflow.",
+        "features": [
+          "Voltage: 115 / 230 / 415V AC",
+          "Frequency: 50 / 60 Hz",
+          "Airflow: 1090-1130 CFM",
+          "Speed: 2500-2700 RPM",
+          "Power: 119-130 W",
+          "Noise: 68-70 dBA",
+          "Ball bearing, metal blade"
+        ],
+        "image": "https://www.hicoolfans.com/images/pic-compact-fans-all-metal.png"
+      }
+    ],
+    "highlights": [
+      {
+        "title": "Genuine Hicool",
+        "text": "Authentic Hicool fans with full manufacturer warranty."
+      },
+      {
+        "title": "No.1 Hicool Partner",
+        "text": "SSC Control has been Hicool's No.1 channel partner since 2005."
+      },
+      {
+        "title": "Stock & Fast Delivery",
+        "text": "Ready availability from our Ahmedabad and Baroda warehouses across Gujarat."
+      },
+      {
+        "title": "Airflow Sizing",
+        "text": "Thermal and airflow sizing support from our engineering team."
+      }
+    ],
+    "ctaTitle": "Need a rugged all-metal fan?",
+    "ctaText": "Our team can help you select the right all-metal fan for your temperature and environment."
+  },
+  "hicool/dc-compact-fans": {
+    "brandSlug": "hicool",
+    "slug": "dc-compact-fans",
+    "category": "DC Compact Fans",
+    "label": "DC Brushless Compact Fans",
+    "title": "DC Brushless",
+    "titleEm": "Compact Fans",
+    "tagline": "Quiet, efficient brushless cooling on 12V, 24V and 48V DC.",
+    "intro": "Hicool's DC brushless compact axial fans deliver efficient, long-life cooling on 12V, 24V and 48V DC across 60mm to 172mm frames, ideal for battery, telecom, electronics and instrumentation cooling. SSC Control, Hicool's No.1 channel partner since 2005, supplies the full DC fan range with genuine products and support.",
+    "heroImage": "https://www.hicoolfans.com/images/pic-compact-fans-dc.png",
+    "seriesLabel": "DC Lineup",
+    "seriesTitle": "DC Brushless Fans by Size",
+    "series": [
+      {
+        "name": "6P Series",
+        "tag": "60 x 60 x 20 mm",
+        "desc": "Compact 60mm DC brushless fan for the smallest electronics and instrumentation.",
+        "features": [
+          "Voltage: 12 / 24V DC",
+          "Airflow: 18 CFM",
+          "Speed: 4300 RPM",
+          "Static pressure: 3.8 mm H2O",
+          "Noise: 30 dBA",
+          "Sleeve bearing"
+        ],
+        "image": "https://www.hicoolfans.com/images/pic-compact-fans-dc.png"
+      },
+      {
+        "name": "8P Series",
+        "tag": "80 x 80 x 25 mm",
+        "desc": "80mm DC brushless fan with ball bearing for reliable, quiet cooling.",
+        "features": [
+          "Voltage: 12 / 24 / 48V DC",
+          "Airflow: 38 CFM",
+          "Speed: 3000 RPM",
+          "Static pressure: 4.5 mm H2O",
+          "Noise: 34 dBA",
+          "Ball bearing"
+        ],
+        "image": "https://www.hicoolfans.com/images/pic-compact-fans-dc.png"
+      },
+      {
+        "name": "9P Series",
+        "tag": "92 x 92 x 25 mm",
+        "desc": "92mm DC brushless fan balancing airflow and footprint.",
+        "features": [
+          "Voltage: 12 / 24 / 48V DC",
+          "Airflow: 55 CFM",
+          "Speed: 2500-3000 RPM",
+          "Static pressure: 5 mm H2O",
+          "Noise: 40 dBA",
+          "Ball bearing"
+        ],
+        "image": "https://www.hicoolfans.com/images/pic-compact-fans-dc.png"
+      },
+      {
+        "name": "12P Series",
+        "tag": "120 x 120 x 38 mm",
+        "desc": "120mm DC brushless fan with high-performance variants for demanding cooling.",
+        "features": [
+          "Voltage: 12 / 24 / 48V DC",
+          "Airflow: 105-285 CFM",
+          "Speed: 3000-5500 RPM",
+          "Static pressure: 8-47 mm H2O",
+          "Noise: 48-70 dBA",
+          "Ball bearing"
+        ],
+        "image": "https://www.hicoolfans.com/images/pic-compact-fans-dc.png"
+      },
+      {
+        "name": "17A Series",
+        "tag": "172 x 150 x 51 mm",
+        "desc": "172mm DC brushless fan for high-airflow cooling of larger enclosures.",
+        "features": [
+          "Voltage: 12 / 24 / 48V DC",
+          "Airflow: 210 CFM",
+          "Speed: 3000 RPM",
+          "Static pressure: 13 mm H2O",
+          "Noise: 58 dBA",
+          "Ball bearing"
+        ],
+        "image": "https://www.hicoolfans.com/images/pic-compact-fans-dc.png"
+      }
+    ],
+    "highlights": [
+      {
+        "title": "Genuine Hicool",
+        "text": "Authentic Hicool fans with full manufacturer warranty."
+      },
+      {
+        "title": "No.1 Hicool Partner",
+        "text": "SSC Control has been Hicool's No.1 channel partner since 2005."
+      },
+      {
+        "title": "Stock & Fast Delivery",
+        "text": "Ready availability from our Ahmedabad and Baroda warehouses across Gujarat."
+      },
+      {
+        "title": "Airflow Sizing",
+        "text": "Thermal and airflow sizing support from our engineering team."
+      }
+    ],
+    "ctaTitle": "Need a DC brushless fan?",
+    "ctaText": "Our team can help you select the right DC fan, voltage and airflow for your application."
+  },
+  "hicool/axial-fans": {
+    "brandSlug": "hicool",
+    "slug": "axial-fans",
+    "category": "AC Axial Fans",
+    "label": "AC Axial Fan Series",
+    "title": "AC Axial",
+    "titleEm": "Fans (Metal Blade)",
+    "tagline": "High-volume industrial air movement, 200mm to 800mm.",
+    "intro": "Hicool's metal-blade AC axial fans move large volumes of air across 200mm to 800mm frames for industrial ventilation, panel and equipment cooling, on 230V single-phase and 415V three-phase supplies. SSC Control, Hicool's No.1 channel partner since 2005, supplies the full axial range with genuine products and support.",
+    "heroImage": "https://www.hicoolfans.com/images/pic-axial-fans-metal-blades.png",
+    "seriesLabel": "Axial Lineup",
+    "seriesTitle": "AC Axial Fans by Frame Size",
+    "series": [
+      {
+        "name": "200 mm",
+        "tag": "200 x 220 x 60 mm",
+        "desc": "Metal-blade AC axial fan for cabinet and equipment cooling.",
+        "features": [
+          "Voltage: 230 / 415V AC",
+          "Frequency: 50 Hz",
+          "Airflow: 265-500 CFM",
+          "Speed: 1450-2400 RPM",
+          "Power: 35-80 W",
+          "Noise: 46-55 dBA"
+        ],
+        "image": "https://www.hicoolfans.com/images/pic-axial-fans-metal-blades.png"
+      },
+      {
+        "name": "250 mm",
+        "tag": "250 x 275 x 60 mm",
+        "desc": "Metal-blade AC axial fan for medium enclosures.",
+        "features": [
+          "Voltage: 230 / 415V AC",
+          "Frequency: 50 Hz",
+          "Airflow: 559-1018 CFM",
+          "Speed: 1400-2400 RPM",
+          "Power: 60-115 W",
+          "Noise: 53-65 dBA"
+        ],
+        "image": "https://www.hicoolfans.com/images/pic-axial-fans-metal-blades.png"
+      },
+      {
+        "name": "300 mm",
+        "tag": "300 x 320 x 60 mm",
+        "desc": "Metal-blade AC axial fan for industrial ventilation and panel cooling.",
+        "features": [
+          "Voltage: 230 / 415V AC",
+          "Frequency: 50 Hz",
+          "Airflow: 1089-1354 CFM",
+          "Speed: 1380-2300 RPM",
+          "Power: 75-145 W",
+          "Noise: 54-65 dBA"
+        ],
+        "image": "https://www.hicoolfans.com/images/pic-axial-fans-metal-blades.png"
+      },
+      {
+        "name": "350 mm",
+        "tag": "350 x 370 x 60 mm",
+        "desc": "Metal-blade AC axial fan for high-volume air movement.",
+        "features": [
+          "Voltage: 230 / 415V AC",
+          "Frequency: 50 Hz",
+          "Airflow: 1530 CFM",
+          "Speed: 1380 RPM",
+          "Power: 140 W",
+          "Noise: 58 dBA"
+        ],
+        "image": "https://www.hicoolfans.com/images/pic-axial-fans-metal-blades.png"
+      },
+      {
+        "name": "400 mm",
+        "tag": "400 x 420 x 60 mm",
+        "desc": "Metal-blade AC axial fan for industrial cooling.",
+        "features": [
+          "Voltage: 230 / 415V AC",
+          "Frequency: 50 Hz",
+          "Airflow: 2354 CFM",
+          "Speed: 1380 RPM",
+          "Power: 180 W",
+          "Noise: 65 dBA"
+        ],
+        "image": "https://www.hicoolfans.com/images/pic-axial-fans-metal-blades.png"
+      },
+      {
+        "name": "450 mm",
+        "tag": "450 x 470 x 60 mm",
+        "desc": "Metal-blade AC axial fan for heavy-duty ventilation.",
+        "features": [
+          "Voltage: 230 / 415V AC",
+          "Frequency: 50 Hz",
+          "Airflow: 3237 CFM",
+          "Speed: 1380 RPM",
+          "Power: 250 W",
+          "Noise: 66 dBA"
+        ],
+        "image": "https://www.hicoolfans.com/images/pic-axial-fans-metal-blades.png"
+      },
+      {
+        "name": "500 mm",
+        "tag": "500 x 520 x 60 mm",
+        "desc": "Metal-blade AC axial fan for large-scale air handling.",
+        "features": [
+          "Voltage: 230 / 415V AC",
+          "Frequency: 50 Hz",
+          "Airflow: 4211-4353 CFM",
+          "Speed: 1320-1410 RPM",
+          "Power: 350-380 W",
+          "Noise: 71 dBA"
+        ],
+        "image": "https://www.hicoolfans.com/images/pic-axial-fans-metal-blades.png"
+      },
+      {
+        "name": "550 mm",
+        "tag": "550 x 570 x 60 mm",
+        "desc": "Metal-blade AC axial fan for high-capacity ventilation.",
+        "features": [
+          "Voltage: 230 / 415V AC",
+          "Frequency: 50 Hz",
+          "Airflow: 5009-5250 CFM",
+          "Speed: 1300-1395 RPM",
+          "Power: 470-550 W",
+          "Noise: 72 dBA"
+        ],
+        "image": "https://www.hicoolfans.com/images/pic-axial-fans-metal-blades.png"
+      },
+      {
+        "name": "600 mm",
+        "tag": "600 x 620 x 60 mm",
+        "desc": "Metal-blade AC axial fan, 4-pole and 6-pole variants.",
+        "features": [
+          "Voltage: 230 / 415V AC",
+          "Frequency: 50 Hz",
+          "Airflow: 5909-6478 CFM",
+          "Speed: 950-1370 RPM",
+          "Power: 520-765 W",
+          "Noise: 70-74 dBA"
+        ],
+        "image": "https://www.hicoolfans.com/images/pic-axial-fans-metal-blades.png"
+      },
+      {
+        "name": "630 mm",
+        "tag": "630 x 650 x 60 mm",
+        "desc": "Metal-blade AC axial fan for large industrial air movement.",
+        "features": [
+          "Voltage: 415V AC",
+          "Frequency: 50 Hz",
+          "Airflow: 6936-7310 CFM",
+          "Speed: 900-1320 RPM",
+          "Power: 550-815 W",
+          "Noise: 71-75 dBA"
+        ],
+        "image": "https://www.hicoolfans.com/images/pic-axial-fans-metal-blades.png"
+      },
+      {
+        "name": "710 mm",
+        "tag": "703 x 770 x 60 mm",
+        "desc": "Large metal-blade AC axial fan, Delta/Wye options.",
+        "features": [
+          "Voltage: 415V AC",
+          "Frequency: 50 Hz",
+          "Airflow: 7681-8899 CFM",
+          "Speed: 730-900 RPM",
+          "Power: 650-900 W",
+          "Noise: 72-73 dBA"
+        ],
+        "image": "https://www.hicoolfans.com/images/pic-axial-fans-metal-blades.png"
+      },
+      {
+        "name": "800 mm",
+        "tag": "784 x 857 x 60 mm",
+        "desc": "Largest metal-blade AC axial fan, Delta/Wye options.",
+        "features": [
+          "Voltage: 415V AC",
+          "Frequency: 50 Hz",
+          "Airflow: 10380-12181 CFM",
+          "Speed: 770-920 RPM",
+          "Power: 930-1200 W",
+          "Noise: 74-75 dBA"
+        ],
+        "image": "https://www.hicoolfans.com/images/pic-axial-fans-metal-blades.png"
+      }
+    ],
+    "highlights": [
+      {
+        "title": "Genuine Hicool",
+        "text": "Authentic Hicool products with full manufacturer warranty."
+      },
+      {
+        "title": "No.1 Hicool Partner",
+        "text": "SSC Control has been Hicool's No.1 channel partner since 2005."
+      },
+      {
+        "title": "Stock & Fast Delivery",
+        "text": "Ready availability from our Ahmedabad and Baroda warehouses across Gujarat."
+      },
+      {
+        "title": "Airflow Sizing",
+        "text": "Thermal and airflow sizing support from our engineering team."
+      }
+    ],
+    "ctaTitle": "Need a large axial fan?",
+    "ctaText": "Our team can size the frame, airflow and voltage for your ventilation duty."
+  },
+  "hicool/centrifugal-blowers": {
+    "brandSlug": "hicool",
+    "slug": "centrifugal-blowers",
+    "category": "Centrifugal Blowers",
+    "label": "Radial Centrifugal Blowers",
+    "title": "Centrifugal",
+    "titleEm": "Blowers",
+    "tagline": "High static pressure for ducted and pressurised cooling.",
+    "intro": "Hicool's single- and dual-inlet centrifugal blowers with external rotor motors deliver high static pressure for UPS, control panel, railway and ducted cooling. SSC Control, Hicool's No.1 channel partner since 2005, supplies the full blower range with genuine products and support.",
+    "heroImage": "https://www.hicoolfans.com/images/pic-centrifugal-blowers.png",
+    "seriesLabel": "Blower Lineup",
+    "seriesTitle": "Centrifugal Blowers by Model",
+    "series": [
+      {
+        "name": "CFB2E-120S",
+        "tag": "Ф120 x 50",
+        "desc": "Single inlet centrifugal blower with external rotor motor for UPS, panel and railway cooling.",
+        "features": [
+          "Voltage: 230V AC, 50 Hz",
+          "Airflow: 280 m3/hr",
+          "Speed: 2180 RPM",
+          "Power: 81 W",
+          "Noise: 73 dBA"
+        ],
+        "image": "https://www.hicoolfans.com/images/pic-centrifugal-blowers.png"
+      },
+      {
+        "name": "CFB2E-140S",
+        "tag": "Ф140 x 65",
+        "desc": "Single inlet centrifugal blower with external rotor motor for UPS, panel and railway cooling.",
+        "features": [
+          "Voltage: 230V AC, 50 Hz",
+          "Airflow: 480 m3/hr",
+          "Speed: 2350 RPM",
+          "Power: 220 W",
+          "Noise: 73 dBA"
+        ],
+        "image": "https://www.hicoolfans.com/images/pic-centrifugal-blowers.png"
+      },
+      {
+        "name": "CFB2E-150S",
+        "tag": "Ф150 x 65",
+        "desc": "Single inlet centrifugal blower with external rotor motor for UPS, panel and railway cooling.",
+        "features": [
+          "Voltage: 230V AC, 50 Hz",
+          "Airflow: 475 m3/hr",
+          "Speed: 2300 RPM",
+          "Power: 220 W",
+          "Noise: 60 dBA"
+        ],
+        "image": "https://www.hicoolfans.com/images/pic-centrifugal-blowers.png"
+      },
+      {
+        "name": "CFB2E-160S",
+        "tag": "Ф160 x 65",
+        "desc": "Single inlet centrifugal blower with external rotor motor for UPS, panel and railway cooling.",
+        "features": [
+          "Voltage: 230V AC, 50 Hz",
+          "Airflow: 600 m3/hr",
+          "Speed: 2100 RPM",
+          "Power: 280 W",
+          "Noise: 73 dBA"
+        ],
+        "image": "https://www.hicoolfans.com/images/pic-centrifugal-blowers.png"
+      },
+      {
+        "name": "CFB2E-180S",
+        "tag": "Ф180 x 55",
+        "desc": "Single inlet centrifugal blower with external rotor motor for UPS, panel and railway cooling.",
+        "features": [
+          "Voltage: 230V AC, 50 Hz",
+          "Airflow: 750 m3/hr",
+          "Speed: 2000 RPM",
+          "Power: 420 W",
+          "Noise: 74 dBA"
+        ],
+        "image": "https://www.hicoolfans.com/images/pic-centrifugal-blowers.png"
+      },
+      {
+        "name": "CFB4E-180S",
+        "tag": "Ф180 x 95",
+        "desc": "Single inlet centrifugal blower with external rotor motor for UPS, panel and railway cooling.",
+        "features": [
+          "Voltage: 230V AC, 50 Hz",
+          "Airflow: 1130 m3/hr",
+          "Speed: 1350 RPM",
+          "Power: 230 W",
+          "Noise: 66 dBA"
+        ],
+        "image": "https://www.hicoolfans.com/images/pic-centrifugal-blowers.png"
+      },
+      {
+        "name": "CFB4E-200S",
+        "tag": "Ф200 x 105",
+        "desc": "Single inlet centrifugal blower with external rotor motor for UPS, panel and railway cooling.",
+        "features": [
+          "Voltage: 230V AC, 50 Hz",
+          "Airflow: 1365 m3/hr",
+          "Speed: 1330 RPM",
+          "Power: 360 W",
+          "Noise: 70 dBA"
+        ],
+        "image": "https://www.hicoolfans.com/images/pic-centrifugal-blowers.png"
+      },
+      {
+        "name": "CFB4E-225S",
+        "tag": "Ф225 x 105",
+        "desc": "Single inlet centrifugal blower with external rotor motor for UPS, panel and railway cooling.",
+        "features": [
+          "Voltage: 230V AC, 50 Hz",
+          "Airflow: 1800 m3/hr",
+          "Speed: 1330 RPM",
+          "Power: 520 W",
+          "Noise: 74 dBA"
+        ],
+        "image": "https://www.hicoolfans.com/images/pic-centrifugal-blowers.png"
+      },
+      {
+        "name": "CFB4D-225S",
+        "tag": "Ф225 x 105",
+        "desc": "Single inlet centrifugal blower with external rotor motor for UPS, panel and railway cooling.",
+        "features": [
+          "Voltage: 415V AC, 50 Hz",
+          "Airflow: 1800 m3/hr",
+          "Speed: 1310 RPM",
+          "Power: 460 W",
+          "Noise: 74 dBA"
+        ],
+        "image": "https://www.hicoolfans.com/images/pic-centrifugal-blowers.png"
+      },
+      {
+        "name": "CFB2E-133D",
+        "tag": "Ф133 x 180",
+        "desc": "Dual inlet centrifugal blower with external rotor motor for UPS, panel and railway cooling.",
+        "features": [
+          "Voltage: 230V AC, 50 Hz",
+          "Airflow: 680 m3/hr",
+          "Speed: 1500 RPM",
+          "Power: 170 W",
+          "Noise: 60 dBA"
+        ],
+        "image": "https://www.hicoolfans.com/images/pic-centrifugal-blowers.png"
+      },
+      {
+        "name": "CFB2E-146D",
+        "tag": "Ф146 x 180",
+        "desc": "Dual inlet centrifugal blower with external rotor motor for UPS, panel and railway cooling.",
+        "features": [
+          "Voltage: 230V AC, 50 Hz",
+          "Airflow: 950 m3/hr",
+          "Speed: 1660 RPM",
+          "Power: 420 W",
+          "Noise: 61 dBA"
+        ],
+        "image": "https://www.hicoolfans.com/images/pic-centrifugal-blowers.png"
+      },
+      {
+        "name": "CFB4E-160D",
+        "tag": "Ф160 x 210",
+        "desc": "Dual inlet centrifugal blower with external rotor motor for UPS, panel and railway cooling.",
+        "features": [
+          "Voltage: 230V AC, 50 Hz",
+          "Airflow: 1240 m3/hr",
+          "Speed: 1380 RPM",
+          "Power: 200 W",
+          "Noise: 64 dBA"
+        ],
+        "image": "https://www.hicoolfans.com/images/pic-centrifugal-blowers.png"
+      },
+      {
+        "name": "CFB4D-180D",
+        "tag": "Ф180 x 195",
+        "desc": "Dual inlet centrifugal blower with external rotor motor for UPS, panel and railway cooling.",
+        "features": [
+          "Voltage: 415V AC, 50 Hz",
+          "Airflow: 1900 m3/hr",
+          "Speed: 1350 RPM",
+          "Power: 350 W",
+          "Noise: 63 dBA"
+        ],
+        "image": "https://www.hicoolfans.com/images/pic-centrifugal-blowers.png"
+      },
+      {
+        "name": "CFB4D-200D",
+        "tag": "Ф200 x 210",
+        "desc": "Dual inlet centrifugal blower with external rotor motor for UPS, panel and railway cooling.",
+        "features": [
+          "Voltage: 415V AC, 50 Hz",
+          "Airflow: 2500 m3/hr",
+          "Speed: 1100 RPM",
+          "Power: 480 W",
+          "Noise: 64 dBA"
+        ],
+        "image": "https://www.hicoolfans.com/images/pic-centrifugal-blowers.png"
+      },
+      {
+        "name": "CFB4D-225D",
+        "tag": "Ф225 x 210",
+        "desc": "Dual inlet centrifugal blower with external rotor motor for UPS, panel and railway cooling.",
+        "features": [
+          "Voltage: 415V AC, 50 Hz",
+          "Airflow: 2950 m3/hr",
+          "Speed: 1050 RPM",
+          "Power: 690 W",
+          "Noise: 65 dBA"
+        ],
+        "image": "https://www.hicoolfans.com/images/pic-centrifugal-blowers.png"
+      }
+    ],
+    "highlights": [
+      {
+        "title": "Genuine Hicool",
+        "text": "Authentic Hicool products with full manufacturer warranty."
+      },
+      {
+        "title": "No.1 Hicool Partner",
+        "text": "SSC Control has been Hicool's No.1 channel partner since 2005."
+      },
+      {
+        "title": "Stock & Fast Delivery",
+        "text": "Ready availability from our Ahmedabad and Baroda warehouses across Gujarat."
+      },
+      {
+        "title": "Airflow Sizing",
+        "text": "Thermal and airflow sizing support from our engineering team."
+      }
+    ],
+    "ctaTitle": "Need a centrifugal blower?",
+    "ctaText": "Our team can select the right single or dual inlet blower for your pressure and airflow."
+  },
+  "hicool/backward-curved-fans": {
+    "brandSlug": "hicool",
+    "slug": "backward-curved-fans",
+    "category": "Backward Curved Fans",
+    "label": "Backward Curved Impeller",
+    "title": "Backward",
+    "titleEm": "Curved Fans",
+    "tagline": "High efficiency, non-overloading radial airflow.",
+    "intro": "Hicool's backward-curved centrifugal radial fans deliver high hydraulic efficiency and non-overloading characteristics for enclosures, filtration and high-pressure cooling. SSC Control, Hicool's No.1 channel partner since 2005, supplies the full range with genuine products and support.",
+    "heroImage": "https://www.hicoolfans.com/images/pic-backward-curved-fans.png",
+    "seriesLabel": "Backward Curved Lineup",
+    "seriesTitle": "Backward Curved Fans by Model",
+    "series": [
+      {
+        "name": "BCF-133",
+        "tag": "Ф130 x 54",
+        "desc": "Backward-curved centrifugal radial fan with high efficiency and non-overloading characteristics.",
+        "features": [
+          "Voltage: 230V AC, 50/60 Hz",
+          "Airflow: 220 m3/h",
+          "Speed: 2550 RPM",
+          "Power: 26 W",
+          "Noise: 60/62 dBA"
+        ],
+        "image": "https://www.hicoolfans.com/images/pic-backward-curved-fans.png"
+      },
+      {
+        "name": "BCF-180",
+        "tag": "Ф180 x 49",
+        "desc": "Backward-curved centrifugal radial fan with high efficiency and non-overloading characteristics.",
+        "features": [
+          "Voltage: 230V AC, 50/60 Hz",
+          "Airflow: 440/470 m3/h",
+          "Speed: 2500/2700 RPM",
+          "Power: 61/66 W",
+          "Noise: 59/62 dBA"
+        ],
+        "image": "https://www.hicoolfans.com/images/pic-backward-curved-fans.png"
+      },
+      {
+        "name": "BCF-190",
+        "tag": "Ф192 x 60",
+        "desc": "Backward-curved centrifugal radial fan with high efficiency and non-overloading characteristics.",
+        "features": [
+          "Voltage: 230V AC, 50/60 Hz",
+          "Airflow: 570/630 m3/h",
+          "Speed: 2400/2600 RPM",
+          "Power: 80/90 W",
+          "Noise: 62/65 dBA"
+        ],
+        "image": "https://www.hicoolfans.com/images/pic-backward-curved-fans.png"
+      },
+      {
+        "name": "BCF-220",
+        "tag": "Ф220 x 63",
+        "desc": "Backward-curved centrifugal radial fan with high efficiency and non-overloading characteristics.",
+        "features": [
+          "Voltage: 230V AC, 50/60 Hz",
+          "Airflow: 800/865 m3/h",
+          "Speed: 2400/2600 RPM",
+          "Power: 95/120 W",
+          "Noise: 65/68 dBA"
+        ],
+        "image": "https://www.hicoolfans.com/images/pic-backward-curved-fans.png"
+      },
+      {
+        "name": "BCF-225BB",
+        "tag": "Ф225 x 90",
+        "desc": "Backward-curved centrifugal radial fan with high efficiency and non-overloading characteristics.",
+        "features": [
+          "Voltage: 230V AC, 50/60 Hz",
+          "Airflow: 1220/1350 m3/h",
+          "Speed: 2500/2650 RPM",
+          "Power: 147/195 W",
+          "Noise: 68/72 dBA"
+        ],
+        "image": "https://www.hicoolfans.com/images/pic-backward-curved-fans.png"
+      },
+      {
+        "name": "BCF-250",
+        "tag": "Ф250 x 82",
+        "desc": "Backward-curved centrifugal radial fan with high efficiency and non-overloading characteristics.",
+        "features": [
+          "Voltage: 230V AC, 50/60 Hz",
+          "Airflow: 1540/1660 m3/h",
+          "Speed: 2700/3030 RPM",
+          "Power: 190/250 W",
+          "Noise: 74/76 dBA"
+        ],
+        "image": "https://www.hicoolfans.com/images/pic-backward-curved-fans.png"
+      },
+      {
+        "name": "BCF-355",
+        "tag": "Ф355 x 174",
+        "desc": "Backward-curved centrifugal radial fan with high efficiency and non-overloading characteristics.",
+        "features": [
+          "Voltage: 230V AC, 50/60 Hz",
+          "Airflow: 2800 m3/h",
+          "Speed: 1400 RPM",
+          "Power: 245 W",
+          "Noise: 74 dBA"
+        ],
+        "image": "https://www.hicoolfans.com/images/pic-backward-curved-fans.png"
+      },
+      {
+        "name": "BCF-400",
+        "tag": "Ф400 x 185",
+        "desc": "Backward-curved centrifugal radial fan with high efficiency and non-overloading characteristics.",
+        "features": [
+          "Voltage: 230V AC, 50/60 Hz",
+          "Airflow: 3663 m3/h",
+          "Speed: 1370 RPM",
+          "Power: 370 W",
+          "Noise: 77 dBA"
+        ],
+        "image": "https://www.hicoolfans.com/images/pic-backward-curved-fans.png"
+      }
+    ],
+    "highlights": [
+      {
+        "title": "Genuine Hicool",
+        "text": "Authentic Hicool products with full manufacturer warranty."
+      },
+      {
+        "title": "No.1 Hicool Partner",
+        "text": "SSC Control has been Hicool's No.1 channel partner since 2005."
+      },
+      {
+        "title": "Stock & Fast Delivery",
+        "text": "Ready availability from our Ahmedabad and Baroda warehouses across Gujarat."
+      },
+      {
+        "title": "Airflow Sizing",
+        "text": "Thermal and airflow sizing support from our engineering team."
+      }
+    ],
+    "ctaTitle": "Need a backward-curved fan?",
+    "ctaText": "Our team can help select the right impeller size and airflow for your duty."
+  },
+  "hicool/ec-axial-fans": {
+    "brandSlug": "hicool",
+    "slug": "ec-axial-fans",
+    "category": "EC Axial Fans",
+    "label": "EC Axial Energy Efficient",
+    "title": "AxiEC",
+    "titleEm": "EC Axial Fans",
+    "tagline": "Up to 50% energy saving with EC technology and speed control.",
+    "intro": "Hicool's AxiEC EC axial fans combine electronically commutated motors with 0-10V and Modbus speed control for up to 50% energy saving across 250mm to 910mm frames. SSC Control, Hicool's No.1 channel partner since 2005, supplies the full EC axial range with genuine products and support.",
+    "heroImage": "https://www.hicoolfans.com/images/pic-axiec-fans.png",
+    "seriesLabel": "AxiEC Lineup",
+    "seriesTitle": "EC Axial Fans by Frame Size",
+    "series": [
+      {
+        "name": "250 mm frame",
+        "tag": "250 mm",
+        "desc": "250 mm EC axial fan with speed control and high energy efficiency.",
+        "features": [
+          "Voltage: 230V AC (1ph)",
+          "Airflow: 1118-1148 CFM",
+          "Speed: 2720-3050 RPM",
+          "Power: 160-190 W",
+          "Control: 0-10V / RS485 (Modbus)",
+          "Noise: 70-79 dBA"
+        ],
+        "image": "https://www.hicoolfans.com/images/pic-axiec-fans.png"
+      },
+      {
+        "name": "300 mm frame",
+        "tag": "300 mm",
+        "desc": "300 mm EC axial fan with speed control and high energy efficiency.",
+        "features": [
+          "Voltage: 230V AC (1ph)",
+          "Airflow: 1383-1824 CFM",
+          "Speed: 1750-2100 RPM",
+          "Power: 115-180 W",
+          "Control: 0-10V / RS485 (Modbus)",
+          "Noise: 64-70 dBA"
+        ],
+        "image": "https://www.hicoolfans.com/images/pic-axiec-fans.png"
+      },
+      {
+        "name": "330 mm frame",
+        "tag": "330 mm",
+        "desc": "330 mm EC axial fan with speed control and high energy efficiency.",
+        "features": [
+          "Voltage: 230V AC (1ph)",
+          "Airflow: 1383 CFM",
+          "Speed: 1660 RPM",
+          "Power: 140 W",
+          "Control: 0-10V / RS485 (Modbus)",
+          "Noise: 68 dBA"
+        ],
+        "image": "https://www.hicoolfans.com/images/pic-axiec-fans.png"
+      },
+      {
+        "name": "350 mm frame",
+        "tag": "350 mm",
+        "desc": "350 mm EC axial fan with speed control and high energy efficiency.",
+        "features": [
+          "Voltage: 230V AC (1ph)",
+          "Airflow: 1530-2001 CFM",
+          "Speed: 1200-1550 RPM",
+          "Power: 100-170 W",
+          "Control: 0-10V / RS485 (Modbus)",
+          "Noise: 63-67 dBA"
+        ],
+        "image": "https://www.hicoolfans.com/images/pic-axiec-fans.png"
+      },
+      {
+        "name": "400 mm frame",
+        "tag": "400 mm",
+        "desc": "400 mm EC axial fan with speed control and high energy efficiency.",
+        "features": [
+          "Voltage: 230V AC (1ph)",
+          "Airflow: 2237-3414 CFM",
+          "Speed: 1100-1700 RPM",
+          "Power: 145-500 W",
+          "Control: 0-10V / RS485 (Modbus)",
+          "Noise: 68-73 dBA"
+        ],
+        "image": "https://www.hicoolfans.com/images/pic-axiec-fans.png"
+      },
+      {
+        "name": "450 mm frame",
+        "tag": "450 mm",
+        "desc": "450 mm EC axial fan with speed control and high energy efficiency.",
+        "features": [
+          "Voltage: 230V AC (1ph)",
+          "Airflow: 3178-3826 CFM",
+          "Speed: 980-1550 RPM",
+          "Power: 170-410 W",
+          "Control: 0-10V / RS485 (Modbus)",
+          "Noise: 65-71 dBA"
+        ],
+        "image": "https://www.hicoolfans.com/images/pic-axiec-fans.png"
+      },
+      {
+        "name": "500 mm frame",
+        "tag": "500 mm",
+        "desc": "500 mm EC axial fan with speed control and high energy efficiency.",
+        "features": [
+          "Voltage: 230V / 400V AC",
+          "Airflow: 3532-5651 CFM",
+          "Speed: 1010-1600 RPM",
+          "Power: 290-940 W",
+          "Control: 0-10V / RS485 (Modbus)",
+          "Noise: 70-74 dBA"
+        ],
+        "image": "https://www.hicoolfans.com/images/pic-axiec-fans.png"
+      },
+      {
+        "name": "550 mm frame",
+        "tag": "550 mm",
+        "desc": "550 mm EC axial fan with speed control and high energy efficiency.",
+        "features": [
+          "Voltage: 230V / 400V AC",
+          "Airflow: 4709-5945 CFM",
+          "Speed: 1000-1350 RPM",
+          "Power: 400-900 W",
+          "Control: 0-10V / RS485 (Modbus)",
+          "Noise: 67-75 dBA"
+        ],
+        "image": "https://www.hicoolfans.com/images/pic-axiec-fans.png"
+      },
+      {
+        "name": "630 mm frame",
+        "tag": "630 mm",
+        "desc": "630 mm EC axial fan with speed control and high energy efficiency.",
+        "features": [
+          "Voltage: 230V / 400V AC",
+          "Airflow: 4709-12655 CFM",
+          "Speed: 800-1520 RPM",
+          "Power: 250-3500 W",
+          "Control: 0-10V / RS485 (Modbus)",
+          "Noise: 62-85 dBA"
+        ],
+        "image": "https://www.hicoolfans.com/images/pic-axiec-fans.png"
+      },
+      {
+        "name": "710 mm frame",
+        "tag": "710 mm",
+        "desc": "710 mm EC axial fan with speed control and high energy efficiency.",
+        "features": [
+          "Voltage: 400V AC (3ph)",
+          "Airflow: 10065-12655 CFM",
+          "Speed: 1010-1250 RPM",
+          "Power: 1200-2450 W",
+          "Control: 0-10V / RS485 (Modbus)",
+          "Noise: 73-85 dBA"
+        ],
+        "image": "https://www.hicoolfans.com/images/pic-axiec-fans.png"
+      },
+      {
+        "name": "800 mm frame",
+        "tag": "800 mm",
+        "desc": "800 mm EC axial fan with speed control and high energy efficiency.",
+        "features": [
+          "Voltage: 400V AC (3ph)",
+          "Airflow: 14421-15009 CFM",
+          "Speed: 1020-1100 RPM",
+          "Power: 1850-2630 W",
+          "Control: 0-10V / RS485 (Modbus)",
+          "Noise: 82 dBA"
+        ],
+        "image": "https://www.hicoolfans.com/images/pic-axiec-fans.png"
+      },
+      {
+        "name": "910 mm frame",
+        "tag": "910 mm",
+        "desc": "910 mm EC axial fan with speed control and high energy efficiency.",
+        "features": [
+          "Voltage: 400V AC (3ph)",
+          "Airflow: 17658-19424 CFM",
+          "Speed: 880-1020 RPM",
+          "Power: 1990-2220 W",
+          "Control: 0-10V / RS485 (Modbus)",
+          "Noise: 79-84 dBA"
+        ],
+        "image": "https://www.hicoolfans.com/images/pic-axiec-fans.png"
+      }
+    ],
+    "highlights": [
+      {
+        "title": "Genuine Hicool",
+        "text": "Authentic Hicool products with full manufacturer warranty."
+      },
+      {
+        "title": "No.1 Hicool Partner",
+        "text": "SSC Control has been Hicool's No.1 channel partner since 2005."
+      },
+      {
+        "title": "Stock & Fast Delivery",
+        "text": "Ready availability from our Ahmedabad and Baroda warehouses across Gujarat."
+      },
+      {
+        "title": "Airflow Sizing",
+        "text": "Thermal and airflow sizing support from our engineering team."
+      }
+    ],
+    "ctaTitle": "Need an EC axial fan?",
+    "ctaText": "Our team can size the EC fan, airflow and control for your energy-efficient ventilation."
+  },
+  "hicool/ec-compact-fans": {
+    "brandSlug": "hicool",
+    "slug": "ec-compact-fans",
+    "category": "EC Compact Fans",
+    "label": "EC Compact Energy Efficient",
+    "title": "BLDC",
+    "titleEm": "Compact Fans & Blowers",
+    "tagline": "Energy-efficient BLDC compact fans and blowers with speed control.",
+    "intro": "Hicool's BLDC compact fans and blowers deliver energy-efficient cooling with 0-10VDC linear speed control for electronics, telecom and equipment cooling. SSC Control, Hicool's No.1 channel partner since 2005, supplies the full BLDC range with genuine products and support.",
+    "heroImage": "https://www.hicoolfans.com/images/pic-bldc-fans-and-blowers.png",
+    "seriesLabel": "BLDC Lineup",
+    "seriesTitle": "BLDC Fans & Blowers",
+    "series": [
+      {
+        "name": "G3HD300",
+        "tag": "DC Axial Fan",
+        "desc": "High-output BLDC axial fan with 0-10VDC speed control for industrial cooling.",
+        "features": [
+          "Voltage: 26V DC",
+          "Airflow: 2700 m3/hr (~1588 CFM)",
+          "Speed: 2800 RPM",
+          "Power: 170 W (6.5A)",
+          "Control: 0-10VDC speed",
+          "Noise: 72 dBA"
+        ],
+        "image": "https://www.hicoolfans.com/images/pic-bldc-fans-and-blowers.png"
+      },
+      {
+        "name": "G3HD385",
+        "tag": "DC Axial Fan",
+        "desc": "Higher-airflow BLDC axial fan with 0-10VDC speed control.",
+        "features": [
+          "Voltage: 26V DC",
+          "Airflow: 3300 m3/hr (~1939 CFM)",
+          "Speed: 2550 RPM",
+          "Power: 185 W (7.1A)",
+          "Control: 0-10VDC speed",
+          "Noise: 78 dBA"
+        ],
+        "image": "https://www.hicoolfans.com/images/pic-bldc-fans-and-blowers.png"
+      },
+      {
+        "name": "E3HD097",
+        "tag": "DC Centrifugal Fan",
+        "desc": "BLDC centrifugal fan with high static pressure and 0-10VDC speed control.",
+        "features": [
+          "Voltage: 24V DC",
+          "Airflow: 1050 m3/hr (~617 CFM)",
+          "Speed: 3200 RPM",
+          "Power: 265 W (11A)",
+          "Control: 0-10VDC speed",
+          "Noise: 65 dBA"
+        ],
+        "image": "https://www.hicoolfans.com/images/pic-bldc-fans-and-blowers.png"
+      }
+    ],
+    "highlights": [
+      {
+        "title": "Genuine Hicool",
+        "text": "Authentic Hicool products with full manufacturer warranty."
+      },
+      {
+        "title": "No.1 Hicool Partner",
+        "text": "SSC Control has been Hicool's No.1 channel partner since 2005."
+      },
+      {
+        "title": "Stock & Fast Delivery",
+        "text": "Ready availability from our Ahmedabad and Baroda warehouses across Gujarat."
+      },
+      {
+        "title": "Airflow Sizing",
+        "text": "Thermal and airflow sizing support from our engineering team."
+      }
+    ],
+    "ctaTitle": "Need an EC compact fan?",
+    "ctaText": "Our team can select the right BLDC fan or blower and control for your application."
+  },
+  "hicool/q-motors": {
+    "brandSlug": "hicool",
+    "slug": "q-motors",
+    "category": "Q Motors",
+    "label": "Q Motor Series",
+    "title": "Q Type",
+    "titleEm": "Motors",
+    "tagline": "Shaded-pole external rotor motors for fans and impellers.",
+    "intro": "Hicool's Q-type shaded-pole external rotor motors drive axial fans and impellers from 5W to 34W output on 230V AC, in a compact 83A frame. SSC Control, Hicool's No.1 channel partner since 2005, supplies the full Q motor range with genuine products and support.",
+    "heroImage": "https://www.hicoolfans.com/images/pic-shaded-pole-motors-q-type.png",
+    "seriesLabel": "Q Motor Lineup",
+    "seriesTitle": "Q Motors by Output",
+    "series": [
+      {
+        "name": "5 Watt",
+        "tag": "83A frame",
+        "desc": "4-pole shaded-pole external rotor Q motor for impellers up to 200mm.",
+        "features": [
+          "Voltage: 230V AC",
+          "Frequency: 50 Hz",
+          "Power: 5W output / 30W input",
+          "Speed: 1300 RPM",
+          "4-pole shaded-pole"
+        ],
+        "image": "https://www.hicoolfans.com/images/pic-shaded-pole-motors-q-type.png"
+      },
+      {
+        "name": "7 Watt",
+        "tag": "83A frame",
+        "desc": "4-pole shaded-pole external rotor Q motor for impellers up to 230mm.",
+        "features": [
+          "Voltage: 230V AC",
+          "Frequency: 50 Hz",
+          "Power: 7W output / 35W input",
+          "Speed: 1300 RPM",
+          "4-pole shaded-pole"
+        ],
+        "image": "https://www.hicoolfans.com/images/pic-shaded-pole-motors-q-type.png"
+      },
+      {
+        "name": "10 Watt",
+        "tag": "83A frame",
+        "desc": "4-pole shaded-pole external rotor Q motor for impellers up to 230mm.",
+        "features": [
+          "Voltage: 230V AC",
+          "Frequency: 50 Hz",
+          "Power: 10W output / 45W input",
+          "Speed: 1300 RPM",
+          "4-pole shaded-pole"
+        ],
+        "image": "https://www.hicoolfans.com/images/pic-shaded-pole-motors-q-type.png"
+      },
+      {
+        "name": "16 Watt",
+        "tag": "83A frame",
+        "desc": "4-pole shaded-pole external rotor Q motor for impellers up to 254mm.",
+        "features": [
+          "Voltage: 230V AC",
+          "Frequency: 50 Hz",
+          "Power: 16W output / 50W input",
+          "Speed: 1300 RPM",
+          "4-pole shaded-pole"
+        ],
+        "image": "https://www.hicoolfans.com/images/pic-shaded-pole-motors-q-type.png"
+      },
+      {
+        "name": "18 Watt",
+        "tag": "83A frame",
+        "desc": "4-pole shaded-pole external rotor Q motor for impellers up to 254mm.",
+        "features": [
+          "Voltage: 230V AC",
+          "Frequency: 50 Hz",
+          "Power: 18W output / 70W input",
+          "Speed: 1300 RPM",
+          "4-pole shaded-pole"
+        ],
+        "image": "https://www.hicoolfans.com/images/pic-shaded-pole-motors-q-type.png"
+      },
+      {
+        "name": "25 Watt",
+        "tag": "83A frame",
+        "desc": "4-pole shaded-pole external rotor Q motor for impellers up to 300mm.",
+        "features": [
+          "Voltage: 230V AC",
+          "Frequency: 50 Hz",
+          "Power: 25W output / 90W input",
+          "Speed: 1300 RPM",
+          "4-pole shaded-pole"
+        ],
+        "image": "https://www.hicoolfans.com/images/pic-shaded-pole-motors-q-type.png"
+      },
+      {
+        "name": "34 Watt",
+        "tag": "83A frame",
+        "desc": "4-pole shaded-pole external rotor Q motor for impellers up to 300mm.",
+        "features": [
+          "Voltage: 230V AC",
+          "Frequency: 50 Hz",
+          "Power: 34W output / 100W input",
+          "Speed: 1300 RPM",
+          "4-pole shaded-pole"
+        ],
+        "image": "https://www.hicoolfans.com/images/pic-shaded-pole-motors-q-type.png"
+      }
+    ],
+    "highlights": [
+      {
+        "title": "Genuine Hicool",
+        "text": "Authentic Hicool products with full manufacturer warranty."
+      },
+      {
+        "title": "No.1 Hicool Partner",
+        "text": "SSC Control has been Hicool's No.1 channel partner since 2005."
+      },
+      {
+        "title": "Stock & Fast Delivery",
+        "text": "Ready availability from our Ahmedabad and Baroda warehouses across Gujarat."
+      },
+      {
+        "title": "Airflow Sizing",
+        "text": "Thermal and airflow sizing support from our engineering team."
+      }
+    ],
+    "ctaTitle": "Need a Q motor?",
+    "ctaText": "Our team can match the right Q motor wattage to your fan or impeller."
+  },
+  "hicool/ec-q-motors": {
+    "brandSlug": "hicool",
+    "slug": "ec-q-motors",
+    "category": "EC Q Motors",
+    "label": "EC Q Motor Series",
+    "title": "EC External",
+    "titleEm": "Rotor Motors",
+    "tagline": "Variable-speed external rotor motors for maximum efficiency.",
+    "intro": "Hicool's external rotor EC Q motors (K92, K102 and J92/D92 series) drive fans and blowers with variable speed and high efficiency across a wide power range. SSC Control, Hicool's No.1 channel partner since 2005, supplies the full EC motor range with genuine products and support.",
+    "heroImage": "https://www.hicoolfans.com/images/pic-externalrotor-motors.png",
+    "seriesLabel": "EC Motor Lineup",
+    "seriesTitle": "EC External Rotor Motors",
+    "series": [
+      {
+        "name": "K92-E-15",
+        "tag": "Frame 15 / 66 mm",
+        "desc": "Compact external rotor motor for small air-moving applications.",
+        "features": [
+          "Voltage: 220V / 120V (50/60Hz)",
+          "Power: 40-75 W",
+          "Speed: 1400-2500 RPM",
+          "Weight: 1.0 kg"
+        ],
+        "image": "https://www.hicoolfans.com/products/images/external-rotor-motors1.jpg"
+      },
+      {
+        "name": "K92-E-25",
+        "tag": "Frame 25 / 75 mm",
+        "desc": "External rotor motor with mid-range output for ventilation fans.",
+        "features": [
+          "Voltage: 220V / 120V (50/60Hz)",
+          "Power: 50-120 W",
+          "Speed: 1380-2850 RPM",
+          "Weight: 1.5 kg"
+        ],
+        "image": "https://www.hicoolfans.com/products/images/external-rotor-motors1.jpg"
+      },
+      {
+        "name": "K92-E-35",
+        "tag": "Frame 35 / 85 mm",
+        "desc": "External rotor motor for axial and centrifugal fans.",
+        "features": [
+          "Voltage: 220V / 120V (50/60Hz)",
+          "Power: 85-210 W",
+          "Speed: 1350-2500 RPM",
+          "Weight: 2.0 kg"
+        ],
+        "image": "https://www.hicoolfans.com/products/images/external-rotor-motors1.jpg"
+      },
+      {
+        "name": "K92-E-42",
+        "tag": "Frame 42 / 92 mm",
+        "desc": "Largest K92 external rotor motor for high-power fan duties.",
+        "features": [
+          "Voltage: 220V / 120V (50/60Hz)",
+          "Power: 130-235 W",
+          "Speed: 1350-2600 RPM",
+          "Weight: 2.2 kg"
+        ],
+        "image": "https://www.hicoolfans.com/products/images/external-rotor-motors1.jpg"
+      },
+      {
+        "name": "K102-E-34",
+        "tag": "Frame 34 / 104 mm",
+        "desc": "K102 external rotor motor for larger-diameter fans.",
+        "features": [
+          "Voltage: 220V / 120V (50/60Hz)",
+          "Power: 80-180 W",
+          "Speed: 920-1600 RPM",
+          "Weight: 2.5 kg"
+        ],
+        "image": "https://www.hicoolfans.com/products/images/pic-k102-external-rotor-motors.png"
+      },
+      {
+        "name": "K102-E-47",
+        "tag": "Frame 47 / 117 mm",
+        "desc": "Mid-range K102 external rotor motor for HVAC fans.",
+        "features": [
+          "Voltage: 220V / 120V (50/60Hz)",
+          "Power: 108-250 W",
+          "Speed: 920-1600 RPM",
+          "Weight: 3.5 kg"
+        ],
+        "image": "https://www.hicoolfans.com/products/images/pic-k102-external-rotor-motors.png"
+      },
+      {
+        "name": "K102-E-60",
+        "tag": "Frame 60 / 129 mm",
+        "desc": "Highest-power K102 external rotor motor for large fans.",
+        "features": [
+          "Voltage: 220V / 120V (50/60Hz)",
+          "Power: 150-300 W",
+          "Speed: 920-1600 RPM",
+          "Weight: 4.5 kg"
+        ],
+        "image": "https://www.hicoolfans.com/products/images/pic-k102-external-rotor-motors.png"
+      },
+      {
+        "name": "J92 / D92",
+        "tag": "Frame 15-95 mm",
+        "desc": "J92/D92 external rotor motors in 2E and 4E configurations.",
+        "features": [
+          "Voltage: 220V / 120V (50/60Hz)",
+          "Power: 40-160 W",
+          "Speed: 1300-2600 RPM",
+          "Noise: 48-58 dBA"
+        ],
+        "image": "https://www.hicoolfans.com/products/images/pic-j-d92-external-rotor-motors.png"
+      }
+    ],
+    "highlights": [
+      {
+        "title": "Genuine Hicool",
+        "text": "Authentic Hicool products with full manufacturer warranty."
+      },
+      {
+        "title": "No.1 Hicool Partner",
+        "text": "SSC Control has been Hicool's No.1 channel partner since 2005."
+      },
+      {
+        "title": "Stock & Fast Delivery",
+        "text": "Ready availability from our Ahmedabad and Baroda warehouses across Gujarat."
+      },
+      {
+        "title": "Airflow Sizing",
+        "text": "Thermal and airflow sizing support from our engineering team."
+      }
+    ],
+    "ctaTitle": "Need an EC external rotor motor?",
+    "ctaText": "Our team can select the right EC motor frame and power for your fan."
+  },
 };
 
 export const PRODUCT_KEYS = Object.keys(PRODUCT_PAGES);

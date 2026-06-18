@@ -8,6 +8,15 @@ import { useEnquiry } from '@/components/EnquiryModal';
 import { AWARDS } from '@/data/awards';
 import { AwardGrid } from '@/components/Awards';
 
+const UL_MARK = (
+  <svg viewBox="0 0 120 64" fill="none" aria-hidden="true" className="cert-ul-svg">
+    <text x="6" y="42" fontSize="26" fontWeight="700" fill="currentColor" fontFamily="Arial, sans-serif">c</text>
+    <circle cx="60" cy="32" r="26" fill="none" stroke="currentColor" strokeWidth="3.5" />
+    <text x="60" y="42" fontSize="26" fontWeight="800" fill="currentColor" fontFamily="Arial, sans-serif" textAnchor="middle">UL</text>
+    <text x="95" y="42" fontSize="22" fontWeight="700" fill="currentColor" fontFamily="Arial, sans-serif">us</text>
+  </svg>
+);
+
 const MAIL_ICON = (
   <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round">
     <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
@@ -137,6 +146,25 @@ export default function BrandPage({ brand }) {
           })}
         </div>
       </div>
+
+      {brand.certifications && (
+        <div className="cats-wrap" style={{ paddingTop: 0 }}>
+          <div className="slabel">{brand.certsLabel || 'Quality & Compliance'}</div>
+          <div className="stitle">{brand.certsTitle}</div>
+          {brand.certsSub && <div className="ssub">{brand.certsSub}</div>}
+          <div className="cert-strip">
+            {brand.certifications.map((c) => (
+              <div className="cert-item" key={c.name}>
+                <div className="cert-logo">
+                  {c.ul ? UL_MARK : <img src={c.img} alt={`${c.name} certification`} loading="lazy" />}
+                </div>
+                <div className="cert-name">{c.name}</div>
+                {c.desc && <div className="cert-desc">{c.desc}</div>}
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
 
       {AWARDS[brand.slug] && (
         <div className="cats-wrap" style={{ paddingTop: 0 }}>

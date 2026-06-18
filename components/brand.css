@@ -92,6 +92,18 @@
 @media(max-width:900px){.page-brand .proto-grid{grid-template-columns:1fr 1fr;}}
 @media(max-width:560px){.page-brand .proto-grid{grid-template-columns:1fr;}}
 
+/* Certifications & compliance strip */
+.page-brand .cert-strip{display:grid;grid-template-columns:repeat(4,1fr);gap:0;margin-top:8px;background:var(--white);border:1px solid var(--border);border-radius:14px;overflow:hidden;}
+.page-brand .cert-item{display:flex;flex-direction:column;align-items:center;text-align:center;padding:30px 22px 26px;border-left:1px solid var(--border);}
+.page-brand .cert-item:first-child{border-left:none;}
+.page-brand .cert-logo{height:62px;display:flex;align-items:center;justify-content:center;margin-bottom:16px;}
+.page-brand .cert-logo img{max-height:58px;max-width:140px;object-fit:contain;display:block;}
+.page-brand .cert-ul-svg{height:54px;width:auto;color:#111;}
+.page-brand .cert-name{font-size:14px;font-weight:800;color:var(--navy);margin-bottom:5px;letter-spacing:-0.01em;}
+.page-brand .cert-desc{font-size:12px;color:var(--gray);line-height:1.5;max-width:180px;}
+@media(max-width:760px){.page-brand .cert-strip{grid-template-columns:1fr 1fr;}.page-brand .cert-item:nth-child(2){border-left:none;}.page-brand .cert-item:nth-child(n+3){border-top:1px solid var(--border);}}
+@media(max-width:420px){.page-brand .cert-strip{grid-template-columns:1fr;}.page-brand .cert-item{border-left:none;border-top:1px solid var(--border);}.page-brand .cert-item:first-child{border-top:none;}}
+
 /* "View full lineup" link on product cards that have a detail page */
 .page-brand .cat-detail-link { display: inline-block; align-self: flex-start; font-size: 13px; font-weight: 700; text-decoration: none; margin: 2px 0 12px; }
 .page-brand .cat-detail-link:hover { text-decoration: underline; }
