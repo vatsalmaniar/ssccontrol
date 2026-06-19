@@ -4770,6 +4770,1794 @@ export const PRODUCT_PAGES = {
     "ctaTitle": "Need an overload relay?",
     "ctaText": "Our team can match the TF or EF overload relay to your contactor and motor rating."
   },
+  "schmersal/separate-actuator-switches": {
+    "brandSlug": "schmersal",
+    "slug": "separate-actuator-switches",
+    "category": "Safety Switches with Separate Actuator",
+    "label": "Separate Actuator",
+    "title": "Safety",
+    "titleEm": "Switches",
+    "tagline": "Separate Actuator for machine safety.",
+    "intro": "Schmersal is a global leader in machine safety, supplying safety switchgear, sensors, opto-electronic guards and safety control systems that protect people at industrial machinery. SSC Control is Schmersal's No.1 channel partner, supplying the full range with genuine products, warranty and technical support across Gujarat and India.",
+    "heroImage": "https://schmersal-prod-media-perf.s3.de.perf.cloud.ovh.net/media/62/d9/4a/1773076070/PHO_PRO_CAT_kaz16f01_SALL_AINT_V3.jpg?ts=1773076070",
+    "seriesLabel": "Product Lineup",
+    "seriesTitle": "Safety Switches with Separate Actuator",
+    "series": [
+      {
+        "name": "AZ 15",
+        "tag": "Metal housing",
+        "desc": "Mechanical safety switch with separate actuator in a rugged metal enclosure for sliding and hinged guards.",
+        "features": [
+          "Type: mechanical tongue actuator interlock",
+          "Contacts: up to 1NO + 2NC, positive break NC",
+          "Actuation: separate coded actuator",
+          "Housing: die-cast metal"
+        ],
+        "image": "https://schmersal-prod-media-perf.s3.de.perf.cloud.ovh.net/media/3f/81/1a/1769806065/PHO_PRO_CAT_kaz15f05_SALL_AINT_V2.jpg?ts=1776603338"
+      },
+      {
+        "name": "AZ 16",
+        "tag": "Thermoplastic",
+        "desc": "Versatile mechanical safety switch with separate, individually coded actuator for guard monitoring.",
+        "features": [
+          "Type: mechanical tongue actuator interlock",
+          "Contacts: up to 3, positive break NC",
+          "Rated voltage: up to 240V AC",
+          "Housing: thermoplastic, double insulated"
+        ],
+        "image": "https://schmersal-prod-media-perf.s3.de.perf.cloud.ovh.net/media/62/d9/4a/1773076070/PHO_PRO_CAT_kaz16f01_SALL_AINT_V3.jpg?ts=1773076070"
+      },
+      {
+        "name": "AZ 17",
+        "tag": "Compact, 8 planes",
+        "desc": "Small thermoplastic safety switch with eight actuating planes for flexible mounting in confined spaces.",
+        "features": [
+          "Type: mechanical tongue actuator interlock",
+          "Contacts: 2NC or 1NO + 1NC, positive break",
+          "Actuation: 8 actuating planes, coded actuator",
+          "Housing: thermoplastic, double insulated"
+        ],
+        "image": ""
+      },
+      {
+        "name": "AZ 200",
+        "tag": "RFID electronic",
+        "desc": "Electronic non contact safety sensor with separate RFID coded actuator and high coding to ISO 14119.",
+        "features": [
+          "Type: RFID electronic safety sensor",
+          "Output: 2 safety outputs (OSSD)",
+          "Rated voltage: 24V DC",
+          "Housing: thermoplastic"
+        ],
+        "image": ""
+      },
+      {
+        "name": "AZ 201",
+        "tag": "RFID, series wiring",
+        "desc": "Electronic RFID safety switch with actuator offset tolerance for serial wiring of multiple guards.",
+        "features": [
+          "Type: RFID electronic safety switch",
+          "Output: 2 OSSD, series wirable",
+          "Rated voltage: 24V DC",
+          "Housing: thermoplastic with status LEDs"
+        ],
+        "image": ""
+      }
+    ],
+    "highlights": [
+      {
+        "title": "Genuine Schmersal",
+        "text": "Authentic Schmersal safety products with full manufacturer warranty."
+      },
+      {
+        "title": "No.1 Channel Partner",
+        "text": "SSC Control is Schmersal's No.1 channel partner."
+      },
+      {
+        "title": "Stock & Fast Delivery",
+        "text": "Ready availability from our Ahmedabad and Baroda bases across Gujarat."
+      },
+      {
+        "title": "Safety Engineering",
+        "text": "Machine safety selection and PL or SIL sizing support from our engineering team."
+      }
+    ],
+    "ctaTitle": "Need a safety device?",
+    "ctaText": "Our team can match the safety device, PL or SIL level and wiring to your machine."
+  },
+  "schmersal/solenoid-interlocks": {
+    "brandSlug": "schmersal",
+    "slug": "solenoid-interlocks",
+    "category": "Solenoid Interlocks",
+    "label": "Guard Locking",
+    "title": "Solenoid",
+    "titleEm": "Interlocks",
+    "tagline": "Guard Locking for machine safety.",
+    "intro": "Schmersal is a global leader in machine safety, supplying safety switchgear, sensors, opto-electronic guards and safety control systems that protect people at industrial machinery. SSC Control is Schmersal's No.1 channel partner, supplying the full range with genuine products, warranty and technical support across Gujarat and India.",
+    "heroImage": "https://schmersal-prod-media-perf.s3.de.perf.cloud.ovh.net/media/0b/d4/62/1772694001/PHO_PRO_CAT_kazm1f08_SALL_AINT_V2.jpg",
+    "seriesLabel": "Product Lineup",
+    "seriesTitle": "Solenoid Interlocks",
+    "series": [
+      {
+        "name": "AZM40",
+        "tag": "RFID, ultra compact",
+        "desc": "The compact electronic solenoid interlock with RFID coding and high holding force in a small body.",
+        "features": [
+          "Type: electronic guard locking, bistable RFID",
+          "Locking force: 2000 N",
+          "Output: 2 safety outputs (OSSD)",
+          "Housing: thermoplastic, 119.5 x 40 x 20 mm"
+        ],
+        "image": "https://schmersal-prod-media-perf.s3.de.perf.cloud.ovh.net/media/8b/d5/bf/1777353958/PHO_PRO_CAT_kaz40f21_SALL_AINT_V4.jpg"
+      },
+      {
+        "name": "AZM150",
+        "tag": "Slimline",
+        "desc": "Slimline solenoid interlock combinable with three actuators for sliding and revolving doors.",
+        "features": [
+          "Type: electromechanical guard locking",
+          "Locking force: 1500 N",
+          "Contacts: NO / NC safety contacts",
+          "Housing: glass fibre reinforced thermoplastic"
+        ],
+        "image": "https://schmersal-prod-media-perf.s3.de.perf.cloud.ovh.net/media/24/c3/51/1772694024/PHO_PRO_CAT_azm150-1_SALL_AINT_V1.jpg"
+      },
+      {
+        "name": "AZM161",
+        "tag": "Versatile",
+        "desc": "Established electromechanical solenoid interlock with large wiring space for heavy guard doors.",
+        "features": [
+          "Type: electromechanical guard locking",
+          "Locking force: up to 2000 N",
+          "Contacts: up to 3, positive break NC",
+          "Rated voltage: 24V DC or 230V AC"
+        ],
+        "image": "https://schmersal-prod-media-perf.s3.de.perf.cloud.ovh.net/media/0b/d4/62/1772694001/PHO_PRO_CAT_kazm1f08_SALL_AINT_V2.jpg"
+      },
+      {
+        "name": "AZM201",
+        "tag": "AS-i / series wiring",
+        "desc": "Electromechanical solenoid interlock with detached design and series connection for multiple doors.",
+        "features": [
+          "Type: electromechanical guard locking",
+          "Locking force: up to 2000 N",
+          "Inputs/Outputs: 2 safety inputs and 2 outputs",
+          "Housing: thermoplastic"
+        ],
+        "image": "https://schmersal-prod-media-perf.s3.de.perf.cloud.ovh.net/media/06/b8/6d/1774078843/PHO_PRO_CAT_kazm2f63_SALL_AINT_V3.jpg"
+      },
+      {
+        "name": "AZM300",
+        "tag": "RFID, 3D actuator",
+        "desc": "RFID solenoid interlock with rotatable head and three actuating directions plus integrated latching.",
+        "features": [
+          "Type: electronic guard locking, RFID",
+          "Locking force: 1000 N",
+          "Output: 2 safety outputs (OSSD)",
+          "Housing: thermoplastic, rotatable head"
+        ],
+        "image": "https://schmersal-prod-media-perf.s3.de.perf.cloud.ovh.net/media/1b/e1/52/1772693746/PHO_PRO_CAT_kazm3f29_SALL_AINT_V2.jpg"
+      }
+    ],
+    "highlights": [
+      {
+        "title": "Genuine Schmersal",
+        "text": "Authentic Schmersal safety products with full manufacturer warranty."
+      },
+      {
+        "title": "No.1 Channel Partner",
+        "text": "SSC Control is Schmersal's No.1 channel partner."
+      },
+      {
+        "title": "Stock & Fast Delivery",
+        "text": "Ready availability from our Ahmedabad and Baroda bases across Gujarat."
+      },
+      {
+        "title": "Safety Engineering",
+        "text": "Machine safety selection and PL or SIL sizing support from our engineering team."
+      }
+    ],
+    "ctaTitle": "Need a safety device?",
+    "ctaText": "Our team can match the safety device, PL or SIL level and wiring to your machine."
+  },
+  "schmersal/position-switches": {
+    "brandSlug": "schmersal",
+    "slug": "position-switches",
+    "category": "Position Switches / Limit Switches",
+    "label": "Limit Switches",
+    "title": "Position",
+    "titleEm": "Switches",
+    "tagline": "Limit Switches for machine safety.",
+    "intro": "Schmersal is a global leader in machine safety, supplying safety switchgear, sensors, opto-electronic guards and safety control systems that protect people at industrial machinery. SSC Control is Schmersal's No.1 channel partner, supplying the full range with genuine products, warranty and technical support across Gujarat and India.",
+    "heroImage": "https://schmersal-prod-media-perf.s3.de.perf.cloud.ovh.net/media/15/f9/c4/1772693757/PHO_PRO_CAT_kps1sf03_SALL_AINT_V2.jpg",
+    "seriesLabel": "Product Lineup",
+    "seriesTitle": "Position Switches / Limit Switches",
+    "series": [
+      {
+        "name": "PS116",
+        "tag": "Compact modular",
+        "desc": "Extremely compact modular position switch for monitoring presence and position of moving parts.",
+        "features": [
+          "Type: position switch, modular",
+          "Contacts: snap or slow action, e.g. 1NO + 1NC",
+          "Housing: die-cast zinc and thermoplastic, IP66/67",
+          "Actuation: interchangeable actuators, elevator duty to EN 81"
+        ],
+        "image": "https://schmersal-prod-media-perf.s3.de.perf.cloud.ovh.net/media/15/f9/c4/1772693757/PHO_PRO_CAT_kps1sf03_SALL_AINT_V2.jpg"
+      },
+      {
+        "name": "PS215",
+        "tag": "Mid size modular",
+        "desc": "Mid size position switch sharing the modular actuator system for general position sensing.",
+        "features": [
+          "Type: position switch, modular",
+          "Contacts: snap or slow action elements",
+          "Housing: die-cast metal / thermoplastic, IP66/67",
+          "Actuation: wide range of interchangeable actuators"
+        ],
+        "image": "https://schmersal-prod-media-perf.s3.de.perf.cloud.ovh.net/media/2c/8c/97/1772693762/PHO_PRO_CAT_kps2sf01_SALL_AINT_V2.jpg"
+      },
+      {
+        "name": "PS315",
+        "tag": "Heavy duty modular",
+        "desc": "Larger heavy duty position switch for robust industrial limit switching.",
+        "features": [
+          "Type: position switch, modular",
+          "Contacts: snap or slow action elements",
+          "Housing: die-cast metal, IP66/67",
+          "Actuation: interchangeable plungers and roller levers"
+        ],
+        "image": "https://schmersal-prod-media-perf.s3.de.perf.cloud.ovh.net/media/14/a8/da/1772693783/PHO_PRO_CAT_kps3sf06_SALL_AINT_V2.jpg"
+      },
+      {
+        "name": "Z / T Series",
+        "tag": "Metal & plastic",
+        "desc": "Metal and thermoplastic limit switches with snap or slow action contacts for machine position monitoring.",
+        "features": [
+          "Type: limit switch",
+          "Contacts: NO / NC, optional manual reset latching",
+          "Housing: die-cast metal or thermoplastic",
+          "Actuation: plunger and roller lever"
+        ],
+        "image": "https://schmersal-prod-media-perf.s3.de.perf.cloud.ovh.net/media/6a/e5/e3/1772693966/PHO_PRO_CAT_kz232f01_SALL_AINT_V2.jpg"
+      }
+    ],
+    "highlights": [
+      {
+        "title": "Genuine Schmersal",
+        "text": "Authentic Schmersal safety products with full manufacturer warranty."
+      },
+      {
+        "title": "No.1 Channel Partner",
+        "text": "SSC Control is Schmersal's No.1 channel partner."
+      },
+      {
+        "title": "Stock & Fast Delivery",
+        "text": "Ready availability from our Ahmedabad and Baroda bases across Gujarat."
+      },
+      {
+        "title": "Safety Engineering",
+        "text": "Machine safety selection and PL or SIL sizing support from our engineering team."
+      }
+    ],
+    "ctaTitle": "Need a safety device?",
+    "ctaText": "Our team can match the safety device, PL or SIL level and wiring to your machine."
+  },
+  "schmersal/pull-wire-estop": {
+    "brandSlug": "schmersal",
+    "slug": "pull-wire-estop",
+    "category": "Pull-Wire Emergency Stop Switches",
+    "label": "Rope Pull E-Stop",
+    "title": "Pull-Wire",
+    "titleEm": "Emergency Stop",
+    "tagline": "Rope Pull E-Stop for machine safety.",
+    "intro": "Schmersal is a global leader in machine safety, supplying safety switchgear, sensors, opto-electronic guards and safety control systems that protect people at industrial machinery. SSC Control is Schmersal's No.1 channel partner, supplying the full range with genuine products, warranty and technical support across Gujarat and India.",
+    "heroImage": "https://schmersal-prod-media-perf.s3.de.perf.cloud.ovh.net/media/42/f4/63/1774089408/PHO_PRO_CAT_kzq90f08_SALL_AINT_V3.jpg",
+    "seriesLabel": "Product Lineup",
+    "seriesTitle": "Pull-Wire Emergency Stop Switches",
+    "series": [
+      {
+        "name": "ZQ 700",
+        "tag": "Thermoplastic",
+        "desc": "Compact thermoplastic pull wire emergency stop switch for shorter rope runs on machines and conveyors.",
+        "features": [
+          "Type: pull wire emergency stop",
+          "Rope length: up to 10 m",
+          "Contacts: 2NC snap action",
+          "Reset: manual latching, IP67"
+        ],
+        "image": "https://schmersal-prod-media-perf.s3.de.perf.cloud.ovh.net/media/77/c8/2e/1772693803/PHO_PRO_CAT_kzq70f01_SALL_AINT_V2.jpg"
+      },
+      {
+        "name": "ZQ 900",
+        "tag": "Metal, long haul",
+        "desc": "Rugged metal pull wire switch for long conveyor lines needing continuous emergency stop.",
+        "features": [
+          "Type: pull wire emergency stop",
+          "Rope length: up to 75 m",
+          "Contacts: NC / NO combinations",
+          "Reset: manual latch, metal housing"
+        ],
+        "image": "https://schmersal-prod-media-perf.s3.de.perf.cloud.ovh.net/media/42/f4/63/1774089408/PHO_PRO_CAT_kzq90f08_SALL_AINT_V3.jpg"
+      },
+      {
+        "name": "ZQ 901",
+        "tag": "Stainless steel",
+        "desc": "Stainless steel pull wire emergency stop switch for hygienic and corrosive environments.",
+        "features": [
+          "Type: pull wire emergency stop",
+          "Rope length: up to 75 m",
+          "Contacts: NC / NO combinations",
+          "Reset: manual latch, stainless housing"
+        ],
+        "image": "https://schmersal-prod-media-perf.s3.de.perf.cloud.ovh.net/media/8d/60/7e/1772693804/PHO_PRO_CAT_kzq901f01_SALL_AINT_V2.jpg"
+      },
+      {
+        "name": "RS 655",
+        "tag": "Two side",
+        "desc": "Pull wire switch for two side rope operation covering very long protected sections from one device.",
+        "features": [
+          "Type: pull wire emergency stop",
+          "Rope length: up to 2 x 100 m",
+          "Contacts: safety NC plus signalling",
+          "Reset: manual latch"
+        ],
+        "image": "https://schmersal-prod-media-perf.s3.de.perf.cloud.ovh.net/media/9c/3d/9b/1774091311/PHO_PRO_CAT_krs65f03_SALL_AINT_V2.jpg"
+      },
+      {
+        "name": "T3Z 068",
+        "tag": "Heavy duty",
+        "desc": "Heavy duty metal pull wire switch with two side operation for demanding industrial lines.",
+        "features": [
+          "Type: pull wire emergency stop",
+          "Rope length: up to 2 x 50 m",
+          "Contacts: 1NC / 1NO and variants",
+          "Reset: manual latch, cast housing"
+        ],
+        "image": "https://schmersal-prod-media-perf.s3.de.perf.cloud.ovh.net/media/63/ac/14/1774087475/PHO_PRO_CAT_kt3z0f02_SALL_AINT_V3.jpg"
+      }
+    ],
+    "highlights": [
+      {
+        "title": "Genuine Schmersal",
+        "text": "Authentic Schmersal safety products with full manufacturer warranty."
+      },
+      {
+        "title": "No.1 Channel Partner",
+        "text": "SSC Control is Schmersal's No.1 channel partner."
+      },
+      {
+        "title": "Stock & Fast Delivery",
+        "text": "Ready availability from our Ahmedabad and Baroda bases across Gujarat."
+      },
+      {
+        "title": "Safety Engineering",
+        "text": "Machine safety selection and PL or SIL sizing support from our engineering team."
+      }
+    ],
+    "ctaTitle": "Need a safety device?",
+    "ctaText": "Our team can match the safety device, PL or SIL level and wiring to your machine."
+  },
+  "schmersal/safety-sensors": {
+    "brandSlug": "schmersal",
+    "slug": "safety-sensors",
+    "category": "Safety Sensors",
+    "label": "Non-Contact Sensors",
+    "title": "Safety",
+    "titleEm": "Sensors",
+    "tagline": "Non-Contact Sensors for machine safety.",
+    "intro": "Schmersal is a global leader in machine safety, supplying safety switchgear, sensors, opto-electronic guards and safety control systems that protect people at industrial machinery. SSC Control is Schmersal's No.1 channel partner, supplying the full range with genuine products, warranty and technical support across Gujarat and India.",
+    "heroImage": "https://schmersal-prod-media-perf.s3.de.perf.cloud.ovh.net/media/d6/5a/19/1774080739/PHO_PRO_CAT_kcss3f31_SALL_AINT_V3.jpg",
+    "seriesLabel": "Product Lineup",
+    "seriesTitle": "Safety Sensors",
+    "series": [
+      {
+        "name": "CSS 300",
+        "tag": "Electronic coded",
+        "desc": "Electronic coded safety sensor using pulse echo technology that can daisy chain up to 31 devices.",
+        "features": [
+          "Technology: coded electronic, pulse echo",
+          "Coding: standard, individual, permanent",
+          "Output: 2 PNP safety outputs, cross monitored",
+          "Use: series wiring up to 31 sensors"
+        ],
+        "image": "https://schmersal-prod-media-perf.s3.de.perf.cloud.ovh.net/media/d6/5a/19/1774080739/PHO_PRO_CAT_kcss3f31_SALL_AINT_V3.jpg"
+      },
+      {
+        "name": "RSS 16",
+        "tag": "Compact RFID",
+        "desc": "Compact RFID safety sensor with three actuating directions and individual coding for tamper resistant monitoring.",
+        "features": [
+          "Technology: RFID non contact",
+          "Coding: standard, unique, repeatable",
+          "Sensing: assured distance approx 8 mm",
+          "Output: 2 OSSD plus diagnostic"
+        ],
+        "image": "https://schmersal-prod-media-perf.s3.de.perf.cloud.ovh.net/media/81/af/b7/1774083604/PHO_PRO_CAT_krss1f08_SALL_AINT_V3.jpg"
+      },
+      {
+        "name": "RSS 260",
+        "tag": "Hinge friendly RFID",
+        "desc": "RFID safety sensor in a flat housing with side and head actuation that mounts without angle brackets.",
+        "features": [
+          "Technology: RFID non contact",
+          "Coding: standard, unique, individual",
+          "Sensing: assured distance approx 8 mm",
+          "Output: 2 OSSD plus diagnostic"
+        ],
+        "image": "https://schmersal-prod-media-perf.s3.de.perf.cloud.ovh.net/media/86/14/5c/1769811015/PHO_PRO_CAT_krss2f01_PHO_PRO_CAT_INT.jpg"
+      },
+      {
+        "name": "BNS 33",
+        "tag": "Coded magnetic",
+        "desc": "Coded magnetic safety sensor with dual reed contacts that only responds to its matching target.",
+        "features": [
+          "Technology: magnetic coded reed",
+          "Coding: coded reed combination",
+          "Sensing: assured distance approx 5 to 8 mm",
+          "Output: 2 channel reed (1NO + 1NC variants)"
+        ],
+        "image": "https://schmersal-prod-media-perf.s3.de.perf.cloud.ovh.net/media/cd/9b/06/1769806701/PHO_PRO_CAT_kbns3f22_PHO_PRO_CAT_INT.jpg"
+      }
+    ],
+    "highlights": [
+      {
+        "title": "Genuine Schmersal",
+        "text": "Authentic Schmersal safety products with full manufacturer warranty."
+      },
+      {
+        "title": "No.1 Channel Partner",
+        "text": "SSC Control is Schmersal's No.1 channel partner."
+      },
+      {
+        "title": "Stock & Fast Delivery",
+        "text": "Ready availability from our Ahmedabad and Baroda bases across Gujarat."
+      },
+      {
+        "title": "Safety Engineering",
+        "text": "Machine safety selection and PL or SIL sizing support from our engineering team."
+      }
+    ],
+    "ctaTitle": "Need a safety device?",
+    "ctaText": "Our team can match the safety device, PL or SIL level and wiring to your machine."
+  },
+  "schmersal/light-curtains": {
+    "brandSlug": "schmersal",
+    "slug": "light-curtains",
+    "category": "Safety Light Curtains & Light Grids",
+    "label": "Type 4 Light Curtains",
+    "title": "Safety Light",
+    "titleEm": "Curtains & Grids",
+    "tagline": "Type 4 Light Curtains for machine safety.",
+    "intro": "Schmersal is a global leader in machine safety, supplying safety switchgear, sensors, opto-electronic guards and safety control systems that protect people at industrial machinery. SSC Control is Schmersal's No.1 channel partner, supplying the full range with genuine products, warranty and technical support across Gujarat and India.",
+    "heroImage": "https://schmersal-prod-media-perf.s3.de.perf.cloud.ovh.net/media/dc/94/ac/1772693812/PHO_PRO_CAT_kslc4f37_SALL_AINT_V2.jpg",
+    "seriesLabel": "Product Lineup",
+    "seriesTitle": "Safety Light Curtains & Light Grids",
+    "series": [
+      {
+        "name": "SLC 440",
+        "tag": "Finger & hand",
+        "desc": "Compact Type 4 multifunctional safety light curtain for finger and hand protection on machines.",
+        "features": [
+          "Type: Type 4, up to PLe / SIL3",
+          "Resolution: 14 / 30 / 50 mm",
+          "Range: up to 10 m",
+          "Use: finger and hand protection at access points"
+        ],
+        "image": "https://schmersal-prod-media-perf.s3.de.perf.cloud.ovh.net/media/dc/94/ac/1772693812/PHO_PRO_CAT_kslc4f37_SALL_AINT_V2.jpg"
+      },
+      {
+        "name": "SLC 440 COM",
+        "tag": "Long range, Bluetooth",
+        "desc": "Extended range Type 4 light curtain with Bluetooth diagnostics for hand and body protection.",
+        "features": [
+          "Type: Type 4, up to PLe / SIL3",
+          "Resolution: 14 / 30 / 50 mm",
+          "Range: up to 30 m",
+          "Use: wide guarding zones with app diagnostics"
+        ],
+        "image": "https://schmersal-prod-media-perf.s3.de.perf.cloud.ovh.net/media/4d/54/ff/1772693813/PHO_PRO_CAT_kslc4f67_SALL_AINT_V3.jpg"
+      },
+      {
+        "name": "SLC 420",
+        "tag": "High range",
+        "desc": "Type 4 safety light curtain offering high range for finger and hand protection in larger areas.",
+        "features": [
+          "Type: Type 4",
+          "Resolution: 14 / 30 / 50 mm",
+          "Range: 0.3 to 18 m",
+          "Use: finger and hand protection, extended range"
+        ],
+        "image": "https://schmersal-prod-media-perf.s3.de.perf.cloud.ovh.net/media/d4/41/25/1772693816/PHO_PRO_CAT_kslc4f20_SALL_AINT_V2.jpg"
+      },
+      {
+        "name": "SLG 440",
+        "tag": "Body protection grid",
+        "desc": "Type 4 safety light grid with two to four beams for access and body protection.",
+        "features": [
+          "Type: Type 4, up to PLe / SIL3",
+          "Resolution: 2, 3 or 4 beam body detection",
+          "Range: up to 10 m",
+          "Use: access guarding at machine entry points"
+        ],
+        "image": "https://schmersal-prod-media-perf.s3.de.perf.cloud.ovh.net/media/a8/1a/a5/1772693813/PHO_PRO_CAT_kslc4f94_SALL_AINT_V2.jpg"
+      }
+    ],
+    "highlights": [
+      {
+        "title": "Genuine Schmersal",
+        "text": "Authentic Schmersal safety products with full manufacturer warranty."
+      },
+      {
+        "title": "No.1 Channel Partner",
+        "text": "SSC Control is Schmersal's No.1 channel partner."
+      },
+      {
+        "title": "Stock & Fast Delivery",
+        "text": "Ready availability from our Ahmedabad and Baroda bases across Gujarat."
+      },
+      {
+        "title": "Safety Engineering",
+        "text": "Machine safety selection and PL or SIL sizing support from our engineering team."
+      }
+    ],
+    "ctaTitle": "Need a safety device?",
+    "ctaText": "Our team can match the safety device, PL or SIL level and wiring to your machine."
+  },
+  "schmersal/emergency-stop-buttons": {
+    "brandSlug": "schmersal",
+    "slug": "emergency-stop-buttons",
+    "category": "Emergency Stop Buttons",
+    "label": "E-Stop Devices",
+    "title": "Emergency Stop",
+    "titleEm": "Buttons",
+    "tagline": "E-Stop Devices for machine safety.",
+    "intro": "Schmersal is a global leader in machine safety, supplying safety switchgear, sensors, opto-electronic guards and safety control systems that protect people at industrial machinery. SSC Control is Schmersal's No.1 channel partner, supplying the full range with genuine products, warranty and technical support across Gujarat and India.",
+    "heroImage": "https://schmersal-prod-media-perf.s3.de.perf.cloud.ovh.net/media/1d/e2/6a/1772693805/PHO_PRO_CAT_kedrrf24_SALL_AINT_V1.jpg",
+    "seriesLabel": "Product Lineup",
+    "seriesTitle": "Emergency Stop Buttons",
+    "series": [
+      {
+        "name": "BDF 200",
+        "tag": "Control station",
+        "desc": "Complete control station combining an emergency stop with illuminated buttons and selector switches.",
+        "features": [
+          "Type: emergency stop control station",
+          "Contacts: configurable contact blocks",
+          "Reset: latching with manual release",
+          "Mounting: surface or profile mount"
+        ],
+        "image": "https://schmersal-prod-media-perf.s3.de.perf.cloud.ovh.net/media/66/55/6a/1772693809/PHO_PRO_CAT_kbdf2f01_SALL_AINT_V2.jpg"
+      },
+      {
+        "name": "NDR",
+        "tag": "Washdown",
+        "desc": "Hygienic design emergency stop pushbutton rated for high pressure washdown in food and pharma.",
+        "features": [
+          "Type: emergency stop pushbutton",
+          "Contacts: single, dual or triple blocks",
+          "Reset: self latching, rotary release",
+          "Mounting: 22.3 mm cutout, IP69K"
+        ],
+        "image": "https://schmersal-prod-media-perf.s3.de.perf.cloud.ovh.net/media/e9/1f/65/1772693807/PHO_PRO_CAT_kndrzf01_SALL_AINT_V2.jpg"
+      },
+      {
+        "name": "RDRZ 45",
+        "tag": "Compact mushroom",
+        "desc": "Compact latching mushroom emergency stop pushbutton for standard panel mounting.",
+        "features": [
+          "Type: emergency stop pushbutton",
+          "Contacts: NC / NO combinations",
+          "Reset: self latching, twist to release",
+          "Mounting: 22 mm panel cutout"
+        ],
+        "image": "https://schmersal-prod-media-perf.s3.de.perf.cloud.ovh.net/media/c6/74/b7/1769810720/PHO_PRO_CAT_krdr4f04_SALL_AINT_V2.jpg"
+      },
+      {
+        "name": "EDRR",
+        "tag": "Standard E-Stop",
+        "desc": "Standard red mushroom emergency stop pushbutton for general machine control.",
+        "features": [
+          "Type: emergency stop pushbutton",
+          "Contacts: NC / NO combinations",
+          "Reset: self latching, rotary release",
+          "Mounting: 22 mm panel cutout"
+        ],
+        "image": "https://schmersal-prod-media-perf.s3.de.perf.cloud.ovh.net/media/ca/ac/7f/1772693807/PHO_PRO_CAT_kedrrf19_SALL_AINT_V1.jpg"
+      },
+      {
+        "name": "HDR",
+        "tag": "Heavy duty",
+        "desc": "Heavy duty emergency stop pushbutton built for robust industrial and outdoor conditions.",
+        "features": [
+          "Type: emergency stop pushbutton",
+          "Contacts: NC / NO combinations",
+          "Reset: self latching, twist to release",
+          "Mounting: 22 mm panel cutout"
+        ],
+        "image": "https://schmersal-prod-media-perf.s3.de.perf.cloud.ovh.net/media/10/c5/49/1772693881/PHO_PRO_CAT_khdrzf08_SALL_AINT_V1.jpg"
+      }
+    ],
+    "highlights": [
+      {
+        "title": "Genuine Schmersal",
+        "text": "Authentic Schmersal safety products with full manufacturer warranty."
+      },
+      {
+        "title": "No.1 Channel Partner",
+        "text": "SSC Control is Schmersal's No.1 channel partner."
+      },
+      {
+        "title": "Stock & Fast Delivery",
+        "text": "Ready availability from our Ahmedabad and Baroda bases across Gujarat."
+      },
+      {
+        "title": "Safety Engineering",
+        "text": "Machine safety selection and PL or SIL sizing support from our engineering team."
+      }
+    ],
+    "ctaTitle": "Need a safety device?",
+    "ctaText": "Our team can match the safety device, PL or SIL level and wiring to your machine."
+  },
+  "schmersal/enabling-devices": {
+    "brandSlug": "schmersal",
+    "slug": "enabling-devices",
+    "category": "Enabling Devices",
+    "label": "3-Position Enabling",
+    "title": "Enabling",
+    "titleEm": "Devices",
+    "tagline": "3-Position Enabling for machine safety.",
+    "intro": "Schmersal is a global leader in machine safety, supplying safety switchgear, sensors, opto-electronic guards and safety control systems that protect people at industrial machinery. SSC Control is Schmersal's No.1 channel partner, supplying the full range with genuine products, warranty and technical support across Gujarat and India.",
+    "heroImage": "https://schmersal-prod-media-perf.s3.de.perf.cloud.ovh.net/media/fc/8c/92/1769827347/PHO_PRO_CAT_kzsd6f03_SALL_AINT_V1.jpg",
+    "seriesLabel": "Product Lineup",
+    "seriesTitle": "Enabling Devices",
+    "series": [
+      {
+        "name": "ZSD 6",
+        "tag": "Handheld",
+        "desc": "Handheld three position enabling switch that permits machine motion only while held in the centre position.",
+        "features": [
+          "Type: three position enabling switch",
+          "Actuation: thumb pressure, panic on overpress",
+          "Contacts: 2NO enabling plus optional stop",
+          "Rating: up to 24V DC, IP54"
+        ],
+        "image": "https://schmersal-prod-media-perf.s3.de.perf.cloud.ovh.net/media/fc/8c/92/1769827347/PHO_PRO_CAT_kzsd6f03_SALL_AINT_V1.jpg"
+      },
+      {
+        "name": "ZSD 5",
+        "tag": "Compact",
+        "desc": "Compact three position enabling switch with prewired cable for handheld control devices.",
+        "features": [
+          "Type: three position enabling switch",
+          "Actuation: thumb pressure with panic",
+          "Contacts: 2NO enabling",
+          "Rating: up to 24V DC, IP54"
+        ],
+        "image": "https://schmersal-prod-media-perf.s3.de.perf.cloud.ovh.net/media/ec/32/a4/1769817269/PHO_PRO_CAT_kzsd-f05_PHO_PRO_CAT_INT.jpg"
+      },
+      {
+        "name": "ZSD 6 Module",
+        "tag": "Switch module",
+        "desc": "Three position enabling switch module supplied without cable for custom wiring into control housings.",
+        "features": [
+          "Type: three position enabling switch",
+          "Actuation: two stage with panic position",
+          "Contacts: 2NO enabling plus stop option",
+          "Rating: up to 24V DC, IP54"
+        ],
+        "image": "https://schmersal-prod-media-perf.s3.de.perf.cloud.ovh.net/media/fc/f4/a0/1769817275/PHO_PRO_CAT_kzsd6f02_SALL_AINT_V1.jpg"
+      }
+    ],
+    "highlights": [
+      {
+        "title": "Genuine Schmersal",
+        "text": "Authentic Schmersal safety products with full manufacturer warranty."
+      },
+      {
+        "title": "No.1 Channel Partner",
+        "text": "SSC Control is Schmersal's No.1 channel partner."
+      },
+      {
+        "title": "Stock & Fast Delivery",
+        "text": "Ready availability from our Ahmedabad and Baroda bases across Gujarat."
+      },
+      {
+        "title": "Safety Engineering",
+        "text": "Machine safety selection and PL or SIL sizing support from our engineering team."
+      }
+    ],
+    "ctaTitle": "Need a safety device?",
+    "ctaText": "Our team can match the safety device, PL or SIL level and wiring to your machine."
+  },
+  "schmersal/safety-mats-edges": {
+    "brandSlug": "schmersal",
+    "slug": "safety-mats-edges",
+    "category": "Safety Mats & Safety Edges",
+    "label": "Pressure Sensitive",
+    "title": "Safety Mats",
+    "titleEm": "& Safety Edges",
+    "tagline": "Pressure Sensitive for machine safety.",
+    "intro": "Schmersal is a global leader in machine safety, supplying safety switchgear, sensors, opto-electronic guards and safety control systems that protect people at industrial machinery. SSC Control is Schmersal's No.1 channel partner, supplying the full range with genuine products, warranty and technical support across Gujarat and India.",
+    "heroImage": "https://schmersal-prod-media-perf.s3.de.perf.cloud.ovh.net/media/fd/59/96/1772693825/PHO_PRO_CAT_ksms-f02_SALL_AINT_V2.jpg",
+    "seriesLabel": "Product Lineup",
+    "seriesTitle": "Safety Mats & Safety Edges",
+    "series": [
+      {
+        "name": "SMS 4",
+        "tag": "Mat, alu profile",
+        "desc": "Pressure sensitive safety mat with aluminium edge profile that detects when a person steps on the floor area.",
+        "features": [
+          "Type: pressure sensitive safety mat",
+          "Actuation: foot pressure",
+          "Output: 4 wire short circuit to controller",
+          "Use: floor area guarding around machinery"
+        ],
+        "image": "https://schmersal-prod-media-perf.s3.de.perf.cloud.ovh.net/media/fd/59/96/1772693825/PHO_PRO_CAT_ksms-f02_SALL_AINT_V2.jpg"
+      },
+      {
+        "name": "SE-P 40",
+        "tag": "40 mm safety edge",
+        "desc": "Pressure sensitive safety edge about 40 mm high that stops a hazardous movement on contact.",
+        "features": [
+          "Type: pressure sensitive safety edge",
+          "Actuation: contact pressure deforms profile",
+          "Output: resistor terminated switching strip",
+          "Use: edge protection on moving guards and gates"
+        ],
+        "image": "https://schmersal-prod-media-perf.s3.de.perf.cloud.ovh.net/media/4c/38/53/1772693826/PHO_PRO_CAT_kse70f05_SALL_AINT_V2.jpg"
+      },
+      {
+        "name": "SE-P 70",
+        "tag": "70 mm safety edge",
+        "desc": "Pressure sensitive safety edge about 70 mm high for larger crushing gaps.",
+        "features": [
+          "Type: pressure sensitive safety edge",
+          "Actuation: contact pressure deforms profile",
+          "Output: resistor terminated switching strip",
+          "Use: edge guarding on doors, lifts and moving parts"
+        ],
+        "image": "https://schmersal-prod-media-perf.s3.de.perf.cloud.ovh.net/media/4c/38/53/1772693826/PHO_PRO_CAT_kse70f05_SALL_AINT_V2.jpg"
+      },
+      {
+        "name": "SSG Safety Bumper",
+        "tag": "Pressure bumper",
+        "desc": "Pressure sensitive safety bumper that absorbs impact and stops motion when pressed.",
+        "features": [
+          "Type: pressure sensitive safety bumper",
+          "Actuation: surface pressure over wide area",
+          "Output: dual channel switching",
+          "Use: collision protection on AGVs and machines"
+        ],
+        "image": "https://schmersal-prod-media-perf.s3.de.perf.cloud.ovh.net/media/a6/39/50/1772693829/PHO_PRO_CAT_ssg-f01_SALL_AINT_V2.jpg"
+      }
+    ],
+    "highlights": [
+      {
+        "title": "Genuine Schmersal",
+        "text": "Authentic Schmersal safety products with full manufacturer warranty."
+      },
+      {
+        "title": "No.1 Channel Partner",
+        "text": "SSC Control is Schmersal's No.1 channel partner."
+      },
+      {
+        "title": "Stock & Fast Delivery",
+        "text": "Ready availability from our Ahmedabad and Baroda bases across Gujarat."
+      },
+      {
+        "title": "Safety Engineering",
+        "text": "Machine safety selection and PL or SIL sizing support from our engineering team."
+      }
+    ],
+    "ctaTitle": "Need a safety device?",
+    "ctaText": "Our team can match the safety device, PL or SIL level and wiring to your machine."
+  },
+  "schmersal/safety-relays": {
+    "brandSlug": "schmersal",
+    "slug": "safety-relays",
+    "category": "Safety Relays",
+    "label": "SRB / SRR Relays",
+    "title": "Safety",
+    "titleEm": "Relays",
+    "tagline": "SRB / SRR Relays for machine safety.",
+    "intro": "Schmersal is a global leader in machine safety, supplying safety switchgear, sensors, opto-electronic guards and safety control systems that protect people at industrial machinery. SSC Control is Schmersal's No.1 channel partner, supplying the full range with genuine products, warranty and technical support across Gujarat and India.",
+    "heroImage": "https://schmersal-prod-media-perf.s3.de.perf.cloud.ovh.net/media/cf/84/58/1769824600/PHO_PRO_CAT_b-srb-e_PHO_PRO_CAT_INT.jpg",
+    "seriesLabel": "Product Lineup",
+    "seriesTitle": "Safety Relays",
+    "series": [
+      {
+        "name": "PROTECT SRB-E",
+        "tag": "Configurable",
+        "desc": "Multifunctional electronic safety relay modules configurable for up to twelve applications.",
+        "features": [
+          "Type: configurable electronic safety controller",
+          "Inputs: E-stop, interlocks, light curtains, sensors",
+          "Safety: PL e / SIL 3",
+          "Use: universal signal evaluation"
+        ],
+        "image": "https://schmersal-prod-media-perf.s3.de.perf.cloud.ovh.net/media/cf/84/58/1769824600/PHO_PRO_CAT_b-srb-e_PHO_PRO_CAT_INT.jpg"
+      },
+      {
+        "name": "SRB-E-301MC",
+        "tag": "Multifunction",
+        "desc": "Electronic safety relay module with three safety contacts for contact and opto-electronic devices.",
+        "features": [
+          "Type: electronic safety relay module",
+          "Outputs: 3 safety contacts plus signalling",
+          "Safety: Cat. 4 / PL e / SIL 3",
+          "Use: light grids, E-stop and contact sensors"
+        ],
+        "image": "https://schmersal-prod-media-perf.s3.de.perf.cloud.ovh.net/media/8b/fc/fa/1769824599/PHO_PRO_CAT_b-srb-e_SALL_AINL_V4.jpg"
+      },
+      {
+        "name": "SRB-EXi",
+        "tag": "Intrinsically safe",
+        "desc": "Safety relay modules combining functional safety with intrinsic safety for explosive atmospheres.",
+        "features": [
+          "Type: electromechanical safety relay, Ex i",
+          "Inputs: E-stop, interlocks, reset, sensors",
+          "Safety: PL e / SIL 3",
+          "Use: safe signal evaluation in Ex zones"
+        ],
+        "image": "https://schmersal-prod-media-perf.s3.de.perf.cloud.ovh.net/media/98/ee/3a/1772693979/PHO_PRO_CAT_ksrb1f04_SALL_AINT_V2.jpg"
+      }
+    ],
+    "highlights": [
+      {
+        "title": "Genuine Schmersal",
+        "text": "Authentic Schmersal safety products with full manufacturer warranty."
+      },
+      {
+        "title": "No.1 Channel Partner",
+        "text": "SSC Control is Schmersal's No.1 channel partner."
+      },
+      {
+        "title": "Stock & Fast Delivery",
+        "text": "Ready availability from our Ahmedabad and Baroda bases across Gujarat."
+      },
+      {
+        "title": "Safety Engineering",
+        "text": "Machine safety selection and PL or SIL sizing support from our engineering team."
+      }
+    ],
+    "ctaTitle": "Need a safety device?",
+    "ctaText": "Our team can match the safety device, PL or SIL level and wiring to your machine."
+  },
+  "schmersal/key-transfer": {
+    "brandSlug": "schmersal",
+    "slug": "key-transfer",
+    "category": "Key Transfer Systems",
+    "label": "Trapped Key",
+    "title": "Key Transfer",
+    "titleEm": "Systems",
+    "tagline": "Trapped Key for machine safety.",
+    "intro": "Schmersal is a global leader in machine safety, supplying safety switchgear, sensors, opto-electronic guards and safety control systems that protect people at industrial machinery. SSC Control is Schmersal's No.1 channel partner, supplying the full range with genuine products, warranty and technical support across Gujarat and India.",
+    "heroImage": "https://schmersal-prod-media-perf.s3.de.perf.cloud.ovh.net/media/2f/c5/e0/1772693837/PHO_PRO_CAT_kshgvf12_SALL_AINT_V2.jpg",
+    "seriesLabel": "Product Lineup",
+    "seriesTitle": "Key Transfer Systems",
+    "series": [
+      {
+        "name": "SHGV",
+        "tag": "Trapped key guard lock",
+        "desc": "Mechanical trapped key guard locking device that releases a door only when the captured key is transferred.",
+        "features": [
+          "Type: guard locking with key tumbler",
+          "Wiring: no cable required at the door",
+          "Variant: EX-SHGV rated Ex Zone 1 and 21",
+          "Use: distributed maintenance and service doors"
+        ],
+        "image": "https://schmersal-prod-media-perf.s3.de.perf.cloud.ovh.net/media/2f/c5/e0/1772693837/PHO_PRO_CAT_kshgvf12_SALL_AINT_V2.jpg"
+      },
+      {
+        "name": "SVE",
+        "tag": "Switch latch interlock",
+        "desc": "Key interlock latch unit that holds keys until hazardous machine motion has stopped.",
+        "features": [
+          "Type: switch latch with key selector",
+          "Keys: 1, 2 or 3 separate control keys",
+          "Rating: IP65",
+          "Use: sequences key release after safe standstill"
+        ],
+        "image": "https://schmersal-prod-media-perf.s3.de.perf.cloud.ovh.net/media/6d/ec/75/1772693837/PHO_PRO_CAT_ksve-f03_SALL_AINT_V2.jpg"
+      },
+      {
+        "name": "SVM",
+        "tag": "Key distribution station",
+        "desc": "Central key distribution station that manages multiple secondary keys for several guard doors.",
+        "features": [
+          "Type: key transfer and distribution",
+          "Keys: 6 or 10 secondary keys",
+          "Rating: IP65, stainless or plastic",
+          "Use: coordinates access to multiple doors"
+        ],
+        "image": "https://schmersal-prod-media-perf.s3.de.perf.cloud.ovh.net/media/15/0a/6a/1772693838/PHO_PRO_CAT_ksvm-f01_SALL_AINT_V2.jpg"
+      }
+    ],
+    "highlights": [
+      {
+        "title": "Genuine Schmersal",
+        "text": "Authentic Schmersal safety products with full manufacturer warranty."
+      },
+      {
+        "title": "No.1 Channel Partner",
+        "text": "SSC Control is Schmersal's No.1 channel partner."
+      },
+      {
+        "title": "Stock & Fast Delivery",
+        "text": "Ready availability from our Ahmedabad and Baroda bases across Gujarat."
+      },
+      {
+        "title": "Safety Engineering",
+        "text": "Machine safety selection and PL or SIL sizing support from our engineering team."
+      }
+    ],
+    "ctaTitle": "Need a safety device?",
+    "ctaText": "Our team can match the safety device, PL or SIL level and wiring to your machine."
+  },
+  "schmersal/two-hand-control": {
+    "brandSlug": "schmersal",
+    "slug": "two-hand-control",
+    "category": "Two-Hand Control Panels",
+    "label": "Two-Hand Control",
+    "title": "Two-Hand",
+    "titleEm": "Control Panels",
+    "tagline": "Two-Hand Control for machine safety.",
+    "intro": "Schmersal is a global leader in machine safety, supplying safety switchgear, sensors, opto-electronic guards and safety control systems that protect people at industrial machinery. SSC Control is Schmersal's No.1 channel partner, supplying the full range with genuine products, warranty and technical support across Gujarat and India.",
+    "heroImage": "https://schmersal-prod-media-perf.s3.de.perf.cloud.ovh.net/media/df/af/80/1777354039/PHO_PRO_CAT_ksepgf01_SALL_AINT_V3.jpg",
+    "seriesLabel": "Product Lineup",
+    "seriesTitle": "Two-Hand Control Panels",
+    "series": [
+      {
+        "name": "SEPK 02.0",
+        "tag": "Thermoplastic",
+        "desc": "Thermoplastic two hand control console with two guarded pushbuttons and an emergency stop.",
+        "features": [
+          "Type: two hand control console",
+          "Contacts: 1NO + 1NC per button",
+          "Standard: EN ISO 13851",
+          "Mounting: stand or wall"
+        ],
+        "image": "https://schmersal-prod-media-perf.s3.de.perf.cloud.ovh.net/media/13/50/c9/1772693820/PHO_PRO_CAT_ksep2f03_SALL_AINT_V3.jpg"
+      },
+      {
+        "name": "SEPG 05.3",
+        "tag": "Ergonomic alloy",
+        "desc": "Light alloy two hand console with ergonomic hand rests and space for extra command devices.",
+        "features": [
+          "Type: two hand control console",
+          "Contacts: 1NO + 1NC per button",
+          "Mounting: stand, up to 8 extra devices",
+          "Housing: die-cast alloy"
+        ],
+        "image": "https://schmersal-prod-media-perf.s3.de.perf.cloud.ovh.net/media/df/af/80/1777354039/PHO_PRO_CAT_ksepgf01_SALL_AINT_V3.jpg"
+      },
+      {
+        "name": "SEP 09.0",
+        "tag": "Aluminium",
+        "desc": "Aluminium two hand control panel with removable base cover for separate actuator mounting.",
+        "features": [
+          "Type: two hand control console",
+          "Contacts: 1NO + 1NC per button",
+          "Mounting: separate actuator mounting",
+          "Housing: aluminium"
+        ],
+        "image": "https://schmersal-prod-media-perf.s3.de.perf.cloud.ovh.net/media/40/75/8f/1772693821/PHO_PRO_CAT_ksep0f04_SALL_AINT_V2.jpg"
+      }
+    ],
+    "highlights": [
+      {
+        "title": "Genuine Schmersal",
+        "text": "Authentic Schmersal safety products with full manufacturer warranty."
+      },
+      {
+        "title": "No.1 Channel Partner",
+        "text": "SSC Control is Schmersal's No.1 channel partner."
+      },
+      {
+        "title": "Stock & Fast Delivery",
+        "text": "Ready availability from our Ahmedabad and Baroda bases across Gujarat."
+      },
+      {
+        "title": "Safety Engineering",
+        "text": "Machine safety selection and PL or SIL sizing support from our engineering team."
+      }
+    ],
+    "ctaTitle": "Need a safety device?",
+    "ctaText": "Our team can match the safety device, PL or SIL level and wiring to your machine."
+  },
+  "schmersal/foot-switches": {
+    "brandSlug": "schmersal",
+    "slug": "foot-switches",
+    "category": "Foot Switches",
+    "label": "Industrial Foot Switches",
+    "title": "Foot",
+    "titleEm": "Switches",
+    "tagline": "Industrial Foot Switches for machine safety.",
+    "intro": "Schmersal is a global leader in machine safety, supplying safety switchgear, sensors, opto-electronic guards and safety control systems that protect people at industrial machinery. SSC Control is Schmersal's No.1 channel partner, supplying the full range with genuine products, warranty and technical support across Gujarat and India.",
+    "heroImage": "https://schmersal-prod-media-perf.s3.de.perf.cloud.ovh.net/media/54/bc/05/1772693829/PHO_PRO_CAT_ktfh-f02_SALL_AINT_V2.jpg",
+    "seriesLabel": "Product Lineup",
+    "seriesTitle": "Foot Switches",
+    "series": [
+      {
+        "name": "TFH 232",
+        "tag": "Safety foot switch",
+        "desc": "Single pedal safety foot switch in a die-cast aluminium housing with a protective shield.",
+        "features": [
+          "Type: single pedal safety foot switch",
+          "Actuation: foot pressure, enabling option",
+          "Contacts: two or four contacts",
+          "Rating: die-cast aluminium, IP65"
+        ],
+        "image": "https://schmersal-prod-media-perf.s3.de.perf.cloud.ovh.net/media/54/bc/05/1772693829/PHO_PRO_CAT_ktfh-f02_SALL_AINT_V2.jpg"
+      },
+      {
+        "name": "T2FH 232",
+        "tag": "Two pedal",
+        "desc": "Two pedal safety foot switch in a die-cast aluminium housing for separate forward and reverse.",
+        "features": [
+          "Type: two pedal safety foot switch",
+          "Actuation: foot pressure per pedal",
+          "Contacts: four, six or eight",
+          "Rating: die-cast aluminium, IP65"
+        ],
+        "image": "https://schmersal-prod-media-perf.s3.de.perf.cloud.ovh.net/media/7d/31/61/1772693919/PHO_PRO_CAT_ktfh2f01_SALL_AINT_V2.jpg"
+      },
+      {
+        "name": "LKF",
+        "tag": "Thermoplastic",
+        "desc": "Single pedal foot switch in a light thermoplastic enclosure for standard industrial duty.",
+        "features": [
+          "Type: single pedal foot switch",
+          "Actuation: foot pressure",
+          "Contacts: NO and NC elements",
+          "Housing: glass fibre reinforced thermoplastic"
+        ],
+        "image": "https://schmersal-prod-media-perf.s3.de.perf.cloud.ovh.net/media/4c/e4/a1/1772693919/PHO_PRO_CAT_klkf-f01_SALL_AINT_V2.jpg"
+      },
+      {
+        "name": "NKF",
+        "tag": "Compact flat",
+        "desc": "Compact low profile foot switch in single, double and triple pedal versions.",
+        "features": [
+          "Type: compact foot switch, up to 3 pedals",
+          "Actuation: foot pressure, low height",
+          "Contacts: NO / NC per pedal",
+          "Use: ergonomic control in confined areas"
+        ],
+        "image": "https://schmersal-prod-media-perf.s3.de.perf.cloud.ovh.net/media/1c/7f/55/1772693920/PHO_PRO_CAT_knkf3f01_SALL_AINT_V2.jpg"
+      }
+    ],
+    "highlights": [
+      {
+        "title": "Genuine Schmersal",
+        "text": "Authentic Schmersal safety products with full manufacturer warranty."
+      },
+      {
+        "title": "No.1 Channel Partner",
+        "text": "SSC Control is Schmersal's No.1 channel partner."
+      },
+      {
+        "title": "Stock & Fast Delivery",
+        "text": "Ready availability from our Ahmedabad and Baroda bases across Gujarat."
+      },
+      {
+        "title": "Safety Engineering",
+        "text": "Machine safety selection and PL or SIL sizing support from our engineering team."
+      }
+    ],
+    "ctaTitle": "Need a safety device?",
+    "ctaText": "Our team can match the safety device, PL or SIL level and wiring to your machine."
+  },
+  "schmersal/safety-plcs": {
+    "brandSlug": "schmersal",
+    "slug": "safety-plcs",
+    "category": "Safety PLCs",
+    "label": "Programmable Safety",
+    "title": "Safety",
+    "titleEm": "PLCs",
+    "tagline": "Programmable Safety for machine safety.",
+    "intro": "Schmersal is a global leader in machine safety, supplying safety switchgear, sensors, opto-electronic guards and safety control systems that protect people at industrial machinery. SSC Control is Schmersal's No.1 channel partner, supplying the full range with genuine products, warranty and technical support across Gujarat and India.",
+    "heroImage": "https://schmersal-prod-media-perf.s3.de.perf.cloud.ovh.net/media/85/d3/37/1769824604/PHO_PRO_CAT_b-psc1_PHO_PRO_CAT_INT.jpg",
+    "seriesLabel": "Product Lineup",
+    "seriesTitle": "Safety PLCs",
+    "series": [
+      {
+        "name": "PROTECT PSC1-C-10",
+        "tag": "Compact",
+        "desc": "Freely programmable compact safety controller for safe processing of mechanical and electronic devices.",
+        "features": [
+          "Type: programmable compact safety controller",
+          "I/O: 14 safe inputs, 4 semiconductor + 2 relay outputs",
+          "Safety: PL e / SIL 3",
+          "Comms: EtherCAT, PROFINET, EtherNet/IP, Modbus TCP"
+        ],
+        "image": "https://schmersal-prod-media-perf.s3.de.perf.cloud.ovh.net/media/85/d3/37/1769824604/PHO_PRO_CAT_b-psc1_PHO_PRO_CAT_INT.jpg"
+      },
+      {
+        "name": "PROTECT PSC1-C-100",
+        "tag": "Modular",
+        "desc": "Modular freely programmable safety controller with expanded I/O and full fieldbus integration.",
+        "features": [
+          "Type: modular programmable safety controller",
+          "I/O: 14 inputs plus up to 20 adjustable I/O",
+          "Safety: PL e / SIL 3",
+          "Comms: EtherCAT, PROFINET, EtherNet/IP, Modbus TCP"
+        ],
+        "image": "https://schmersal-prod-media-perf.s3.de.perf.cloud.ovh.net/media/85/d3/37/1769824604/PHO_PRO_CAT_b-psc1_PHO_PRO_CAT_INT.jpg"
+      }
+    ],
+    "highlights": [
+      {
+        "title": "Genuine Schmersal",
+        "text": "Authentic Schmersal safety products with full manufacturer warranty."
+      },
+      {
+        "title": "No.1 Channel Partner",
+        "text": "SSC Control is Schmersal's No.1 channel partner."
+      },
+      {
+        "title": "Stock & Fast Delivery",
+        "text": "Ready availability from our Ahmedabad and Baroda bases across Gujarat."
+      },
+      {
+        "title": "Safety Engineering",
+        "text": "Machine safety selection and PL or SIL sizing support from our engineering team."
+      }
+    ],
+    "ctaTitle": "Need a safety device?",
+    "ctaText": "Our team can match the safety device, PL or SIL level and wiring to your machine."
+  },
+  "schmersal/safety-field-boxes": {
+    "brandSlug": "schmersal",
+    "slug": "safety-field-boxes",
+    "category": "Safety Field Boxes",
+    "label": "Decentralised",
+    "title": "Safety",
+    "titleEm": "Field Boxes",
+    "tagline": "Decentralised for machine safety.",
+    "intro": "Schmersal is a global leader in machine safety, supplying safety switchgear, sensors, opto-electronic guards and safety control systems that protect people at industrial machinery. SSC Control is Schmersal's No.1 channel partner, supplying the full range with genuine products, warranty and technical support across Gujarat and India.",
+    "heroImage": "https://schmersal-prod-media-perf.s3.de.perf.cloud.ovh.net/media/44/e5/82/1769824613/PHO_PRO_CAT_b-sfb-folder_PHO_PRO_CAT_INT.jpg",
+    "seriesLabel": "Product Lineup",
+    "seriesTitle": "Safety Field Boxes",
+    "series": [
+      {
+        "name": "Safety Fieldbox SFB",
+        "tag": "Field box",
+        "desc": "Decentralised safety field box with universal device interface linking up to eight safety devices.",
+        "features": [
+          "Type: decentralised safety field box",
+          "Ports: up to 8 via 8-pole M12",
+          "Safety: PL e / SIL 3",
+          "Comms: PROFIsafe, CIP Safety, FSoE"
+        ],
+        "image": "https://schmersal-prod-media-perf.s3.de.perf.cloud.ovh.net/media/44/e5/82/1769824613/PHO_PRO_CAT_b-sfb-folder_PHO_PRO_CAT_INT.jpg"
+      },
+      {
+        "name": "SFB Port Extender",
+        "tag": "Expansion",
+        "desc": "Extension module that adds digital inputs and outputs to a Safety Fieldbox slot.",
+        "features": [
+          "Type: SFB extension module",
+          "I/O: additional digital inputs and outputs",
+          "Safety: PL e / SIL 3",
+          "Use: expanding diagnostic and signal capacity"
+        ],
+        "image": "https://schmersal-prod-media-perf.s3.de.perf.cloud.ovh.net/media/10/10/ca/1769824612/PHO_PRO_CAT_b-sfb-folder_SDE_AINL_V1.jpg"
+      }
+    ],
+    "highlights": [
+      {
+        "title": "Genuine Schmersal",
+        "text": "Authentic Schmersal safety products with full manufacturer warranty."
+      },
+      {
+        "title": "No.1 Channel Partner",
+        "text": "SSC Control is Schmersal's No.1 channel partner."
+      },
+      {
+        "title": "Stock & Fast Delivery",
+        "text": "Ready availability from our Ahmedabad and Baroda bases across Gujarat."
+      },
+      {
+        "title": "Safety Engineering",
+        "text": "Machine safety selection and PL or SIL sizing support from our engineering team."
+      }
+    ],
+    "ctaTitle": "Need a safety device?",
+    "ctaText": "Our team can match the safety device, PL or SIL level and wiring to your machine."
+  },
+  "schmersal/safety-scanners": {
+    "brandSlug": "schmersal",
+    "slug": "safety-scanners",
+    "category": "Safety Area Scanners",
+    "label": "Laser Safety Scanners",
+    "title": "Safety Area",
+    "titleEm": "Scanners",
+    "tagline": "Laser Safety Scanners for machine safety.",
+    "intro": "Schmersal is a global leader in machine safety, supplying safety switchgear, sensors, opto-electronic guards and safety control systems that protect people at industrial machinery. SSC Control is Schmersal's No.1 channel partner, supplying the full range with genuine products, warranty and technical support across Gujarat and India.",
+    "heroImage": "https://schmersal-prod-media-perf.s3.de.perf.cloud.ovh.net/media/87/19/1a/1769851152/PHO_PRO_CAT_khukof26_SALL_AINT_V1.jpg",
+    "seriesLabel": "Product Lineup",
+    "seriesTitle": "Safety Area Scanners",
+    "series": [
+      {
+        "name": "UAM-05LP",
+        "tag": "2D LiDAR scanner",
+        "desc": "Compact 2D LiDAR safety laser scanner that monitors a configurable protection field with a wide field of view.",
+        "features": [
+          "Type: up to PLd, Cat. 3 / SIL2",
+          "Detection: hand and arm",
+          "Range: 5 m protection, up to 20 m warning",
+          "Use: area and access protection"
+        ],
+        "image": "https://schmersal-prod-media-perf.s3.de.perf.cloud.ovh.net/media/78/ac/b0/1769846789/PHO_PRO_CAT_khukof08_PHO_PRO_CAT_INT.jpg"
+      },
+      {
+        "name": "UAM-05LP-T301",
+        "tag": "270 degree",
+        "desc": "Safety laser scanner with a 270 degree field of view and Ethernet interface.",
+        "features": [
+          "Type: up to PLd, Cat. 3 / SIL2",
+          "Detection: hand and arm",
+          "Range: 5 m protection, 270 degree view",
+          "Use: stationary area guarding"
+        ],
+        "image": "https://schmersal-prod-media-perf.s3.de.perf.cloud.ovh.net/media/87/19/1a/1769851152/PHO_PRO_CAT_khukof26_SALL_AINT_V1.jpg"
+      },
+      {
+        "name": "UAM-05LPA-T301",
+        "tag": "Multi-zone",
+        "desc": "Safety laser scanner supporting multiple switchable protection zones for mobile and stationary use.",
+        "features": [
+          "Type: up to PLd, Cat. 3 / SIL2",
+          "Detection: hand and arm",
+          "Range: 5 m protection, up to 20 m warning",
+          "Use: multi-zone protection for AGVs"
+        ],
+        "image": "https://schmersal-prod-media-perf.s3.de.perf.cloud.ovh.net/media/83/5b/7d/1781640411/PHO_PRO_CAT_khukof29_SALL_AINT_V1.jpg"
+      }
+    ],
+    "highlights": [
+      {
+        "title": "Genuine Schmersal",
+        "text": "Authentic Schmersal safety products with full manufacturer warranty."
+      },
+      {
+        "title": "No.1 Channel Partner",
+        "text": "SSC Control is Schmersal's No.1 channel partner."
+      },
+      {
+        "title": "Stock & Fast Delivery",
+        "text": "Ready availability from our Ahmedabad and Baroda bases across Gujarat."
+      },
+      {
+        "title": "Safety Engineering",
+        "text": "Machine safety selection and PL or SIL sizing support from our engineering team."
+      }
+    ],
+    "ctaTitle": "Need a safety device?",
+    "ctaText": "Our team can match the safety device, PL or SIL level and wiring to your machine."
+  },
+  "schmersal/ex-zone-devices": {
+    "brandSlug": "schmersal",
+    "slug": "ex-zone-devices",
+    "category": "Devices for Ex Zones",
+    "label": "ATEX / IECEx Safety",
+    "title": "Devices for",
+    "titleEm": "Ex Zones",
+    "tagline": "ATEX / IECEx Safety for machine safety.",
+    "intro": "Schmersal is a global leader in machine safety, supplying safety switchgear, sensors, opto-electronic guards and safety control systems that protect people at industrial machinery. SSC Control is Schmersal's No.1 channel partner, supplying the full range with genuine products, warranty and technical support across Gujarat and India.",
+    "heroImage": "https://schmersal-prod-media-perf.s3.de.perf.cloud.ovh.net/media/da/39/87/1774080998/PHO_PRO_CAT_kexazf07_SALL_AINT_V4.jpg",
+    "seriesLabel": "Product Lineup",
+    "seriesTitle": "Devices for Ex Zones",
+    "series": [
+      {
+        "name": "EX-AZ16",
+        "tag": "Safety switch",
+        "desc": "ATEX rated safety switch with separate actuator for monitoring movable guards in explosive atmospheres.",
+        "features": [
+          "Zones: ATEX / IECEx, gas Zone 1/2, dust Zone 21/22",
+          "Type: position safety switch, coded actuator",
+          "Contacts: up to 3NC + 1NO, positive break",
+          "Use: guards in hazardous Ex areas"
+        ],
+        "image": "https://schmersal-prod-media-perf.s3.de.perf.cloud.ovh.net/media/da/39/87/1774080998/PHO_PRO_CAT_kexazf07_SALL_AINT_V4.jpg"
+      },
+      {
+        "name": "EX-AZM161",
+        "tag": "Ex solenoid interlock",
+        "desc": "ATEX certified solenoid interlock that keeps a guard locked until hazardous conditions have ended.",
+        "features": [
+          "Zones: ATEX / IECEx, gas Zone 1/2, dust Zone 21/22",
+          "Type: solenoid guard interlock",
+          "Contacts: positive break NC and NO",
+          "Use: guard locking in Ex zones"
+        ],
+        "image": "https://schmersal-prod-media-perf.s3.de.perf.cloud.ovh.net/media/62/2b/8b/1774081015/PHO_PRO_CAT_kxazm1f06_SALL_AINT_V2.jpg"
+      },
+      {
+        "name": "EX-T / EX-Z 235",
+        "tag": "Ex position switch",
+        "desc": "Metal housed ATEX position switch with snap action contacts for travel and limit monitoring.",
+        "features": [
+          "Zones: ATEX / IECEx, Zone 2 and 22",
+          "Type: position switch, plunger or roller",
+          "Contacts: slow or snap action",
+          "Use: position and limit sensing in Ex areas"
+        ],
+        "image": "https://schmersal-prod-media-perf.s3.de.perf.cloud.ovh.net/media/da/6f/f3/1774081221/PHO_PRO_CAT_k235rf01_SALL_AINT_V4.jpg"
+      }
+    ],
+    "highlights": [
+      {
+        "title": "Genuine Schmersal",
+        "text": "Authentic Schmersal safety products with full manufacturer warranty."
+      },
+      {
+        "title": "No.1 Channel Partner",
+        "text": "SSC Control is Schmersal's No.1 channel partner."
+      },
+      {
+        "title": "Stock & Fast Delivery",
+        "text": "Ready availability from our Ahmedabad and Baroda bases across Gujarat."
+      },
+      {
+        "title": "Safety Engineering",
+        "text": "Machine safety selection and PL or SIL sizing support from our engineering team."
+      }
+    ],
+    "ctaTitle": "Need a safety device?",
+    "ctaText": "Our team can match the safety device, PL or SIL level and wiring to your machine."
+  },
+  "schmersal/elevator-safety": {
+    "brandSlug": "schmersal",
+    "slug": "elevator-safety",
+    "category": "Elevator Safety Products",
+    "label": "Lift & Elevator",
+    "title": "Elevator",
+    "titleEm": "Safety Products",
+    "tagline": "Lift & Elevator for machine safety.",
+    "intro": "Schmersal is a global leader in machine safety, supplying safety switchgear, sensors, opto-electronic guards and safety control systems that protect people at industrial machinery. SSC Control is Schmersal's No.1 channel partner, supplying the full range with genuine products, warranty and technical support across Gujarat and India.",
+    "heroImage": "https://schmersal-prod-media-perf.s3.de.perf.cloud.ovh.net/media/fb/80/8d/1772693991/PHO_PRO_CAT_kaz05f01_SALL_AINT_V2.jpg",
+    "seriesLabel": "Product Lineup",
+    "seriesTitle": "Elevator Safety Products",
+    "series": [
+      {
+        "name": "AZ Door Contacts",
+        "tag": "Positive break",
+        "desc": "Positive break door contacts that let the lift move only when doors are closed and locked.",
+        "features": [
+          "Function: monitors door position and locking",
+          "Type: AZ series, self cleaning contact bridges",
+          "Contacts: positively driven NC",
+          "Use: all elevator types, EN and US standards"
+        ],
+        "image": "https://schmersal-prod-media-perf.s3.de.perf.cloud.ovh.net/media/fb/80/8d/1772693991/PHO_PRO_CAT_kaz05f01_SALL_AINT_V2.jpg"
+      },
+      {
+        "name": "AZ 16 Keyed Interlocks",
+        "tag": "Coded interlock",
+        "desc": "Keyed safety interlock switches with double insulation and multiple actuator coding for lift door circuits.",
+        "features": [
+          "Function: interlocks door, signals safe state",
+          "Type: AZ 16 series, double insulated",
+          "Coding: multiple coding options",
+          "Use: door position and locking monitoring"
+        ],
+        "image": "https://schmersal-prod-media-perf.s3.de.perf.cloud.ovh.net/media/dc/24/4b/1772693989/PHO_PRO_CAT_kaz06f01_SALL_AINT_V2.jpg"
+      },
+      {
+        "name": "AV 15 / 20 / 25 Door Locks",
+        "tag": "Certified door locks",
+        "desc": "Certified door locking devices with magnetic fail safe device approved for passenger lifts under EN 81-20/50.",
+        "features": [
+          "Function: mechanically locks landing doors",
+          "Engagement: 22 mm bolt travel, 16 mm depth",
+          "Variants: metal or plastic, 1 or 2 elements",
+          "Use: passenger lifts per EN 81-20/50"
+        ],
+        "image": ""
+      }
+    ],
+    "highlights": [
+      {
+        "title": "Genuine Schmersal",
+        "text": "Authentic Schmersal safety products with full manufacturer warranty."
+      },
+      {
+        "title": "No.1 Channel Partner",
+        "text": "SSC Control is Schmersal's No.1 channel partner."
+      },
+      {
+        "title": "Stock & Fast Delivery",
+        "text": "Ready availability from our Ahmedabad and Baroda bases across Gujarat."
+      },
+      {
+        "title": "Safety Engineering",
+        "text": "Machine safety selection and PL or SIL sizing support from our engineering team."
+      }
+    ],
+    "ctaTitle": "Need a safety device?",
+    "ctaText": "Our team can match the safety device, PL or SIL level and wiring to your machine."
+  },
+  "schmersal/door-contacts": {
+    "brandSlug": "schmersal",
+    "slug": "door-contacts",
+    "category": "Positive-Operation Door Contacts",
+    "label": "Elevator Door Contacts",
+    "title": "Positive-Operation",
+    "titleEm": "Door Contacts",
+    "tagline": "Elevator Door Contacts for machine safety.",
+    "intro": "Schmersal is a global leader in machine safety, supplying safety switchgear, sensors, opto-electronic guards and safety control systems that protect people at industrial machinery. SSC Control is Schmersal's No.1 channel partner, supplying the full range with genuine products, warranty and technical support across Gujarat and India.",
+    "heroImage": "https://schmersal-prod-media-perf.s3.de.perf.cloud.ovh.net/media/fb/80/8d/1772693991/PHO_PRO_CAT_kaz05f01_SALL_AINT_V2.jpg",
+    "seriesLabel": "Product Lineup",
+    "seriesTitle": "Positive-Operation Door Contacts",
+    "series": [
+      {
+        "name": "AZ 05",
+        "tag": "Compact",
+        "desc": "Compact positive break door contact for monitoring door position in elevator and access applications.",
+        "features": [
+          "Type: positive operation door contact",
+          "Contacts: 1NC positive break",
+          "Housing: thermoplastic, captive screws",
+          "Use: door position and lock monitoring"
+        ],
+        "image": "https://schmersal-prod-media-perf.s3.de.perf.cloud.ovh.net/media/fb/80/8d/1772693991/PHO_PRO_CAT_kaz05f01_SALL_AINT_V2.jpg"
+      },
+      {
+        "name": "AZ 06",
+        "tag": "Plunger",
+        "desc": "Positive break door contact with plunger actuation for reliable interlock monitoring of closed doors.",
+        "features": [
+          "Type: positive operation door contact",
+          "Contacts: NC positive break",
+          "Actuation: plunger",
+          "Use: interlock monitoring to ISO 14119"
+        ],
+        "image": "https://schmersal-prod-media-perf.s3.de.perf.cloud.ovh.net/media/dc/24/4b/1772693989/PHO_PRO_CAT_kaz06f01_SALL_AINT_V2.jpg"
+      },
+      {
+        "name": "AZ 13",
+        "tag": "Hinge",
+        "desc": "Positive break door contact suited to hinged doors that must be closed for operational safety.",
+        "features": [
+          "Type: positive operation door contact",
+          "Contacts: NC positive break",
+          "Actuation: lever / hinge",
+          "Use: door closed verification"
+        ],
+        "image": "https://schmersal-prod-media-perf.s3.de.perf.cloud.ovh.net/media/cc/98/a8/1774078422/PHO_PRO_CAT_kaz13f01_SALL_AINT_V3.jpg"
+      },
+      {
+        "name": "AZ 15 Tongue",
+        "tag": "Tongue actuator",
+        "desc": "Positive break door contact with separate tongue actuator for forced disconnection when the door opens.",
+        "features": [
+          "Type: positive operation, separate actuator",
+          "Contacts: NC positive break",
+          "Actuation: coded tongue actuator",
+          "Use: removable and hinged guard doors"
+        ],
+        "image": "https://schmersal-prod-media-perf.s3.de.perf.cloud.ovh.net/media/2f/9a/c8/1777354198/PHO_PRO_CAT_kaz15f03_SALL_AINT_V3.jpg"
+      }
+    ],
+    "highlights": [
+      {
+        "title": "Genuine Schmersal",
+        "text": "Authentic Schmersal safety products with full manufacturer warranty."
+      },
+      {
+        "title": "No.1 Channel Partner",
+        "text": "SSC Control is Schmersal's No.1 channel partner."
+      },
+      {
+        "title": "Stock & Fast Delivery",
+        "text": "Ready availability from our Ahmedabad and Baroda bases across Gujarat."
+      },
+      {
+        "title": "Safety Engineering",
+        "text": "Machine safety selection and PL or SIL sizing support from our engineering team."
+      }
+    ],
+    "ctaTitle": "Need a safety device?",
+    "ctaText": "Our team can match the safety device, PL or SIL level and wiring to your machine."
+  },
+  "schmersal/toci": {
+    "brandSlug": "schmersal",
+    "slug": "toci",
+    "category": "Top of Car Inspection (TOCI)",
+    "label": "Top of Car Inspection",
+    "title": "Top of Car",
+    "titleEm": "Inspection",
+    "tagline": "Top of Car Inspection for machine safety.",
+    "intro": "Schmersal is a global leader in machine safety, supplying safety switchgear, sensors, opto-electronic guards and safety control systems that protect people at industrial machinery. SSC Control is Schmersal's No.1 channel partner, supplying the full range with genuine products, warranty and technical support across Gujarat and India.",
+    "heroImage": "https://schmersal-prod-media-perf.s3.de.perf.cloud.ovh.net/media/0c/c1/48/1769823571/PHO_PRO_CAT_ktocif02_SALL_AINL_V2.jpg",
+    "seriesLabel": "Product Lineup",
+    "seriesTitle": "Top of Car Inspection (TOCI)",
+    "series": [
+      {
+        "name": "TOCI Inspection Unit",
+        "tag": "Inspection station",
+        "desc": "Pre wired top of car inspection station giving the technician sole control over car motion during maintenance.",
+        "features": [
+          "Function: inspection control and emergency stop from the car roof",
+          "Type: inspection boxes, e-stops, junction boxes",
+          "Build: custom assembled, pre wired",
+          "Use: maintenance from the car roof"
+        ],
+        "image": "https://schmersal-prod-media-perf.s3.de.perf.cloud.ovh.net/media/0c/c1/48/1769823571/PHO_PRO_CAT_ktocif02_SALL_AINL_V2.jpg"
+      }
+    ],
+    "highlights": [
+      {
+        "title": "Genuine Schmersal",
+        "text": "Authentic Schmersal safety products with full manufacturer warranty."
+      },
+      {
+        "title": "No.1 Channel Partner",
+        "text": "SSC Control is Schmersal's No.1 channel partner."
+      },
+      {
+        "title": "Stock & Fast Delivery",
+        "text": "Ready availability from our Ahmedabad and Baroda bases across Gujarat."
+      },
+      {
+        "title": "Safety Engineering",
+        "text": "Machine safety selection and PL or SIL sizing support from our engineering team."
+      }
+    ],
+    "ctaTitle": "Need a safety device?",
+    "ctaText": "Our team can match the safety device, PL or SIL level and wiring to your machine."
+  },
+  "schmersal/inductive-switches": {
+    "brandSlug": "schmersal",
+    "slug": "inductive-switches",
+    "category": "Inductive Proximity Switches",
+    "label": "Elevator Inductive",
+    "title": "Inductive",
+    "titleEm": "Proximity Switches",
+    "tagline": "Elevator Inductive for machine safety.",
+    "intro": "Schmersal is a global leader in machine safety, supplying safety switchgear, sensors, opto-electronic guards and safety control systems that protect people at industrial machinery. SSC Control is Schmersal's No.1 channel partner, supplying the full range with genuine products, warranty and technical support across Gujarat and India.",
+    "heroImage": "https://schmersal-prod-media-perf.s3.de.perf.cloud.ovh.net/media/9b/0f/e9/1774081371/PHO_PRO_CAT_kifl2f33_SALL_AINT_V3.jpg",
+    "seriesLabel": "Product Lineup",
+    "seriesTitle": "Inductive Proximity Switches",
+    "series": [
+      {
+        "name": "IFL 333",
+        "tag": "Block inductive",
+        "desc": "Rectangular block inductive proximity switch with double insulated housing and M20 cable entry.",
+        "features": [
+          "Technology: inductive metal detection",
+          "Sensing: rated distance approx 15 mm",
+          "Output: DC 3 or 4 wire PNP, NO and NC",
+          "Use: floor and shaft position sensing in lifts"
+        ],
+        "image": "https://schmersal-prod-media-perf.s3.de.perf.cloud.ovh.net/media/9b/0f/e9/1774081371/PHO_PRO_CAT_kifl2f33_SALL_AINT_V3.jpg"
+      },
+      {
+        "name": "IFL Cylindrical",
+        "tag": "Cylindrical",
+        "desc": "Cylindrical inductive proximity switch that signals a metal target without contact for compact mounting.",
+        "features": [
+          "Technology: inductive non contact",
+          "Output: DC PNP or NPN, NO or NC",
+          "Mounting: cylindrical thread",
+          "Use: position and limit sensing"
+        ],
+        "image": ""
+      },
+      {
+        "name": "IFL Slot",
+        "tag": "Slot inductive",
+        "desc": "Slotted form inductive proximity switch for reliable detection of passing metal vanes.",
+        "features": [
+          "Technology: inductive slot sensor",
+          "Detection: across the sensing slot",
+          "Output: DC NO and NC",
+          "Use: vane based position and counting"
+        ],
+        "image": ""
+      }
+    ],
+    "highlights": [
+      {
+        "title": "Genuine Schmersal",
+        "text": "Authentic Schmersal safety products with full manufacturer warranty."
+      },
+      {
+        "title": "No.1 Channel Partner",
+        "text": "SSC Control is Schmersal's No.1 channel partner."
+      },
+      {
+        "title": "Stock & Fast Delivery",
+        "text": "Ready availability from our Ahmedabad and Baroda bases across Gujarat."
+      },
+      {
+        "title": "Safety Engineering",
+        "text": "Machine safety selection and PL or SIL sizing support from our engineering team."
+      }
+    ],
+    "ctaTitle": "Need a safety device?",
+    "ctaText": "Our team can match the safety device, PL or SIL level and wiring to your machine."
+  },
+  "schmersal/reed-switches": {
+    "brandSlug": "schmersal",
+    "slug": "reed-switches",
+    "category": "Magnetic Reed Switches",
+    "label": "Elevator Reed",
+    "title": "Magnetic",
+    "titleEm": "Reed Switches",
+    "tagline": "Elevator Reed for machine safety.",
+    "intro": "Schmersal is a global leader in machine safety, supplying safety switchgear, sensors, opto-electronic guards and safety control systems that protect people at industrial machinery. SSC Control is Schmersal's No.1 channel partner, supplying the full range with genuine products, warranty and technical support across Gujarat and India.",
+    "heroImage": "https://schmersal-prod-media-perf.s3.de.perf.cloud.ovh.net/media/46/b5/48/1769806187/PHO_PRO_CAT_kbn20f01_PHO_PRO_CAT_INT.jpg",
+    "seriesLabel": "Product Lineup",
+    "seriesTitle": "Magnetic Reed Switches",
+    "series": [
+      {
+        "name": "BN 20",
+        "tag": "Rugged reed",
+        "desc": "Magnetic reed switch in a rugged aluminium housing with high vibration resistance for lift shaft positions.",
+        "features": [
+          "Technology: magnetic reed, non contact",
+          "Sensing: actuating distance up to 50 mm",
+          "Output: 1 or 2 reed contacts",
+          "Use: floor levelling and position signalling"
+        ],
+        "image": "https://schmersal-prod-media-perf.s3.de.perf.cloud.ovh.net/media/46/b5/48/1769806187/PHO_PRO_CAT_kbn20f01_PHO_PRO_CAT_INT.jpg"
+      },
+      {
+        "name": "BN 310",
+        "tag": "Flat reed",
+        "desc": "Flat thermoplastic magnetic reed switch with side actuation and a long actuating range.",
+        "features": [
+          "Technology: magnetic reed, non contact",
+          "Sensing: actuating distance up to 60 mm",
+          "Output: 1 or 2 reed contacts",
+          "Use: side actuated position sensing"
+        ],
+        "image": ""
+      },
+      {
+        "name": "EX-BN 20",
+        "tag": "Explosion proof",
+        "desc": "Explosion protected magnetic reed switch for position sensing in hazardous lift and industrial zones.",
+        "features": [
+          "Technology: magnetic reed, non contact",
+          "Sensing: actuating distance up to 50 mm",
+          "Output: reed contacts NO and NC",
+          "Use: ATEX rated areas"
+        ],
+        "image": ""
+      }
+    ],
+    "highlights": [
+      {
+        "title": "Genuine Schmersal",
+        "text": "Authentic Schmersal safety products with full manufacturer warranty."
+      },
+      {
+        "title": "No.1 Channel Partner",
+        "text": "SSC Control is Schmersal's No.1 channel partner."
+      },
+      {
+        "title": "Stock & Fast Delivery",
+        "text": "Ready availability from our Ahmedabad and Baroda bases across Gujarat."
+      },
+      {
+        "title": "Safety Engineering",
+        "text": "Machine safety selection and PL or SIL sizing support from our engineering team."
+      }
+    ],
+    "ctaTitle": "Need a safety device?",
+    "ctaText": "Our team can match the safety device, PL or SIL level and wiring to your machine."
+  },
+  "schmersal/elevator-control": {
+    "brandSlug": "schmersal",
+    "slug": "elevator-control",
+    "category": "Elevator Control Systems",
+    "label": "Lift Control Electronics",
+    "title": "Elevator",
+    "titleEm": "Control Systems",
+    "tagline": "Lift Control Electronics for machine safety.",
+    "intro": "Schmersal is a global leader in machine safety, supplying safety switchgear, sensors, opto-electronic guards and safety control systems that protect people at industrial machinery. SSC Control is Schmersal's No.1 channel partner, supplying the full range with genuine products, warranty and technical support across Gujarat and India.",
+    "heroImage": "https://schmersal-prod-media-perf.s3.de.perf.cloud.ovh.net/media/69/29/ce/1769816621/PHO_PRO_CAT_kusp-f09_SALL_AINL_V2.jpg",
+    "seriesLabel": "Product Lineup",
+    "seriesTitle": "Elevator Control Systems",
+    "series": [
+      {
+        "name": "USP Ultrasonic Positioning",
+        "tag": "Absolute positioning",
+        "desc": "Non contact ultrasonic positioning system that locates the lift cabin to the millimetre.",
+        "features": [
+          "Function: absolute car position measurement",
+          "Type: USP 30 and USP 100",
+          "Range: up to 30 m (USP 30) or 130 m (USP 100)",
+          "Use: cabin positioning, wear free"
+        ],
+        "image": "https://schmersal-prod-media-perf.s3.de.perf.cloud.ovh.net/media/69/29/ce/1769816621/PHO_PRO_CAT_kusp-f09_SALL_AINL_V2.jpg"
+      },
+      {
+        "name": "Magnetic Reed Position",
+        "tag": "Zone signals",
+        "desc": "Magnetic reed switches that generate zone, levelling and delay signals to determine car position.",
+        "features": [
+          "Function: zone, levelling and delay signals",
+          "Type: non contact magnetic reed",
+          "Actuation: by shaft magnet",
+          "Use: positioning input to the controller"
+        ],
+        "image": ""
+      }
+    ],
+    "highlights": [
+      {
+        "title": "Genuine Schmersal",
+        "text": "Authentic Schmersal safety products with full manufacturer warranty."
+      },
+      {
+        "title": "No.1 Channel Partner",
+        "text": "SSC Control is Schmersal's No.1 channel partner."
+      },
+      {
+        "title": "Stock & Fast Delivery",
+        "text": "Ready availability from our Ahmedabad and Baroda bases across Gujarat."
+      },
+      {
+        "title": "Safety Engineering",
+        "text": "Machine safety selection and PL or SIL sizing support from our engineering team."
+      }
+    ],
+    "ctaTitle": "Need a safety device?",
+    "ctaText": "Our team can match the safety device, PL or SIL level and wiring to your machine."
+  },
+  "schmersal/tof-camera": {
+    "brandSlug": "schmersal",
+    "slug": "tof-camera",
+    "category": "Time-of-Flight (ToF) Camera",
+    "label": "ToF Camera Sensor",
+    "title": "Time-of-Flight",
+    "titleEm": "Camera",
+    "tagline": "ToF Camera Sensor for machine safety.",
+    "intro": "Schmersal is a global leader in machine safety, supplying safety switchgear, sensors, opto-electronic guards and safety control systems that protect people at industrial machinery. SSC Control is Schmersal's No.1 channel partner, supplying the full range with genuine products, warranty and technical support across Gujarat and India.",
+    "heroImage": "https://schmersal-prod-media-perf.s3.de.perf.cloud.ovh.net/media/d3/b5/93/1772693876/PHO_PRO_CAT_kamt1f05_SALL_AINT_V1.jpg",
+    "seriesLabel": "Product Lineup",
+    "seriesTitle": "Time-of-Flight (ToF) Camera",
+    "series": [
+      {
+        "name": "AM-T100",
+        "tag": "3D ToF camera",
+        "desc": "Time of Flight 3D camera that creates millimetre accurate depth images and point clouds for automation.",
+        "features": [
+          "Type: 3D ToF camera, 850 nm infrared",
+          "Resolution: 640 x 480, up to 60 fps",
+          "Range: up to 6 m, 67 x 51 degree field",
+          "Use: volume, fill level and 3D zone monitoring"
+        ],
+        "image": "https://schmersal-prod-media-perf.s3.de.perf.cloud.ovh.net/media/d3/b5/93/1772693876/PHO_PRO_CAT_kamt1f05_SALL_AINT_V1.jpg"
+      }
+    ],
+    "highlights": [
+      {
+        "title": "Genuine Schmersal",
+        "text": "Authentic Schmersal safety products with full manufacturer warranty."
+      },
+      {
+        "title": "No.1 Channel Partner",
+        "text": "SSC Control is Schmersal's No.1 channel partner."
+      },
+      {
+        "title": "Stock & Fast Delivery",
+        "text": "Ready availability from our Ahmedabad and Baroda bases across Gujarat."
+      },
+      {
+        "title": "Safety Engineering",
+        "text": "Machine safety selection and PL or SIL sizing support from our engineering team."
+      }
+    ],
+    "ctaTitle": "Need a safety device?",
+    "ctaText": "Our team can match the safety device, PL or SIL level and wiring to your machine."
+  },
 };
 
 export const PRODUCT_KEYS = Object.keys(PRODUCT_PAGES);

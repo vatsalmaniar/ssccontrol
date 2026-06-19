@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import './downloads.css';
 import FlowLines from '@/components/FlowLines';
+import DownloadsBrowser from '@/components/DownloadsBrowser';
 import { ROUTES } from '@/lib/routes';
 import { DOWNLOADS, DOWNLOAD_CATEGORIES } from '@/data/downloads';
 import { brands } from '@/data/brands';
@@ -12,21 +13,12 @@ export const metadata = {
     'Download the latest price lists, product catalogues and datasheets from SSC Control, ABB, Mitsubishi Electric, Schmersal and more.',
 };
 
-const PdfIcon = () => (
-  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
-    <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
-    <polyline points="14 2 14 8 20 8" />
-    <line x1="8" y1="13" x2="16" y2="13" />
-    <line x1="8" y1="17" x2="16" y2="17" />
-    <line x1="8" y1="9" x2="10" y2="9" />
-  </svg>
-);
-
-const DownloadIcon = () => (
-  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
-    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3" />
-  </svg>
-);
+// Resolve each download's brand logo on the server so the client component
+// stays light (no brand-data import on the client).
+const ITEMS = DOWNLOADS.map((d) => ({
+  ...d,
+  logoSrc: d.logo || brands[d.brandSlug]?.logo || null,
+}));
 
 export default function DownloadsPage() {
   return (
@@ -50,64 +42,7 @@ export default function DownloadsPage() {
       <section className="dl-section">
         <FlowLines className="ink" opacity={0.9} />
         <div className="dl-wrap">
-          {DOWNLOAD_CATEGORIES.map((cat) => (
-            <div className="dl-cat" key={cat}>
-              <h2 className="dl-cat-title">{cat}</h2>
-              <div className="dl-grid">
-                {DOWNLOADS.filter((d) => d.category === cat).map((d) => {
-                  const logoSrc = d.logo || brands[d.brandSlug]?.logo;
-                  const body = (
-                    <>
-                      <div className="dl-ic">
-                        <PdfIcon />
-                      </div>
-                      <div className="dl-body">
-                        {logoSrc ? (
-                          <img className="dl-brand-logo" src={logoSrc} alt={d.brand} />
-                        ) : (
-                          <div className="dl-brand">{d.brand}</div>
-                        )}
-                        <div className="dl-title">{d.title}</div>
-                        <div className="dl-meta">
-                          {d.comingSoon ? (
-                            'Available soon'
-                          ) : (
-                            <>
-                              {d.effective} &middot; {d.type} &middot; {d.size}
-                            </>
-                          )}
-                        </div>
-                      </div>
-                      {d.comingSoon ? (
-                        <span className="dl-btn dl-btn-soon">Coming soon</span>
-                      ) : (
-                        <span className="dl-btn">
-                          <DownloadIcon />
-                          Download
-                        </span>
-                      )}
-                    </>
-                  );
-                  return d.comingSoon ? (
-                    <div className="dl-card dl-card-soon" key={d.title}>
-                      {body}
-                    </div>
-                  ) : (
-                    <a
-                      className="dl-card"
-                      key={d.title}
-                      href={d.file}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      download
-                    >
-                      {body}
-                    </a>
-                  );
-                })}
-              </div>
-            </div>
-          ))}
+          <DownloadsBrowser items={ITEMS} categories={DOWNLOAD_CATEGORIES} />
 
           <p className="dl-note">
             Looking for a price list or catalogue that isn&apos;t here?{' '}
